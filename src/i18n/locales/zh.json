@@ -1,0 +1,1136 @@
+{
+  "navigation": {
+    "home": "主页",
+    "promo": "促销",
+    "login": "登录",
+    "register": "注册",
+    "download": "下载",
+    "bwfPartnership": "BWF x Winbox 合作伙伴",
+    "brandAmbassador": "品牌代言人",
+    "responsibleGaming": "负责任博彩",
+    "amandaLim": "Amanda Lim",
+    "michealOng": "Micheal Ong",
+    "aboutUs": "关于我们",
+    "privacyPolicy": "隐私政策",
+    "termsAndCondition": "条款和条件",
+    "contactUs": "联系我们",
+    "blog": "博客"
+  },
+  "common": {
+    "marqueeText": "快速支付 • 可信平台 • 24/7客户支持 – 安心游戏！",
+    "Play": "开始游戏"
+  },
+  "footer": {
+      "gamePermit": "游戏许可证",
+      "responsibleGaming": "负责任博彩",
+      "securedPaymentMethods": "安全支付方式",
+      "followUs": "关注我们",
+      "certification": "认证资质",
+      "copyright": "2025 WINBOX22.COM © 版权所有。"
+    },
+    "content": {
+      "mainTitle": "赢宝马来西亚：东南亚第一可信赖线上赌场",
+      "intro": "别骗自己了，现在要找到一个靠谱的在线赌场真的不容易。有的平台看起来很美，实际却是条款复杂、游戏卡顿，甚至提款还拖拖拉拉。",
+      "introContinued": "就不一样了。我们主打简单、透明，把重点放在你最关心的体验上：让你玩得开心，钱进得快，赢得安心。不管你是轻松转转老虎机、认真上桌比拼，还是周末下注看球，赢宝在线都能满足你。我们不浮夸，但我们值得信赖，这才是真正重要的。",
+      
+      "joinTitle": "立即加入赢宝及领取免费奖励",
+      "joinDescription": "开始使用赢宝就像打开你最常用的电子钱包一样简单。无需填写长表格、不用上传文件、也不需要等几天审核账号。",
+      "joinContinued": "你只需要一个手机号码。在创建账户后，你将获得平台的完整访问权限，包括游戏、优惠活动、钱包功能以及在线客服。而且不管你是用手机、笔记本电脑还是平板，<strong>赢宝在线</strong>都能顺畅运行，不卡顿、不混乱。",
+      "joinThinking": "如果你还在继续看，那你多半是真的想试试看。那就试试看吧，绝对是个好决定。",
+      "joinSteps": "操作步骤如下：",
+      "step1Before": "进入",
+      "step1After": "页面",
+      "step2": "使用手机号注册并验证",
+      "step3": "重新登录赢宝账户立即领取免费奖励",
+      "step4": "开始探索赢宝提供的所有游戏",
+      "joinConclusion": "没有压力，没有任何承诺。先试试看感觉如何。我们有信心，只要你体验过赢宝，你就会明白为什么这么多玩家已经选择了这里。",
+      
+      "realGamesTitle": "在赢宝马来西亚玩真钱游戏",
+      "realGamesIntro": "我们不是来展示假中奖弹窗或重复老游戏的。你在赢宝马来西亚看到的是一套由可信赖品牌提供的，热门且经过验证的游戏组合。这里有轻松有趣的老虎机，也有高额投注的赌桌游戏和真人直播博彩。",
+      "realGamesExpectation": "登录后你可以期待这些精彩内容：",
+      
+      "slotsTitle": "老虎机游戏",
+      "slotsDescription": "老虎机可能是这里最受欢迎的类别，原因很简单。你能找到来自918KISS、JDB、Lion King、Spadegaming等多个供应商的数百款游戏。不管你喜欢简单的水果转盘，还是带有丰富奖金回合的炫酷视频老虎机，这里都有适合你的选择。",
+      
+      "liveCasinoTitle": "真人赌场桌面",
+      "liveCasinoDescription": "想要更经典的感觉？来真人赌场专区看看吧。这里有你熟悉的二十一点、百家乐、轮盘和骰宝，全部由真人荷官现场主持，实时互动，视频流畅，由AE Sexy、Evolution和BIG Gaming等知名供应商提供支持。",
+      "liveCasinoContinued": "这部分特别受那些想要\"真实赌场\"体验的玩家欢迎，足不出户就能享受现场感。如果愿意，你甚至可以跟荷官聊天。",
+      
+      "sportsBettingTitle": "体育博彩",
+      "sportsBettingDescription": "足球迷？篮球死忠？你会喜欢赢宝马来西亚覆盖的所有主要联赛，包括英超（EPL）、世界杯（World Cup）、西甲（La Liga）、NBA，甚至电子竞技。",
+      "sportsBettingContinued": "我们的体育博彩由SBOBET、MAXBET和CMD368等可信平台支持，赔率公正，界面简洁。你只需下注，实时跟踪比赛，赛后即可提款。简单明了。",
+      
+      "lotteryTitle": "4D和彩票游戏",
+      "lotteryDescription": "没错，我们也有4D。如果你习惯玩Magnum、Damacai或Toto，一定会觉得很熟悉。按照你平时的玩法来投注。开彩结果更新快速及准确，你不用长时间地等待。",
+      
+      "horseRacingTitle": "赛马",
+      "horseRacingDescription": "喜欢赛马？没问题。通过RCB988，我们为赛马爱好者提供专门专区。你可以用固定赔率投注你喜欢的马匹，享受即时赛况更新，随时关注赛事进展。",
+      
+      "bonusesTitle": "免费领取赢宝马来西亚奖励与优惠",
+      "bonusesIntro1": "说实话，很多平台的奖励看起来很好，其实套路满满。你领了奖金，结果发现要下注30次才能提款。",
+      "bonusesIntro2": "在<strong>赢宝马来西亚</strong>，我们不会这样对待玩家。",
+      "bonusesDescription": "我们的优惠是为长期玩家设计的，目的是回馈，而不是设陷阱。你会看到这些：",
+      "bonus1": "新玩家的100%首存配对奖励",
+      "bonus2": "每日刮刮乐可以赢取高达RM2888",
+      "bonus3": "每月7日、17日、27日 玩老虎机可享额外1.5倍下注金额回馈",
+      "bonus4": "每月亏损救援奖金高达RM58888",
+      "bonusesConclusion": "所有优惠都会清楚显示在你的用户面板上，只需点击一下即可领取。无需联系客服、没有隐藏条款、不用猜。现在就去领取专属你的",
+      "bonusesConclusionAfter": "吧！",
+      
+      "paymentTitle": "快速100%本地化的充值与提款选项",
+      "paymentDescription": "充值和提款不应该像赌博一样让人担心。这就是为什么赢宝马来西亚支持所有主要本地银行和电子钱包，包括Maybank、CIMB、Touch 'n Go、Boost、GrabPay和DuitNow。充值几乎是即时到账。而提款方面，大多数请求都会在当天完成处理，有时甚至一小时内到账。",
+      "paymentConcern": "我们知道玩家最担心的问题：我的钱能顺利转进去吗？我赢的钱能顺利提出来吗？在赢宝线上平台，答案是：可以，而且很快。",
+      
+      "customerSupportTitle": "24/7赢宝在线客服支持",
+      "customerSupportIntro": "我们都经历过，联系某个网站的\"在线客服\"，结果只是机器人回复，或者复制粘贴的回答，根本帮不上忙。我们不会是这样的。",
+      "customerSupport": "赢宝马来西亚提供真正的全年无休24/7客服服务。你可以通过在线聊天或WhatsApp联系我们，接待你的是受过专业培训的真人客服，不是机器人。无论是奖励出问题、提款延迟，还是游戏加载不了，我们都会第一时间帮你解决。",
+      
+      "localTitle": "赢宝赌场专为马来西亚本地玩家打造",
+      "localIntro": "不同于一些海外平台，<strong>赢宝赌场</strong>是专门为马来西亚本地用户设计的。",
+      "localFeature1": "语言？我们支持英文、马来文和中文。",
+      "localFeature2": "地点？无论你在吉隆坡、柔佛、槟城还是沙巴，使用体验都一样顺畅。",
+      "localFeature3": "货币？全面支持马来西亚令吉（RM），同时兼容本地银行与热门电子钱包选项。",
+      "localConclusion": "一切都本地化、熟悉又贴心，从你第一次登录开始就能感受到。",
+      
+      "choiceTitle": "为什么赢宝是马来西亚玩家的第一首选？",
+      "choiceIntro": "每天都有更多马来西亚用户注册赢宝赌场。他们留下来，是因为：",
+      "choice1": "操作快速，使用简单",
+      "choice2": "游戏真实、有趣、选择多",
+      "choice3": "提款不再久等，全面本地化",
+      "choice4": "优惠活动及奖励不断",
+      "choice5": "赢宝专属手机应用",
+      "choiceConclusion": "最重要的是，大家信任它。毕竟，如果你在玩真钱，信任就是一切。想下载赢宝应用，请前往",
+      "choiceConclusionAfter": "页面及下载Android或iOS版本。",
+      
+      "playWinTitle": "今天就来赢宝玩游戏及赚真钱",
+      "playWinDescription": "线上赌场不应该复杂，应该有趣、公平且操作简单，这正是赢宝马来西亚所提供的。没有花招，没有噪音，只有真正的游戏、真正的奖励和真正的支持。所以，无论你是想轻松转几把，下注支持你喜欢的球队，还是挑战现场赌场桌面，你都来对地方了。现在就前往",
+      "playWinDescriptionAfter": "页面，现在就开始吧！",
+      
+      "faqTitle": "常见问题解答 (FAQ)",
+      "faq1Question": "我该如何在赢宝进行首次充值？",
+      "faq1Answer": "登录后，进入\"钱包\"页面选择充值方式。赢宝支持电子钱包、银行转账等多种方式，余额通常几分钟内更新。",
+      "faq2Question": "目前赢宝上最受欢迎的游戏有哪些？",
+      "faq2Answer": "像918Kiss、LionKing、Lucky365和真人百家乐这些游戏目前在马来西亚用户中很流行。",
+      "faq3Question": "我可以在赢宝同时玩多个游戏吗？",
+      "faq3Answer": "可以！赢宝应用支持多任务切换，可以无缝切换老虎机、体育博彩或真人游戏。",
+      "faq4Question": "如果游戏崩溃或加载失败，我该怎么办？",
+      "faq4Answer": "先重启应用并检查网络状况。如果问题仍然存在，赢宝马来西亚客服全天24/7通过聊天或WhatsApp随时为您服务。",
+      "faq5Question": "赢宝马来西亚有忠诚度或VIP奖励吗？",
+      "faq5Answer": "当然有。VIP用户享有现金返还、提款优先及独家优惠。",
+      "faq6Question": "我可以以后更改用户名或密码吗？",
+      "faq6Answer": "用户名为永久设置，但您可以随时在账户设置中更改密码以增强安全性。"
+    },
+    "links": {
+      "winboxMalaysia": "赢宝",
+      "winboxRegister": "赢宝注册",
+      "winboxPromotion": "赢宝奖励",
+      "winboxDownload": "赢宝下载",
+      "winboxLogin": "赢宝登入"
+    },
+  "promo": {
+      "title": "Winbox 优惠活动：免费彩金与各种奖励",
+      "intro": "在寻找没有复杂规则或隐藏条款的<strong>线上赌场免费彩金</strong>吗？那你来对地方了。",
+      "descriptionBefore": "在",
+      "descriptionAfter": "，我们始终相信玩家从一开始就应该获得奖励。因此，我们提供真正可使用的 <strong>Winbox 免费彩金</strong>，以及每日促销、现金回馈，还有专为连输玩家设计的独家 Winbox 拯救奖金（Rescue Bonus）。无论你是新手玩家还是资深老手，现在就是你试玩更多游戏、尝试运气、轻松赢钱的好时机，无需花费太多成本！",
+      "winboxMalaysia": "赢宝马来西亚",
+      
+      "topFreeCredit": {
+        "title": "顶级免费彩金线上赌场 - Winbox 奖励活动",
+        "description": "赢宝免费彩金正如其名，是可以直接用于试玩老虎机、真人娱乐场等游戏的真实奖励余额，无需使用您自己的资金。",
+        "noTricks": "没有套路，没有复杂流程，只需注册、登录，即可在后台直接<strong>领取免费彩金</strong>。如果你是第一次接触线上赌场，或是第一次了解 Winbox，你可能会问：真的有<strong>免充值免费彩金</strong>吗？答案是：有。",
+        "newUsers": "新用户注册后即可领取免费彩金，无需充值。这是探索平台最简单、零压力的方式。你可以尝试玩不同类型的游戏，了解平台操作，再决定是否继续使用，无需承担任何风险。非常适合初学者、休闲玩家，或想要先试试水温的人。"
+      },
+      
+      "bestPromotion": {
+        "title": "最佳线上赌场优惠 - 立即领取免费彩金",
+        "introBefore": "",
+        "introAfter": "活动并非噱头，我们会定期更新内容，让新玩家与忠实玩家都能从中受益。",
+        "winboxPromotion": "赢宝优惠",
+        "whatYouFind": "你会看到这些：",
+        
+        "newPlayerBonus": {
+          "title": "新玩家欢迎奖金",
+          "description": "首次注册并充值，即可获得 <strong>100% 首存配对奖励</strong>。"
+        },
+        
+        "dailyScratch": {
+          "title": "每日刮刮乐奖励",
+          "description": "每日登录后，输入专属优惠码，即可参与刮奖活动，赢取最高 RM2,888 的即时现金奖励。"
+        },
+        
+        "monthlyLucky7": {
+          "title": "每月 Lucky 7 活动",
+          "description": "每月 7 号、17 号与 27 号，在老虎机游戏中可享有 <strong>1.5 倍流水</strong>，无需手动报名，直接参与即可获得。"
+        },
+        
+        "rescueBonus": {
+          "title": "每月拯救奖金",
+          "description": "若遇连输状况，每月可申请最多 <strong>RM58,888</strong> 的现金拯救奖金，助你重回游戏节奏。"
+        }
+      },
+      
+      "whyNumber1": {
+        "title": "为什么 Winbox 优惠是马来西亚玩家的首选",
+        "smartPlayers": "马来西亚玩家理性而有判断力，懂得分辨真正有价值的优惠。",
+        "designedClearBefore": "因此，Winbox 所推出的所有优惠，设计上追求清晰、简单，并注重实际回馈。没有复杂条款，没有高额门槛，只有让你更轻松赢奖的真实奖励。如果你更倾向使用手机 App 进行游戏，也可以前往",
+        "designedClearAfter": "页面，获取适用于 Android 或 iOS 的版本。",
+        "downloadLink": "赢宝下载"
+      },
+      
+      "howToClaim": {
+        "title": "如何领取 Winbox 免费彩金并赚取真钱",
+        "timeRequired": "整个过程不到一分钟：",
+        "registerLink": "赢宝注册",
+        "steps": {
+          "step1Before": "访问",
+          "step1After": "页面如尚未注册",
+          "step2": "登入你的账户后台",
+          "step3": "点击\"优惠活动\"标签",
+          "step4": "选择要领取的免费彩金或其他<strong>赢宝奖励</strong>",
+          "step5": "开始游戏"
+        },
+        "thatsIt": "不需要联系客服，不需要繁琐流程。你可以将领取的免费彩金用于老虎机、真人娱乐场，甚至是 4D 彩票游戏。"
+      },
+      
+      "readyToClaim": {
+        "title": "立即加入，领取奖金并赢取现金",
+        "noWait": "无需等待或犹豫。无论你是休闲玩家，还是追求刺激的爱好者，Winbox 都能为你提供一个优质的起点。从注册开始，系统将立即提供免费彩金、每日活动、以及如<strong>赢宝拯救奖金</strong>等后续保障，让整个游戏过程更加顺畅和有保障。你加入的不只是一个普通线上赌场，而是一个以玩家为中心、值得信赖的平台。",
+        "goAheadBefore": "现在就前往",
+        "goAheadAfter": "页面，领取你的奖励，开启全新的游戏体验。",
+        "loginLink": "赢宝登入"
+      }
+    },
+
+    "login": {
+      "title": "快速登入赢宝，领取专属奖金，开始赢大奖",
+      "intro": "如果您是来玩游戏的，那您来对地方了！无论您是新手玩家，还是回归体验心爱游戏的老玩家，加入赢宝是非常简单的。",
+      "officialPageBefore": "这是专为马来西亚玩家打造的官方",
+      "officialPageAfter": "页面，提供快速、安全且流畅的在线娱乐场体验。不论您使用手机、笔记本还是平板，赢宝在线登入都能让您瞬间进入游戏世界。",
+      "winboxLoginWeb": "赢宝登入",
+
+      "whatIsH5": {
+        "title": "什么是赢宝 H5？",
+        "description": "赢宝 H5 是Winbox网页版，无需下载任何应用程序。只需打开链接、登入账号，您就可以立即开始游戏。非常适合不想安装额外软件，或经常在多个设备上玩的玩家使用。",
+        "fullAccess": "即使使用 H5 版本，您依然可以完整访问所有游戏、奖金和钱包功能，与赢宝应用无异。不论您使用的是 Chrome、Safari，还是其他手机浏览器，Winbox网页版都能顺畅地运行，带来流畅的游戏体验。"
+      },
+
+      "howToLogin": {
+        "title": "如何轻松登录 Winbox H5",
+        "intro": "无论是手机还是电脑设备，登录 Winbox 账号只需几个简单步骤：",
+        
+        "step1": {
+          "title": "第一步：访问赢宝官方登录页面",
+          "browser": "打开任意安全浏览器（如 Chrome、Firefox、Safari）。",
+          "typeBefore": "在地址栏输入或点击：",
+          "typeAfter": "",
+          "loginUrl": "https://www.winbox22.com/zh/login",
+          "security": "请务必确认网址正确，并以 \"https\" 开头，以防止进入钓鱼网站。"
+        },
+
+        "step2": {
+          "title": "第二步：输入您的 Winbox 账号信息",
+          "intro": "登录界面会显示两个输入框：用户名 和 密码。",
+          
+          "username": {
+            "title": "1. 用户名",
+            "description": "这是您注册时创建的 ID，或是由您的推荐人提供的账号。",
+            "example": "通常是字母与数字的组合（例如：user1234）。"
+          },
+
+          "password": {
+            "title": "2. 密码",
+            "enter": "请输入您的安全密码。",
+            "strongPassword": "强密码建议包含以下内容：",
+            "characters": "<strong>至少 8 个字符</strong>",
+            "include": "<strong>大写字母、小写字母</strong>、<strong>数字和符号</strong>组合（如: Winbox#2025!))",
+            "avoid": "避免使用常见密码，如 123456 或 password"
+          },
+          
+          "securityReminder": "<strong>安全提示</strong>：请勿泄露密码，也不要在公共或共享浏览器中保存密码。"
+        },
+
+        "step3": {
+          "title": "第三步（可选）：启用\"记住我\"功能",
+          "trusted": "如果您使用的是<strong>可信赖的个人设备</strong>，可以勾选\"<strong>记住我</strong>\"选项。",
+          "keeps": "这样下次无需重复输入账号和密码即可直接登录。",
+          "dont": "<strong>切勿在公共电脑或他人设备上使用此功能。</strong>"
+        },
+
+        "step4": {
+          "title": "第四步：点击\"登录\"按钮",
+          "click": "输入用户名和密码后，点击\"<strong>登入</strong>\"或\"<strong>登录</strong>\"按钮。",
+          "wait": "系统会进行身份验证，几秒钟内即可完成登录。"
+        },
+
+        "thatsItBefore": "就这么简单，无需下载 App 即可畅玩！当然，如果您更喜欢使用 App，也可以前往",
+        "thatsItAfter": "页面，获取 Android 或 iOS 客户端。",
+        "downloadLink": "赢宝下载"
+      },
+
+      "playAnywhere": {
+        "title": "随时随地畅玩赢宝",
+        "intro": "我们了解马来西亚玩家喜欢随时随地玩游戏，因此我们确保您可以从任何地方轻松登入账户。",
+        "mobile": "赢宝手机登入非常适合安卓和 iPhone 用户使用。",
+        "online": "使用任何浏览器都可以登入赢宝，无论您的设备是手机、平板还是其他设备，都能顺畅体验。",
+        "bigger": "喜欢大屏幕体验？那就使用赢宝登入网页版在您的笔记本电脑或台式电脑，画面更清晰、操作更方便。",
+        "wherever": "无论您身在何处，只需一次登入，就能畅玩所有游戏，老虎机、真人赌场、体育博彩、彩票等应有尽有。"
+      },
+
+      "cantLogin": {
+        "title": "登入遇到问题怎么办？",
+        "intro": "有时候遇到登入问题是很正常的，别担心，您可以按照以下步骤检查并解决：",
+        "mobile": "确认手机号码是否正确：请确保输入的是您注册赢宝账户时使用的手机号码。",
+        "forgot": "忘记密码？ 使用\"忘记密码\"功能，按照指示重设新密码即可。",
+        "stuck": "还是登入不了？ 别急，我们的 WhatsApp 客服和在线聊天支持提供全天候 24/7协助您。",
+        "technical1": "Add few more , which more technical",
+        "technical2": "Add few more , which more technical",
+        "smoothBefore": "我们始终确保让您的赢宝登入过程顺畅无阻。如果您还没有账户，也可以前往",
+        "smoothAfter": "页面快速创建一个新账号。",
+        "registerLink": "赢宝注册"
+      },
+
+      "whyChoose": {
+        "title": "为什么玩家都选择赢宝？",
+        "intro": "当您登入账号后，精彩内容立刻呈现眼前：",
+        "slots": "来自 918KISS、JDB、Lion King 等热门老虎机游戏",
+        "live": "有真人荷官在现场发牌的真人娱乐场",
+        "sports": "英超（EPL)、NBA 和电竞赛事的体育博彩",
+        "dailyBefore": "每日",
+        "dailyAfter": "活动与丰富奖金等您领取",
+        "promotionLink": "赢宝优惠",
+        "fast": "支持本地银行与电子钱包的快速充值与提款",
+        "thousands": "每天都有成千上万的马来西亚玩家选择赢宝登入游戏，因为它稳定及可靠、操作又简单，而且完全符合本地玩家的使用习惯与需求。"
+      },
+
+      "startWinning": {
+        "title": "立即开始赚取真钱",
+        "withBefore": "在",
+        "withAfter": "，登入只是一个开始。没有压力的，没有困扰——这才是一个真正稳定可靠的平台，还有专业团队随时为您提供协助。现在就登入，享受更优质的游戏体验，开启您的真钱盈利之旅吧！",
+        "winboxMalaysia": "Winbox网页版"
+      }
+    },
+
+  "register": {
+      "title": "快速的赢宝注册，立即领取专属奖金",
+      "intro": "想轻松畅玩线上赌场游戏，不想经历复杂流程和烦恼？那您来对地方了！",
+      "descriptionBefore": "在",
+      "descriptionAfter": "马来西亚注册账户既快捷又简单，专为每一位玩家打造——无论您是新手还是老手。无论您喜欢老虎机、真人赌场，还是体育博彩，最重要的第一步就是在赢宝注册账户。",
+      "winboxMalaysia": "赢宝",
+      "guide": "这就是您的赢宝注册官方指南。我们将一步步教您如何在一分钟内完成账号注册，之后就可以马上开始畅玩游戏。",
+
+      "howTo": {
+        "title": "如何注册赢宝账户",
+        "intro": "与一些需要繁琐流程的赌场平台不同，赢宝确保注册简单快捷。",
+        "process": "赢宝注册步骤如下：",
+        "step1": "访问赢宝的官方网站。",
+        "step2Before": "点击",
+        "step2After": "或\"报名\"按钮。",
+        "registerLink": "赢宝注册",
+        "step3": "输入您的手机号码。",
+        "step4": "设置用户名和密码。",
+        "step5": "完成注册，您可以马上开始游戏了。",
+        "noWait": "您无需上传身份证或等待审核，注册成功后即可立即登入，开始玩所有的游戏，领取奖金，并使用钱包功能。"
+      },
+
+      "whyNumber1": {
+        "title": "为什么赢宝网页版是第一的线上赌场？",
+        "intro": "我们知道市面上有很多线上赌场选择，但每天都有成千上万的马来西亚玩家选择赢宝马来西亚，原因如下：",
+        "features": {
+          "slots": "丰富多样的老虎机游戏，来自 LionKing、Lucky365、Jili 等等的顶级游戏供应商",
+          "liveCasino": "实时真人娱乐赌场场，专业的荷官直播，合作伙伴包括 AE Sexy、BIG Gaming 和 Evolution",
+          "sports": "SBOBET、MAXBET 和 CMD368 等提供商提供足球、NBA 等体育博彩",
+          "withdrawals": "通过本地银行和电子钱包快速提款",
+          "promotionsBefore": "每日",
+          "promotionsAfter": ""
+        },
+        "promoLink": "赢宝优惠",
+        "conclusion": "这一切，都是从您注册赢宝账户开始。创建账户后，整个平台功能无限制地开放，完全没有任何隐藏步骤。"
+      },
+
+      "mobileFriendly": {
+        "title": "赢宝注册支持移动设备",
+        "intro": "无论您使用手机还是电脑，赢宝注册都只需不到 60 秒时间。",
+        "mobilePreferenceBefore": "马来西亚大多数的玩家都喜欢使用手机，我们也为此构建了相应的系统。您可以通过手机浏览器注册，或者前往",
+        "mobilePreferenceAfter": "页面下载手机应用。无论哪种方式，注册过程都保持快速和流畅。",
+        "downloadLink": "赢宝下载",
+        "anywhere": "注册后，您可以从任何地方登录：您的手机、平板电脑或台式电脑。"
+      },
+
+      "dailyDeals": {
+        "title": "每日赢宝优惠 - 内含免费积分！",
+        "introBefore": "",
+        "introAfter": "后，您即可享受独家优惠。",
+        "registerLink": "注册赢宝",
+        "includes": "优惠包括：",
+        "deals": {
+          "matchBonus": "每位新玩家均可获得 100% 匹配奖金",
+          "dailyScratch": "每日刮刮乐可赢取高达 RM2888 的奖金",
+          "turnover": "每月 7、17 和 27 日，老虎机最高可获得 1.5 倍流水",
+          "rescueBonus": "最高 RM58888 的救援奖金"
+        },
+        "howToAccess": "您只需完成赢宝的注册过程，并查看控制面板中的\"优惠\"标签即可。"
+      },
+
+      "support": {
+        "title": "注册时遇到问题？我们提供24/7全天候支持",
+        "intro": "如果您在注册过程中遇到任何问题，我们随时为您提供帮助。",
+        "availability": "我们的团队24小时全天候通过实时聊天和 WhatsApp 为您提供服务。无论是技术问题、优惠码问题，还是注册后登录问题，我们都能快速地解决。"
+      },
+
+      "bestCasino": {
+        "title": "赢宝 - 马来西亚最佳在线赌场",
+        "descriptionBefore": "赢宝马来西亚让您轻松上手，轻松无忧，无延迟。赢宝的注册快捷，注册后，您将获得所需的一切如：老虎机、真人游戏、体育博彩和真实奖励。它很简单、安全，是专为马来西亚用户打造的。如果您正在寻找更佳的游戏方式，赢宝随时为您服务。如果您已有了账户，请前往",
+        "descriptionAfter": "页面开始游戏。",
+        "loginLink": "Winbox登入"
+      },
+
+      "faq": {
+        "title": "常见问题",
+        "q1": {
+          "question": "1. 如何注册赢宝？",
+          "answer": "只需访问赢宝官方网站，点击\"赢宝注册\"按钮即可。之后请输入您的手机号码，设置密码，您就可以开始使用了。完全无需任何文件。"
+        },
+        "q2": {
+          "question": "2. 赢宝注册是免费吗？",
+          "answer": "是的！赢宝注册完全是100%免费。"
+        },
+        "q3": {
+          "question": "3. 注册赢宝时需要什么？",
+          "answer": "您只需要一个有效的马来西亚手机号码。在注册赢宝的过程完全无需上传您的身份证件或银行信息。"
+        },
+        "q4": {
+          "question": "4. 我可以在手机上注册赢宝吗？",
+          "answer": "当然可以。赢宝的注册流程在手机上可以完美地运行。您可以通过手机浏览器或应用程序进行注册。"
+        },
+        "q5": {
+          "question": "5. 我没有收到验证码——现在怎么办？",
+          "answer": "如果您没有收到短信，请检查您的手机信号或几分钟后再重试。仍然没有收到验证码？请通过 WhatsApp 联系赢宝客服，他们会立刻为您提供帮助。"
+        },
+        "q6": {
+          "question": "6. 我可以跨设备使用同一个账户吗？",
+          "answer": "可以！注册赢宝后，您可以使用同一个账户信息在手机、平板电脑或电脑上登录。所有内容都会自动同步的。"
+        }
+      }
+    },
+
+    "download": {
+      "pageTitle": "赢宝下载APK – 安卓和iOS设备官方应用",
+      "appInfo": {
+        "name": "Winbox 5.0",
+        "details": "应用信息<br>大小: 35.87 MB<br>类别: 电子钱包，游戏<br>版本: 2024.0111.002",
+        "iosDownload": "iOS下载",
+        "androidDownload": "Android下载",
+        "notMember": "还不是赢宝会员？点击此按钮注册。",
+        "signUpHere": "点击注册"
+      },
+      
+      "title": "获取最新赢宝下载& 赚取真钱",
+      "introBefore": "想随时随地畅玩",
+      "introAfter": "马来西亚线上赌场游戏，无需等待或繁琐设置？通过官方赢宝应用程序，您可以更轻松地在手机上畅玩您喜爱的老虎机、真人娱乐场、体育博彩等游戏。",
+      "winboxLink": "赢宝",
+      "description": "无论您使用的是安卓还是iPhone，赢宝下载过程快捷、安全，专为马来西亚玩家量身定制。如果您正在寻找正确的赢宝APK下载方式，您来对地方了！",
+
+      "whyUseApp": {
+        "title": "为什么要使用赢宝应用？",
+        "intro": "当然，您可以通过网页版游戏，但对大多数马来西亚玩家来说，使用应用更加方便。",
+        "benefits": "使用赢宝APK您将获得：",
+        "features": {
+          "faster": "更快的加载速度",
+          "oneTap": "一键直达您最喜欢的游戏",
+          "lessData": "相较浏览器，应用更省数据流量",
+          "smoother": "更流畅的画面和实时游戏体验",
+          "notifications": "推送通知提醒您领取奖金"
+        },
+        "conclusion": "安装应用后，一切都变得更简单。打开、登录、开始游戏——无需每次访问官网。"
+      },
+
+      "downloadGuide": {
+        "title": "赢宝安卓APK下载 & iOS安装指南",
+        "intro": "如果您是安卓用户，则需要下载 Winbox APK 文件来手动安装该应用。不用担心——安装过程非常安全，而且只需一分钟。",
+        
+        "android": {
+          "title": "对于Android用户：",
+          "step1Before": "访问官方",
+          "step1After": "APK页面",
+          "downloadLink": "赢宝下载",
+          "step2": "点击\"下载APK\"",
+          "step3": "系统提示时，允许安装来自未知来源的应用（非Play商店应用需开启此权限）",
+          "step4": "打开APK文件并安装",
+          "step5": "登入赢宝账号，开始游戏"
+        },
+
+        "ios": {
+          "title": "对于iOS用户：",
+          "step1": "使用Safari浏览器访问赢宝官网",
+          "step2": "点击赢宝iOS下载",
+          "step3": "按照步骤安装配置描述文件",
+          "step4": "在设备管理中信任此应用",
+          "step5": "启动赢宝应用并进行Winbox登入"
+        },
+
+        "safety": "操作简单，无需通过第三方应用商店下载，避免假冒版本。请务必使用官方赢宝APK下载链接确保安全。"
+      },
+
+      "safeInstallation": {
+        "title": "100% 正版安全的赢宝APK 安装",
+        "descriptionBefore": "只要您从官方网站的",
+        "descriptionAfter": "APK 就是安全的，且会定期更新，每天都有成千上万的马来西亚玩家在使用。请避免从非官方渠道下载，以免获取到假冒或过时的版本。如果您还没有账号，请前往 Winbox 注册页面，免费创建一个账户。",
+        "registerLink": "赢宝下载"
+      },
+
+      "topGames": {
+        "title": "赢宝热门游戏推荐 & 赢取真钱",
+        "intro": "成功安装赢宝APK或iOS APP后，您可以：",
+        "features": {
+          "slots": "畅玩 918KISS、JDB、Lion King 等供应商的老虎机",
+          "liveCasino": "实时加入真人荷官真人赌场",
+          "sports": "投注足球、篮球、电子竞技等体育赛事",
+          "banking": "使用本地银行或电子钱包进行存款和提现",
+          "bonusesBefore": "领取每日奖金及",
+          "bonusesAfter": "活动"
+        },
+        "promotionLink": "赢宝优惠",
+        "conclusion": "网页版的所有功能在APP中同样可用，但性能更快、界面更流畅。"
+      },
+
+      "appBenefits": {
+        "title": "应用相比网页版的优势",
+        "introBefore": "尽管",
+        "introAfter": "网页版适合偶尔访问，移动应用能带来更完整的体验：",
+        "loginWebLink": "赢宝登入",
+        "features": {
+          "staysLoggedIn": "APP保持登入状态（无需反复输入账号密码）",
+          "notifications": "推送通知提醒限时优惠不容错过",
+          "smoother": "即使网络不佳，游戏依然流畅",
+          "easier": "容易且轻松切换游戏、钱包和优惠活动"
+        },
+        "recommendation": "如果您是常玩玩家，赢宝APK或iOS下载是更佳选择。"
+      },
+
+      "conclusion": {
+        "title": "赢宝下载&赢取真钱，真的快速",
+        "descriptionBefore": "无论您使用的是安卓还是苹果手机，赢宝的下载过程都简单、快速且值得。安装后，App 将成为您玩老虎机、体育博彩、参与真人直播桌面和领取每日优惠的首选平台。无需记忆冗长的网址，也不用忍受缓慢的网页浏览。立即操作赢宝下载，前往",
+        "descriptionAfter": "马来西亚官方网站，随时随地享受更优质的游戏体验。",
+        "winboxLink": "赢宝"
+      }
+    },
+
+    "responsibleGaming": {
+      "title": "负责任博彩",
+      "intro": "赢宝严肃对待推广负责任和安全的游戏环境。我们的负责任博彩计划旨在协助我们尊贵的玩家做出明智、受控的决定，确保游戏体验愉快且不会造成任何有害影响。",
+      "ageRestrictions": "我们设有年龄限制，并严格遵守所有相关法律法规。虽然我们不是监管机构的一部分，但我们认可并支持致力于负责任博彩和玩家保护相关活动的主要机构的倡议，例如：",
+      
+      "sections": {
+        "ageRestriction": {
+          "title": "18+ 年龄限制",
+          "description": "这个标志表明我们愿意<strong>仅向18岁及以上的人士</strong>提供游戏服务访问权限，以<strong>减少未成年人博彩</strong>。"
+        },
+        
+        "gamcare": {
+          "title": "GAMCARE",
+          "description": "这个慈善机构总部位于英国，免费且匿名地为<strong>任何受博彩伤害的人提供治疗和支持</strong>。他们设有全国博彩求助热线，为玩家及其处理过度博彩问题的亲属提供咨询。"
+        },
+        
+        "beGambleAware": {
+          "title": "Be Gamble Aware（负责任博彩意识）",
+          "description": "一个致力于提高人们负责任博彩意识的特殊组织。他们提供<strong>教育材料、建议和支持服务</strong>，帮助人们负责任地游戏，并在需要时寻求帮助。",
+          "disclaimer": "虽然这些不是赢宝的直接合作伙伴或监管机构，但我们支持他们的事业，并建议我们的玩家使用他们有用的资源。"
+        }
+      },
+      
+      "measures": {
+        "title": "我们采取以下负责任博彩措施：",
+        
+        "playerControl": {
+          "title": "玩家控制工具 - 保持控制",
+          "intro": "在您的账户设置中，您可以设置限制来负责任地限制您的游戏活动：",
+          "depositLimits": "<strong>存款限制：</strong> 您可以管理每日、每周或每月存款的金额。",
+          "lossLimits": "<strong>损失限制：</strong> 设定您在特定时间内可以损失的金额上限。",
+          "betLimits": "<strong>投注限制：</strong> 限制您每次会话或每天的投注金额。",
+          "sessionLimits": "<strong>会话时间限制：</strong> 限制您游戏的时间。达到限制后，会话会自动到期。"
+        },
+        
+        "limitSetting": {
+          "title": "设置限制的方法：",
+          "instructions": "登录您的赢宝账户 > 进入负责任博彩部分 > 选择设置我的限制 > 选择您的限制 > 并保存。"
+        },
+        
+        "selfExclusion": {
+          "title": "自我排除计划 - 在您需要时休息一下",
+          "intro": "如果您需要暂停游戏活动：",
+          "temporary": {
+            "title": "<strong>临时自我排除（7天冷静期）：</strong>",
+            "description": "账户将变为无法访问并冻结7天。之后会自动重新激活。"
+          },
+          "permanent": {
+            "title": "<strong>永久自我排除：</strong>",
+            "description": "要求永久冻结您的账户。只有在申请重新激活至少6个月后才能进行，这需要经过内部审核。"
+          }
+        },
+        
+        "howToApply": {
+          "title": "如何申请：",
+          "descriptionBefore": "通过WhatsApp或网站或应用程序上的在线聊天联系我们的",
+          "descriptionAfter": "。我们的团队随时准备在保密的基础上为您提供24/7支持。",
+          "customerSupportLink": "客户支持"
+        }
+      },
+      
+      "supportEducation": {
+        "title": "支持和教育",
+        "intro": "我们提供教育内容和关于博彩有害方面的风险警告，以保持您的知识水平并允许您做出无害的决定。",
+        "acknowledgeBefore": "使用赢宝，您确认我们的[",
+        "acknowledgeMiddle": "]和[",
+        "acknowledgeAfter": "]。",
+        "termsLink": "条款与条件",
+        "privacyLink": "隐私政策"
+      }
+    },
+
+    "amandaLim": {
+      "title": "Amanda Lim – 引领赢宝前进的远见卓识者",
+      
+      "founder": {
+        "title": "创始人/首席执行官：Amanda Lim",
+        "description": "由Amanda Lim创立的赢宝是第一个围绕东南亚客户需求而建立的移动优先线上赌场运营商。凭借超过15年的软件工程和数字营销经验，Amanda构想了一个<strong>安全、易用且高度互动</strong>的赌场环境，专门服务于本地市场的独特利益。自她接任赢宝的领导职务以来，赢宝以令人印象深刻的速度跻身马来西亚、新加坡及其他地区备受信赖的创新平台行列。"
+      },
+      
+      "education": {
+        "title": "教育和专业基础",
+        "descriptionBefore": "Amanda是计算机科学专业的学士学位获得者，并在",
+        "descriptionAfter": "获得了数字营销工商管理硕士学位。她的教育经历为她在产品创新、系统架构和客户参与方法方面的技能奠定了核心基础。在职业生涯初期，Amanda与许多科技公司在可扩展软件和数字化转型领域进行合作，这使她获得了创建强大的以用户为中心的平台所需的必要知识。",
+        "nusLink": "新加坡国立大学（NUS）"
+      },
+      
+      "leadership": {
+        "title": "在赢宝的领导力",
+        "intro": "Amanda作为首席执行官领导：",
+        "responsibilities": {
+          "expansion": "市场扩张和业务发展：战略业务",
+          "innovation": "移动应用产品创新和产品易用性",
+          "compliance": "遵守当地博彩法律和倡导负责任博彩",
+          "partnerships": "与游戏供应商和监管机构建立联盟"
+        },
+        "collaborationBefore": "作为领导者，Amanda强调团队合作，秉持数据驱动的理念，极其关注反馈和玩家的持续进步。她与部门主管密切合作，包括内容总监兼首席作者",
+        "collaborationAfter": "，确保赢宝保持一致的品牌声音，成为以玩家为先的沟通的唯一所有者，并及时为用户提供正确和相关的信息。",
+        "michaelOngLink": "Michael Ong"
+      },
+      
+      "birthOfWinbox": {
+        "title": "赢宝的诞生",
+        "description": "Amanda注意到市场上需要一个移动友好、安全且面向东南亚文化的线上赌场平台。她下定决心开发一个能够融合技术复杂性和道德博彩要素的平台。与一群软件开发和监管合规专业人士一起，Amanda推出了赢宝，它很快成为该地区信任和创新的代表。"
+      },
+      
+      "adversitySuccess": {
+        "title": "逆境与成功",
+        "description": "市场竞争激烈且受到严格控制，在这样的时期进入行业是一个挑战。Amanda对合规性、透明度和玩家安全的承诺使赢宝能够战胜更大公司的市场领导地位。她建立了强大的负责任博彩结构，并通过富有成效的内容领导和社区活动培育了信任和教育文化。"
+      },
+      
+      "futureVisions": {
+        "title": "Amanda的未来愿景",
+        "descriptionBefore": "Amanda希望",
+        "descriptionAfter": "能够成为东南亚第一的线上游戏平台，利用<strong>AI等新技术</strong>和<strong>区块链创造更高级别的安全</strong>、个性化和玩家福祉。未来的计划将涉及增加本地化内容、实施互动直播游戏体验，以及通过合作努力为行业带来更高标准。",
+        "winboxLink": "赢宝"
+      },
+      
+      "leadershipStyle": {
+        "title": "领导风格和理念",
+        "description": "Amanda因其包容性的领导风格而受到赞誉，这种风格成功地将远见卓识的领导力与实地实施相结合。据她所说，博彩应该是愉快和公正的，通过这样做，玩家的福祉应该是任何选择的核心。她的目标是通过开发一个玩家喜爱的可信平台来改变东南亚移动游戏。"
+      }
+    },
+
+    "michaelOng": {
+      "title": "Michael Ong – 赢宝专业内容总监和作者团队领导者",
+      "bannerAlt": "赢宝内容总监照片",
+      
+      "intro": {
+        "paragraph1": "Michael Ong是赢宝赌场的内容和作者团队领导者，他确保向受众提供的所有信息都准确且有趣。Michael拥有<strong>超过10年的数字媒体和iGaming内容制作经验</strong>，对内容和行业了如指掌。他也是一位以玩家为友好的沟通爱好者。",
+        "paragraph2": "Michael拥有该地区一所领先大学的传播学和数字媒体学士学位。在职业生涯初期，他与一些<strong>最知名的游戏和技术组织</strong>合作，为他们设计了在娱乐和教育之间取得适当平衡的内容策略。"
+      },
+      
+      "experience": {
+        "paragraph1": "这种经验给了他<strong>高度的质量意识</strong>，并使他能够<strong>快速适应行业趋势</strong>。",
+        "paragraph2Before": "Michael负责运营",
+        "paragraph2After": "并联系赢宝的客户，以及准备教育材料。他具有基于持续努力提高内容质量和增强玩家信心和满意度的批判性和创造性领导风格。Michael是一个与优秀的<strong>内容创作者和作者在协作环境</strong>和数据导向环境中工作的人。他与<strong>跨职能团队、产品开发、设计和客户支持密切联系</strong>，确保内容在玩家的所有接触点都能顺利进行。",
+        "blogLink": "博客",
+        "paragraph3Before": "Michael还定期与赢宝的首席执行官兼创始人",
+        "paragraph3After": "会面，在将内容策略与整体业务愿景和产品路线图保持一致的过程中。他们的合作保证了平台上令人难忘的信息传递，转化为增长和信心，因为他们知道玩家需要什么。",
+        "amandaLimLink": "Amanda Lim"
+      },
+      
+      "leadershipPhilosophy": {
+        "title": "领导理念",
+        "descriptionBefore": "Michael确信诚实和开放的沟通是赢得玩家信任和积极参与的关键。他的管理是包容性和基于信息的，允许作者团队和用户自由反馈。他的主要重点是制作有趣的内容，同时教育玩家",
+        "descriptionAfter": "并告知他们平台的功能。对Michael来说，所有内容都是建立一个更强大、更有知识的社会的机会。",
+        "responsibleGamingLink": "负责任博彩"
+      },
+      
+      "keyAchievements": {
+        "title": "主要成就",
+        "description": "在Michael的指导下，赢宝在所有渠道的内容质量和相关性都得到了很大改善。他创建了一个<strong>高效、简单的编辑流程，提高了效率和标准一致性</strong>。Michael发起的最显著领域之一是扩展教育材料，让玩家学习更多关于<strong>游戏规则、奖金和负责任博彩方式</strong>。这些举措直接促进了用户满意度的增长和平台可信度的提升。"
+      },
+      
+      "experienceSkills": {
+        "title": "经验和技能",
+        "paragraph1": "Michael Ong是一位经验丰富的iGaming内容策略师，他将十多年的职业生涯奉献给了创建有信誉、有价值且易学的赌场内容。他的主要专长是开发教育内容，包括详细的游戏指南、平台演练、奖金演练、负责任博彩指南，教育玩家如何做出明智的选择。",
+        "paragraph2": "在他的职业生涯中，Michael率先创建了专门为在线赌场量身定制的端到端内容系统。他还负责在赢宝工作的多种类型内容，包括文章博客、应用内教程、常见问题解答和知识中心，所有这些都旨在让复杂的游戏概念对东南亚消费者更简单。",
+        "effortsIntro": "他的努力包括：",
+        "efforts": {
+          "gameGuide": "<strong>游戏指南开发：</strong> 撰写复杂但<strong>易懂的指南</strong>，涵盖老虎机、真人赌场、投注机制和平台功能。",
+          "localization": "<strong>内容本地化：</strong> 确保所有<strong>内容符合地区客户的文化和语言兴趣</strong>。",
+          "storytelling": "<strong>教育叙事：</strong> 以用户导向的叙述形式描述负责任博彩、支付方式、功能教程等。",
+          "collaboration": "<strong>跨团队协作：</strong> 与产品、法务和客户支持团队协作，确保内容准确、及时，并符合玩家需求。"
+        },
+        "conclusion": "Michael是东南亚创建有信誉的赌场知识来源的主要贡献者之一，因为他有能力在合规性、清晰度和参与度之间保持平衡。"
+      },
+      
+      "teamAchievements": {
+        "title": "团队成就和里程碑",
+        "description": "您已经看到了Michael以及他如何领导赢宝内容和作者的才华横溢的团队。总的来说，他们创建了玩家学习、依赖和与赢宝平台沟通的核心。虽然团队的每个成员都有特殊的角色，但所有优势都结合起来，使信息内容清晰、一致，并始终发展以更好地服务玩家。"
+      },
+      
+      "futureVision": {
+        "title": "未来愿景",
+        "paragraph1": "未来，Michael打算利用新兴技术，如基于AI的内容个性化，为玩家提供一些定制的游戏信息，他们可以用来改善游戏体验。他还打算进一步整合互动功能，<strong>如实时教程和对内容生态系统的玩家实时支持</strong>。Michael将赢宝想象为不仅仅是一个游戏场所，而是一个可靠的顾问和社区空间，让游戏玩家感到被关心、被告知和被重视。",
+        "paragraph2Before": "要更好地了解赢宝，请访问我们的",
+        "paragraph2After": "页面。",
+        "aboutUsLink": "关于我们"
+      }
+    },
+
+    "about": {
+      "title": "关于我们",
+      
+      "intro": {
+        "paragraph1": "我们很高兴向您介绍马来西亚最知名的线上赌场平台之一，不仅在国内享有盛誉，在整个东南亚地区也备受推崇。",
+        "paragraph2": "由于我们网站上游戏的娱乐性和趣味性，我们在市场上迅速扩张。随着玩家社区的不断扩大，我们自豪地提供丰富多样的游戏、丰厚的促销活动和易于使用的界面。",
+        "paragraph3": "我们提供安全和负责任的游戏环境，让您享受老虎机游戏、赛马、彩票、真人荷官桌面以及体育博彩等各种游戏。无论是桌面端还是移动端，我们的平台都能让每个人轻松访问并享受愉快的游戏体验，因此成为成千上万既想要安全感又想要享受游戏乐趣的人们的选择。"
+      },
+      
+      "vision": {
+        "title": "我们的愿景",
+        "description": "我们努力成为东南亚线上赌场行业的领导者，发展成为该地区最可靠和最具创新性的平台。我们的使命是创造一个线上环境，让游戏玩家能够安全、确信地活跃其中，确信他们使用的是一个以公平、新颖和娱乐为品质而创建的地方。我们致力于持续改进和<strong>道德实践</strong>，这将使我们能够将平台的未来转变为线上游戏信任和愉悦的新领域。"
+      },
+      
+      "mission": {
+        "title": "我们的使命",
+        "description": "我们承诺在完全许可、经过审计和符合监管要求的系统上提供卓越的高端游戏系列。我们努力让每个玩家都感到安全，公平游戏，并获得持续改善的体验。以用户满意度为我们所做一切的核心，我们致力于最大化创建和维护一个<strong>娱乐与责任相结合，质量与诚信定义每个游戏、功能和互动创造</strong>的平台。"
+      },
+      
+      "coreValues": {
+        "title": "核心价值观",
+        "paragraph1": "我们是一个建立在<strong>基本价值观</strong>基础上的平台，我们提供的每个决定和服务都受到这些因素的影响。我们在游戏方式和客户响应中拥抱<strong>诚信、公平和透明</strong>。使用安全也是我们价值观的首要位置，我们采用最先进的技术来保护用户的信息和隐私。",
+        "paragraph2": "我们始终在进步，通过<strong>新游戏和组件亮点</strong>提供新的、激动人心的体验。作为一个负责任的运营商，我们促进积极的博彩习惯并遵守当地法律。最重要的是，我们把玩家放在第一位——倾听、适应并构建满足他们需求的体验。"
+      },
+      
+      "philosophy": {
+        "title": "我们的理念",
+        "paragraph1": "对我们来说，线上游戏不完全是关于机会；它必须是<strong>公平</strong>的，必须是<strong>安全</strong>的，甚至必须是<strong>有趣</strong>的。我们不仅仅是游戏提供商，而是借助智能技术的用户优先娱乐平台。",
+        "paragraph2": "我们的基本理念是，一旦<strong>玩家感到安全、受到尊重和参与</strong>，真正的娱乐就会自然而然地到来。这就是我们每天追求并努力为您带来的体验。"
+      },
+      
+      "achievements": {
+        "title": "定义赢宝的成就",
+        "paragraph1": "由于谨慎扩张、技术发展和专注于客户满意度，赢宝已成为东南亚最可靠的线上赌场之一。",
+        "paragraph2": "我们与授权游戏提供商合作，旨在引入众多许可和公平的游戏。我们的平台引入了用户体验的新标准，特别是在<strong>移动设备</strong>上，提供<strong>舒适和激动人心的游戏体验</strong>。",
+        "paragraph3Before": "我们遵守所有行业法规和认证，这些法规和认证<strong>支持玩家安全和</strong>",
+        "paragraph3After": "。这种奉献精神使地区政府给予我们认可。",
+        "responsibleGamingLink": "负责任博彩",
+        "paragraph4": "我们已经从马来西亚扩展出去，现在覆盖新加坡和其他东南亚国家，不断扩大我们的玩家社区。",
+        "paragraph5": "在我们创新和扩张的过程中，我们的主要优先事项之一是<strong>推广负责任博彩的理念</strong>并培育一个清洁和开放的环境。我们对所取得的成就也感到非常高兴，我们对未来有计划：我们将创建一个受玩家信任和喜爱的平台。"
+      },
+      
+      "security": {
+        "title": "许可证、认证和增强安全性",
+        "licensing": {
+          "title": "许可证",
+          "description": "库拉索博彩委员会和菲律宾娱乐博彩公司（PAGCOR）完全许可我们的运营。我们遵守所有法律规范和监管要求。此外，为确保我们的材料和版权安全，网站受到DMCA保护。"
+        },
+        "certifications": {
+          "title": "认证",
+          "description": "赢宝赌场获得了该领域主要独立测试公司的许可，如BMM、iTechLabs、Gaming Labs International（GLI）和TST Global。这些认证确保我们的游戏和支付系统客观可信和准确。"
+        },
+        "securitySystems": {
+          "title": "安全系统",
+          "description": "赢宝建立在基于iovation和ThreatMetrix系统的领先安全解决方案上，以确保玩家的安全。这些解决方案提供设备级认证，并提供在赌场和线上游戏业务中通常依赖的卓越欺诈检测。此外，使用GoDaddy SSL加密所有信息和交易，因此未经授权的第三方无法访问用户信息。"
+        }
+      },
+      
+      "leadership": {
+        "title": "了解我们的领导团队",
+        "intro": "赢宝坐落在一个创新和鼓舞人心的团队中心，这些个人都是有动力、有远见并了解我们平台方方面面的人。团队的每个成员都是重要的业务贡献者，帮助开发安全、创新和愉快的线上游戏体验。",
+        
+        "amanda": {
+          "title": "创始人兼首席执行官：Amanda Lim",
+          "descriptionBefore": "",
+          "descriptionAfter": "是赢宝背后的推动力。她在数字营销和软件工程方面有丰富经验，基于这些方向，她推出了这个平台，旨在为玩家提供安全、友好和移动优化的赌场体验，能够满足东南亚玩家的需求。Amanda负责业务策略、产品创新和增长。",
+          "amandaLimLink": "Amanda Lim",
+          "experience": "<strong>经验：</strong>在技术领导力和线上娱乐市场活动中拥有超过15年的任期",
+          "strengths": "<strong>优势：</strong>产品开发、战略关系、法规合规",
+          "leadership": "<strong>领导方式：</strong>以团队为导向、用户友好和数据驱动"
+        },
+        
+        "michael": {
+          "title": "内容总监兼首席作者：Michael Ong",
+          "description": "我们密切合作的一个人是Michael，他是我们部门内容的负责人，他使我们所有的沟通都有效和有趣。作为数字媒体和iGaming内容创作行业的资深高管和知名作家，他扮演着双重角色：一方面指导，另一方面作为内容创作的核心组织者参与其中。他的角色是确保我们的用户始终通过使用相关的可信信息得到良好的信息和娱乐。",
+          "teamRoleBefore": "<strong>团队角色：</strong>管理",
+          "teamRoleAfter": "、客户沟通和教育内容的整体策略，并作为资深作者定期写作。",
+          "blogLink": "博客",
+          "leadershipStyle": "<strong>领导力：</strong>创新、新鲜和灵活",
+          "achievements": "<strong>成就：</strong>设计了简化的编辑流程，并大幅提高了所有平台的内容质量"
+        }
+      },
+      
+      "gettingStarted": {
+        "title": "立即加入赢宝",
+        "paragraph1": "游戏行业是动态的，赢宝通过提供新功能、诚信和以玩家为先的体验来跟上趋势。我们才刚刚开始，我们很高兴您能一起前行。",
+        "paragraph2": "马来西亚、新加坡和世界其他地区的数十万游戏玩家都可以在这里找到他们喜欢的东西，无论您喜欢老虎机、线上\"真人\"游戏还是特别优惠。",
+        "paragraph3Before": "愿意玩一下吗？只需通过我们的网页版或H5版本前往",
+        "paragraph3After": "，无需下载应用程序。通过任何设备上的浏览器直接进入网站，立即开始您的游戏冒险。",
+        "winboxLoginLink": "赢宝登入"
+      }
+    },
+
+"privacyPolicy": {
+      "title": "隐私政策",
+      "effectiveDate": "<span style=\"font-weight: bold;\">生效日期：</span> 2025年5月14日",
+      "introBefore": "Winbox22（\"我们\"、\"我们的\"或\"我们\"）致力于保护您的隐私。本隐私政策解释了当您使用我们的网站",
+      "introAfter": "时，我们如何收集、使用和保护您的个人信息。",
+      "websiteLink": "https://www.winbox22.com",
+      
+      "sections": {
+        "introduction": {
+          "title": "1. 介绍",
+          "personalInfo": "<span style=\"font-weight: bold;\">个人信息：</span> 姓名、电子邮件地址、电话号码、身份证件和付款详情。",
+          "technicalInfo": "<span style=\"font-weight: bold;\">技术信息：</span> IP地址、浏览器类型、操作系统、设备标识符和使用行为。",
+          "cookies": "<span style=\"font-weight: bold;\">Cookies：</span> 我们使用cookies和类似技术来改善用户体验、分析和营销。"
+        },
+        
+        "howWeUse": {
+          "title": "2. 我们如何使用您的信息",
+          "intro": "我们使用您的数据来：",
+          "items": {
+            "accounts": "创建和管理用户账户",
+            "transactions": "处理存款、提款和交易",
+            "fraud": "检测和防止欺诈活动",
+            "improvement": "改善网站功能和性能",
+            "communications": "发送服务更新和促销材料"
+          }
+        },
+        
+        "sharing": {
+          "title": "3. 信息共享",
+          "intro": "我们不出售您的个人数据。我们可能与以下机构共享：",
+          "items": {
+            "providers": "可信服务提供商（例如：支付处理商、托管服务）",
+            "legal": "法律要求时的法律或监管机构"
+          }
+        },
+        
+        "dataSecurity": {
+          "title": "4. 数据安全",
+          "description": "我们实施行业标准的安全措施，包括SSL加密和定期审计。但是，没有系统是完全安全的。"
+        },
+        
+        "yourRights": {
+          "title": "5. 您的权利",
+          "intro": "您有权：",
+          "items": {
+            "access": "访问或请求您的个人数据副本",
+            "correction": "要求更正或删除不准确的数据",
+            "optOut": "退出营销通信"
+          }
+        },
+        
+        "cookies": {
+          "title": "6. Cookies",
+          "description": "您可以通过浏览器设置管理cookies。禁用cookies可能会影响一些网站功能。"
+        },
+        
+        "thirdPartyLinks": {
+          "title": "7. 第三方链接",
+          "description": "我们的网站可能包含外部网站的链接。我们不对这些网站的隐私做法负责。"
+        },
+        
+        "changes": {
+          "title": "8. 政策变更",
+          "description": "我们可能会定期更新此政策。最新版本将在此页面上提供。"
+        },
+        
+        "contact": {
+          "title": "9. 联系我们",
+          "descriptionBefore": "如果您对本隐私政策有疑问，请通过以下方式联系我们：<br>支持：",
+          "descriptionAfter": "",
+          "supportLink": "点击这里"
+        }
+      }
+    },
+
+    "termsConditions": {
+      "title": "条款与条件",
+      "effectiveDate": "<span style=\"font-weight: bold\">生效日期：</span> 2025年5月14日",
+      "introBefore": "通过访问或使用网站",
+      "introAfter": "，您同意这些条款与条件（\"条款\"）。请仔细阅读。",
+      "websiteLink": "https://www.winbox22.com",
+      
+      "sections": {
+        "eligibility": {
+          "title": "1. 资格要求",
+          "description": "您必须年满18岁或在您所在司法管辖区的法定博彩年龄。您有责任确保自己符合所在地区的法律要求。"
+        },
+        
+        "accountRegistration": {
+          "title": "2. 账户注册",
+          "intro": "我们使用您的数据来：",
+          "items": {
+            "accurate": "您必须提供准确和真实的信息。",
+            "safeguard": "您有责任保护您的账户详情。",
+            "impersonate": "您不得冒充其他用户或访问其他用户的账户。"
+          }
+        },
+        
+        "responsibleGambling": {
+          "title": "3. 负责任博彩",
+          "description": "我们提倡负责任博彩。您可以通过联系客服设置限制或申请自我排除。"
+        },
+        
+        "depositsWithdrawals": {
+          "title": "4. 存款和提款",
+          "items": {
+            "verification": "所有金融交易都需要验证。",
+            "rightToDelay": "在怀疑欺诈或违反条款的情况下，我们保留延迟、拒绝或撤销交易的权利。"
+          }
+        },
+        
+        "bonusesPromotions": {
+          "title": "5. 奖金和促销",
+          "description": "所有奖金和优惠都受特定规则和投注要求约束。滥用或操纵促销活动可能导致没收或账户暂停。"
+        },
+        
+        "prohibitedConduct": {
+          "title": "6. 禁止行为",
+          "intro": "您不得：",
+          "items": {
+            "fraud": "进行欺诈或串通",
+            "bots": "使用机器人或自动化系统",
+            "disrupt": "破坏或试图损害网站功能或其他用户的体验"
+          }
+        },
+        
+        "intellectualProperty": {
+          "title": "7. 知识产权",
+          "description": "网站上的所有内容、商标和软件均为Winbox22或其许可方的财产。严禁未经授权使用。"
+        },
+        
+        "limitationLiability": {
+          "title": "8. 责任限制",
+          "description": "我们不对任何间接损失负责，包括超出我们控制范围的奖金损失、服务中断或数据泄露。"
+        },
+        
+        "accountTermination": {
+          "title": "9. 账户终止",
+          "description": "我们保留因违反这些条款、涉嫌欺诈或监管问题而暂停或终止账户的权利。"
+        },
+        
+        "changesToTerms": {
+          "title": "10. 条款变更",
+          "description": "我们可能随时更新这些条款。继续使用我们的服务即表示接受更新的条款。"
+        },
+        
+        "governingLaw": {
+          "title": "11. 适用法律",
+          "description": "这些条款受我们司法管辖区适用法律管辖。争议将受相关法院的专属管辖。"
+        },
+        
+        "contact": {
+          "title": "12. 联系我们",
+          "descriptionBefore": "如有询问或需要支持，请联系：<br><span style=\"font-weight: bold;\">支持</span>",
+          "descriptionAfter": "",
+          "supportLink": "点击这里"
+        }
+      }
+    },
+
+    "contactUs": {
+    "title": "联系我们",
+    "section": {
+      "heading": "我们随时为您提供帮助",
+      "description": "在Winbox，我们非常注重为您提供无忧、愉快的体验。我们拥有一支才华横溢的支持团队，24/7全天候快速高效地回答您的问题，无论是关于游戏玩法、我们的服务还是其他反馈。",
+      "contactMethodsIntro": "您可以通过以下方式联系我们：",
+      "contactMethods": [
+        {
+          "type": "whatsapp",
+          "label": "WhatsApp",
+          "value": "6011-21695100"
+        },
+        {
+          "type": "livechat",
+          "label": "在线客服",
+          "value": "在Winbox网站或应用程序上",
+          "action": "goToChat"
+        }
+      ],
+      "website": {
+        "label": "我们的网站",
+        "url": "https://www.winbox22.com/",
+        "action": "goToHomepage"
+      },
+      "aboutUsText": "要了解更多关于我们公司的价值观和Winbox赌场背后的故事，请访问我们的",
+      "aboutUsLink": {
+        "label": "关于我们",
+        "action": "goToAbout"
+      }
+    }
+  },
+  "bwfPartnership": {
+    "banner": {
+      "altText": "Winbox与BWF的合作伙伴关系"
+    },
+    "hero": {
+      "altText": "打羽毛球的人",
+      "title": "羽毛球与Winbox粉丝的激动人心的新黎明",
+      "content": {
+        "paragraph1": "Winbox与世界羽毛球联合会(BWF)重新建立的合作伙伴关系标志着全球羽毛球迷的变革时刻。Winbox首次于2022年作为汇丰BWF世界巡回赛总决赛的官方游戏合作伙伴携手合作，大胆进入国际羽毛球舞台。现在，在2025年，这次合作回来了——比以往任何时候都更强大、更有影响力。",
+        "paragraph2": "通过再次支持BWF赞助，Winbox重申了其对这项运动及其全球社区的奉献精神。这个联盟不仅仅是关于知名度；它是关于丰富粉丝体验。通过这种合作伙伴关系，羽毛球爱好者可以期待独家锦标赛更新、实时比赛报道以及对他们喜爱的球员和球队的更深入洞察。Winbox和BWF共同为这项运动的体验和庆祝方式设定了新标准。"
+      }
+    },
+    "about": {
+      "title": "什么是世界羽毛球联合会(BWF)",
+      "overview": {
+        "title": "BWF概述",
+        "altText": "BWF概述图标",
+        "content": "世界羽毛球联合会(BWF)作为羽毛球的官方全球管理机构，负责组织和管理顶级国际锦标赛。BWF成立于1934年，管理着这项运动一些最负盛名的赛事，包括BWF世界锦标赛、汤姆斯杯和尤伯杯以及汇丰BWF世界巡回赛。通过这些比赛，联合会在全球范围内保持羽毛球的最高水平的卓越性和完整性。"
+      },
+      "ranking": {
+        "title": "BWF排名系统",
+        "altText": "BWF排名系统",
+        "content": "BWF排名系统是用于识别世界领先羽毛球选手的权威衡量标准。它在确定主要锦标赛的球员种子排名方面起着至关重要的作用，并且是运动员获得奥运会和世界锦标赛等著名赛事资格的关键因素。通过关注这些排名，球迷和球员都可以了解表现趋势，并期待未来比赛中令人兴奋的对决。"
+      },
+      "liveGame": {
+        "title": "BWF现场比赛人气",
+        "altText": "BWF现场比赛",
+        "content": "全世界数百万羽毛球爱好者收看BWF现场直播，观看这项运动最激动人心的时刻。BWF和Winbox之间的合作通过提供独家实时锦标赛更新、比赛亮点和详细统计数据，将这种体验提升到一个新的水平。多亏了Winbox的支持，球迷可以更深入地了解比赛，与每一次对拉、扣杀和胜利保持联系和参与。"
+      }
+    },
+    "benefits": {
+      "title": "为什么这种合作伙伴关系对玩家来说是游戏规则的改变者",
+      "trust": {
+        "title": "提高可信度",
+        "altText": "Winbox可信",
+        "content": "与BWF这样的享有盛誉的全球实体合作，Winbox加强了其作为值得信赖、公平和安全平台的地位。这种合作伙伴关系通过保证玩家的游戏和投注活动在透明和高度专业的环境中进行，建立了玩家的信心。"
+      },
+      "experience": {
+        "title": "提升您的游戏和投注体验",
+        "altText": "Winbox投注",
+        "content": "Winbox和BWF之间的合作伙伴关系汇集了先进技术、强化的安全协议和加速的支付处理。这些改进创造了流畅愉快的游戏体验，使玩家能够轻松自信地下注、提取奖金并与平台互动。"
+      },
+      "engagement": {
+        "title": "动态活动体验和粉丝参与",
+        "altText": "Winbox乐趣",
+        "content": "多亏了这种合作伙伴关系，Winbox为平台带来了BWF主题活动、现场投注机会和独家比赛。这些功能提升了体育博彩体验，使其更具互动性和刺激性。用户可以完全沉浸在羽毛球的兴奋中，同时受益于特殊促销和独特奖励。"
+      }
+    },
+    "features": {
+      "register": {
+        "title": "注册账户",
+        "altText": "Winbox注册",
+        "content": "立即注册Winbox以解锁独家BWF内容，包括实时更新、特殊促销以及对您最喜爱的球员和锦标赛的独特见解。今天就加入，体验前所未有的羽毛球，享受专为球迷设计的激动人心的功能。",
+        "linkText": "Winbox注册"
+      },
+      "updates": {
+        "title": "实时更新",
+        "altText": "BWF实时更新",
+        "content": "通过跟踪实时比分、比赛结果和最新的排名更新，与比赛保持联系。无论您是在跟踪您最喜欢的球员还是关注最新的锦标赛发展，这种持续的信息流确保您不会错过任何激动人心的时刻。"
+      },
+      "performance": {
+        "title": "访问球员表现",
+        "altText": "BWF球员信息",
+        "content": "通过球员排名和表现趋势的实时更新保持最新状态，为您提供排名变化和运动员整个赛季表现的实时洞察。这帮助您更密切地跟踪比赛，并预期即将到来的比赛中的激动人心的时刻。"
+      }
+    },
+    "cta": {
+      "title": "加入Winbox x 汇丰BWF世界巡回赛体验",
+      "content": "与马来西亚Winbox一起前所未有地体验BWF现场直播。及时了解最新的BWF排名、实时比赛报道和让您更接近比赛的独家内容。今天就加入Winbox社区，享受无与伦比的体育参与和每一步的兴奋。",
+      "winboxMalaysiaText": "马来西亚Winbox",
+      "button": "Winbox"
+    }
+  },
+
+  "brandAmbassador": {
+    "banner": {
+      "altText": "Winbox品牌大使"
+    },
+    "intro": {
+      "altText": "Winbox品牌大使",
+      "description": "马克·马奎兹因其无与伦比的技巧、敏捷性、专业过弯技术和战略实力而闻名，在他的摩托车赛车生涯中获得了无数荣誉，包括多个世界冠军头衔。",
+      "awardsTitle": "查看",
+      "awardsTitle2": "马克·马奎兹",
+      "awardsTitle3": "的获奖情况",
+      "awards": {
+        "moto125": {
+          "count": "1x 125cc",
+          "title": "世界冠军"
+        },
+        "motogp": {
+          "count": "6x MotoGP",
+          "title": "世界冠军"
+        },
+        "moto2": {
+          "count": "1x Moto2", 
+          "title": "世界冠军"
+        }
+      }
+    },
+    "winningFormula": {
+      "altText": "马克·马奎兹Winbox大使",
+      "title": "制胜公式",
+      "paragraph1": "1993年2月17日——西班牙塞尔韦拉。一个小镇诞生了一个两轮上的自然力量。马克·马奎兹不仅仅是进入了摩托车赛车世界——他是冲进去的。17岁时，他已经夺得了125cc世界冠军。两年后，他在Moto2中大放异彩。2013年，在这项运动最具爆发性的首秀中，他作为新手征服了MotoGP——这是世界30多年来从未见过的。",
+      "paragraph2": "快进到今天：八个世界冠军，无数胜利，以及融合直觉、勇气和剃刀般锐利精准的赛车风格。马奎兹不仅快速——他无所畏惧。即使是2020年的毁灭性伤病也无法击倒他。他反击了，重新定义了恢复、重建和比以往任何时候都更努力比赛的意义。现在，马克·马奎兹将同样的强度带到了一个新的舞台。",
+      "paragraph3": "Winbox在线赌场自豪地宣布他为我们2024/2025赛季的品牌大使。他大胆的精神和对卓越的渴望反映了Winbox所代表的一切——刺激、精准和对胜利的不懈追求。这种合作伙伴关系不仅令人兴奋。它是一个游戏规则改变者。"
+    },
+    "legend": {
+      "altText": "Winbox品牌大使",
+      "title": "运动中的传奇：马克·马奎兹被任命为Winbox大使",
+      "paragraph1": "作为Winbox的新面孔，马克·马奎兹不仅仅是加入一个品牌——他正在点燃一场运动。以在赛道上挑战极限而闻名，他现在将同样无畏的能量带到在线游戏世界，引领我们平台的大胆新时代。",
+      "paragraph2": "这不是你平均的合作伙伴关系。这是两个高辛烷值世界的碰撞——MotoGP的令人心跳加速的精准与下一级游戏的沉浸式刺激相遇。无论你是追求速度的赛车运动狂热者还是追求下一个大胜利的游戏玩家，这次合作承诺前所未有的肾上腺素和娱乐融合。",
+      "paragraph3": "不仅仅是营销活动，这是一个由共同DNA驱动的创意联盟：对卓越的不懈追求、压力下的表现以及对突破界限的热情。粉丝们可以期待一系列令人兴奋的活动、幕后独家内容和高风险锦标赛——所有这些都由马奎兹独特的视角塑造。从定制游戏内体验到惊喜投放和VIP访问，Winbox即将感觉更快、更锐利、更有活力。",
+      "paragraph4": {
+        "text": "这一切的核心是创新。正如马克在每个转弯处重写赛车策略一样，Winbox正在重写在线游戏的规则。凭借我们闪电般快速的",
+        "linkText": "Winbox登录网页",
+        "textAfter": "系统等功能，我们正在消除摩擦，让玩家可以直接进入高速档。与马克·马奎兹一起，我们不仅仅是在玩游戏——我们正在改变它。"
+      },
+      "claimButton": "立即领取"
+    },
+    "events": {
+      "altText": "马克·马奎兹Winbox大使",
+      "title": "解锁刺激：独家活动和胜利促销",
+      "paragraph1": "为了庆祝这个令人兴奋的合作伙伴关系，Winbox正在推出一系列独家促销和特别活动，以马克·马奎兹为特色。准备好迎接限时奖金、肾上腺素激增的比赛以及与MotoGP传奇人物本人互动的罕见机会。请关注即将到来的公告——你不会想错过赢得令人难以置信奖品的机会。",
+      "paragraph2": {
+        "text": "加入我们欢迎马克·马奎兹加入Winbox大家庭，为2024/2025赛季的难忘之旅做好准备。用特别的",
+        "linkText": "马来西亚Winbox",
+        "textAfter": "奖金开始你的旅程，以赛车运动最优秀的精神制作。你的下一级游戏冒险现在开始。"
+      }
+    },
+    "social": {
+      "title": "关注马克·马奎兹",
+      "facebook": "在Facebook上关注马克·马奎兹",
+      "twitter": "在Twitter上关注马克·马奎兹",
+      "instagram": "在Instagram上关注马克·马奎兹"
+    }
+  },
+  "games": {
+    "playtech": {
+      "slot": "老虎机",
+      "slotProgressive": "累积老虎机",
+      "arcade": "街机游戏",
+      "hot": "热门游戏"
+    },
+    "pragmaticPlay": {
+      "videoSlot": "视频老虎机",
+      "slotKlasik": "经典老虎机",
+      "hot": "热门游戏",
+      "megaways": "大奖之路",
+      "buyBonus": "购买奖励"
+    }
+  }
+}
