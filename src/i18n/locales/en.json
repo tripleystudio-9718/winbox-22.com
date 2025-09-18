@@ -1129,5 +1129,166 @@
       "megaways": "MEGAWAYS",
       "buyBonus": "BUY BONUS"
     }
-  }
+  },
+  "askMeSlot": {
+      "title": "Ask Me Slot: Play Top Slot Games from Leading Providers -- Demo Available",
+      "subtitle": "No downloads. No registration. Just instant play --- on any phone, anytime.",
+      "description": "Ask Me Slot isn't another casino portal. It's the platform Malaysian players use when they want real games --- fast, fair, and fully optimized for local networks, devices, and payment habits. Over 1,500 slots from trusted global providers --- all playable in your browser, right now.",
+      "callToAction": "Try every game for free. Switch to real money when you're ready. No pressure. No tricks.",
+      "whyWorks": {
+        "title": "🎯 Why Ask Me Slot Works for Malaysian Players",
+        "features": {
+          "instantPlay": {
+            "name": "✅Instant Play (No App)",
+            "description": "Works on Samsung A-series, iPhone 8+, Huawei, Redmi --- even on slow 3G/4G."
+          },
+          "freeDemo": {
+            "name": "✅Free Demo Mode",
+            "description": "Test every game with virtual credits. No sign-up. No email. No risk."
+          },
+          "localPayments": {
+            "name": "✅Local Payments",
+            "description": "Deposit via Touch 'n Go, Boost, GrabPay, Maybank, CIMB, DuitNow --- processed in seconds."
+          },
+          "bahasaSupport": {
+            "name": "✅Bahasa Malaysia Support",
+            "description": "Live chat and WhatsApp support available 24/7 --- answered by locals, not bots."
+          },
+          "lowData": {
+            "name": "✅Low Data Usage",
+            "description": "Games optimized to load quickly, even with limited mobile data."
+          },
+          "licensed": {
+            "name": "✅Licensed Providers Only",
+            "description": "All games from Pragmatic Play, JILI, Habanero, CQ9, Joker, PG Soft --- audited and certified."
+          }
+        }
+      },
+      "providers": {
+        "title": "🕹️ Top Slot Providers on Ask Me Slot",
+        "subtitle": "Each provider is selected for performance, fairness, and popularity among Malaysian players.",
+        "jili": {
+          "title": "JILI Slots",
+          "description": "Simple, fast, high RTP. Perfect for short sessions.",
+          "topPicks": "Top picks: Dragon Treasure, Lucky God, Fortune Gems.",
+          "details": "Ideal for lunch breaks or late-night spins. Lightweight, loads under 1.5s."
+        },
+        "habanero": {
+          "title": "Habanero",
+          "description": "Stunning visuals, smooth animations, low lag.",
+          "topPicks": "Must-try: Book of Golden Sands, Candy Blooms.",
+          "details": "Works flawlessly on older Android phones. Audio and graphics feel premium --- without draining battery."
+        },
+        "cq9": {
+          "title": "CQ9 Gaming",
+          "description": "Built for speed. Turbo mode + auto-spin.",
+          "topPicks": "Favourites: Dragon Throne, Hot Fiesta.",
+          "details": "Low minimum bets (as low as RM0.10). Best for players who prefer quick, frequent wins over long bonus rounds."
+        },
+        "joker": {
+          "title": "Joker Gaming",
+          "description": "Nostalgic classics, modern reliability.",
+          "topPicks": "Try: Joker's Jewels, Triple Sevens.",
+          "details": "3-reel slots that feel familiar --- but with updated paytables and faster spins. Trusted by older players and casual gamers alike."
+        },
+        "pgSoft": {
+          "title": "PG Soft",
+          "description": "Cinematic themes, immersive storytelling.",
+          "topPicks": "Standouts: Tiger Warrior, Mega Fortune.",
+          "details": "Higher data usage, but unmatched visual quality. Ideal for Wi-Fi users who want an experience, not just a spin."
+        }
+      },
+      "howToStart": {
+        "title": "💰 How to Start Playing",
+        "steps": {
+          "step1": "Visit https://www.winbox22.com/ --- no app needed.",
+          "step2": "Click \"Play Free\" on any game --- demo mode activates instantly.",
+          "step3": "Test features, bonuses, payouts --- no registration required.",
+          "step4": "Ready to win? Click \"Play Real Money\" → choose your payment method → deposit → play."
+        },
+        "processing": "All deposits are processed within 60 seconds. Withdrawals take under 15 minutes during business hours."
+      },
+      "safety": {
+        "title": "🔒 Safety First. Always.",
+        "points": [
+          "All games use certified RNG systems (iTech Labs, eCOGRA).",
+          "No personal data collected unless you deposit.",
+          "No hidden terms. No forced bonuses.",
+          "Licensed operators only. No grey-market platforms."
+        ],
+        "conclusion": "You're not signing up for a gamble. You're accessing verified, professional slot entertainment."
+      },
+      "compatibility": {
+        "title": "📱 Works on Any Device --- Even Older Phones",
+        "intro": "Whether you're using:",
+        "devices": [
+          "Samsung Galaxy A14",
+          "iPhone SE (2020)",
+          "Xiaomi Redmi Note 10",
+          "Huawei P30 Lite"
+        ],
+        "conclusion": "...Ask Me Slot runs smoothly. We optimize for low RAM, weak signals, and spotty internet --- because we know that's where most players are."
+      },
+      "support": {
+        "title": "🤝 Customer Support --- Real People, Real Time",
+        "description": "Got a question about your balance? Need help with Touch 'n Go deposit? We reply via WhatsApp or live chat --- in Bahasa Malaysia --- within 2 minutes.",
+        "promise": "No English-only bots. No 24-hour wait times.",
+        "testimonial": "\"I messaged at 11pm. Someone replied in Malay within 90 seconds. Finally, a site that gets it.\" --- Selangor user"
+      },
+      "cta": {
+        "title": "🚀 Ready to Play?",
+        "description": "Try any game for free --- no card, no login, no waiting. Then switch to real money --- with full confidence.",
+        "loginButton": "Winbox Login",
+        "disclaimer": "All games require 18+ age. Play responsibly. Gambling can be addictive. Seek help if needed."
+      },
+      "trusted": {
+        "title": "✅ Trusted By Thousands Across Malaysia",
+        "featured": "Featured on: KL-based forums, TikTok slot communities, Reddit r/Malaysia, WhatsApp group recommendations"
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "whatIs": {
+            "question": "What is Ask Me Slot?",
+            "answer": "Ask Me Slot is a curated platform offering over 1,500 online slot games from trusted providers like Pragmatic Play, JILI, and Habanero --- all playable directly in your browser with demo options."
+          },
+          "playFree": {
+            "question": "Can I play Ask Me Slot games for free?",
+            "answer": "Yes. Every game has a demo mode that uses virtual credits. No sign-up, no deposit, no download required."
+          },
+          "needApp": {
+            "question": "Do I need to download an app to play?",
+            "answer": "No. Ask Me Slot works on all browsers --- iOS, Android, Windows, and macOS. No installation needed."
+          },
+          "safety": {
+            "question": "Is Ask Me Slot safe and legal?",
+            "answer": "All games are provided by licensed studios (PAGCOR, MGA-certified). We do not operate as a casino --- we connect players to regulated game providers. Play responsibly and within local laws."
+          },
+          "payments": {
+            "question": "Which payment methods are accepted in Malaysia?",
+            "answer": "Touch 'n Go, Boost, GrabPay, DuitNow, Maybank, CIMB, Public Bank, RHB --- all supported with instant deposits."
+          },
+          "fairness": {
+            "question": "Are the slot games fair?",
+            "answer": "Yes. Every game uses certified Random Number Generators (RNG), regularly audited by iTech Labs and eCOGRA. Demo mode reflects real payout behavior."
+          },
+          "realMoney": {
+            "question": "Can I win real money playing on Ask Me Slot?",
+            "answer": "Yes --- after making a deposit, you can play real-money games and withdraw winnings. All transactions are secure and processed within minutes."
+          },
+          "noApp": {
+            "question": "Why can't I find Ask Me Slot on Google Play or App Store?",
+            "answer": "Because we don't need an app. Our platform is web-based --- faster, lighter, and works on any device without storage use."
+          },
+          "bahasaService": {
+            "question": "Is customer service available in Bahasa Malaysia?",
+            "answer": "Absolutely. Our support team speaks fluent Bahasa Malaysia and responds via WhatsApp or live chat --- 24/7."
+          },
+          "verification": {
+            "question": "Do I need to verify my identity to play?",
+            "answer": "Only when withdrawing large amounts (as required by law). For demo play and small deposits --- no ID needed."
+          }
+        }
+      }
+    }
 }

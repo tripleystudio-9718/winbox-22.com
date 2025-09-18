@@ -576,10 +576,11 @@ const baseRoutes = [
     name: 'Askmeslot',
     component: askmeslot,
     meta: {
-      title: 'AskMeSlot Games | Interactive Gaming Experience',
-      description: 'Enjoy interactive AskMeSlot games with unique features and rewards.',
-      titleZh: 'AskMeSlot游戏 | 互动游戏体验',
-      descriptionZh: '享受具有独特功能和奖励的互动AskMeSlot游戏。',
+      title: 'Ask Me Slot: Play Free Demo & Real Money Slots – No Download',
+      description: 'Play top slot games from Ask Me Slot. Try free demos instantly — no download, no registration. Deposit via Touch ‘n Go, DuitNow. 24/7 Bahasa Malaysia support.',
+      titleZh: 'Ask Me Slot：免费试玩与真钱老虎机 – 无需下载',
+      descriptionZh: '畅玩 Ask Me Slot 热门老虎机游戏。立即免费试玩 — 无需下载，无需注册。支持 Touch ‘n Go、DuitNow 存款，24/7 马来语客服。',
+
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/askmeslot`
     }
