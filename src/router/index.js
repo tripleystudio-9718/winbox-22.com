@@ -26,6 +26,11 @@ import AmandaLim from '@/components/AmandaLim.vue'
 import MichealOng from '@/components/MichealOng.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import BrandAmbassador from '@/components/brandAmbassador.vue'
+import SlotsTab from "@/components/tabs/SlotTab.vue"
+import SportsTab from '@/components/tabs/sportsTab.vue'
+import LiveCasinoTab from '@/components/tabs/LiveCasinoTab.vue'  
+import LotteryTab from '@/components/tabs/LotteryTab.vue'
+import HorseRacingTab from '@/components/tabs/HorsingTab.vue'
 
 const NotFoundPage = {
   template: '<div style="text-align:center;margin-top:50px"><h1>404 - Page Not Found</h1></div>'
@@ -563,10 +568,11 @@ const baseRoutes = [
     name: 'PragmaticPlay',
     component: pragmatic_play,
     meta: {
-      title: 'Pragmatic Play Slots | Leading Gaming Provider',
-      description: 'Play Pragmatic Play slots, the leading provider of online casino games.',
-      titleZh: 'Pragmatic Play老虎机 | 领先的游戏提供商',
-      descriptionZh: '玩Pragmatic Play老虎机，网上赌场游戏的领先提供商。',
+      title: 'Pragmatic Play Demo Malaysia | Free Slots & Live Casino 2025',
+      description: 'Play Pragmatic Play slots like Gates of Olympus & Sweet Bonanza in free demo. No deposit needed. Real money play with Touch ‘n Go, fast withdrawals at Winbox.',
+      titleZh: 'Pragmatic Play试玩马来西亚 | 免费老虎机 & 真人娱乐场 2025',
+      descriptionZh: '试玩Pragmatic Play老虎机，如《奥林匹斯之门》和《甜蜜嘉年华》，无需存款。支持Touch ‘n Go，Winbox快速提款，真实资金畅玩。',
+
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/pragmatic-play`
     }
@@ -649,7 +655,72 @@ const baseRoutes = [
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/download`
     }
+  },
+  {
+  path: '/slot',
+  name: 'Slot',
+  component: HomePage,
+  meta: {
+    title: 'Winbox Slot Games | Play for High Jackpots in Malaysia!',
+    description: 'Play the best online slot games in Malaysia at Winbox. Spin for huge jackpots on games from Pragmatic Play, JILI, and more. Get your 100% Welcome Bonus now!',
+    titleZh: 'Winbox老虎机游戏 | 在马来西亚玩高额累积奖金!',
+    descriptionZh: '在Winbox畅玩马来西亚最佳在线老虎机游戏。在Pragmatic Play、JILI等游戏中旋转赢取巨额累积奖金。立即获得100%欢迎奖金！',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/slot`
   }
+},
+{
+  path: '/sports-betting',
+  name: 'SportsBetting',
+  component: HomePage,
+  meta: {
+    title: 'Winbox Sports Betting | Football & Live Sports Betting Online',
+    description: 'Experience premier sports betting in Malaysia with Winbox. Get the best live odds on football from top providers like Maxbet & CMD368. Bet securely and win big!',
+    titleZh: 'Winbox体育博彩 | 足球和现场体育博彩在线',
+    descriptionZh: '与Winbox一起体验马来西亚顶级体育博彩。从Maxbet和CMD368等顶级供应商获得足球最佳实时赔率。安全投注，赢取大奖！',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/sports-betting`
+  }
+},
+{
+  path: '/live-casino',
+  name: 'LiveCasino',
+  component: HomePage,
+  meta: {
+    title: 'Live Casino Malaysia | HD Baccarat & Roulette | Winbox',
+    description: 'Join Winbox Malaysia for the Live Casino. Play Baccarat, Roulette & more with professional dealers in stunning HD. Secure platform. Play Live Now!',
+    titleZh: '马来西亚真人娱乐场 | 高清百家乐和轮盘 | Winbox',
+    descriptionZh: '加入Winbox马来西亚的真人娱乐场。与专业荷官在高清画质中玩百家乐、轮盘等游戏。安全平台。立即开始真人游戏！',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/live-casino`
+  }
+},
+{
+  path: '/ekor-lottery',
+  name: 'EkorLottery',
+  component: HomePage,
+  meta: {
+    title: 'Winbox 4D Lottery| Play EKOR & Online Mobile Toto Betting',
+    description: 'Play 4D online in Malaysia with Winbox! Bet on EKOR, Toto & lottery draws. Win big, and enjoy fast payouts. Trusted & licensed. Join now, try your luck!',
+    titleZh: 'Winbox 4D彩票 | 玩EKOR和在线手机多多博彩',
+    descriptionZh: '与Winbox一起在马来西亚在线玩4D！投注EKOR、多多和彩票开奖。赢取大奖，享受快速支付。值得信赖且获得许可。立即加入，试试运气！',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/ekor-lottery`
+  }
+},
+{
+  path: '/horse-racing-rcb988',
+  name: 'HorseRacingRcb988',
+  component: HomePage,
+  meta: {
+    title: 'RCB988 Horse Betting Malaysia | Online Race Betting & Odds',
+    description: 'Bet on live horse races with RCB988 at Winbox – Malaysia\'s top online horse betting. Get best odds, Win/Place/Show bets, fast payouts. Join win big!',
+    titleZh: 'RCB988马来西亚赛马博彩 | 在线赛马博彩和赔率',
+    descriptionZh: '在Winbox与RCB988一起投注现场赛马 - 马来西亚顶级在线赛马博彩。获得最佳赔率、胜/位/示投注、快速支付。加入赢取大奖！',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/horse-racing-rcb988`
+  }
+}
 ]
 
 // Generate Chinese routes with canonical URLs pointing to English versions (SEO best practice)

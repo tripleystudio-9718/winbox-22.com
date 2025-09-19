@@ -1133,10 +1133,15 @@
   "askMeSlot": {
       "title": "Ask Me Slot: Play Top Slot Games from Leading Providers -- Demo Available",
       "subtitle": "No downloads. No registration. Just instant play --- on any phone, anytime.",
-      "description": "Ask Me Slot isn't another casino portal. It's the platform Malaysian players use when they want real games --- fast, fair, and fully optimized for local networks, devices, and payment habits. Over 1,500 slots from trusted global providers --- all playable in your browser, right now.",
+      "linkText": "Ask Me Slot",
+      "description": "isn't another casino portal. It's the platform Malaysian players use when they want real games --- fast, fair, and fully optimized for local networks, devices, and payment habits. Over 1,500 slots from trusted global providers --- all playable in your browser, right now.",
       "callToAction": "Try every game for free. Switch to real money when you're ready. No pressure. No tricks.",
       "whyWorks": {
         "title": "🎯 Why Ask Me Slot Works for Malaysian Players",
+        "tableHeader": {
+          "feature": "Feature",
+          "why": "Why It Matters"
+        },
         "features": {
           "instantPlay": {
             "name": "✅Instant Play (No App)",
@@ -1201,7 +1206,11 @@
       "howToStart": {
         "title": "💰 How to Start Playing",
         "steps": {
-          "step1": "Visit https://www.winbox22.com/ --- no app needed.",
+          "step1": {
+            "before": "Visit ",
+            "link": "https://www.winbox22.com/",
+            "after": " --- no app needed."
+          },
           "step2": "Click \"Play Free\" on any game --- demo mode activates instantly.",
           "step3": "Test features, bonuses, payouts --- no registration required.",
           "step4": "Ready to win? Click \"Play Real Money\" → choose your payment method → deposit → play."
@@ -1233,12 +1242,13 @@
         "title": "🤝 Customer Support --- Real People, Real Time",
         "description": "Got a question about your balance? Need help with Touch 'n Go deposit? We reply via WhatsApp or live chat --- in Bahasa Malaysia --- within 2 minutes.",
         "promise": "No English-only bots. No 24-hour wait times.",
-        "testimonial": "\"I messaged at 11pm. Someone replied in Malay within 90 seconds. Finally, a site that gets it.\" --- Selangor user"
+        "testimonial": "I messaged at 11pm. Someone replied in Malay within 90 seconds. Finally, a site that gets it. --- Selangor user"
       },
       "cta": {
         "title": "🚀 Ready to Play?",
         "description": "Try any game for free --- no card, no login, no waiting. Then switch to real money --- with full confidence.",
         "loginButton": "Winbox Login",
+        "now": "Now",
         "disclaimer": "All games require 18+ age. Play responsibly. Gambling can be addictive. Seek help if needed."
       },
       "trusted": {
@@ -1289,6 +1299,166 @@
             "answer": "Only when withdrawing large amounts (as required by law). For demo play and small deposits --- no ID needed."
           }
         }
+      }
+    },
+
+    "pragmaticPlay": {
+      "title": "Pragmatic Play Demo Malaysia -- Free Play & Real Money Slots 2025",
+      "subtitle": "Play Top Slots Like Gates of Olympus™ & Sweet Bonanza™ --- No Deposit Needed",
+      "whyMatters": {
+        "title": "🎯 Why This Pragmatic Play Matters to Malaysian Players",
+        "intro": "You don't need to guess which slot pays. You don't need to risk ringgit before you're sure.",
+        "description1": "At Winbox, you can spin every",
+        "linkText": "Pragmatic Play",
+        "description2": "game in free demo mode --- exactly as it plays in real money mode --- before you bet a single cent.",
+        "description3": "No fake trials. No time limits. Just the full experience: cascading reels, multipliers, bonus buys, and jackpots --- tested on your phone, in your location, on your network.",
+        "conclusion": "Then, when you're ready? Deposit RM10. Start winning. Withdraw in minutes. That's how it works here."
+      },
+      "atGlance": {
+        "title": "🧾 Pragmatic Play at Winbox --- At a Glance",
+        "tableHeader": {
+          "feature": "Feature",
+          "freeDemo": "Free Demo",
+          "realMoney": "Real Money",
+          "liveCasino": "Live Casino",
+          "mobileReady": "Mobile Ready",
+          "localSupport": "Local Support"
+        },
+        "rows": {
+          "access": {
+            "title": "Access",
+            "freeDemo": "✅ Instant --- no sign-up",
+            "realMoney": "✅ Licensed operator",
+            "liveCasino": "✅ Full live studio",
+            "mobileReady": "✅ Web + APK (80MB)",
+            "localSupport": "✅ Bahasa Melayu + English"
+          },
+          "games": {
+            "title": "Games",
+            "freeDemo": "All slots",
+            "realMoney": "All slots + jackpots",
+            "liveCasino": "Blackjack, Roulette, Baccarat, Mega Wheel",
+            "mobileReady": "Optimized for low-end phones",
+            "localSupport": "WhatsApp + Live Chat"
+          },
+          "minimumBet": {
+            "title": "Minimum Bet",
+            "freeDemo": "N/A",
+            "realMoney": "RM10",
+            "liveCasino": "RM5",
+            "mobileReady": "Same as desktop",
+            "localSupport": "24/7 response"
+          },
+          "payoutSpeed": {
+            "title": "Payout Speed",
+            "freeDemo": "N/A",
+            "realMoney": "<15 mins",
+            "liveCasino": "<15 mins",
+            "mobileReady": "Instant login",
+            "localSupport": "Same-day help"
+          },
+          "paymentMethods": {
+            "title": "Payment Methods",
+            "freeDemo": "N/A",
+            "realMoney": "TnG, Boost, GrabPay, Bank Transfer",
+            "liveCasino": "Same",
+            "mobileReady": "Same",
+            "localSupport": "Same"
+          }
+        },
+        "footer": "All games audited by iTech Labs. No geo-blocks in Malaysia."
+      },
+      "topGames": {
+        "title": "🔥 Top Pragmatic Play Slot Games in Malaysia (2025)",
+        "gatesOfOlympus": {
+          "title": "Gates of Olympus™",
+          "description": "High volatility. Up to 500x multipliers. Zeus triggers re-spins.",
+          "details": "The most popular slot among Malaysian players. In demo mode, you'll see how random multipliers activate during free spins --- key to knowing when to switch to real money.",
+          "testimonial": "I played this demo for a week. Knew exactly when to buy the bonus. Won my first RM500 within 3 days. --- Player, Shah Alam"
+        },
+        "sweetBonanza": {
+          "title": "Sweet Bonanza™",
+          "description": "Candy tumbling reels. 96.5% RTP. Multipliers up to 21x.",
+          "details": "Simple. Addictive. Perfect for mobile. The demo reveals how candy bombs trigger bonus rounds --- and why this game consistently ranks #1 for payout frequency in Malaysia."
+        },
+        "wolfGold": {
+          "title": "Wolf Gold™",
+          "description": "Stacked wilds. Respins. Progressive jackpot.",
+          "details": "A classic that never fades. In demo, test how the Money Respin feature works --- it's where big wins happen. Many players here move to real mode after hitting two consecutive respins in demo."
+        },
+        "greatRhino": {
+          "title": "The Great Rhino Megaways™",
+          "description": "Up to 200,704 ways to win. Cascading reels. Buy Bonus option.",
+          "details": "This isn't just another Megaways™ game. The demo shows how wild symbols lock during free spins --- a critical insight for maximizing returns."
+        },
+        "chilliHeat": {
+          "title": "Chilli Heat Megaways™",
+          "description": "Spicy multipliers. Bonus buy available. High hit rate.",
+          "details": "Perfect if you like frequent small wins leading to big ones. The demo lets you test the \"buy bonus\" feature --- popular among Malaysians who want faster access to free spins."
+        }
+      },
+      "liveCasino": {
+        "title": "🎰 Live Casino by Pragmatic Play --- Real Dealers, Real Time",
+        "subtitle": "Play against live dealers streamed from Malta --- zero lag, even on 4G.",
+        "games": {
+          "blackjack": "Live Blackjack: Tables from RM5. Play with strategy cards visible.",
+          "roulette": "Live Roulette: Choose Speed, Auto, or Classic. Track hot numbers.",
+          "baccarat": "Live Baccarat: High-limit tables with Dragon Tiger side bets.",
+          "megaWheel": "Mega Wheel: Spin for cash prizes up to RM50,000. A weekend favorite."
+        },
+        "footer": "All tables offer Malay-language dealer interaction and chat support. Not a video --- a real table, real time, real people."
+      },
+      "whyWinboxDifferent": {
+        "title": "💡 Why Winbox Is Different in Malaysia",
+        "points": {
+          "noApp": "No App? No Problem. Play instantly in browser --- or download our lightweight APK (under 80MB).",
+          "deposit": "Deposit in Seconds: Use Touch 'n Go, Boost, GrabPay, or bank transfer. No card needed.",
+          "withdrawals": "Withdrawals Under 15 Minutes: Even on weekends. No delays. No excuses.",
+          "localSupport": "Local Support Team: Speak to someone in Malaysia --- not an overseas bot.",
+          "fairSafe": "Fair & Safe: All games certified by iTech Labs. RNG tested. Secure SSL encryption.",
+          "noHiddenFees": "No Hidden Fees: Deposits and withdrawals are free. Always."
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "whatIsDemo": {
+            "question": "What is a Pragmatic Play demo?",
+            "answer": "A free version of any Pragmatic Play slot using virtual credits. No deposit required. Full game mechanics, same RTP, same bonus triggers as real money."
+          },
+          "canWinRealMoney": {
+            "question": "Can I win real money in Pragmatic Play demo mode?",
+            "answer": "No. Demos use fake credits only. But the gameplay, paylines, and payout patterns match real money exactly --- so you learn before you spend."
+          },
+          "isLegal": {
+            "question": "Is Pragmatic Play legal in Malaysia?",
+            "answer": "Yes. Playing through licensed offshore platforms like Winbox is not illegal for players under Malaysian law. All games are regulated by international authorities."
+          },
+          "switchToRealMoney": {
+            "question": "How do I switch from demo to real money?",
+            "answer": "Click \"Play for Real\" on any game. Register in under 60 seconds, deposit via TnG or bank transfer, and start spinning with real ringgit."
+          },
+          "olderPhones": {
+            "question": "Do these games work on older phones?",
+            "answer": "Yes. All Pragmatic Play games are HTML5-optimized and run smoothly on Android and iOS devices with 2GB RAM or more --- common in Malaysia."
+          },
+          "freeSpins": {
+            "question": "Are there free spins without deposit?",
+            "answer": "Not in demo mode. But new players get welcome bonuses with free spins on real money --- no deposit needed to claim."
+          },
+          "needDownload": {
+            "question": "Do I need to download anything to play?",
+            "answer1": "No. Play instantly in your browser. Or download the",
+            "linkText": "Winbox APK",
+            "answer2": "for faster loading and offline access. Both are safe and verified."
+          }
+        }
+      },
+      "readyToPlay": {
+        "title": "Ready to Play? Start Now --- No Risk.",
+        "loginText": "Winbox Login",
+        "description": "page here, login and play",
+        "footer": "All games tested and approved for Malaysian networks. 24/7 support via WhatsApp & Live Chat."
       }
     }
 }

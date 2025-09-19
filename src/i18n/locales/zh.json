@@ -1132,5 +1132,336 @@
       "megaways": "大奖之路",
       "buyBonus": "购买奖励"
     }
+  },
+
+  "askMeSlot": {
+  "title": "Ask Me Slot：玩顶级游戏提供商的老虎机游戏 -- 提供试玩版",
+  "subtitle": "无需下载。无需注册。即时游戏 --- 任何手机，随时随地。",
+  "linkText": "Ask Me Slot",
+  "description": "不是另一个赌场门户。它是马来西亚玩家想要真正游戏时使用的平台 --- 快速、公平，并针对本地网络、设备和支付习惯进行了完全优化。来自可信全球提供商的超过1500款老虎机 --- 所有游戏都可在您的浏览器中立即游戏。",
+  "callToAction": "免费试玩每款游戏。准备好后切换到真钱游戏。无压力。无花招。",
+  "whyWorks": {
+    "title": "🎯 为什么Ask Me Slot适合马来西亚玩家",
+    "tableHeader": {
+      "feature": "功能",
+      "why": "重要原因"
+    },
+    "features": {
+      "instantPlay": {
+        "name": "✅即时游戏（无需应用）",
+        "description": "适用于三星A系列、iPhone 8+、华为、红米 --- 即使在缓慢的3G/4G网络下也能正常运行。"
+      },
+      "freeDemo": {
+        "name": "✅免费试玩模式",
+        "description": "使用虚拟积分测试每款游戏。无需注册。无需邮箱。零风险。"
+      },
+      "localPayments": {
+        "name": "✅本地支付",
+        "description": "通过Touch 'n Go、Boost、GrabPay、马来亚银行、联昌银行、DuitNow存款 --- 秒内处理。"
+      },
+      "bahasaSupport": {
+        "name": "✅马来语支持",
+        "description": "实时聊天和WhatsApp支持全天候提供 --- 由本地人回答，而非机器人。"
+      },
+      "lowData": {
+        "name": "✅低数据使用量",
+        "description": "游戏优化快速加载，即使移动数据有限也能正常运行。"
+      },
+      "licensed": {
+        "name": "✅仅限持牌提供商",
+        "description": "所有游戏来自Pragmatic Play、JILI、Habanero、CQ9、Joker、PG Soft --- 经过审核和认证。"
+      }
+    }
+  },
+  "providers": {
+    "title": "🕹️ Ask Me Slot上的顶级老虎机提供商",
+    "subtitle": "每个提供商都是根据性能、公平性和在马来西亚玩家中的受欢迎程度来选择的。",
+    "jili": {
+      "title": "JILI老虎机",
+      "description": "简单、快速、高RTP。非常适合短时间游戏。",
+      "topPicks": "热门选择：龙宝藏、财神爷、幸运宝石。",
+      "details": "非常适合午休或深夜娱乐。轻量级，加载时间不到1.5秒。"
+    },
+    "habanero": {
+      "title": "Habanero",
+      "description": "出色的视觉效果，流畅的动画，低延迟。",
+      "topPicks": "必试：金沙之书、糖果盛开。",
+      "details": "在较旧的安卓手机上完美运行。音频和图形感觉高端 --- 但不会耗尽电池。"
+    },
+    "cq9": {
+      "title": "CQ9游戏",
+      "description": "专为速度而建。涡轮模式+自动旋转。",
+      "topPicks": "最爱：龙座、热辣嘉年华。",
+      "details": "最低投注额低（低至0.10令吉）。最适合喜欢快速、频繁获胜而非长时间奖励回合的玩家。"
+    },
+    "joker": {
+      "title": "Joker游戏",
+      "description": "怀旧经典，现代可靠性。",
+      "topPicks": "尝试：小丑宝石、三个七。",
+      "details": "3轮老虎机感觉熟悉 --- 但具有更新的赔付表和更快的旋转。深受年长玩家和休闲游戏玩家的信赖。"
+    },
+    "pgSoft": {
+      "title": "PG Soft",
+      "description": "电影主题，身临其境的叙事。",
+      "topPicks": "突出：老虎战士、超级财富。",
+      "details": "数据使用量较高，但视觉质量无与伦比。非常适合想要体验而不仅仅是旋转的Wi-Fi用户。"
+    }
+  },
+  "howToStart": {
+    "title": "💰 如何开始游戏",
+    "steps": {
+      "step1": {
+        "before": "访问 ",
+        "link": "https://www.winbox22.com/",
+        "after": " --- 无需应用。"
+      },
+      "step2": "点击任何游戏上的\"免费游戏\" --- 试玩模式立即激活。",
+      "step3": "测试功能、奖金、赔付 --- 无需注册。",
+      "step4": "准备好赢钱？点击\"真钱游戏\" → 选择支付方式 → 存款 → 游戏。"
+    },
+    "processing": "所有存款在60秒内处理。提款在营业时间内15分钟内完成。"
+  },
+  "safety": {
+    "title": "🔒 安全第一。始终如一。",
+    "points": [
+      "所有游戏使用认证的RNG系统（iTech Labs、eCOGRA）。",
+      "除非您存款，否则不收集个人数据。",
+      "没有隐藏条款。没有强制奖金。",
+      "仅限持牌运营商。没有灰色市场平台。"
+    ],
+    "conclusion": "您不是在注册赌博。您正在访问经过验证的专业老虎机娱乐。"
+  },
+  "compatibility": {
+    "title": "📱 适用于任何设备 --- 甚至是较旧的手机",
+    "intro": "无论您使用的是：",
+    "devices": [
+      "三星Galaxy A14",
+      "iPhone SE (2020)",
+      "小米红米Note 10",
+      "华为P30 Lite"
+    ],
+    "conclusion": "...Ask Me Slot都能流畅运行。我们针对低RAM、弱信号和不稳定的互联网进行优化 --- 因为我们知道大多数玩家都是这样的情况。"
+  },
+  "support": {
+    "title": "🤝 客户支持 --- 真人，实时",
+    "description": "对您的余额有疑问？需要Touch 'n Go存款帮助？我们通过WhatsApp或实时聊天回复 --- 用马来语 --- 2分钟内回复。",
+    "promise": "没有仅英语机器人。没有24小时等待时间。",
+    "testimonial": "我晚上11点发消息。有人在90秒内用马来语回复。终于有一个懂的网站了。 --- 雪兰莪用户"
+  },
+  "cta": {
+    "title": "🚀 准备好游戏了吗？",
+    "description": "免费试玩任何游戏 --- 无需卡片，无需登录，无需等待。然后切换到真钱 --- 充满信心。",
+    "loginButton": "Winbox登录",
+    "now": "现在",
+    "disclaimer": "所有游戏需要18岁以上。负责任地游戏。赌博可能上瘾。如需要请寻求帮助。"
+  },
+  "trusted": {
+    "title": "✅ 受到全马来西亚数千人信赖",
+    "featured": "特色于：吉隆坡论坛、TikTok老虎机社区、Reddit r/Malaysia、WhatsApp群组推荐"
+  },
+  "faqs": {
+    "title": "常见问题",
+    "questions": {
+      "whatIs": {
+        "question": "什么是Ask Me Slot？",
+        "answer": "Ask Me Slot是一个精心策划的平台，提供来自Pragmatic Play、JILI和Habanero等可信提供商的超过1500款在线老虎机游戏 --- 所有游戏都可直接在浏览器中游戏并提供试玩选项。"
+      },
+      "playFree": {
+        "question": "我可以免费玩Ask Me Slot游戏吗？",
+        "answer": "是的。每款游戏都有使用虚拟积分的试玩模式。无需注册、存款或下载。"
+      },
+      "needApp": {
+        "question": "我需要下载应用来游戏吗？",
+        "answer": "不需要。Ask Me Slot适用于所有浏览器 --- iOS、Android、Windows和macOS。无需安装。"
+      },
+      "safety": {
+        "question": "Ask Me Slot安全合法吗？",
+        "answer": "所有游戏都由持牌工作室提供（PAGCOR、MGA认证）。我们不作为赌场运营 --- 我们连接玩家到受监管的游戏提供商。负责任地游戏并遵守当地法律。"
+      },
+      "payments": {
+        "question": "马来西亚接受哪些支付方式？",
+        "answer": "Touch 'n Go、Boost、GrabPay、DuitNow、马来亚银行、联昌银行、大众银行、RHB --- 全部支持即时存款。"
+      },
+      "fairness": {
+        "question": "老虎机游戏公平吗？",
+        "answer": "是的。每款游戏都使用经过认证的随机数生成器（RNG），定期由iTech Labs和eCOGRA审核。试玩模式反映真实的赔付行为。"
+      },
+      "realMoney": {
+        "question": "我可以在Ask Me Slot上赢取真钱吗？",
+        "answer": "是的 --- 存款后，您可以玩真钱游戏并提取奖金。所有交易都是安全的，几分钟内处理完成。"
+      },
+      "noApp": {
+        "question": "为什么我在Google Play或App Store上找不到Ask Me Slot？",
+        "answer": "因为我们不需要应用。我们的平台是基于网络的 --- 更快、更轻，并且在任何设备上都能工作，无需占用存储空间。"
+      },
+      "bahasaService": {
+        "question": "客户服务提供马来语吗？",
+        "answer": "当然。我们的支持团队说流利的马来语，并通过WhatsApp或实时聊天回复 --- 全天候。"
+      },
+      "verification": {
+        "question": "我需要验证身份才能游戏吗？",
+        "answer": "仅在提取大额资金时需要（法律要求）。试玩和小额存款 --- 无需身份证明。"
+      }
+    }
   }
+},
+"pragmaticPlay": {
+      "title": "Pragmatic Play马来西亚试玩版 -- 免费游戏与真钱老虎机2025",
+      "subtitle": "玩顶级老虎机如奥林巴斯之门™和甜蜜糖果™ --- 无需存款",
+      "whyMatters": {
+        "title": "🎯 为什么这个Pragmatic Play对马来西亚玩家很重要",
+        "intro": "您无需猜测哪个老虎机会支付。您无需在确定之前冒险使用令吉。",
+        "description1": "在Winbox，您可以旋转每个",
+        "linkText": "Pragmatic Play",
+        "description2": "游戏的免费试玩模式 --- 与真钱模式完全相同 --- 在您投注一分钱之前。",
+        "description3": "没有虚假试用。没有时间限制。只有完整体验：级联转轴、乘数、奖金购买和累积奖金 --- 在您的手机上、在您的位置、在您的网络上测试。",
+        "conclusion": "然后，当您准备好时？存款10令吉。开始获胜。几分钟内提款。这就是这里的工作方式。"
+      },
+      "atGlance": {
+        "title": "🧾 Winbox上的Pragmatic Play --- 一目了然",
+        "tableHeader": {
+          "feature": "功能",
+          "freeDemo": "免费试玩",
+          "realMoney": "真钱游戏",
+          "liveCasino": "真人娱乐场",
+          "mobileReady": "移动端就绪",
+          "localSupport": "本地支持"
+        },
+        "rows": {
+          "access": {
+            "title": "访问",
+            "freeDemo": "✅ 即时 --- 无需注册",
+            "realMoney": "✅ 持牌运营商",
+            "liveCasino": "✅ 完整真人工作室",
+            "mobileReady": "✅ 网页 + APK (80MB)",
+            "localSupport": "✅ 马来语 + 英语"
+          },
+          "games": {
+            "title": "游戏",
+            "freeDemo": "所有老虎机",
+            "realMoney": "所有老虎机 + 累积奖金",
+            "liveCasino": "二十一点、轮盘、百家乐、超级转轮",
+            "mobileReady": "针对低端手机优化",
+            "localSupport": "WhatsApp + 实时聊天"
+          },
+          "minimumBet": {
+            "title": "最低投注",
+            "freeDemo": "不适用",
+            "realMoney": "10令吉",
+            "liveCasino": "5令吉",
+            "mobileReady": "与桌面版相同",
+            "localSupport": "24/7响应"
+          },
+          "payoutSpeed": {
+            "title": "支付速度",
+            "freeDemo": "不适用",
+            "realMoney": "<15分钟",
+            "liveCasino": "<15分钟",
+            "mobileReady": "即时登录",
+            "localSupport": "当日帮助"
+          },
+          "paymentMethods": {
+            "title": "支付方式",
+            "freeDemo": "不适用",
+            "realMoney": "TnG、Boost、GrabPay、银行转账",
+            "liveCasino": "相同",
+            "mobileReady": "相同",
+            "localSupport": "相同"
+          }
+        },
+        "footer": "所有游戏均由iTech Labs审核。马来西亚无地理封锁。"
+      },
+      "topGames": {
+        "title": "🔥 马来西亚顶级Pragmatic Play老虎机游戏（2025）",
+        "gatesOfOlympus": {
+          "title": "奥林巴斯之门™",
+          "description": "高波动性。高达500倍乘数。宙斯触发重新旋转。",
+          "details": "马来西亚玩家中最受欢迎的老虎机。在试玩模式中，您将看到随机乘数如何在免费旋转中激活 --- 这是了解何时切换到真钱的关键。",
+          "testimonial": "我玩了一周的试玩版。完全知道何时购买奖金。在3天内赢得了我的第一个500令吉。 --- 玩家，沙亚南"
+        },
+        "sweetBonanza": {
+          "title": "甜蜜糖果™",
+          "description": "糖果滚动转轴。96.5% RTP。高达21倍乘数。",
+          "details": "简单。令人上瘾。非常适合移动设备。试玩版揭示了糖果炸弹如何触发奖金回合 --- 以及为什么这款游戏在马来西亚的支付频率始终排名第一。"
+        },
+        "wolfGold": {
+          "title": "黄金之狼™",
+          "description": "堆叠百搭。重新旋转。累积奖金。",
+          "details": "永不褪色的经典。在试玩中，测试金钱重新旋转功能的工作原理 --- 这是大赢的地方。许多玩家在试玩中连续两次重新旋转后转向真钱模式。"
+        },
+        "greatRhino": {
+          "title": "巨犀超级道™",
+          "description": "高达200,704种获胜方式。级联转轴。购买奖金选项。",
+          "details": "这不仅仅是另一个超级道™游戏。试玩版显示了百搭符号在免费旋转中如何锁定 --- 这是最大化回报的关键见解。"
+        },
+        "chilliHeat": {
+          "title": "辣椒热度超级道™",
+          "description": "辛辣乘数。可购买奖金。高命中率。",
+          "details": "如果您喜欢频繁的小赢导致大赢，那就完美了。试玩版让您测试\"购买奖金\"功能 --- 在想要更快访问免费旋转的马来西亚人中很受欢迎。"
+        }
+      },
+      "liveCasino": {
+        "title": "🎰 Pragmatic Play真人娱乐场 --- 真实荷官，实时游戏",
+        "subtitle": "与从马耳他直播的真人荷官对战 --- 即使在4G网络下也零延迟。",
+        "games": {
+          "blackjack": "真人二十一点：从5令吉开始的桌子。可显示策略卡片。",
+          "roulette": "真人轮盘：选择速度、自动或经典模式。跟踪热门号码。",
+          "baccarat": "真人百家乐：带有龙虎边注的高限额桌子。",
+          "megaWheel": "超级转轮：旋转赢取高达50,000令吉的现金奖品。周末最爱。"
+        },
+        "footer": "所有桌子都提供马来语荷官互动和聊天支持。不是视频 --- 真实桌子，实时，真人。"
+      },
+      "whyWinboxDifferent": {
+        "title": "💡 为什么Winbox在马来西亚与众不同",
+        "points": {
+          "noApp": "没有应用？没问题。在浏览器中即时游戏 --- 或下载我们的轻量级APK（不到80MB）。",
+          "deposit": "秒内存款：使用Touch 'n Go、Boost、GrabPay或银行转账。无需卡片。",
+          "withdrawals": "15分钟内提款：即使在周末。无延迟。无借口。",
+          "localSupport": "本地支持团队：与马来西亚的人交谈 --- 不是海外机器人。",
+          "fairSafe": "公平安全：所有游戏均由iTech Labs认证。RNG测试。安全SSL加密。",
+          "noHiddenFees": "无隐藏费用：存款和提款永远免费。"
+        }
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "whatIsDemo": {
+            "question": "什么是Pragmatic Play试玩版？",
+            "answer": "任何Pragmatic Play老虎机使用虚拟积分的免费版本。无需存款。完整游戏机制，与真钱相同的RTP，相同的奖金触发器。"
+          },
+          "canWinRealMoney": {
+            "question": "我可以在Pragmatic Play试玩模式中赢取真钱吗？",
+            "answer": "不可以。试玩版仅使用虚假积分。但游戏玩法、支付线和支付模式与真钱完全匹配 --- 因此您在花钱之前先学习。"
+          },
+          "isLegal": {
+            "question": "Pragmatic Play在马来西亚合法吗？",
+            "answer": "是的。根据马来西亚法律，通过像Winbox这样的持牌离岸平台游戏对玩家来说不违法。所有游戏都受国际当局监管。"
+          },
+          "switchToRealMoney": {
+            "question": "如何从试玩版切换到真钱？",
+            "answer": "在任何游戏上点击\"真钱游戏\"。在60秒内注册，通过TnG或银行转账存款，开始用真令吉旋转。"
+          },
+          "olderPhones": {
+            "question": "这些游戏在较旧的手机上能运行吗？",
+            "answer": "是的。所有Pragmatic Play游戏都经过HTML5优化，在具有2GB或更多RAM的Android和iOS设备上运行流畅 --- 在马来西亚很常见。"
+          },
+          "freeSpins": {
+            "question": "有无存款免费旋转吗？",
+            "answer": "试玩模式中没有。但新玩家在真钱上获得带免费旋转的欢迎奖金 --- 无需存款即可领取。"
+          },
+          "needDownload": {
+            "question": "我需要下载什么来游戏吗？",
+            "answer1": "不需要。在浏览器中即时游戏。或下载",
+            "linkText": "Winbox APK",
+            "answer2": "以便更快加载和离线访问。两者都是安全和经过验证的。"
+          }
+        }
+      },
+      "readyToPlay": {
+        "title": "准备好游戏了吗？现在开始 --- 无风险。",
+        "loginText": "Winbox登录",
+        "description": "页面在这里，登录并游戏",
+        "footer": "所有游戏均经马来西亚网络测试和批准。通过WhatsApp和实时聊天提供24/7支持。"
+      }
+    }
 }

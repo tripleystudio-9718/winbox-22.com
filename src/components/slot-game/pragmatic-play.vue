@@ -96,6 +96,160 @@
         </div>
       </div>
     </div>
+
+    <!-- Content Section Based on Document -->
+    <div class="content-section">
+      <h1>{{ $t('pragmaticPlay.title') }}</h1>
+      <p>{{ $t('pragmaticPlay.subtitle') }}</p>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.whyMatters.title') }}</h2>
+        <p>{{ $t('pragmaticPlay.whyMatters.intro') }}</p>
+        <p>{{ $t('pragmaticPlay.whyMatters.description1') }} <span class="homepage-link" @click="goToPragmaticPlay">{{ $t('pragmaticPlay.whyMatters.linkText') }}</span> {{ $t('pragmaticPlay.whyMatters.description2') }}</p>
+        <p>{{ $t('pragmaticPlay.whyMatters.description3') }}</p>
+        <p>{{ $t('pragmaticPlay.whyMatters.conclusion') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.atGlance.title') }}</h2>
+        
+        <div class="feature-table">
+          <div class="table-header">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.tableHeader.feature') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.tableHeader.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.tableHeader.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.tableHeader.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.tableHeader.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.tableHeader.localSupport') }}</div>
+          </div>
+          <div class="table-row-6col">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.rows.access.title') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.access.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.access.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.access.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.access.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.access.localSupport') }}</div>
+          </div>
+          <div class="table-row-6col">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.rows.games.title') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.games.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.games.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.games.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.games.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.games.localSupport') }}</div>
+          </div>
+          <div class="table-row-6col">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.title') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.minimumBet.localSupport') }}</div>
+          </div>
+          <div class="table-row-6col">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.title') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.payoutSpeed.localSupport') }}</div>
+          </div>
+          <div class="table-row-6col">
+            <div class="feature-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.title') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.freeDemo') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.realMoney') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.liveCasino') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.mobileReady') }}</div>
+            <div class="why-col">{{ $t('pragmaticPlay.atGlance.rows.paymentMethods.localSupport') }}</div>
+          </div>
+        </div>
+        
+        <p>{{ $t('pragmaticPlay.atGlance.footer') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.topGames.title') }}</h2>
+
+        <h3>{{ $t('pragmaticPlay.topGames.gatesOfOlympus.title') }}</h3>
+        <p>{{ $t('pragmaticPlay.topGames.gatesOfOlympus.description') }}</p>
+        <p>{{ $t('pragmaticPlay.topGames.gatesOfOlympus.details') }}</p>
+        <p>"{{ $t('pragmaticPlay.topGames.gatesOfOlympus.testimonial') }}"</p>
+
+        <h3>{{ $t('pragmaticPlay.topGames.sweetBonanza.title') }}</h3>
+        <p>{{ $t('pragmaticPlay.topGames.sweetBonanza.description') }}</p>
+        <p>{{ $t('pragmaticPlay.topGames.sweetBonanza.details') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.topGames.wolfGold.title') }}</h3>
+        <p>{{ $t('pragmaticPlay.topGames.wolfGold.description') }}</p>
+        <p>{{ $t('pragmaticPlay.topGames.wolfGold.details') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.topGames.greatRhino.title') }}</h3>
+        <p>{{ $t('pragmaticPlay.topGames.greatRhino.description') }}</p>
+        <p>{{ $t('pragmaticPlay.topGames.greatRhino.details') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.topGames.chilliHeat.title') }}</h3>
+        <p>{{ $t('pragmaticPlay.topGames.chilliHeat.description') }}</p>
+        <p>{{ $t('pragmaticPlay.topGames.chilliHeat.details') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.liveCasino.title') }}</h2>
+        <p>{{ $t('pragmaticPlay.liveCasino.subtitle') }}</p>
+        
+        <ul class="dots">
+          <li>{{ $t('pragmaticPlay.liveCasino.games.blackjack') }}</li>
+          <li>{{ $t('pragmaticPlay.liveCasino.games.roulette') }}</li>
+          <li>{{ $t('pragmaticPlay.liveCasino.games.baccarat') }}</li>
+          <li>{{ $t('pragmaticPlay.liveCasino.games.megaWheel') }}</li>
+        </ul>
+        
+        <p>{{ $t('pragmaticPlay.liveCasino.footer') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.whyWinboxDifferent.title') }}</h2>
+        
+        <ul class="dots">
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.noApp') }}</li>
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.deposit') }}</li>
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.withdrawals') }}</li>
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.localSupport') }}</li>
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.fairSafe') }}</li>
+          <li>{{ $t('pragmaticPlay.whyWinboxDifferent.points.noHiddenFees') }}</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.faqs.title') }}</h2>
+        
+        <h3>{{ $t('pragmaticPlay.faqs.questions.whatIsDemo.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.whatIsDemo.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.canWinRealMoney.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.canWinRealMoney.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.isLegal.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.isLegal.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.switchToRealMoney.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.switchToRealMoney.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.olderPhones.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.olderPhones.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.freeSpins.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.freeSpins.answer') }}</p>
+
+        <h3>{{ $t('pragmaticPlay.faqs.questions.needDownload.question') }}</h3>
+        <p>{{ $t('pragmaticPlay.faqs.questions.needDownload.answer1') }} <span class="homepage-link" @click="goToDownload">{{ $t('pragmaticPlay.faqs.questions.needDownload.linkText') }}</span> {{ $t('pragmaticPlay.faqs.questions.needDownload.answer2') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('pragmaticPlay.readyToPlay.title') }}</h2>
+        <p><span class="homepage-link" @click="goToLogin">{{ $t('pragmaticPlay.readyToPlay.loginText') }}</span> {{ $t('pragmaticPlay.readyToPlay.description') }}</p>
+        <p>{{ $t('pragmaticPlay.readyToPlay.footer') }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -105,7 +259,7 @@ import button_frame from "@/assets/button-frame.png";
 import { useNavigation } from '@/components/utils/navigation';
 
 // Use your existing navigation utilities
-const { goToRegister } = useNavigation();
+const { goToRegister, goToHomepage, goToLogin, goToDownload, goToPragmaticPlay } = useNavigation();
 
 // Mobile detection
 const windowWidth = ref(window.innerWidth);
@@ -322,11 +476,119 @@ const navigateToRegister = () => {
   transition: opacity 0.2s;
 }
 
+.content-section {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 10px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.content-section h1 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.content-section p, li {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.content-section h2 {
+  font-size: 22px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-section h3 {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-block {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-table {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row-6col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid #eee;
+}
+
+.table-row-6col:last-child {
+  border-bottom: none;
+}
+
+.feature-col, .why-col {
+  padding: 12px 8px;
+  font-size: 12px;
+  line-height: 1.4;
+  border-right: 1px solid #eee;
+}
+
+.feature-col {
+  font-weight: bold;
+}
+
+.feature-col:last-child, .why-col:last-child {
+  border-right: none;
+}
+
+/* Lists - exactly like contactus */
+.dots {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.dots li {
+  margin-bottom: 5px;
+}
+
+/* Homepage links - exactly like contactus */
+.homepage-link {
+  color: #02D1FD;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
 @media screen and (min-width: 469px) and (max-width: 768px) {
   .game-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
     padding: 5px;
+  }
+  
+  .table-header, .table-row-6col {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-col, .why-col {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    font-size: 14px;
   }
 }
 
@@ -371,6 +633,17 @@ const navigateToRegister = () => {
   
   .mobile-tabs .tab-item span {
     font-size: 11px;
+  }
+  
+  .table-header, .table-row-6col {
+    grid-template-columns: 1fr;
+  }
+  
+  .feature-col, .why-col {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding: 8px;
+    font-size: 14px;
   }
 }
 </style>

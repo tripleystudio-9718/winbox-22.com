@@ -11,71 +11,166 @@
         </div>
       </div>
 
-      <!-- Content Section -->
+      <!-- Content Section Based on Document -->
       <div class="content-section">
         <h1>{{ $t('askMeSlot.title') }}</h1>
         
         <p>{{ $t('askMeSlot.subtitle') }}</p>
         
-        <p><span class="homepage-link" @click="goToHomepage">{{ $t('askMeSlot.description').split(' ')[0] + ' ' + $t('askMeSlot.description').split(' ')[1] + ' ' + $t('askMeSlot.description').split(' ')[2] }}</span> {{ $t('askMeSlot.description').split(' ').slice(3).join(' ') }}</p>
+        <p><span class="homepage-link" @click="goToHomepage">{{ $t('askMeSlot.linkText') }}</span> {{ $t('askMeSlot.description') }}</p>
         
         <p>{{ $t('askMeSlot.callToAction') }}</p>
 
-        <h2>{{ $t('askMeSlot.trusted.title') }}</h2>
-        <p>{{ $t('askMeSlot.trusted.featured') }}</p>
-
-        <h2>{{ $t('askMeSlot.faqs.title') }}</h2>
-        
-        <div class="faq-section">
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.whatIs.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.whatIs.answer') }}</p>
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.whyWorks.title') }}</h2>
+          
+          <div class="feature-table">
+            <div class="table-header">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.tableHeader.feature') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.tableHeader.why') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.instantPlay.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.instantPlay.description') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.freeDemo.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.freeDemo.description') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.localPayments.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.localPayments.description') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.bahasaSupport.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.bahasaSupport.description') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.lowData.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.lowData.description') }}</div>
+            </div>
+            <div class="table-row">
+              <div class="feature-col">{{ $t('askMeSlot.whyWorks.features.licensed.name') }}</div>
+              <div class="why-col">{{ $t('askMeSlot.whyWorks.features.licensed.description') }}</div>
+            </div>
           </div>
+        </div>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.playFree.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.playFree.answer') }}</p>
-          </div>
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.providers.title') }}</h2>
+          <p>{{ $t('askMeSlot.providers.subtitle') }}</p>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.needApp.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.needApp.answer') }}</p>
-          </div>
+          <h3>{{ $t('askMeSlot.providers.jili.title') }}</h3>
+          <p>{{ $t('askMeSlot.providers.jili.description') }}<br>
+          {{ $t('askMeSlot.providers.jili.topPicks') }}<br>
+          {{ $t('askMeSlot.providers.jili.details') }}</p>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.safety.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.safety.answer') }}</p>
-          </div>
+          <h3>{{ $t('askMeSlot.providers.habanero.title') }}</h3>
+          <p>{{ $t('askMeSlot.providers.habanero.description') }}<br>
+          {{ $t('askMeSlot.providers.habanero.topPicks') }}<br>
+          {{ $t('askMeSlot.providers.habanero.details') }}</p>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.payments.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.payments.answer') }}</p>
-          </div>
+          <h3>{{ $t('askMeSlot.providers.cq9.title') }}</h3>
+          <p>{{ $t('askMeSlot.providers.cq9.description') }}<br>
+          {{ $t('askMeSlot.providers.cq9.topPicks') }}<br>
+          {{ $t('askMeSlot.providers.cq9.details') }}</p>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.fairness.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.fairness.answer') }}</p>
-          </div>
+          <h3>{{ $t('askMeSlot.providers.joker.title') }}</h3>
+          <p>{{ $t('askMeSlot.providers.joker.description') }}<br>
+          {{ $t('askMeSlot.providers.joker.topPicks') }}<br>
+          {{ $t('askMeSlot.providers.joker.details') }}</p>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.realMoney.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.realMoney.answer') }}</p>
-          </div>
+          <h3>{{ $t('askMeSlot.providers.pgSoft.title') }}</h3>
+          <p>{{ $t('askMeSlot.providers.pgSoft.description') }}<br>
+          {{ $t('askMeSlot.providers.pgSoft.topPicks') }}<br>
+          {{ $t('askMeSlot.providers.pgSoft.details') }}</p>
+        </div>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.noApp.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.noApp.answer') }}</p>
-          </div>
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.howToStart.title') }}</h2>
+          <ol>
+            <li>{{ $t('askMeSlot.howToStart.steps.step1.before') }}<span class="homepage-link" @click="goToHomepage">{{ $t('askMeSlot.howToStart.steps.step1.link') }}</span>{{ $t('askMeSlot.howToStart.steps.step1.after') }}</li>
+            <li>{{ $t('askMeSlot.howToStart.steps.step2') }}</li>
+            <li>{{ $t('askMeSlot.howToStart.steps.step3') }}</li>
+            <li>{{ $t('askMeSlot.howToStart.steps.step4') }}</li>
+          </ol>
+          <p>{{ $t('askMeSlot.howToStart.processing') }}</p>
+        </div>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.bahasaService.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.bahasaService.answer') }}</p>
-          </div>
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.safety.title') }}</h2>
+          <ul class="dots">
+            <li>{{ $t('askMeSlot.safety.points.0') }}</li>
+            <li>{{ $t('askMeSlot.safety.points.1') }}</li>
+            <li>{{ $t('askMeSlot.safety.points.2') }}</li>
+            <li>{{ $t('askMeSlot.safety.points.3') }}</li>
+          </ul>
+          <p>{{ $t('askMeSlot.safety.conclusion') }}</p>
+        </div>
 
-          <div class="faq-item">
-            <h3>{{ $t('askMeSlot.faqs.questions.verification.question') }}</h3>
-            <p>{{ $t('askMeSlot.faqs.questions.verification.answer') }}</p>
-          </div>
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.compatibility.title') }}</h2>
+          <p>{{ $t('askMeSlot.compatibility.intro') }}</p>
+          <ul class="dots">
+            <li>{{ $t('askMeSlot.compatibility.devices.0') }}</li>
+            <li>{{ $t('askMeSlot.compatibility.devices.1') }}</li>
+            <li>{{ $t('askMeSlot.compatibility.devices.2') }}</li>
+            <li>{{ $t('askMeSlot.compatibility.devices.3') }}</li>
+          </ul>
+          <p>{{ $t('askMeSlot.compatibility.conclusion') }}</p>
+        </div>
+
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.support.title') }}</h2>
+          <p>{{ $t('askMeSlot.support.description') }}</p>
+          <p>{{ $t('askMeSlot.support.promise') }}</p>
+          <p>"{{ $t('askMeSlot.support.testimonial') }}"</p>
+        </div>
+
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.cta.title') }}</h2>
+          <p>{{ $t('askMeSlot.cta.description') }}</p>
+          <p><span class="homepage-link" @click="goToLogin">{{ $t('askMeSlot.cta.loginButton') }}</span> {{ $t('askMeSlot.cta.now') }}</p>
+          <p>{{ $t('askMeSlot.cta.disclaimer') }}</p>
+        </div>
+
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.trusted.title') }}</h2>
+          <p>{{ $t('askMeSlot.trusted.featured') }}</p>
+        </div>
+
+        <div class="content-block">
+          <h2>{{ $t('askMeSlot.faqs.title') }}</h2>
+          
+          <h3>{{ $t('askMeSlot.faqs.questions.whatIs.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.whatIs.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.playFree.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.playFree.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.needApp.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.needApp.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.safety.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.safety.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.payments.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.payments.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.fairness.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.fairness.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.realMoney.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.realMoney.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.noApp.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.noApp.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.bahasaService.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.bahasaService.answer') }}</p>
+
+          <h3>{{ $t('askMeSlot.faqs.questions.verification.question') }}</h3>
+          <p>{{ $t('askMeSlot.faqs.questions.verification.answer') }}</p>
         </div>
       </div>
     </div>
@@ -84,35 +179,27 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useNavigation } from '@/components/utils/navigation';
-import button_frame from '@/assets/main-button.png'; // Import fallback image
+import button_frame from '@/assets/main-button.png';
 
-// Use your existing navigation utilities
 const { goToRegister, goToHomepage, goToLogin } = useNavigation();
 
-// Function to handle image loading errors
 const handleImageError = (event) => {
-  // Use a fallback image when the original fails to load
   event.target.src = button_frame;
   console.error(`Failed to load image: ${event.target.alt}`);
 };
 
-// Create a base structure for our games with dynamic imports
 const askmeslotGames = ref([]);
 
-// Approach 1: Using import.meta.url for Vue 3 (Vite compatible)
 const getImageUrl = (name) => {
   try {
-    // This approach works with Vite
     return new URL(`/src/assets/askmeslot-img/${name}.png`, import.meta.url).href;
   } catch (error) {
     console.error(`Error loading image ${name}:`, error);
-    return button_frame; // Fallback to button frame
+    return button_frame;
   }
 };
 
-// Initialize games
 onMounted(() => {
-  // Generate games dynamically (75 games for AskMeSlot)
   askmeslotGames.value = Array.from({ length: 75 }, (_, i) => {
     const gameNumber = i + 1;
     return {
@@ -123,7 +210,6 @@ onMounted(() => {
   });
 });
 
-// Use navigation utility for automatic language detection
 const navigateToRegister = () => {
   goToRegister();
 };
@@ -155,7 +241,7 @@ const navigateToRegister = () => {
   border-radius: 12px;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: 10px; /* Space between image and button */
+  margin-bottom: 10px;
 }
 
 .game-image img {
@@ -196,29 +282,28 @@ const navigateToRegister = () => {
   transition: opacity 0.2s;
 }
 
-/* Content Section Styling - Based on your contactus CSS */
 .content-section {
+  width: 70%;
   margin: 0 auto;
   padding: 20px 10px;
   color: black;
   font-family: Arial, sans-serif;
-  width: 70%;
 }
 
 .content-section h1 {
-  font-size: 22px;
+  font-size: 32px;
   margin-bottom: 30px;
   font-weight: 600;
   text-align: left;
 }
 
-.content-section p {
+.content-section p, li {
   font-size: 14px;
   line-height: 1.6;
 }
 
 .content-section h2 {
-  font-size: 18px;
+  font-size: 22px;
   margin: 15px 0;
   font-weight: bold;
 }
@@ -229,42 +314,48 @@ const navigateToRegister = () => {
   font-weight: bold;
 }
 
-/* Content sections with flex layout */
-.content-section > div {
+.content-block {
   margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Feature Table Styling */
 .feature-table {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #f5f5f5;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
 }
 
 .table-row {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 15px;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 8px;
+  border-bottom: 1px solid #eee;
 }
 
-.feature-name {
-  font-weight: bold;
-  font-size: 14px;
+.table-row:last-child {
+  border-bottom: none;
 }
 
-.feature-description {
+.feature-col, .why-col {
+  padding: 12px 15px;
   font-size: 14px;
   line-height: 1.6;
 }
 
-/* Lists Styling - exactly like contactus */
+.feature-col {
+  font-weight: bold;
+  border-right: 1px solid #eee;
+}
+
 .dots {
   padding-left: 30px;
   font-size: 14px;
@@ -274,43 +365,6 @@ const navigateToRegister = () => {
   margin-bottom: 5px;
 }
 
-.steps-list {
-  padding-left: 30px;
-  font-size: 14px;
-}
-
-.steps-list li {
-  margin-bottom: 10px;
-}
-
-/* FAQ Styling */
-.faq-section {
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
-.faq-item {
-  background-color: rgba(0, 0, 0, 0.02);
-  padding: 15px;
-  border-radius: 8px;
-}
-
-.faq-item h3 {
-  margin: 0 0 10px 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #02D1FD;
-}
-
-.faq-item p {
-  margin: 0;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
-/* Homepage Link Styling - exactly like contactus */
 .homepage-link {
   color: #02D1FD;
   cursor: pointer;
@@ -326,13 +380,33 @@ const navigateToRegister = () => {
     padding: 5px;
   }
   
-  .table-row {
-    grid-template-columns: 1fr;
-    gap: 5px;
+  .table-header, .table-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .feature-col {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .content-section {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .content-section h1{
+    font-size: 22px;
+  }
+
+  .content-section h2{
+    font-size: 18px;
+  }
+
+  .content-section h3{
+    font-size: 16px;
   }
 }
 
-/* Mobile styles - 3 items per row */
 @media screen and (max-width: 468px) {
   .game-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -344,9 +418,30 @@ const navigateToRegister = () => {
     border-radius: 6px;
   }
   
-  .table-row {
-    grid-template-columns: 1fr;
-    gap: 5px;
+  .table-header, .table-row {
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .feature-col {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .content-section {
+    width: 100%;
+    padding: 20px 10px;
+  }
+
+  .content-section h1{
+    font-size: 22px;
+  }
+
+  .content-section h2{
+    font-size: 18px;
+  }
+
+  .content-section h3{
+    font-size: 16px;
   }
 }
 </style>
