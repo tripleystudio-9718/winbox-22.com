@@ -1460,5 +1460,96 @@
         "description": "page here, login and play",
         "footer": "All games tested and approved for Malaysian networks. 24/7 support via WhatsApp & Live Chat."
       }
+    },
+
+    "slotGames": {
+      "title": "Winbox Slot Games: Your Official Gateway to High-Jackpot",
+      "intro": {
+        "description1": "Ready to spin and win? Welcome to Winbox, the home of the best",
+        "linkText": "online slot Malaysia",
+        "description2": "has to offer. We have hundreds of exciting games, massive jackpots, and a secure platform you can trust.",
+        "welcome": "New players get a great start. We will match your first deposit with a <strong>100% Welcome Bonus up to RM500 and give you 100 Free Spins!</strong>"
+      },
+      "whyChoice": {
+        "title": "Why Winbox Slot is the Top Choice",
+        "description": "We give you more games, better security, and bigger chances to win. It's that simple.",
+        "jackpots": {
+          "title": "Huge Jackpots Waiting",
+          "description": "Our games are famous for big payouts. We have progressive jackpots that grow bigger every second. One lucky spin on a slot game Malaysia players love could change your life."
+        },
+        "security": {
+          "title": "Certified Fair & Secure",
+          "description": "Play with peace of mind. Winbox is fully licensed by PAGCOR and Gaming Curacao. Every game uses a Random Number Generator (RNG) that is tested and certified by labs like BMM Testlabs and iTech Labs. This guarantees every spin is fair."
+        },
+        "bonuses": {
+          "title": "Amazing Bonuses & Promotions",
+          "description": "We reward our players. From the Welcome Bonus to our Daily Angpau and Monthly Rescue Bonus, there are always extra ways to boost your play and win more."
+        }
+      },
+      "providers": {
+        "title": "A Universe of World-Class Slot Providers",
+        "description": "We partner with the biggest and best names in the gaming industry. This means you get access to the most popular and trusted slot games all in one place.",
+        "pragmatic": {
+          "name": "Pragmatic Play (PP Slot):",
+          "description": "Play world-famous hits like Gates of Olympus and Sweet Bonanza."
+        },
+        "jili": {
+          "name": "JILI:",
+          "description": "Spin for big wins on exciting games like Money Coming and Fortune Gem."
+        },
+        "playtech": {
+          "name": "Playtech:",
+          "description": "A global leader known for premium games like the classic Great Blue."
+        },
+        "spade": {
+          "name": "SpadeGaming:",
+          "description": "Discover amazing Asian-themed slots with beautiful graphics."
+        },
+        "others": {
+          "name": "<strong>And Many More:</strong> We also feature top games from <strong>Lucky365, JDB, AceWin, and Monkey King</strong>, giving you endless variety."
+        }
+      },
+      "howToStart": {
+        "title": "How to Start Playing in 3 Simple Steps",
+        "description": "Getting started is fast and easy.",
+        "step1": {
+          "title": "Step 1: Quick & Free Registration",
+          "description": "Create your free Winbox account. It only takes a minute."
+        },
+        "step2": {
+          "title": "Step 2: Select Your Game",
+          "description": "Explore our huge library of slot games. Find your favourite or try something new."
+        },
+        "step3": {
+          "title": "Step 3: Play for the Jackpot!",
+          "description": "Make a deposit, claim your Welcome Bonus, and start spinning. Good luck!"
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "fairness": {
+            "question": "What makes Winbox slot games fair?",
+            "answer": "A certified Random Number Generator (RNG). This technology is tested by independent labs like BMM Testlabs to ensure every spin result is 100% random and fair."
+          },
+          "mobile": {
+            "question": "Can I play slots on my phone?",
+            "answer1": "Yes. The Winbox platform works perfectly on mobile. You can use our",
+            "linkText": "Winbox Download APK",
+            "answer2": "for Android or play directly in your browser with our H5 version."
+          },
+          "safety": {
+            "question": "Is my money safe with Winbox?",
+            "answer": "Yes. We use the same 256-bit SSL encryption that banks use. Your personal and financial details are always protected."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Your Winning Spin Awaits",
+        "description": "Don't wait any longer. With hundreds of top games, certified security, and huge jackpots ready to drop, your next big win is here at Winbox.",
+        "cta1": "Play",
+        "linkText": "Winbox Malaysia",
+        "cta2": "Now!"
+      }
     }
 }

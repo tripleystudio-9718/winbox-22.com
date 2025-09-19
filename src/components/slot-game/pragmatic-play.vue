@@ -249,6 +249,7 @@
         <p><span class="homepage-link" @click="goToLogin">{{ $t('pragmaticPlay.readyToPlay.loginText') }}</span> {{ $t('pragmaticPlay.readyToPlay.description') }}</p>
         <p>{{ $t('pragmaticPlay.readyToPlay.footer') }}</p>
       </div>
+      
     </div>
   </div>
 </template>

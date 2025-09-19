@@ -1463,5 +1463,97 @@
         "description": "页面在这里，登录并游戏",
         "footer": "所有游戏均经马来西亚网络测试和批准。通过WhatsApp和实时聊天提供24/7支持。"
       }
+    },
+
+    "slotGames": {
+      "title": "Winbox老虎机游戏：您通往高额累积奖金的官方门户",
+      "intro": {
+        "description1": "准备旋转并获胜？欢迎来到Winbox，这里是",
+        "linkText": "马来西亚在线老虎机",
+        "description2": "的最佳选择。我们拥有数百款令人兴奋的游戏、巨额累积奖金和您可以信赖的安全平台。",
+        "welcome": "新玩家有个很好的开始。我们将匹配您的首次存款，提供高达500令吉的100%欢迎奖金，并给您100次免费旋转！"
+      },
+      "whyChoice": {
+        "title": "为什么Winbox老虎机是最佳选择",
+        "description": "我们为您提供更多游戏、更好的安全性和更大的获胜机会。就这么简单。",
+        "jackpots": {
+          "title": "巨额累积奖金等待中",
+          "description": "我们的游戏以大额支付而闻名。我们有每秒钟都在增长的累进累积奖金。在马来西亚玩家喜爱的老虎机游戏上的一次幸运旋转可能会改变您的生活。"
+        },
+        "security": {
+          "title": "认证公平与安全",
+          "description": "放心游戏。Winbox完全获得PAGCOR和Gaming Curacao的许可。每款游戏都使用经过BMM Testlabs和iTech Labs等实验室测试和认证的随机数生成器(RNG)。这保证了每次旋转都是公平的。"
+        },
+        "bonuses": {
+          "title": "惊人的奖金与促销",
+          "description": "我们奖励我们的玩家。从欢迎奖金到我们的每日红包和月度救援奖金，总有额外的方式来提升您的游戏并赢得更多。"
+        }
+      },
+      "providers": {
+        "title": "世界级老虎机提供商的宇宙",
+        "description": "我们与游戏行业中最大、最好的名字合作。这意味着您可以在一个地方访问最受欢迎和最值得信赖的老虎机游戏。",
+        "pragmatic": {
+          "name": "Pragmatic Play (PP老虎机):",
+          "description": "玩世界著名的热门游戏，如奥林巴斯之门和甜蜜嘉年华。"
+        },
+        "jili": {
+          "name": "JILI:",
+          "description": "在令人兴奋的游戏中旋转赢取大奖，如财源滚滚和幸运宝石。"
+        },
+        "playtech": {
+          "name": "Playtech:",
+          "description": "以经典的大蓝鲸等高端游戏而闻名的全球领导者。"
+        },
+        "spade": {
+          "name": "SpadeGaming:",
+          "description": "发现具有精美图形的惊人亚洲主题老虎机。"
+        },
+        "others": {
+          "name": "还有更多:",
+          "description": "我们还提供来自Lucky365、JDB、AceWin和美猴王的顶级游戏，为您提供无尽的多样性。"
+        }
+      },
+      "howToStart": {
+        "title": "如何通过3个简单步骤开始游戏",
+        "description": "开始游戏既快速又简单。",
+        "step1": {
+          "title": "步骤1：快速免费注册",
+          "description": "创建您的免费Winbox账户。只需一分钟。"
+        },
+        "step2": {
+          "title": "步骤2：选择您的游戏",
+          "description": "探索我们庞大的老虎机游戏库。找到您的最爱或尝试新的游戏。"
+        },
+        "step3": {
+          "title": "步骤3：为累积奖金而玩！",
+          "description": "进行存款，领取您的欢迎奖金，开始旋转。祝您好运！"
+        }
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "fairness": {
+            "question": "是什么让Winbox老虎机游戏公平？",
+            "answer": "经过认证的随机数生成器(RNG)。这项技术经过BMM Testlabs等独立实验室的测试，以确保每次旋转结果都是100%随机和公平的。"
+          },
+          "mobile": {
+            "question": "我可以在手机上玩老虎机吗？",
+            "answer1": "是的。Winbox平台在移动设备上完美运行。您可以使用我们的",
+            "linkText": "Winbox下载APK",
+            "answer2": "用于Android，或者直接在浏览器中使用我们的H5版本进行游戏。"
+          },
+          "safety": {
+            "question": "我的资金在Winbox安全吗？",
+            "answer": "是的。我们使用与银行相同的256位SSL加密。您的个人和财务详细信息始终受到保护。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "您的获胜旋转在等待",
+        "description": "不要再等了。拥有数百款顶级游戏、认证安全性和准备掉落的巨额累积奖金，您的下一个大赢就在Winbox这里。",
+        "cta1": "现在玩",
+        "linkText": "Winbox马来西亚",
+        "cta2": "！"
+      }
     }
 }
