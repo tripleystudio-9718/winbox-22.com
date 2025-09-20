@@ -16,7 +16,7 @@
       <div class="content-section">
         <h1>{{ $t('slotGames.title') }}</h1>
         
-        <p>{{ $t('slotGames.intro.description1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('slotGames.intro.linkText') }}</span> {{ $t('slotGames.intro.description2') }}</p>
+        <p>{{ $t('slotGames.intro.description1') }} <span class="homepage-link" @click="goToSlots">{{ $t('slotGames.intro.linkText') }}</span> {{ $t('slotGames.intro.description2') }}</p>
         
         <p v-html="$t('slotGames.intro.welcome')"></p>
 
@@ -115,7 +115,8 @@ const {
   goToMicroslot,
   goToMonkeyking,
   goToHomepage,
-  goToDownload
+  goToDownload,
+  goToSlots
 } = useNavigation();
 
 // Define the slot games in the specified sequence

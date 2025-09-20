@@ -1551,5 +1551,531 @@
         "linkText": "Winbox Malaysia",
         "cta2": "Now!"
       }
+    },
+
+    "sportsBetting": {
+      "title": "The Professional's Choice for Sports Betting in Malaysia",
+      "intro": {
+        "description1": "In the world of sports, victory is decided by strategy and analysis. The same is true for sports betting. Winbox offers a sophisticated platform engineered for the serious bettor---a strategic tool for <strong>sports betting in Malaysia</strong>. We move beyond simple wagering, offering a professional environment where data-driven decisions meet unparalleled market access. For the discerning football fan and the savvy <strong>Judi Online</strong> player, this is your gateway to a more intelligent way to bet.",
+        "description2": "Start your strategic",
+        "linkText": "sporting bet",
+        "description3": "journey here."
+      },
+      "providers": {
+        "title": "A Premier League of Betting Providers",
+        "description1": "To make the most informed bets, you need access to the most comprehensive market data.",
+        "linkText": "Winbox",
+        "description2": "consolidates the industry's most respected sportsbooks into a single, powerful interface, giving you unparalleled access to the best odds and betting lines.",
+        "maxbet": {
+          "title": "Maxbet",
+          "description": "A titan in the Asian sports betting scene, <strong>Maxbet Malaysia</strong> (formerly IBCbet) is the professional's choice for a reason.",
+          "features": {
+            "odds": "<strong>Competitive Odds:</strong> Renowned for offering some of the best odds available, especially for football.",
+            "live": "<strong>Live Betting:</strong> Features a robust, high-performance live betting interface for rapid, in-play wagering."
+          }
+        },
+        "cmd368": {
+          "title": "CMD368",
+          "description": "For bettors who value market depth and variety, <strong>CMD368</strong> is an essential tool.",
+          "features": {
+            "markets": "<strong>Vast Markets:</strong> Offers thousands of betting markets every single day across a huge range of sports.",
+            "coverage": "<strong>Extensive Coverage:</strong> Guarantees you can find value in matches from the English Premier League to smaller, regional tournaments."
+          }
+        },
+        "wickets": {
+          "title": "9 Wickets",
+          "description": "Demonstrating our commitment to comprehensive sports coverage, 9 Wickets is a specialist provider catering to fans of cricket.",
+          "features": {
+            "focus": "<strong>Specialist Focus:</strong> A dedicated, world-class platform for fans of the gentleman's game.",
+            "diversity": "<strong>Diverse Options:</strong> Showcases the true diversity of the Winbox sportsbook beyond football."
+          }
+        },
+        "bti": {
+          "title": "BTI",
+          "description": "As a leading B2B provider in the global sports betting industry, BTI is synonymous with reliability and innovation.",
+          "features": {
+            "trusted": "<strong>Trusted & Reliable:</strong> Their presence on the Winbox platform adds another layer of trust and technological excellence.",
+            "experience": "<strong>Seamless Experience:</strong> Ensures a stable and smooth betting journey for all our users."
+          }
+        }
+      },
+      "analyticalEdge": {
+        "title": "Gain Your Analytical Edge with Superior Odds & Market Depth",
+        "description": "The core advantage of the Winbox platform is simple: by integrating multiple elite providers, we empower you to shop for the best odds. Instead of being locked into a single bookmaker's prices, you can compare markets across Maxbet and CMD368, ensuring you maximize your potential return on every single wager.",
+        "football": {
+          "title": "Unmatched Football Market Coverage",
+          "description": "We provide extensive options for <strong>online football betting</strong>, allowing you to execute any strategy. Our platforms cover all major bet types, including:",
+          "betTypes": {
+            "result": "<strong>1X2 (Full Time Result):</strong> Bet on the home team, away team, or a draw.",
+            "handicap": "<strong>Asian Handicap:</strong> Level the playing field between two mismatched teams.",
+            "totals": "<strong>Over/Under (Totals):</strong> Wager on the total number of goals scored in a match.",
+            "parlay": "<strong>Mix Parlay (Accumulator):</strong> Combine multiple bets into one for significantly higher potential payouts.",
+            "score": "<strong>Correct Score:</strong> Predict the exact final score for high-reward opportunities."
+          },
+          "coverage": "Our coverage spans all major global leagues, including the English Premier League, La Liga, Serie A, Bundesliga, and the UEFA Champions League."
+        },
+        "beyond": {
+          "title": "Beyond Football: A World of Sports",
+          "description": "While football is king, our platform is a hub for all <strong>Malaysia online gambling</strong>, offering deep markets in dozens of other sports, including basketball, tennis, badminton, motorsports, and a comprehensive range of esports."
+        }
+      },
+      "security": {
+        "title": "Your Secure, Regulated, and Transparent Betting Environment",
+        "description": "A professional betting strategy requires a platform built on absolute trust and transparency. Winbox is engineered with institutional-grade security and is committed to the highest standards of operational integrity.",
+        "features": {
+          "licensed": {
+            "title": "Fully Licensed:",
+            "description1": "We are officially licensed and regulated by respected international governing bodies, including",
+            "description2": "and Gaming Curacao, ensuring we adhere to strict operational protocols."
+          },
+          "certified": "<strong>Certified & Audited:</strong> The integrity of our platform and its underlying technology is independently verified and certified by world-renowned testing laboratories like BMM Testlabs and iTech Labs.",
+          "financial": "<strong>Financially Secure:</strong> All data transmitted on our platform is protected by 256-bit SSL encryption. We partner with industry leaders like ThreatMatrix to safeguard your financial transactions and personal information."
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "providers": {
+            "question": "How does having multiple providers benefit me?",
+            "answer": "The primary benefit is a significant analytical advantage. You can:",
+            "benefits": {
+              "compare": "<strong>Compare Odds:</strong> See odds for the same match across different sportsbooks (e.g., Maxbet vs. CMD368).",
+              "secure": "<strong>Secure the Best Price:</strong> Identify and lock in the most favorable odds for any given bet.",
+              "maximize": "<strong>Maximize Profit:</strong> Ensuring you get the best price directly maximizes your potential profit on every win."
+            }
+          },
+          "trusted": {
+            "question": "What makes Winbox a trusted platform for sports betting?",
+            "answer": "Our trustworthiness is built on official, verifiable credentials. We are:",
+            "credentials": {
+              "licensed": "<strong>Fully Licensed:</strong> A regulated entity under international authorities like PAGCOR, not an anonymous bookmaker.",
+              "certified": "<strong>Independently Certified:</strong> Our platform's fairness and security are verified by third-party labs.",
+              "integrity": "<strong>Guaranteed Integrity:</strong> These external audits provide a transparent guarantee of our operational integrity."
+            }
+          },
+          "live": {
+            "question": "Can I place live, in-play bets during a match?",
+            "answer": "Yes. Our top providers, especially Maxbet and CMD368, feature sophisticated live betting interfaces. This allows you to place wagers in real-time as the match progresses, letting you react to in-game events and capitalize on shifting odds."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Your Professional Betting Platform Awaits",
+        "description": "Success in sports betting demands more than just luck---it requires the right tools, the best information, and a secure environment. Winbox delivers on all fronts, providing the professional-grade platform you need to execute your strategy with confidence.",
+        "loginText": "Login To View Live Odds",
+        "betText": "Bet Now"
+      }
+    },
+
+    "liveCasino": {
+      "title": "Live Casino Malaysia | HD Baccarat & Roulette | Winbox",
+      "intro": {
+        "description1": "Step onto the casino floor. Hear the shuffle of the cards. Watch the dealer smile. This is the real deal.",
+        "description2": "",
+        "linkText": "Winbox",
+        "description3": " brings you the best",
+        "description4": " Live Casino",
+        "description5": " experience, direct to your screen. No computer players.",
+        "description6": "Just real, professional dealers and real-time action, all in crystal clear HD video. If you want the true feeling of a casino, you are in the right place."
+      },
+      "whyWinbox": {
+        "title": "Why Winbox is the Real Deal for Live Games",
+        "description": "We give you an experience you can see and trust. It's all about quality and security.",
+        "dealers": {
+          "title": "Professional Live Dealers",
+          "description": "Our dealers are the best. They are trained, friendly, and run the games like true pros. They deal the cards, spin the wheel, and you can chat with them live. It's a fun and real social experience."
+        },
+        "streaming": {
+          "title": "Perfect HD Streaming",
+          "description": "You see everything clearly. Our games use multi-camera HD streams. The video is sharp and smooth, with no lag. You feel like you are sitting right at the table, watching every move."
+        },
+        "security": {
+          "title": "A Secure & Fair Game",
+          "description1": "Play with confidence. Winbox is a fully licensed and trusted online casino. We are regulated by",
+          "description2": "and Gaming Curacao. All our games are checked by labs like BMM Testlabs to make sure they are 100% fair. Your money is safe with us."
+        }
+      },
+      "providers": {
+        "title": "A World of Premium Live Casino Providers",
+        "description": "We have all the best live casino studios in one place. You get more choice than anywhere else. Pick your favorite table from the top names in the world.",
+        "evolution": {
+          "title": "Evolution Gaming:",
+          "description": "The number one leader. Famous for amazing game shows and perfect Baccarat, Roulette, and Blackjack tables."
+        },
+        "sexy": {
+          "title": "AE Sexy (Sexy Baccarat):",
+          "description": "A fun and glamorous live casino. The dealers are stylish and make every game exciting."
+        },
+        "asiaGaming": {
+          "title": "Asia Gaming (AG):",
+          "description": "A top choice for Asian players. They are experts in Online Baccarat Malaysia and other games popular in the region."
+        },
+        "playtech": {
+          "title": "Playtech:",
+          "description": "A world famous brand. Known for high-quality, premium live games you can trust."
+        },
+        "bigGaming": {
+          "title": "BIG Gaming (BG):",
+          "description": "Very popular for its smooth interface and great live Baccarat tables."
+        },
+        "others": {
+          "title": "More Top Providers:",
+          "description": "We also have tables from Ezugi, Hotroad, Pretty Gaming, and DB Gaming. You will always find a seat at a game you love."
+        }
+      },
+      "games": {
+        "title": "Your Favourite Classic Games, Brought to Life",
+        "description": "We have all the classic casino games you want to play.",
+        "baccarat": {
+          "title": "Live Baccarat",
+          "description1": "This is the king of",
+          "linkText": "live casino",
+          "description2": "in Malaysia. It's simple, fast, and exciting. Bet on the Player or Banker and watch the live dealer reveal the cards. It's pure elegance and suspense."
+        },
+        "roulette": {
+          "title": "Live Roulette",
+          "description": "Feel the thrill of the iconic spinning wheel. Place your bets on numbers, colors, or sections. The HD cameras track the ball so you see exactly where it lands. It's classic casino fun."
+        },
+        "blackjack": {
+          "title": "Live Blackjack",
+          "description": "It's you against the dealer. Get as close to 21 as you can without going over. Our live Blackjack tables offer a real strategic challenge. Make your moves and try to beat the house."
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "difference": {
+            "question": "How is a live casino different from a normal online game?",
+            "answer": "Live casino uses real people and real cards. You watch a live video stream of a human dealer. Normal online games are like video games, using computer graphics (RNG)."
+          },
+          "fairness": {
+            "question": "Are the games actually live and fair?",
+            "answer": "Yes. You are watching a real game happen in real-time. Everything is licensed and checked by third-party auditors to make sure it is 100% fair and random."
+          },
+          "requirements": {
+            "question": "What do I need to start playing?",
+            "answer": "Just a Winbox account and a stable internet connection. You can play on your phone or computer. No special software needed."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Join the Action at the Best Tables in Malaysia",
+        "description": "Stop playing against computers. Get the real casino feeling with professional dealers, HD quality, and a secure platform. Winbox has the best tables and the most choices for live casino players in Malaysia. Your seat is waiting.",
+        "loginText1": "Get in to the official ",
+        "loginText" : " Winbox login ",
+        "playText": " page, play Live Now!"
+      }
+    },
+
+    "lottery": {
+      "title": "What Is Winbox Lottery & Why Try It",
+      "intro": {
+        "description1": "Winbox Lottery is an online platform where you can play 4D (4‑digit) and",
+        "linkText": "Winbox Ekor",
+        "description2": "lottery games under trusted operators (Magnum 4D, Damacai, Toto etc). It bundles multiple operators, gives high payout odds, and allows various bet types in one place.",
+        "description3": "For someone new, it offers:",
+        "features": {
+          "interface": "Clear interface & mobile experience",
+          "betTypes": "Multiple bet types so you can start with small risk",
+          "rules": "Transparent rules & prize structure",
+          "results": "Fast results & potential high rewards"
+        }
+      },
+      "howItWorks": {
+        "title": "How 4D & Ekor Games Work",
+        "table": {
+          "headers": {
+            "term": "Term",
+            "meaning": "Meaning"
+          },
+          "rows": {
+            "fourD": {
+              "term": "4D / 4‑Digit",
+              "meaning": "You choose a 4‑digit number (0000–9999). If it matches the drawn number, you win."
+            },
+            "ekor": {
+              "term": "Ekor",
+              "meaning": "A variant or bet style under the 4D umbrella; often refers to betting on last digit (\"tail\"), or special grouping. Exact rules depend on operator."
+            },
+            "bigSmall": {
+              "term": "Big vs Small bets",
+              "meaning": "Big bet allows wins in more categories (including lower prize tiers), Small is narrower but gives higher payout if you win."
+            },
+            "otherBets": {
+              "term": "Other Bet Types",
+              "meaning": "iBox, System, Roll, etc. They allow permutations or combinations to increase coverage (at higher cost)."
+            }
+          }
+        }
+      },
+      "stepByStep": {
+        "title": "How to Play Ekor on Winbox: Step‑By‑Step",
+        "steps": {
+          "step1": "Sign up / log in to your",
+          "step1b": "account.",
+          "step2": "Go to the",
+          "step2b": "4D Lottery / Ekor",
+          "step2c": "section.",
+          "step3": "Choose your operator (Magnum, Toto, Damacai etc).",
+          "step4": "Pick your 4‑digit number or use random / \"quick pick\" option.",
+          "step5": "Choose bet type (Big, Small, iBox, System, Roll) according to your risk preference.",
+          "step6": "Enter your stake. Note: system & permutation bets cost more because they cover more combinations.",
+          "step7": "Purchase your bet before the cut‑off time.",
+          "step8": "After the draw, check the results via Winbox's result page or official operator's site.",
+          "step9": "If you win, follow Winbox's process to claim your prize."
+        }
+      },
+      "odds": {
+        "title": "4D Lottery Odds & Prize Structure",
+        "points": {
+          "prizeStructure": "Prize money depends on <strong>bet type</strong> and <strong>matching categories</strong> (e.g. first, second, third, special, consolation etc).",
+          "bigVsSmall": "Big bets pay out in more categories but each prize is smaller compared to Small bets (which must match high‑tier only).",
+          "systemBets": "System / iBox / Roll bets increase chance but you pay for more combinations, so net gain vs cost matters."
+        },
+        "note": "Note: Different 4D operators have slightly different payout tables. Always check the specific operator's \"4D Game Rules.\" For example, Singapore Pools' rules define Ordinary, System, Roll, iBet entry etc."
+      },
+      "tips": {
+        "title": "Tips & Smart Ways to Play (Especially If You're New)",
+        "points": {
+          "startSmall": {
+            "title": "Start small.",
+            "description": "Use minimal stakes first to understand how bet types work."
+          },
+          "mixBets": {
+            "title": "Mix bet types.",
+            "description": "One straight 4D + one Roll or small bet can balance risk & potential reward."
+          },
+          "trackDraws": {
+            "title": "Track past draws.",
+            "description": "Look for patterns like hot or cold numbers — while nothing guarantees a win, patterns can influence your choices."
+          },
+          "manageBudget": {
+            "title": "Manage budget & limits.",
+            "description": "Set a budget for betting and stick to it. Don't chase losses."
+          },
+          "knowDeadlines": {
+            "title": "Know due dates & deadlines.",
+            "description": "Place your bet before the draw cut‑offs. Results may be delayed or posted at specific times."
+          },
+          "usePromotions": {
+            "title": "Use promotions or bonuses",
+            "description": "(if Winbox offers them) to stretch your bets."
+          }
+        }
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "bigSmall": {
+            "question": "What's the difference between Big & Small bets?",
+            "answer": "Big bets allow winning in more prize categories (including lower tiers), but Small bets pay higher amounts for fewer winning categories."
+          },
+          "betTypes": {
+            "question": "What is iBox / System / Roll bet?",
+            "answers": {
+              "roll": {
+                "title": "Roll",
+                "description": "lets you substitute one digit (or more) in your 4‑digit combination so you cover multiple possible numbers."
+              },
+              "system": {
+                "title": "System / iBox",
+                "description": "allow all permutations of a number to be played; you cover many possible orders. It raises cost but can increase win chance."
+              }
+            }
+          },
+          "winners": {
+            "question": "How are winners chosen?",
+            "answer": "Numbers are drawn randomly; for most 4D games the operator draws a 4‑digit number (plus additional \"starter\" or \"special / consolation\" numbers depending on system). You must match exactly (depending on entry type)."
+          },
+          "claim": {
+            "question": "How do I claim a prize if I win?",
+            "answer": "Winbox will have a prize‑claim process. Usually verifies your account, checks your bet slip, then credits your account or arranges payout. Always keep your ticket or bet confirmation."
+          },
+          "legal": {
+            "question": "Is it legal?",
+            "answer": "Ensure the lottery operator is legally licensed in Malaysia (Magnum, Toto, Damacai etc). Winbox must partner with approved operators."
+          }
+        }
+      },
+      "advantages": {
+        "title": "Why Winbox Over Traditional Outlets",
+        "points": {
+          "mobile": "Play anytime via mobile or browser — no need to visit a physical shop.",
+          "multiple": "Multiple operators in one platform, giving you choice.",
+          "instant": "Instant access to results & quicker claims.",
+          "transparency": "Better transparency in odds, bet types.",
+          "control": "More control over your bankroll and game history."
+        }
+      },
+      "conclusion": {
+        "title": "Final Word",
+        "description1": "Playing",
+        "highlight": "Winbox 4D Lottery / Ekor",
+        "description2": "can be exciting and potentially rewarding. But like all chance‑games, knowledge + discipline matters.",
+        "description3": "Understand the rules, choose your bet types wisely, manage your budget, and always check that you are dealing with licensed operators.",
+        "description4": "When done responsibly, even as a newcomer, you can enjoy the thrill and possibility of winning—all with minimal risk. Ready to try your first bet? Get in to",
+        "linkText": "Winbox Register",
+        "description5": "now"
+      }
+    },
+
+    "horseRacing": {
+      "title": "Winbox Horse Racing: Guide to Betting on RCB988 (2025)",
+      "intro": {
+        "description1": "Stepping into the world of horse racing can be hard. With its unique terminology, complex odds, and fast-paced action, many potential bettors don't know where to start.",
+        "description2": "You want the feeling of the race, but need a simple, secure, and reliable way to participate.",
+        "description3": "Winbox simplifies this entire process through its partnership with",
+        "linkText": "RCB988",
+        "description4": ", a premier platform dedicated to horse racing.",
+        "description5": "This guide will walk you through everything you need to know, from understanding the basics to placing your very first winning bet."
+      },
+      "betTypes": {
+        "title": "Beginner Bet Types Compared",
+        "table": {
+          "headers": {
+            "betType": "Bet Type",
+            "bestFor": "Best For",
+            "howToWin": "How You Win",
+            "payoutLevel": "Payout Level"
+          },
+          "rows": {
+            "win": {
+              "type": "Win",
+              "bestFor": "Absolute beginners focusing on one horse.",
+              "howToWin": "Your chosen horse must finish in first place.",
+              "payout": "Highest"
+            },
+            "place": {
+              "type": "Place",
+              "bestFor": "A safer bet with a good chance of winning.",
+              "howToWin": "Your chosen horse finishes in first or second place.",
+              "payout": "Medium"
+            },
+            "show": {
+              "type": "Show",
+              "bestFor": "The highest probability bet for new players.",
+              "howToWin": "Your chosen horse finishes in first, second, or third place.",
+              "payout": "Lower"
+            }
+          }
+        },
+        "note": "Still unsure which one suits your needs? This breakdown makes it easy."
+      },
+      "whatIsWinbox": {
+        "title": "What is Winbox Horse Racing with RCB988?",
+        "description1": "Winbox provides an exclusive horse racing experience through RCB988, a specialised and user-friendly betting platform.",
+        "description2": "Instead of a generic sports betting page, Winbox partners with RCB988 to offer a dedicated and expertly crafted horse racing environment.",
+        "description3": "RCB988 focuses solely on the \"Sport of Kings,\" providing access to a wide range of local and international races. The interface is clean and well-organised, allowing you to easily find upcoming events, study the odds, and place your Winbox horse betting wagers without any confusion.",
+        "description4": "This partnership ensures that both new and experienced players get a top-tier, professional experience."
+      },
+      "howToBet": {
+        "title": "How to Place Your First Bet",
+        "description": "Getting started takes just a few simple steps, from registration to placing your wager.",
+        "subtitle": "The Winbox platform is designed for a frictionless user journey. You can go from being a complete novice to placing your first bet in minutes.",
+        "steps": {
+          "step1": {
+            "title": "Create Your Winbox Account:",
+            "description": "The registration process is quick and secure."
+          },
+          "step2": {
+            "title": "Make a Deposit:",
+            "description": "Fund your account using a wide range of trusted payment methods, including online banking and e-wallets."
+          },
+          "step3": {
+            "title": "Navigate to RCB988:",
+            "description": "From the Winbox main menu, select the horse racing category to enter the RCB988 platform."
+          },
+          "step4": {
+            "title": "Choose a Race:",
+            "description": "Browse the list of available local and international races and select one that interests you."
+          },
+          "step5": {
+            "title": "Place Your Bet:",
+            "description": "Select your horse, choose a simple bet type like \"Win,\" \"Place,\" or \"Show,\" enter your stake, and confirm your bet."
+          }
+        }
+      },
+      "basicBets": {
+        "title": "Understanding the Basic Bet Types",
+        "description": "For beginners, focusing on the three simplest bet types is the key to building confidence.",
+        "subtitle": "While Winbox RCB988 offers complex \"exotic\" wagers like the Trifecta and Superfecta, mastering the basics is the best strategy for newcomers.",
+        "types": {
+          "win": {
+            "title": "Win Bet:",
+            "description": "The most straightforward wager. You are betting on a single horse to win the race. It offers the highest payout of the basic bets but is also the hardest to win."
+          },
+          "place": {
+            "title": "Place Bet:",
+            "description": "A more flexible option. You win if your horse finishes in either first or second place. The payout is lower than a Win bet, but your chances of success are doubled."
+          },
+          "show": {
+            "title": "Show Bet:",
+            "description": "The safest bet for beginners. You win if your chosen horse finishes in the top three (first, second, or third). While the payout is the most modest, it's a great way to get a feel for the game and earn consistent, smaller wins."
+          }
+        }
+      },
+      "whyWinbox": {
+        "title": "Why Choose Winbox for Horse Racing?",
+        "description": "Winbox delivers a secure, supportive, and convenient platform for all your horse racing needs.",
+        "subtitle": "When it comes to online betting, trust and user experience are everything. Winbox excels by focusing on the key areas that matter most to players.",
+        "features": {
+          "security": {
+            "title": "Security and Trust:",
+            "description": "All transactions are protected with advanced encryption. As a licensed and regulated platform, Winbox ensures fair play and secure handling of your funds."
+          },
+          "support": {
+            "title": "24/7 Customer Support:",
+            "description": "If you ever have a question or need assistance, a professional support team is available around the clock via live chat, email, and phone."
+          },
+          "mobile": {
+            "title": "Seamless Mobile Experience:",
+            "description": "The Winbox mobile app provides the full functionality of the desktop site, allowing you to place bets, watch odds, and check results on the go."
+          },
+          "expert": {
+            "title": "Expert Platform:",
+            "description": "By partnering with a specialist like Winbox RCB988, you get an experience that is tailored specifically for horse racing, not just a generic add-on."
+          }
+        }
+      },
+      "winningStart": {
+        "title": "Your Winning Start in Winbox Horse Betting",
+        "description1": "Winbox and RCB988 have removed the barriers for new players, offering a clear and exciting entry into the world of horse racing.",
+        "description2": "With an intuitive platform, a focus on security, and all the tools you need to get started, you can move from spectator to participant with confidence.",
+        "linkText": "Winbox login",
+        "description3": "now to place your first bet!"
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "whatIsRcb": {
+            "question": "What is RCB988?",
+            "answer": "RCB988 is a specialised online platform and a trusted partner of Winbox, focusing exclusively on providing a premium horse racing betting experience. It offers a wide range of international and local races."
+          },
+          "safety": {
+            "question": "Is Winbox horse racing betting safe?",
+            "answer": "Yes. Winbox is licensed and regulated by international governing bodies like Gaming Curacao and PAGCOR. The platform uses 256-bit SSL encryption to ensure all your personal and financial data is secure."
+          },
+          "easiest": {
+            "question": "What is the easiest bet for a beginner?",
+            "answer": "The \"Show\" bet is the easiest and safest for a newcomer. You win if your horse finishes in any of the top three positions, giving you the highest probability of winning as you learn the ropes."
+          },
+          "results": {
+            "question": "How do I check the race results?",
+            "answer": "All race results are updated in real-time within the",
+            "platform": "RCB988 platform",
+            "continued": ". You can easily see the finishing order and check your betting history to see if you have won."
+          },
+          "international": {
+            "question": "Can I bet on international horse races?",
+            "answer": "Absolutely.",
+            "platform": "RCB988",
+            "continued": "provides access to a comprehensive calendar of events from renowned tracks all over the world, allowing you to bet on major international races."
+          },
+          "help": {
+            "question": "How do I get help if I have a question?",
+            "answer": "Winbox offers 24/7 customer support. You can reach the support team instantly through live chat on the website or app, or via email and phone for prompt assistance."
+          }
+        }
+      }
     }
 }

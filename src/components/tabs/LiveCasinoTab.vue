@@ -11,6 +11,78 @@
         </div>
       </div>
     </div>
+
+    <!-- Content Section Based on Document -->
+    <div class="content-section">
+      <h1>{{ $t('liveCasino.title') }}</h1>
+      
+      <p>{{ $t('liveCasino.intro.description1') }}</p>
+      <p>{{ $t('liveCasino.intro.description2') }} <span class="homepage-link" @click="goToHomepage">{{ $t('liveCasino.intro.linkText') }}</span> {{ $t('liveCasino.intro.description3') }}<strong>{{ $t('liveCasino.intro.description4') }}</strong>{{ $t('liveCasino.intro.description5') }}</p>
+      <p>{{ $t('liveCasino.intro.description6') }}</p>
+
+      <div class="content-block">
+        <h2>{{ $t('liveCasino.whyWinbox.title') }}</h2>
+        <p>{{ $t('liveCasino.whyWinbox.description') }}</p>
+
+        <h3>{{ $t('liveCasino.whyWinbox.dealers.title') }}</h3>
+        <p>{{ $t('liveCasino.whyWinbox.dealers.description') }}</p>
+
+        <h3>{{ $t('liveCasino.whyWinbox.streaming.title') }}</h3>
+        <p>{{ $t('liveCasino.whyWinbox.streaming.description') }}</p>
+
+        <h3>{{ $t('liveCasino.whyWinbox.security.title') }}</h3>
+        <p>{{ $t('liveCasino.whyWinbox.security.description1') }} 
+        <a href="https://www.pagcor.ph/index.php" class="homepage-link" target="_blank">PAGCOR</a> 
+        {{ $t('liveCasino.whyWinbox.security.description2') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('liveCasino.providers.title') }}</h2>
+        <p>{{ $t('liveCasino.providers.description') }}</p>
+
+        <ul class="dots">
+          <li><strong>{{ $t('liveCasino.providers.evolution.title') }}</strong> {{ $t('liveCasino.providers.evolution.description') }}</li>
+          <li><strong>{{ $t('liveCasino.providers.sexy.title') }}</strong> {{ $t('liveCasino.providers.sexy.description') }}</li>
+          <li><strong>{{ $t('liveCasino.providers.asiaGaming.title') }}</strong> {{ $t('liveCasino.providers.asiaGaming.description') }}</li>
+          <li><strong>{{ $t('liveCasino.providers.playtech.title') }}</strong> {{ $t('liveCasino.providers.playtech.description') }}</li>
+          <li><strong>{{ $t('liveCasino.providers.bigGaming.title') }}</strong> {{ $t('liveCasino.providers.bigGaming.description') }}</li>
+          <li><strong>{{ $t('liveCasino.providers.others.title') }}</strong> {{ $t('liveCasino.providers.others.description') }}</li>
+        </ul>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('liveCasino.games.title') }}</h2>
+        <p>{{ $t('liveCasino.games.description') }}</p>
+
+        <h3>{{ $t('liveCasino.games.baccarat.title') }}</h3>
+        <p>{{ $t('liveCasino.games.baccarat.description1') }} <span class="homepage-link" @click="goToLiveCasino">{{ $t('liveCasino.games.baccarat.linkText') }}</span> {{ $t('liveCasino.games.baccarat.description2') }}</p>
+
+        <h3>{{ $t('liveCasino.games.roulette.title') }}</h3>
+        <p>{{ $t('liveCasino.games.roulette.description') }}</p>
+
+        <h3>{{ $t('liveCasino.games.blackjack.title') }}</h3>
+        <p>{{ $t('liveCasino.games.blackjack.description') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('liveCasino.faqs.title') }}</h2>
+        
+        <h3>{{ $t('liveCasino.faqs.questions.difference.question') }}</h3>
+        <p>{{ $t('liveCasino.faqs.questions.difference.answer') }}</p>
+
+        <h3>{{ $t('liveCasino.faqs.questions.fairness.question') }}</h3>
+        <p>{{ $t('liveCasino.faqs.questions.fairness.answer') }}</p>
+
+        <h3>{{ $t('liveCasino.faqs.questions.requirements.question') }}</h3>
+        <p>{{ $t('liveCasino.faqs.questions.requirements.answer') }}</p>
+      </div>
+
+      <div class="content-block">
+        <h2>{{ $t('liveCasino.conclusion.title') }}</h2>
+        <p>{{ $t('liveCasino.conclusion.description') }}</p>
+        <p>{{ $t('liveCasino.conclusion.loginText1') }}<span class="homepage-link" @click="goToLogin">{{ $t('liveCasino.conclusion.loginText') }}</span> {{ $t('liveCasino.conclusion.playText') }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -29,7 +101,13 @@ import sv388 from "@/assets/sv388.png";
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
-const { goToRegister } = useNavigation();
+
+const {
+  goToRegister,
+  goToHomepage,
+  goToLogin,
+  goToLiveCasino,
+} = useNavigation();
 
 // Define live casino games in the specified sequence
 const liveGames = [
@@ -134,6 +212,64 @@ const navigateToGame = (gameId) => {
   display: block;
   cursor: pointer;
   border-radius: 8px;
+}
+
+/* Content Section - Based on sports betting CSS */
+.content-section {
+  margin: 0 auto;
+  padding: 20px 10px;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+
+.content-section h1 {
+  font-size: 22px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.content-section p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.content-section h2 {
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-section h3 {
+  font-size: 16px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.content-block {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Lists - exactly like sports betting */
+.dots {
+  padding-left: 30px;
+  font-size: 14px;
+}
+
+.dots li {
+  margin-bottom: 5px;
+}
+
+/* Homepage links - exactly like sports betting */
+.homepage-link {
+  color: #02D1FD;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 /* Tablet styles - 4 items per row */

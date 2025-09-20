@@ -118,6 +118,14 @@ export function useNavigation() {
     router.push(getLocalizedPath('/monkeyking'))
   }
 
+    const goToSlots = () => {
+    router.push(getLocalizedPath('/slot'))
+  }
+
+  const goToSportsBetting = () => {
+    router.push(getLocalizedPath('/sports-betting'))
+  }
+
   // Generic navigation function
   const navigateTo = (path) => {
     router.push(getLocalizedPath(path))
@@ -155,7 +163,9 @@ export function useNavigation() {
     pragmaticPlay: () => getLocalizedPath('/pragmatic-play'),
     askmeslot: () => getLocalizedPath('/askmeslot'),
     microslot: () => getLocalizedPath('/microslot'),
-    monkeyking: () => getLocalizedPath('/monkeyking')
+    monkeyking: () => getLocalizedPath('/monkeyking'),
+    slot: () => getLocalizedPath('/slot'),
+    sportsBetting: () => getLocalizedPath('/sports-betting'),
   }
 
   return {
@@ -187,6 +197,8 @@ export function useNavigation() {
     goToAskmeslot,
     goToMicroslot,
     goToMonkeyking,
+    goToSlots,
+    goToSportsBetting,
     
     // Utility functions
     navigateTo,
