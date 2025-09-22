@@ -10,6 +10,7 @@
 
     <!-- Content Section Based on Document -->
     <div class="content-section">
+      <license_payment />
       <h1>{{ $t('sportsBetting.title') }}</h1>
       
       <p v-html="$t('sportsBetting.intro.description1')"></p>
@@ -116,6 +117,7 @@
 
 <script setup>
 // Import the sports betting platform images in the specified sequence
+import license_payment from '../license_payment.vue';
 import maxbet from '@/assets/maxbet.png';
 import cmd368 from '@/assets/cmd368.png';
 import wickets9 from '@/assets/9-wickets.png';
@@ -128,31 +130,35 @@ const {
   goToRegister,
   goToHomepage,
   goToLogin,
+  goToMaxbet,
+  goToCmd368,
+  goToNineWickets,
+  goToBti,
   goToSportsBetting,
 } = useNavigation();
 
 // Define sports games in the specified sequence
 const sportsGames = [
   {
-    id: 'login',
+    id: 'maxbet',
     name: 'Max Bet',
     image: maxbet,
     alt: 'Winbox Max Bet'
   },
   {
-    id: 'login',
+    id: 'cmd368',
     name: 'CMD368',
     image: cmd368,
     alt: 'Winbox CMD368'
   },
   {
-    id: 'login',
+    id: '9wickets',
     name: '9 Wickets',
     image: wickets9,
     alt: 'Winbox 9 Wickets'
   },
   {
-    id: 'login',
+    id: 'bti',
     name: 'BTI',
     image: bti,
     alt: 'Winbox BTI'
@@ -160,10 +166,25 @@ const sportsGames = [
 ];
 
 const navigateToGame = (gameId) => {
-  if (gameId === 'login') {
-    goToRegister();
-  } else {
-    goToRegister();
+  switch (gameId) {
+    case "login":
+      goToRegister();
+      break;
+    case "maxbet":
+      goToMaxbet();
+      break;
+    case "cmd368":
+      goToCmd368();
+      break;
+    case "9wickets":
+      goToNineWickets();
+      break;
+    case "bti":
+      goToBti();
+      break;
+    default:
+      goToRegister();
+      break;
   }
 };
 </script>

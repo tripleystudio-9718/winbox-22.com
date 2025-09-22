@@ -14,6 +14,7 @@
     </div>
 
     <div class="content-section">
+      <license_payment />
       <h1>{{ $t('lottery.title') }}</h1>
       
       <p>{{ $t('lottery.intro.description1') }} <span class="homepage-link" @click="goToEkor">{{ $t('lottery.intro.linkText') }}</span> {{ $t('lottery.intro.description2') }}</p>
@@ -146,6 +147,7 @@
 
 <script setup>
 import ekor from '@/assets/ekor.png';
+import license_payment from '../license_payment.vue';
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
@@ -158,8 +160,8 @@ const {
 } = useNavigation();
 
 const navigateToGame = (gameId) => {
-  if (gameId === "login") {
-    goToRegister();
+  if (gameId === "ekor") {
+    goToEkor();
   } else {
     // For future lottery-specific pages
     goToRegister();
@@ -168,7 +170,7 @@ const navigateToGame = (gameId) => {
 
 const lotteryGames = [
   {
-    id: 'login',
+    id: 'ekor',
     name: 'Ekor',
     image: ekor,
     alt: 'Winbox Ekor'

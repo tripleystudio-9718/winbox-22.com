@@ -10,6 +10,7 @@
 
     <!-- Content Section Based on Document -->
     <div class="content-section">
+      <license_payment />
       <h1>{{ $t('horseRacing.title') }}</h1>
       
       <p>{{ $t('horseRacing.intro.description1') }}</p>
@@ -137,6 +138,8 @@
 
 <script setup>
 import rcb_988 from '@/assets/rcb988.png';
+import license_payment from '../license_payment.vue';
+
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
@@ -146,11 +149,12 @@ const {
   goToHomepage,
   goToLogin,
   goToHorseRacing,
+  goToRcb988,
 } = useNavigation();
 
 const horsingGames = [
   {
-    id: 'login',
+    id: 'rcb988',
     name: 'RCB 988',
     image: rcb_988,
     alt: 'Winbox RCB 988'
@@ -158,8 +162,8 @@ const horsingGames = [
 ];
 
 const navigateToGame = (gameId) => {
-  if (gameId === 'login') {
-    goToRegister();
+  if (gameId === 'rcb988') {
+    goToRcb988();
   } else {
     // For future horse racing specific pages
     goToRegister();

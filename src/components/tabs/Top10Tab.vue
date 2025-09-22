@@ -41,6 +41,7 @@ const {
   goToPlaytech,
   goToPragmaticPlay,
   goToAskmeslot,
+  goToLucky365,
   goToMicroslot,
   goToMonkeyking
 } = useNavigation();
@@ -60,7 +61,7 @@ const top10Games = [
     alt: "Winbox Pragmatic Play"
   },
   {
-    id: "login",
+    id: "lucky365",
     name: "Lucky 365",
     image: lucky365,
     alt: "Winbox Lucky 365"
@@ -141,6 +142,9 @@ const navigateToGame = (gameId) => {
       break;
     case "microslot":
       goToMicroslot();
+      break;
+    case "lucky365":
+      goToLucky365();
       break;
     case "monkeyking":
       goToMonkeyking();

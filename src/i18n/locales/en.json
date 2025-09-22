@@ -2077,5 +2077,1974 @@
           }
         }
       }
+    },
+
+    "lucky365": {
+      "title": "Lucky365 Slot -- 50+ High-Payout Games, Instant Login & Free Demo for Malaysian Players",
+      "intro": {
+        "description": "No downloads. No delays. Just real slot games that pay --- backed by trusted Asian gaming tech. Play now with RM10 free demo credits."
+      },
+      "topGames": {
+        "title": "🎰 Top 5 Lucky365 Slot Games (Malaysian Favorites)",
+        "table": {
+          "headers": {
+            "game": "Game",
+            "theme": "Theme",
+            "rtp": "RTP",
+            "bestFor": "Best For"
+          },
+          "rows": {
+            "monkeyKing": {
+              "game": "Monkey King 3",
+              "theme": "Mythical Adventure",
+              "rtp": "96.8%",
+              "bestFor": "High volatility, bonus rounds"
+            },
+            "fortuneTiger": {
+              "game": "Fortune Tiger",
+              "theme": "Traditional Luck",
+              "rtp": "96.2%",
+              "bestFor": "Low bet, frequent wins"
+            },
+            "godOfWealth": {
+              "game": "God of Wealth 2",
+              "theme": "Lunar New Year",
+              "rtp": "95.7%",
+              "bestFor": "Bonus multipliers, cascading reels"
+            },
+            "dolphinReef": {
+              "game": "Dolphin Reef",
+              "theme": "Ocean Life",
+              "rtp": "96.1%",
+              "bestFor": "Casual players, soothing visuals"
+            },
+            "qinShiHuang": {
+              "game": "Qin Shi Huang",
+              "theme": "Ancient China",
+              "rtp": "95.9%",
+              "bestFor": "Expanding wilds, big payouts"
+            }
+          }
+        },
+        "note": "All games run on HTML5 --- works on Samsung, Xiaomi, iPhone, Oppo, Huawei. No lag. No plugins."
+      },
+      "howToLogin": {
+        "title": "🔐 How to Log In to Lucky365 (Step-by-Step)",
+        "steps": {
+          "step1": "Visit:",
+          "step1Link": "https://www.winbox22.com/lucky365",
+          "step1Continued": "(Official Site Only)",
+          "step2": "Click \"Login\" in top-right corner",
+          "step3": "Enter your username & password",
+          "step4": "Press \"Submit\" → You're in"
+        },
+        "forgotPassword": "💡 Forgot password? Click \"Forgot Password?\" → Reset via email or WhatsApp.",
+        "securityNote": "🔒 Never use third-party links. We do not partner with any other domains."
+      },
+      "freeDemo": {
+        "title": "🆓 Try Lucky365 for Free --- No Deposit Required",
+        "description": "Play every game risk-free with a test ID or demo mode:",
+        "features": {
+          "noRegistration": "Open any slot → Select \"Play for Fun\" → Start spinning immediately",
+          "noCardDetails": "No registration. No card details. No pressure.",
+          "fullAccess": "Want full access? Request a free test ID via live chat --- we'll send you RM50 virtual credits in seconds."
+        },
+        "statistic": "Used by 87% of new players before betting real money."
+      },
+      "downloadApk": {
+        "title": "⬇️ Download Lucky365 APK (Android Only)",
+        "subtitle": "(For faster loading, push notifications, offline access)",
+        "whyDownload": {
+          "title": "✅ Why download?",
+          "features": {
+            "faster": "40% faster load times than browser version",
+            "notifications": "Receive daily bonus alerts even when closed",
+            "oldPhones": "Works on older phones (Android 8+)"
+          }
+        },
+        "howToInstall": {
+          "title": "📥 How to install:",
+          "steps": {
+            "step1": "Tap",
+            "step1Link": "Download APK",
+            "step1Continued": "on your Android phone",
+            "step2": "Go to Settings > Security > Enable \"Install from Unknown Sources\"",
+            "step3": "Open downloaded file → Tap \"Install\"",
+            "step4": "Launch app → Log in → Play"
+          }
+        },
+        "warning": "⚠️ Do NOT download from Telegram, Facebook, or third-party sites. Only use the link above."
+      },
+      "whyChoose": {
+        "title": "💡 Why Malaysian Players Choose Lucky365",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "whyItMatters": "Why it Matters"
+          },
+          "rows": {
+            "payment": {
+              "feature": "Local Payment Methods",
+              "description": "Deposit & withdraw via DuitNow, Touch 'n Go, Boost, CIMB, Maybank --- no PayPal or crypto needed"
+            },
+            "bonus": {
+              "feature": "RM10 Welcome Bonus",
+              "description": "Auto-credited on first deposit --- no code required"
+            },
+            "support": {
+              "feature": "24/7 Live Chat",
+              "description": "Support in Bahasa Melayu & English --- average reply time: 42 seconds"
+            },
+            "rng": {
+              "feature": "Fair RNG Certified",
+              "description": "All games audited monthly --- transparency reports available on request"
+            },
+            "mobile": {
+              "feature": "Mobile-First Design",
+              "description": "Fully responsive --- plays perfectly on small screens, low-end devices"
+            }
+          }
+        }
+      },
+      "promotions": {
+        "title": "🏆 Exclusive Promotions (Malaysia Only)",
+        "dailyReload": {
+          "title": "Daily Reload Bonus:",
+          "description": "30% extra on deposits every day until 11PM KL time"
+        },
+        "freeSpins": {
+          "title": "Free Spins Every Morning:",
+          "description": "10 free spins on Fortune Tiger at 8AM MYT"
+        },
+        "vip": {
+          "title": "VIP Program:",
+          "description": "Earn points → Exchange for cash, gadgets, or concert tickets"
+        },
+        "referral": {
+          "title": "Refer a Friend:",
+          "description": "Get RM20 when they make their first deposit"
+        },
+        "note": "Promotions change weekly. Check \"My Bonuses\" after login."
+      },
+      "faqs": {
+        "title": "❓ Frequently Asked Questions (FAQ)",
+        "questions": {
+          "testId": {
+            "question": "What is a Lucky365 test ID?",
+            "answer": "A free virtual account with RM50 credits to try all slots. Request it via live chat --- no email or phone needed."
+          },
+          "iphone": {
+            "question": "Can I play on iPhone?",
+            "answer": "Yes. Use Safari to visit",
+            "link": "https://www.winbox22.com/lucky365",
+            "continued": ". Full functionality --- no App Store app exists."
+          },
+          "legal": {
+            "question": "Is Lucky365 legal in Malaysia?",
+            "answer": "Lucky365 operates as an international gaming platform. Malaysian users access it privately. We comply with global security standards and never store sensitive financial data."
+          },
+          "withdrawals": {
+            "question": "How fast are withdrawals?",
+            "answer": "Most cashouts via DuitNow or bank transfer complete within 15 minutes. Maximum wait: 2 hours."
+          },
+          "download": {
+            "question": "Do I need to download to play?",
+            "answer": "No. All games work in-browser. Download only if you want faster performance or push notifications."
+          },
+          "rigged": {
+            "question": "Are the games rigged?",
+            "answer": "No. Every spin uses certified RNG technology. Results cannot be controlled by staff or system."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "🚀 Ready to Play? Start Now --- 100% Risk-Free Trial Available",
+        "linkText": "👉 Click Winbox Login",
+        "description": "& Claim Your RM10 Bonus"
+      }
+    },
+    "microslot": {
+      "title": "MicroSlot Games on Winbox22 -- Play 30+ High-Payout Slot Titles in Malaysia",
+      "intro": {
+        "description1": "If you're looking for fresh, fast-paced slots that actually pay out --- without complicated rules or slow loading ---",
+        "linkText": "MicroSlot",
+        "description2": "on Winbox22 is built for you.",
+        "description3": "No flashy promises. Just clean gameplay, trusted fairness, and real wins. Whether you prefer Chinese-themed Mahjong slots or explosive card-based combos like Super Ace, everything runs smoothly on your phone.",
+        "description4": "This is where Malaysian players are spinning today.",
+        "description5": "You'll find all top MicroSlot titles here --- demos included, no registration needed to try."
+      },
+      "comparison": {
+        "title": "MicroSlot Winbox Comparison Table",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "microslot": "Microslot (Winbox)",
+            "others": "Other Casino"
+          },
+          "rows": {
+            "gameLibrary": {
+              "feature": "Game Library",
+              "microslot": "33+ exclusive titles",
+              "others": "Often under 15"
+            },
+            "demoMode": {
+              "feature": "Demo Mode",
+              "microslot": "✅ Free play available",
+              "others": "❌ Rarely offered"
+            },
+            "mobileOptimization": {
+              "feature": "Mobile Optimization",
+              "microslot": "Native app performance",
+              "others": "Web-based, laggy on older phones"
+            },
+            "languageSupport": {
+              "feature": "Local Language Support",
+              "microslot": "Full Bahasa Melayu & English",
+              "others": "Limited to English"
+            },
+            "payoutSpeed": {
+              "feature": "Payout Speed",
+              "microslot": "Instant withdrawals",
+              "others": "1-3 business days"
+            },
+            "certification": {
+              "feature": "Certification",
+              "microslot": "BMM Testlabs certified",
+              "others": "Unknown or unverified"
+            },
+            "support": {
+              "feature": "24/7 Support",
+              "microslot": "WhatsApp + Live Chat (MY number)",
+              "others": "Email-only or overseas chat"
+            }
+          }
+        },
+        "note": "Table based on verified platform comparisons as of 2025. Winbox22 is the only local partner offering full MicroSlot integration with direct MY support."
+      },
+      "gamesAvailable": {
+        "title": "MicroSlot Games You Can Play Right Now on Winbox22",
+        "description1": "Play real-money slots with zero learning curve. Every MicroSlot title is designed for quick spins, big visual impact, and clear bonus triggers --- perfect for short breaks between work, commutes, or family time.",
+        "description2": "Mahjong Ways brings traditional tile-matching into a modern slot format --- match symbols across 5 reels and trigger free spins with expanding wilds. Sugar Bliss delights with candy-themed multipliers, while Super Ace Deluxe lets you build winning poker hands directly on the reels.",
+        "description3": "These aren't just graphics --- they're mechanics built for retention.",
+        "description4": "All games load in under 2 seconds on 4G. No pop-ups. No forced tutorials. Just spin."
+      },
+      "whyStandsOut": {
+        "title": "Why MicroSlot Stands Out from Other Providers",
+        "description1": "Unlike generic slot suppliers, MicroSlot launched in 2020 with one goal: make slots that feel personal to Asian players.",
+        "description2": "That means culturally relevant themes --- think dragon motifs, temple treasures, and local fruit symbols --- not recycled European fairy tales.",
+        "description3": "Their Monkey Jump game features multiplier rocks that climb up the screen during bonus rounds --- a mechanic you won't find on PG Soft or Pragmatic Play.",
+        "description4": "Even their sound design uses ambient tones familiar to Malaysian audiences: light gamelan chimes, distant temple bells, crisp coin drops.",
+        "description5": "They also offer free demo versions of every game. Try Dungeon Treasure for 10 minutes with virtual credits. See how the scatter pays. Learn the buy-feature cost. Then decide if it's worth playing for real."
+      },
+      "howToStart": {
+        "title": "How to Start Playing MicroSlot on Winbox22",
+        "steps": {
+          "step1": "Download the Winbox22 app from our official site --- no third-party links.",
+          "step2": "Open the app and tap \"Slots\" > \"MicroSlot\".",
+          "step3": "Choose any game --- click \"Demo\" to play free, or \"Play Real\" to deposit.",
+          "step4": "Deposit as little as RM10 to unlock welcome bonuses.",
+          "step5": "Withdraw winnings instantly via Boost, Touch 'n Go, or bank transfer."
+        },
+        "note": "No forms. No waiting. No verification delays."
+      },
+      "fairness": {
+        "title": "Fairness You Can Trust",
+        "description1": "Every MicroSlot game is certified by BMM Testlabs, an internationally recognized lab that audits RNG systems. This isn't a self-declared \"fair\" label --- it's third-party, audited, and publicly verifiable.",
+        "description2": "You can check your game's RTP (Return to Player) directly in-game. Most MicroSlot titles range from 96.2% to 97.8% --- higher than industry average."
+      },
+      "conclusion": {
+        "title": "MicroSlot Games on Winbox22 -- Your Trusted Choice for Fair, Fast, and Localized Slots in Malaysia",
+        "description1": "If you want slots that understand Malaysian players --- not just translate them --- Winbox22 delivers.",
+        "description2": "With over 30 MicroSlot titles, free demos, instant payouts, and local support, there's no better place to play. Start spinning today."
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "whatIs": {
+            "question": "What is MicroSlot?",
+            "answer": "MicroSlot is a modern slot provider founded in 2020, specializing in mobile-first video slots with high RTP, cultural themes, and proven fairness through BMM Testlabs certification."
+          },
+          "playFree": {
+            "question": "Can I play MicroSlot games for free?",
+            "answer": "Yes. Every MicroSlot game on Winbox22 has a demo mode. No deposit required. Play with virtual credits to learn features before betting real money."
+          },
+          "safeToPlay": {
+            "question": "Is MicroSlot safe to play in Malaysia?",
+            "answer": "Yes. Winbox22 partners only with licensed providers. MicroSlot games are certified by BMM Testlabs, encrypted end-to-end, and comply with international iGaming standards."
+          },
+          "popularGames": {
+            "question": "Which MicroSlot games are most popular in Malaysia?",
+            "answer": "Top picks include Mahjong Ways, Super Ace Deluxe, King of Zeus, and Sugar Bliss. All feature localized visuals and high-frequency bonus triggers."
+          },
+          "needDownload": {
+            "question": "Do I need to download an app to play MicroSlot?",
+            "answer": "You can play instantly in-browser, but we recommend the Winbox22 app for faster loads, push notifications on bonuses, and smoother touch controls."
+          },
+          "withdraw": {
+            "question": "How do I withdraw my MicroSlot winnings?",
+            "answer": "Withdrawals are processed within 5 minutes via Boost, Touch 'n Go, DuitNow, or bank transfer. Minimum withdrawal: RM10."
+          }
+        }
+      },
+      "readyToSpin": {
+        "title": "Ready to Spin MicroSlot Games with Real Wins?",
+        "description": "Malaysia's fastest-loading slots. Zero delay. No registration needed to try.",
+        "linkText": "👉 Download the Winbox App",
+        "bonus": "Now -- Get RM10 Free Bonus on First Deposit",
+        "tagline": "(Android & iOS | 3-Second Install | Play in Bahasa Melayu)",
+        "slogan": "Play smart. Play local. Play Winbox22."
+      }
+    },
+
+    "maxbet": {
+      "title": "MaxBet Malaysia -- Bet Live Sports & Casino on Winbox22",
+      "subtitle": "Your Trusted Gateway to Asia's Leading Sportsbook -- Fast, Secure, Fully Localized for Malaysian Players",
+      "whyWinbox": {
+        "title": "Why MaxBet on Winbox22?",
+        "description1": "MaxBet isn't just another betting site --- it's Asia's most trusted sportsbook and casino provider, powering over 2,000 live events monthly across football, esports, virtual sports, and Keno.",
+        "description2": "At Winbox22, we deliver direct, seamless access to MaxBet --- no redirects, no delays, just pure betting performance optimized for Malaysian players.",
+        "description3": "No more juggling platforms. No more slow withdrawals. Just clean access to competitive odds, instant deposits via local banks, and real-time support in Malay, English, and Chinese --- all under one secure roof."
+      },
+      "whatToBet": {
+        "title": "What You Can Bet On",
+        "sports": {
+          "title": "⚽ Sports Betting (Live & Pre-Match)",
+          "description": "Place bets on the biggest global leagues and local favorites:",
+          "football": "Football: Premier League, La Liga, UEFA Champions League, Malaysia Super League, Singapore S.League",
+          "basketball": "Basketball: NBA, EuroLeague, ASEAN Basketball League",
+          "others": "Tennis, Cricket, Rugby, MMA, Darts, Snooker, Motorsport, Muay Thai",
+          "liveInPlay": "Live In-Play: Odds update every second. Bet as the action unfolds."
+        },
+        "esports": {
+          "title": "🎮 Esports",
+          "description": "Dominate the digital arena with live betting on:",
+          "cs2": "Counter-Strike 2 (CS2)",
+          "dota2": "Dota 2",
+          "lol": "League of Legends",
+          "valorant": "Valorant",
+          "fifa": "FIFA",
+          "starcraft": "StarCraft 2",
+          "tournaments": "With tournaments running daily, you'll never run out of action."
+        },
+        "virtual": {
+          "title": "🔄 Virtual Sports (24/7 Action)",
+          "description": "No waiting for real matches? Play non-stop virtual games:",
+          "soccer": "Virtual Soccer Nation",
+          "tennis": "eTennis",
+          "horse": "eHorse Racing",
+          "basketball": "eBasketball",
+          "note": "All generated by certified RNG systems --- fair, fast, and always available."
+        },
+        "keno": {
+          "title": "🔢 RNG Keno & Sports Number Game",
+          "description": "Quick draws every 90 seconds. Pick your numbers, win big. Simple, addictive, and perfect for short breaks."
+        }
+      },
+      "howToStart": {
+        "title": "How to Start in 60 Seconds",
+        "steps": {
+          "step1": "Visit",
+          "step1Link": "Winbox22.com",
+          "step2": "Click \"Register\" → Enter your mobile number",
+          "step3": "Set a 6-character ID + password (Letters + numbers)",
+          "step4": "Verify OTP sent to your phone",
+          "step5": "Deposit RM20+ via Maybank, CIMB, Public Bank, RHB or Instant Top-Up",
+          "step6": "Select \"MaxBet\" from the game provider menu → Start betting immediately"
+        },
+        "benefits": {
+          "noApp": "✅ No app download needed --- fully responsive on Android & iOS",
+          "noPaperwork": "✅ No paperwork delay --- verification happens after first deposit",
+          "noFees": "✅ No hidden fees --- deposits and withdrawals processed in minutes"
+        }
+      },
+      "bonuses": {
+        "title": "Exclusive Bonuses for Malaysian Players",
+        "table": {
+          "headers": {
+            "bonus": "Bonus",
+            "details": "Details"
+          },
+          "rows": {
+            "welcome": {
+              "bonus": "Welcome Bonus",
+              "details": "100% match up to RM100 on your first deposit (min. RM20)"
+            },
+            "daily": {
+              "bonus": "Daily Deposit Reward",
+              "details": "Deposit RM20 or more → Claim RM20 bonus credit the next day"
+            },
+            "useAnywhere": {
+              "bonus": "Use Anywhere",
+              "details": "Bonus credits work on MaxBet Sports, Virtuals, Keno, and more"
+            }
+          }
+        },
+        "note": "Bonuses are automatically credited. No promo code required."
+      },
+      "deposits": {
+        "title": "Deposits & Withdrawals --- Made for Malaysia",
+        "table": {
+          "headers": {
+            "method": "Method",
+            "minimum": "Minimum",
+            "processing": "Processing Time",
+            "notes": "Notes"
+          },
+          "rows": {
+            "bankTransfer": {
+              "method": "Bank Transfer (Maybank, CIMB, Public Bank, RHB, Affin, Hong Leong)",
+              "minimum": "RM20",
+              "processing": "Instant",
+              "notes": "Direct link to your bank account"
+            },
+            "instantTopUp": {
+              "method": "Instant Top-Up",
+              "minimum": "RM20",
+              "processing": "<1 minute",
+              "notes": "Real-time processing via FPX"
+            },
+            "withdrawals": {
+              "method": "Withdrawals",
+              "minimum": "RM50",
+              "processing": "Under 30 minutes",
+              "notes": "No limits, no paperwork, no delays"
+            }
+          }
+        },
+        "tagline": "Your money moves faster here than anywhere else in Malaysia."
+      },
+      "security": {
+        "title": "Security You Can Trust",
+        "features": {
+          "ssl": {
+            "title": "🔒 SSL Encryption",
+            "description": "All data protected with military-grade encryption (padlock visible on all pages)"
+          },
+          "licensed": {
+            "title": "🛡️ Licensed & Certified",
+            "description": "Curacao eGaming License + PAGCOR + BMM, iTech Labs, TST Global audits"
+          },
+          "privacy": {
+            "title": "👮‍♂️ Privacy First",
+            "description": "Your personal details are never shared. We comply with international data protocols"
+          },
+          "support": {
+            "title": "💬 24/7 Support",
+            "description": "Live Chat, WhatsApp, Telegram --- all staff speak Malay, English, and Mandarin"
+          }
+        },
+        "testimonial": "\"I've used 5 different sites. Only Winbox22 + MaxBet has paid me within 20 minutes.\" --- Verified User, Kuala Lumpur"
+      },
+      "whyChoose": {
+        "title": "Why Gamblers in Malaysia Choose MaxBet on Winbox22",
+        "features": {
+          "markets": "✅ More Markets --- Over 200+ leagues covered, including niche ones like Thailand Premier League and Indonesian Liga 1",
+          "odds": "✅ Better Odds --- Consistently higher than local competitors on major football matches",
+          "noLag": "✅ No Lag --- Loads instantly even on older phones or slow networks",
+          "interface": "✅ Clean Interface --- White-and-blue design, intuitive menus, search bar for quick access",
+          "fairPlay": "✅ Fair Play Guaranteed --- Every virtual game and Keno draw is independently audited for randomness"
+        }
+      },
+      "responsibleGambling": {
+        "title": "Responsible Gambling Matters",
+        "description": "We care about your experience. That's why we offer:",
+        "features": {
+          "selfExclusion": "Self-exclusion tools",
+          "depositLimits": "Daily/weekly deposit limits",
+          "realityChecks": "Reality checks during long sessions",
+          "helplines": "Links to gambling helplines"
+        },
+        "reminder": "Gambling should be fun. Not risky. Always play within your means."
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions (FAQ)",
+        "questions": {
+          "whatIs": {
+            "question": "What is MaxBet?",
+            "answer": "MaxBet is Asia's leading online sportsbook and casino provider, formerly known as IBCBET. Founded in 2008, it offers live betting on 2,000+ monthly events, virtual sports, and RNG Keno --- trusted by Malaysian players for fairness, speed, and reliability."
+          },
+          "mobile": {
+            "question": "Can I use MaxBet on my phone?",
+            "answer": "Yes. MaxBet works perfectly on Android and iOS via mobile browser. No app install needed --- just visit Winbox22.com on your phone and log in. The interface auto-adjusts for any screen size."
+          },
+          "legal": {
+            "question": "Is MaxBet legal in Malaysia?",
+            "answer": "While online gambling operates in a legal gray area in Malaysia, MaxBet holds full international licenses (Curacao eGaming and PAGCOR). Winbox22 serves players under these offshore licenses, ensuring compliance with global standards."
+          },
+          "deposit": {
+            "question": "How do I deposit money into MaxBet?",
+            "answer": "Use Bank Transfer or Instant Top-Up via Maybank, CIMB, Public Bank, RHB, or other major Malaysian banks. Minimum deposit: RM20. Funds appear instantly in your MaxBet wallet."
+          },
+          "withdrawals": {
+            "question": "How fast are withdrawals?",
+            "answer": "Withdrawals are processed in under 30 minutes. Minimum amount: RM50. No fees. No delays. Payments go directly to your registered bank account."
+          },
+          "verification": {
+            "question": "Do I need to verify my identity?",
+            "answer": "Yes --- for security and compliance. After your first deposit, our team will contact you briefly to verify your name and mobile number. It takes less than 5 minutes."
+          },
+          "sports": {
+            "question": "What sports can I bet on?",
+            "answer": "Soccer (Premier League, MSL, La Liga), basketball, tennis, cricket, MMA, darts, motorsport, esports (CS2, Dota 2, LoL), and virtual sports like Virtual Soccer Nation and eTennis --- all with live betting options."
+          },
+          "existingBonuses": {
+            "question": "Are there bonuses for existing users?",
+            "answer": "Yes. Deposit RM20 or more each day and claim RM20 bonus credit the next day. Bonus funds work across MaxBet sports, virtuals, and Keno."
+          },
+          "localLeagues": {
+            "question": "Can I bet on local Malaysian leagues?",
+            "answer": "Absolutely. MaxBet covers the Malaysia Super League, Malaysia Cup, and other domestic competitions with dedicated odds and live streams where available."
+          },
+          "whyWinbox": {
+            "question": "Why choose Winbox22 over other MaxBet portals?",
+            "answer": "Winbox22 offers direct access with zero redirects, faster load times, exclusive daily bonuses, and dedicated Malay-language support. Other sites may redirect you through third parties --- we don't."
+          },
+          "rigged": {
+            "question": "Is MaxBet rigged?",
+            "answer": "No. MaxBet uses certified RNG systems for virtual games and partners with BetRadar and CMD368 for live odds. All operations are audited by BMM, iTech Labs, and TST Global --- publicly verifiable."
+          },
+          "support": {
+            "question": "How do I contact support?",
+            "answer": "Reach us 24/7 via Live Chat on Winbox22.com, WhatsApp, or Telegram. Our team speaks Malay, English, and Mandarin --- ready to help with deposits, bets, or account issues."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Ready to Bet Like a Pro?",
+        "description1": "You don't need to wait. You don't need to download anything.",
+        "description2": "You don't need to guess which site is safe.",
+        "description3": "Just go to",
+        "linkText": "Winbox22.com",
+        "description4": ", register in 60 seconds, deposit RM20, and start betting on MaxBet --- Malaysia's #1 choice for live sports, esports, and virtual games.",
+        "offer": "👉 New users get RM100 free bonus on first deposit. Limited time offer.",
+        "registerText": "Winbox Register",
+        "here": "Here"
+      }
+    },
+    "cmd368": {
+      "title": "CMD368 Sports: Bet Like a Pro, Not a Casual Player",
+      "intro": {
+        "description1": "If you're looking for a single platform that delivers real money sports betting, live dealer casinos, and high-stakes poker --- all legal, fast, and designed for Malaysian players ---",
+        "linkText": "CMD368",
+        "description2": "is the name that keeps winning.",
+        "description3": "At Winbox22.com, we connect you directly to CMD368's full suite of services: no middlemen, no delays, just clean access to Asia's most reliable bookmaker. Whether you're placing bets on Premier League matches, spinning live roulette, or joining a PKR tournament, everything runs smoothly here."
+      },
+      "comparison": {
+        "title": "Comparison Table",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "cmd368": "CMD368 (via Winbox)",
+            "others": "Other Local Platform"
+          },
+          "rows": {
+            "sportsBetting": {
+              "feature": "Sports Betting Focus",
+              "cmd368": "Asian Handicap, Live In-Play, Virtual Sports",
+              "others": "Limited markets, slower odds updates"
+            },
+            "liveCasino": {
+              "feature": "Live Casino Partners",
+              "cmd368": "11+ (AG, DG, AE Sexy, GP)",
+              "others": "Often 3-5, lower stream quality"
+            },
+            "poker": {
+              "feature": "Poker Network",
+              "cmd368": "IDNPoker (600K+ monthly Malaysian users)",
+              "others": "Smaller networks, fewer tournaments"
+            },
+            "deposits": {
+              "feature": "Deposit/Withdrawal",
+              "cmd368": "Fast bank transfers, e-wallets, crypto",
+              "others": "Delays up to 48 hours common"
+            },
+            "mobile": {
+              "feature": "Mobile Experience",
+              "cmd368": "Dedicated apps + responsive web",
+              "others": "Basic mobile sites, poor navigation"
+            },
+            "support": {
+              "feature": "Support Channels",
+              "cmd368": "Live Chat, WeChat, Telegram, Phone",
+              "others": "Email-only or slow response"
+            },
+            "localized": {
+              "feature": "Localized Content",
+              "cmd368": "Malay interface, TH/VN lottery options",
+              "others": "English-only, no regional games"
+            }
+          }
+        },
+        "note": "Note: CMD368 is not a casino operator itself --- it's the gateway. Winbox22 is your direct portal to its full ecosystem."
+      },
+      "sportsBetting": {
+        "title": "CMD368 Sports Betting Excellence",
+        "description1": "CMD368 dominates Asian sports betting with precision odds, real-time data, and deep market coverage --- especially for soccer and basketball.",
+        "description2": "Malaysian bettors rely on CMD368 because it doesn't just offer more games --- it offers smarter ones. The platform specializes in Asian Handicap lines, giving you tighter margins and better value than global bookmakers.",
+        "description3": "Live betting updates every 15 seconds during matches, so you can react instantly to red cards, goals, or momentum shifts.",
+        "description4": "Beyond football and basketball, you'll find dedicated sections for e-sports (League of Legends, Dota2, King of Glory) and virtual sports --- perfect for quick 3-minute bets when you don't have time to wait for real matches.",
+        "description5": "Odds are customizable; you can toggle between decimal, fractional, or Hong Kong formats based on your preference.",
+        "useCase": "Real use case: A user in Kuala Lumpur placed a live bet on Manchester United vs Arsenal during halftime --- adjusted the handicap from -0.5 to -1.0 after a goal, locked in +110 odds, and cashed out with 2x return before full-time."
+      },
+      "casino": {
+        "title": "CMD368 Casino: Where Real Dealers Meet Real Players",
+        "description1": "More than 11 live casino providers mean you're never stuck with one dull table.",
+        "description2": "CMD368 partners with top-tier studios like AG Gaming, DG Casino, and AE Sexy --- each offering distinct atmospheres. Prefer high-energy hosts with flashy lights? Go with AE Sexy. Want quiet, professional dealing with crystal-clear streams? DG Casino delivers.",
+        "library": {
+          "title": "The library includes:",
+          "baccarat": "Baccarat (with Dragon Tiger side bets)",
+          "roulette": "Roulette (European, American, Lightning)",
+          "sicBo": "Sic Bo, Teen Patti, Andar Bahar",
+          "gameShows": "Game Shows: Dream Catcher, Monopoly Live"
+        },
+        "description3": "All tables run on HD streams with zero lag --- even on 3G. No flash plugins. No pop-ups. Just pure gameplay.",
+        "bonus": "Bonus: Thai and Vietnamese lottery games (QQ Thai Lottery, Ok368) are integrated directly into the lobby --- no need to switch platforms if you play Keno or local draws weekly."
+      },
+      "poker": {
+        "title": "CMD368 Poker: Play Against 600,000+ Malaysians Monthly",
+        "description1": "IDNPoker, powered by CMD368, isn't just another poker site --- it's the heartbeat of Malaysian online poker.",
+        "description2": "With over half a million active Malaysian players logging in each month, tables are always full. Whether you're a beginner at $0.10/$0.20 cash games or chasing tournament jackpots, there's a seat waiting.",
+        "features": {
+          "title": "What sets it apart:",
+          "tcoins": {
+            "title": "Tcoins:",
+            "description": "Earn virtual currency through play to enter exclusive freerolls and VIP events."
+          },
+          "privateTables": {
+            "title": "Private Tables:",
+            "description": "Create your own game with friends, set blinds, and invite only who you want."
+          },
+          "multiCurrency": {
+            "title": "Multi-Currency Support:",
+            "description": "Play in MYR, THB, VND --- no hidden conversion fees."
+          },
+          "cashback": {
+            "title": "Cashback & Rebates:",
+            "description": "Up to 30% rakeback on selected tables, paid weekly."
+          }
+        },
+        "description3": "This isn't software against bots. It's real people --- from Penang to Johor Bahru --- playing the same game you are."
+      },
+      "whyWinbox": {
+        "title": "Why Winbox22.com Is Your Best Gateway to CMD368",
+        "description1": "You won't find this level of integration anywhere else. While other portals redirect you to generic CMD368 links, Winbox22.com connects you directly to your personal CMD368 account with one click --- no registration delays, no third-party logins.",
+        "optimization": {
+          "title": "We've optimized the experience for Malaysian users:",
+          "deposit": "Instant deposit via Maybank, CIMB, Touch 'n Go eWallet",
+          "support": "24/7 support in Bahasa Melayu via Live Chat, WeChat, and WhatsApp",
+          "mobile": "Mobile app downloads for Android and iOS --- pre-configured for local networks",
+          "promotions": "Daily promotions updated for Hari Raya, Chinese New Year, and major sporting events"
+        },
+        "description2": "No hype. No fluff. Just faster access to the games you already trust."
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "whatIs": {
+            "question": "What is CMD368?",
+            "answer": "CMD368 is a licensed Asian sportsbook and casino platform offering live betting, poker, and real-dealer games. It's widely used across Malaysia, Thailand, and Vietnam."
+          },
+          "legal": {
+            "question": "Is CMD368 legal in Malaysia?",
+            "answer": "While online gambling laws in Malaysia are complex, CMD368 operates under offshore licensing and serves international players legally. Many Malaysian users access it without issue."
+          },
+          "deposit": {
+            "question": "How do I deposit money into CMD368 via Winbox22?",
+            "answer": "Log in through Winbox22.com, select \"Deposit,\" choose your preferred method (bank transfer, e-wallet), and follow prompts. Funds appear in under 2 minutes."
+          },
+          "mobile": {
+            "question": "Can I play CMD368 on my phone?",
+            "answer": "Yes. Download the official Android or iOS app via Winbox22's homepage. No APK risks --- all apps are verified and secure."
+          },
+          "support": {
+            "question": "Does CMD368 offer live chat support in Malay?",
+            "answer": "Absolutely. Their support team includes Bahasa-speaking agents available 24/7 via Live Chat, WeChat, and Telegram."
+          },
+          "bonuses": {
+            "question": "Are there any bonuses for new users?",
+            "answer": "Yes. First-time depositors get matched bonuses up to RM200 on sports or casino, plus free spins and Tcoins for poker. Terms apply."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Final Note",
+        "description": "CMD368 isn't just another gaming site --- it's the infrastructure behind Malaysia's most active online betting community. At Winbox22.com, we don't sell access. We deliver it --- cleanly, quickly, and reliably.",
+        "ready": "Ready to start? Click",
+        "loginText": "log in",
+        "or": "or",
+        "registerText": "Winbox register",
+        "now": "your CMD368 account now."
+      }
+    },
+
+    "nineWickets": {
+      "title": "9 Wickets APK Download & Link 2025 -- Play 9 Wickets Pro on Winbox22.com",
+      "subtitle": "Official. Safe. Instant. Get the latest 9 Wickets APK and working link --- verified daily for Malaysian players. No scams. No expired URLs. Just fast access to 9 Wickets Pro.",
+      "keyTakeaways": {
+        "title": "✅ Key Takeaways",
+        "points": {
+          "trusted": "9 Wickets is a live dealer game provider trusted by thousands in Malaysia.",
+          "official": "Always download the official APK from Winbox22.com --- never third-party sites.",
+          "pro": "9 Wickets Pro offers higher limits, faster payouts, and private tables.",
+          "links": "Links change often --- we update ours daily to ensure 100% uptime.",
+          "android": "Android users: Enable \"Install Unknown Sources\" and install in seconds.",
+          "platform": "Winbox22.com is the only local platform with live status tracking for 9 Wickets."
+        }
+      },
+      "apkDownload": {
+        "title": "📲 Official 9 Wickets APK Download (Android Only)",
+        "description1": "Download the latest 9 Wickets APK directly from Winbox22.com --- safe, clean, and updated hourly.",
+        "description2": "The 9 Wickets app is not available on Google Play. That's standard for real-money gaming platforms. Instead, you install it manually via APK file --- but only from trusted sources.",
+        "security": {
+          "title": "At Winbox22.com, our APK is:",
+          "hosted": "Hosted on secure servers",
+          "scanned": "Scanned daily for malware",
+          "updated": "Updated within hours of any provider patch",
+          "free": "Free to download --- no registration required"
+        },
+        "installation": {
+          "title": "How to install:",
+          "step1": "Tap the button below to download.",
+          "step2": "Go to your phone's Settings > Security > Enable \"Install Unknown Apps\" for your browser (Chrome/Firefox).",
+          "step3": "Open the downloaded file and tap Install.",
+          "step4": "Launch the app and log in --- you're ready to play."
+        },
+        "downloadButton": "👉 Winbox Download APK",
+        "testimonial": "\"I tried three other sites. Two gave me viruses. One didn't load at all. Winbox22 worked first try.\" --- Amir, Johor Bahru"
+      },
+      "currentLink": {
+        "title": "🔗 Current 9 Wickets Link --- Always Up to Date",
+        "description1": "Don't use old links. They stop working every few weeks.",
+        "description2": "Providers like 9 Wickets rotate their domains to avoid regional blocks. What worked last week may now show \"Site Not Found.\"",
+        "description3": "That's why Winbox22.com is the only Malaysian portal that shows a live status indicator under the download. Our team monitors 9 Wickets' server status 24/7. If the link changes, we update this page instantly --- before you even search for it.",
+        "bookmark": "Bookmark this page:",
+        "bookmarkLink": "https://winbox22.com/9wickets",
+        "warning": "Never rely on links from Facebook, Telegram, or YouTube. They're almost always outdated or fake."
+      },
+      "pro": {
+        "title": "🏆 9 Wickets Pro --- Why It's Worth Upgrading",
+        "description": "Pro isn't just a name --- it's a better experience.",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "standard": "Standard",
+            "pro": "Pro"
+          },
+          "rows": {
+            "maxBet": {
+              "feature": "Max Bet Limit",
+              "standard": "RM500",
+              "pro": "RM5,000+"
+            },
+            "payout": {
+              "feature": "Payout Speed",
+              "standard": "15-60 mins",
+              "pro": "Under 15 mins"
+            },
+            "tables": {
+              "feature": "Table Crowds",
+              "standard": "High",
+              "pro": "Private / Low Player Count"
+            },
+            "support": {
+              "feature": "Support Response",
+              "standard": "10-30 mins",
+              "pro": "Priority Live Chat"
+            },
+            "stability": {
+              "feature": "Game Stability",
+              "standard": "Good",
+              "pro": "Optimized for low-latency networks"
+            }
+          }
+        },
+        "upgrade": "If you play regularly, deposit over RM100/week, or prefer quieter tables with faster results --- Pro is the clear choice. On Winbox22.com, switching to Pro takes one click after login. No extra fees. No hidden conditions.",
+        "statistic": "68% of returning users upgrade to Pro within 14 days."
+      },
+      "mistakes": {
+        "title": "❌ Avoid These Common Mistakes",
+        "points": {
+          "blogs": "Downloading from random blogs → Risk of malware or stolen data",
+          "expired": "Using expired links → You'll get \"Site Not Found\" or redirected ads",
+          "ios": "Installing on iOS → 9 Wickets does not support iPhone/iPad (only Android)",
+          "whatsapp": "Trusting WhatsApp groups → 99% are scam pages or phishing attempts"
+        },
+        "official": "Only Winbox22.com and 9wicket.com are officially affiliated with the provider. All others are unverified.",
+        "browser": "Note: Our site works best on Google Chrome or Firefox. Avoid Safari or outdated browsers."
+      },
+      "faqs": {
+        "title": "💬 Frequently Asked Questions",
+        "questions": {
+          "whatIs": {
+            "question": "What is 9 Wickets?",
+            "answer": "A live dealer casino game provider offering real-time baccarat, dragon tiger, and sic bo. Popular in Malaysia for smooth gameplay and instant payouts."
+          },
+          "free": {
+            "question": "Is the 9 Wickets APK free to download?",
+            "answer": "Yes. Downloading the APK from Winbox22.com is completely free. No subscription, no hidden cost."
+          },
+          "register": {
+            "question": "Do I need to register to download?",
+            "answer": "No. You can download the APK without signing up. Registration is only needed once you open the app."
+          },
+          "iphone": {
+            "question": "Can I play on iPhone?",
+            "answer": "No. 9 Wickets is only available as an Android APK. iOS users can access the web version via mobile browser on Winbox22.com."
+          },
+          "linkWork": {
+            "question": "Why won't the link work?",
+            "answer": "Links expire due to regional restrictions. We update ours daily. Always use Winbox22.com for the current, active URL."
+          },
+          "safe": {
+            "question": "Is it safe?",
+            "answer": "Yes. Our APK is virus-scanned, hosted on secure servers, and has zero bundled spyware. We've served 87,000+ Malaysian players since 2023."
+          }
+        }
+      },
+      "readyToPlay": {
+        "title": "✅ Ready to Play?",
+        "description": "Stop searching. Stop guessing. Start playing.",
+        "features": {
+          "latestApk": "✅ Latest APK",
+          "workingLink": "✅ Working 9 Wickets Link",
+          "proAccess": "✅ 9 Wickets Pro Access",
+          "support": "✅ 24/7 Support",
+          "malaysian": "✅ Made for Malaysian Players"
+        },
+        "loginButton": "👉 Winbox Login Web",
+        "tagline": "Winbox22.com --- Your trusted gateway to 9 Wickets in Malaysia. No hype. Just reliable access."
+      }
+    },
+    "bti": {
+      "title": "BTI Sport Betting on Winbox22.com --- Malaysia's Trusted Sportsbook",
+      "intro": {
+        "linkText": "BTI Sport",
+        "description1": "powers the most reliable sports and esports betting experience on Winbox22.com --- built for Malaysian players who want fast odds, real-time updates, and secure payouts, all without the hassle of offshore platforms.",
+        "description2": "Since 2007, BTI has been a leading provider across Asia, offering deep markets in football, basketball, tennis, Dota 2, CS:GO, Mobile Legends, and more --- all integrated seamlessly into Winbox22.com with full local support.",
+        "description3": "No third-party apps. No delayed withdrawals. Just direct access to professional-grade betting software trusted by thousands in Malaysia."
+      },
+      "whyBTI": {
+        "title": "Why BTI Sport on Winbox22.com?",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "bti": "BTI Sport via Winbox22",
+            "others": "Other Platforms"
+          },
+          "rows": {
+            "licence": {
+              "feature": "Licence",
+              "bti": "PAGCOR Certified",
+              "others": "Unlicensed or unclear jurisdiction"
+            },
+            "sports": {
+              "feature": "Sports Covered",
+              "bti": "20+ leagues + 150+ esports",
+              "others": "Limited to football/basketball only"
+            },
+            "esports": {
+              "feature": "Esports Focus",
+              "bti": "Dota 2, CS:GO, LOL, Valorant, Mobile Legends",
+              "others": "Rare or missing"
+            },
+            "deposit": {
+              "feature": "Deposit Methods",
+              "bti": "MayBank, RHB, Touch 'n Go, DuitNow, GrabPay",
+              "others": "Bank transfer only or crypto-only"
+            },
+            "support": {
+              "feature": "Customer Support",
+              "bti": "24/7 WhatsApp, Telegram, Live Chat (Bahasa Melayu, Mandarin, Thai)",
+              "others": "Email-only or limited hours"
+            },
+            "bonuses": {
+              "feature": "Bonuses",
+              "bti": "50% Welcome Bonus + RM50 First Deposit + Monthly VIP Mystery Gifts",
+              "others": "One-time bonus or none"
+            },
+            "app": {
+              "feature": "App Access",
+              "bti": "Official Winbox app (Android/iOS) --- no APK risks",
+              "others": "Web-only or unsafe third-party downloads"
+            }
+          }
+        },
+        "note": "PAGCOR licensing is non-negotiable. It's the only regional certification that ensures legal compliance, fair play, and fund protection for Malaysian players."
+      },
+      "betOnWhat": {
+        "title": "Bet on What Matters --- Real Sports, Real Esports",
+        "description": "Whether you're tracking the Premier League, waiting for the NBA tip-off, or predicting the winner of a Mobile Legends tournament --- BTI delivers live odds updated every second, with detailed stats and cash-out options built in.",
+        "football": {
+          "title": "Football:",
+          "description": "Covering EPL, La Liga, UEFA Champions League, Malaysia Super League, Thai League, and more --- with Asian Handicap, Over/Under, and Correct Score markets."
+        },
+        "basketball": {
+          "title": "Basketball:",
+          "description": "NBA, SEA Games, NBL, and international qualifiers --- live streaming triggers and real-time point spreads."
+        },
+        "tennis": {
+          "title": "Tennis:",
+          "description": "ATP, WTA, Grand Slams, plus lesser-known circuits from Australia, China, Egypt, and Mexico --- all with set betting and live in-play."
+        },
+        "esports": {
+          "title": "Esports:",
+          "description": "Dota 2, CS:GO, League of Legends, Valorant, Overwatch, and Mobile Legends --- with map picks, first blood, total kills, and tournament winner markets."
+        },
+        "algorithms": "Every market is powered by BTI's own risk algorithms --- developed by a team based in Manila and Kuala Lumpur --- ensuring odds reflect local demand, not European bias."
+      },
+      "howToStart": {
+        "title": "How to Start Betting in 60 Seconds",
+        "steps": {
+          "step1": "Visit Winbox22.com --- Browse live matches instantly, no login needed.",
+          "step2": "Click \"Sports\" --- See all available events with real-time odds.",
+          "step3": "Register --- Enter name, phone number, and verify via SMS (under 60 seconds).",
+          "step4": "Deposit --- Minimum RM20 via MayBank, RHB, Touch 'n Go, or DuitNow.",
+          "step5": "Claim Bonus --- Automatically receive 50% welcome bonus + RM50 free credit on your first deposit.",
+          "step6": "Place Your Bet --- Tap, confirm, watch the game unfold."
+        },
+        "note": "No complicated forms. No hidden terms. Just pure betting --- made simple for Malaysians."
+      },
+      "security": {
+        "title": "Your Security, Our Priority",
+        "description": "BTI Sport on Winbox22.com uses enterprise-grade encryption, two-factor authentication, and segregated player funds --- so your money and data are never mixed with operational capital.",
+        "backend": {
+          "title": "Our backend includes:",
+          "risk": "Dedicated risk management team analyzing bet patterns and fraud indicators.",
+          "monitoring": "Real-time player behavior monitoring to prevent abuse without affecting legitimate users.",
+          "compliance": "Full compliance with PAGCOR audit standards --- verified annually."
+        },
+        "reliability": "Unlike unregulated sites that vanish overnight, BTI operates under a licensed framework. That's why Winbox22.com chose them --- not for marketing, but for reliability."
+      },
+      "support": {
+        "title": "24/7 Support --- When You Need It",
+        "description": "Questions about your bonus? Trouble depositing? Need help placing a live bet? We're here --- anytime.",
+        "channels": {
+          "whatsapp": "Instant replies in Bahasa Melayu, Mandarin, or English",
+          "telegram": "Direct chat with support agents",
+          "liveChat": "On-site, no wait time"
+        },
+        "real": "No call centers. No bots. Real people who understand how you bet."
+      },
+      "vip": {
+        "title": "VIP Program --- Rewards for Loyal Players",
+        "description": "Play regularly? Get rewarded.",
+        "gifts": {
+          "title": "Monthly mystery gifts include:",
+          "iphone": "iPhone 15 / Apple Watch",
+          "rolex": "Rolex Black Submariner watch",
+          "motorcycle": "Yamaha motorcycle",
+          "cash": "RM5,000 cash bonuses"
+        },
+        "points": "Earn points through deposits and bets --- no tiered levels. Just consistent play = bigger surprises.",
+        "recognition": "This isn't a gimmick. It's recognition --- for players who choose quality over hype."
+      },
+      "app": {
+        "title": "Download the Official Winbox App (Android & iOS)",
+        "description": "Forget risky APKs from random websites.",
+        "benefits": {
+          "title": "The official Winbox app gives you:",
+          "faster": "Faster loading than mobile browser",
+          "notifications": "Push notifications for live match starts",
+          "oneTap": "One-tap betting",
+          "biometric": "Secure biometric login"
+        },
+        "android": {
+          "title": "For Android:",
+          "steps": "Go to",
+          "continued": "→ Click \"Download\" → Install → Open → Register"
+        },
+        "ios": {
+          "title": "For iOS:",
+          "steps": "Go to",
+          "continued": "→ Click \"iOS Download\" → Install via TestFlight → Trust profile in Settings → Launch"
+        },
+        "warning": "Always download from Winbox22.com --- never third-party links."
+      },
+      "faqs": {
+        "title": "FAQs",
+        "questions": {
+          "legal": {
+            "question": "Is BTI Sport legal in Malaysia?",
+            "answer": "Yes. BTI operates under a PAGCOR licence --- the only regional certification recognized for secure, compliant online betting. Winbox22.com is its official Malaysian partner."
+          },
+          "esports": {
+            "question": "Can I bet on esports like Dota 2?",
+            "answer": "Absolutely. BTI offers 150+ esports markets --- including map winners, first blood, total kills, and tournament champions for Dota 2, CS:GO, LoL, Mobile Legends, and more."
+          },
+          "deposit": {
+            "question": "How do I deposit money?",
+            "answer": "Use MayBank, RHB, CIMB, Touch 'n Go, DuitNow, or GrabPay. Deposits are instant. Minimum RM20."
+          },
+          "withdrawal": {
+            "question": "How long until my withdrawal is processed?",
+            "answer": "E-wallets: Under 15 minutes. Bank transfers: Up to 1 hour during business hours. Support is available 24/7 if delays occur."
+          },
+          "app": {
+            "question": "Do I need to download an app?",
+            "answer": "Not required --- but highly recommended. The Winbox app is faster, safer, and gives you push alerts for live events."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Ready to Bet Like a Pro?",
+        "description1": "BTI Sport on Winbox22.com isn't about flashy ads or empty promises.",
+        "description2": "It's about clean odds, real-time action, and support that speaks your language. Join thousands of Malaysian players who choose safety, speed, and smart betting --- every day.",
+        "loginButton1": "👉 Start Betting on Winbox22.com",
+        "loginButton": " Login Winbox",
+        "note": "No registration needed to browse odds. Claim your RM50 bonus when you deposit your first RM30."
+      }
+    },
+
+    "evolution": {
+      "title": "Evolution Gaming Malaysia -- Play Live Casino on Winbox22.com",
+      "subtitle": "Real dealers. Real tables. Zero buffering.",
+      "intro": {
+        "description1": "Play Evolution's full live casino suite --- directly on",
+        "linkText": "Winbox22.com",
+        "description2": ", with MYR betting, instant WhatsApp support, and no app required.",
+        "description3": "Unlike sites that hide behind pop-ups or slow proxy streams, we connect you straight to Evolution's global studios --- the same feeds used by licensed casinos in Malta, the Philippines, and Latvia. No middlemen. No delays. Just pure, HD live gaming --- built for Malaysian players on 4G networks."
+      },
+      "whyEvolution": {
+        "title": "Why Evolution? Why Now?",
+        "linkText": "Evolution Gaming",
+        "description1": "isn't just another software provider. It's the global leader in live casino technology --- trusted by over 300 operators worldwide.",
+        "description2": "With patented game mechanics, 4K streaming, AI-powered dealer tracking, and certified RNG fairness (verified by iTech Labs & GLI), Evolution sets the standard.",
+        "problems": {
+          "title": "In Malaysia, where trust is scarce and connectivity is inconsistent, most platforms compromise:",
+          "outdated": "They use outdated streams.",
+          "downloads": "They force downloads.",
+          "support": "They bury support behind email forms.",
+          "currency": "They don't accept MYR."
+        },
+        "solution": "Winbox22.com fixes all of this.",
+        "direct": "We don't resell or rebrand. We stream Evolution's live tables directly --- meaning you get the same Lightning Roulette, Dream Catcher, and Monopoly Live games as international players... but faster, smoother, and with real local help."
+      },
+      "gamesAvailable": {
+        "title": "Games Available on Winbox22.com",
+        "table": {
+          "headers": {
+            "game": "Game",
+            "bestFor": "Best For",
+            "feature": "Key Feature",
+            "price": "Price Range (RM)",
+            "why": "Why it matters?"
+          },
+          "rows": {
+            "lightning": {
+              "game": "Lightning Roulette",
+              "bestFor": "High-risk thrill-seekers",
+              "feature": "Random multipliers up to 500x, live host, fast rounds",
+              "price": "RM1 - RM5,000",
+              "why": "Fast-paced, visual, addictive --- perfect for short breaks after work or during Raya nights"
+            },
+            "dream": {
+              "game": "Dream Catcher",
+              "bestFor": "Casual players & families",
+              "feature": "Wheel with 7x-1000x wins, simple rules, entertaining host",
+              "price": "RM1 - RM1,000",
+              "why": "Popular across Klang Valley and Johor; easy to understand even if English isn't fluent"
+            },
+            "blackjack": {
+              "game": "Blackjack VIP",
+              "bestFor": "Strategic players",
+              "feature": "Multiple bet limits, side bets, low house edge (under 0.5%)",
+              "price": "RM5 - RM10,000",
+              "why": "Trusted by experienced players who know card counting works --- no algorithm interference"
+            },
+            "monopoly": {
+              "game": "Monopoly Live",
+              "bestFor": "Group fun & social play",
+              "feature": "Interactive board game bonus, Mr. Monopoly animations",
+              "price": "RM1 - RM2,000",
+              "why": "Familiar brand, nostalgic feel --- ideal for group viewing on phones during weekend nights"
+            },
+            "andar": {
+              "game": "Andar Bahar",
+              "bestFor": "Local favorites",
+              "feature": "Traditional Indian/Malaysian card game, 50/50 win chance",
+              "price": "RM5 - RM500",
+              "why": "The most played live game among Malay-speaking users --- only available on select platforms like ours"
+            },
+            "baccarat": {
+              "game": "Baccarat Speed",
+              "bestFor": "High-volume players",
+              "feature": "2x faster than standard baccarat, 6-deck shoe",
+              "price": "RM10 - RM5,000",
+              "why": "Preferred by high-stakes players in Penang and Sabah --- minimal wait time between hands"
+            }
+          }
+        },
+        "note": "All games run on HTML5 --- no download. Works on Android, iPhone, Samsung, Oppo, Xiaomi. Loads in under 2 seconds on 4G."
+      },
+      "howToStart": {
+        "title": "How to Start Playing in 30 Seconds",
+        "steps": {
+          "step1": "Visit",
+          "step1Link": "Winbox22.com",
+          "step2": "Tap",
+          "step2Bold": "Live Casino",
+          "step2Continued": "on the homepage",
+          "step3": "Select",
+          "step3Bold": "Evolution Gaming",
+          "step4": "Choose any table --- join instantly",
+          "step5": "Deposit via DuitNow (takes <60s)",
+          "step6": "Play. Win. Withdraw."
+        },
+        "simple": "That's it. No registration form. No ID upload. No waiting. Just open the site and play.",
+        "processing": "Deposits are processed automatically. Withdrawals hit your wallet within 15 minutes --- verified by local transaction logs."
+      },
+      "faqs": {
+        "title": "FAQs For Evolution Gaming",
+        "questions": {
+          "legal": {
+            "question": "Is Evolution Gaming legal in Malaysia?",
+            "answer": "Evolution is a globally licensed provider (Malta, Philippines). While online gambling has gray-area status in Malaysia, Winbox22.com operates under an offshore license accepted by thousands of local players. All games are fair and monitored."
+          },
+          "app": {
+            "question": "Do I need to download an app?",
+            "answer": "No. All Evolution games on Winbox22.com run directly in your phone's browser --- no APK, no installation. Works on Android and iOS."
+          },
+          "myr": {
+            "question": "Can I deposit and withdraw using MYR?",
+            "answer": "Yes. Use DuitNow, Boost, Touch 'n Go, GrabPay, or bank transfer. All transactions are in Ringgit --- no currency conversion fees."
+          },
+          "support": {
+            "question": "Is there customer support in Malay?",
+            "answer": "Yes. Our WhatsApp team responds in both Bahasa Melayu and English. Ask about balances, deposits, or game issues --- we answer fast."
+          },
+          "lag": {
+            "question": "Why do other sites have lag?",
+            "answer": "They use proxy servers or cached streams. Winbox22.com connects directly to Evolution's live studio feeds --- so you get real-time video with no delay, even on slower networks."
+          },
+          "rigged": {
+            "question": "Are the games rigged?",
+            "answer": "No. Evolution uses certified RNG systems and real dealers with physical cards and wheels. Every spin, shuffle, and roll is recorded and audited. Fairness is non-negotiable."
+          },
+          "different": {
+            "question": "What makes Winbox22.com different from others?",
+            "answer": "We show you exactly what you're playing --- with clear game names, prices, and features. We support MYR. We answer WhatsApp. We don't hide behind vague links. You know what you're getting."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Play Smarter. Play Local.",
+        "description1": "You didn't search for \"global casino platforms.\" You searched for",
+        "highlight": "Evolution Gaming Malaysia",
+        "description2": "--- because you want to play where others do. Where it's fast. Where it's real. Where help is just a tap away.",
+        "description3": "Winbox22.com doesn't pretend to be something it's not. We're not a flashy portal. We're your direct link to the world's best live casino --- tailored for life in Malaysia.",
+        "description4": "No cookies. No pop-ups. No nonsense.",
+        "description5": "Just the game. The stakes. And real support when you need it.",
+        "registerButton": "👉 Register Winbox",
+        "playNow": "and Play Evolution Games Now on Winbox22.com"
+      }
+    },
+    "hotroad": {
+      "title": "HotRoad Baccarat at Winbox22 --- Real Robot-Dealt Games, 24/7 from Malaysia",
+      "intro": {
+        "description1": "Play",
+        "linkText": "HotRoad",
+        "description2": "Baccarat the way it was meant to be played: no dealers. No bias. No delays. Just robotic arms dealing real cards --- streamed live, verified in real time, and optimized for Malaysian players.",
+        "description3": "At Winbox22, we don't stream videos. We stream reality."
+      },
+      "whyHotroad": {
+        "title": "Why HotRoad? Because It's Not Like Other Online Baccarat",
+        "description1": "Most online casinos use CGI or human dealers you can't verify.",
+        "description2": "HotRoad uses physical robotic arms, barcoded decks, and real-time card scanning --- every shuffle, every draw, every result is mechanically recorded and visible to you.",
+        "description3": "This isn't RNG. This isn't animation.",
+        "description4": "This is live physical gameplay, powered by technology trusted in Philippine licensed studios --- and now, fully accessible to you in Malaysia.",
+        "variants": {
+          "title": "✅ Play These HotRoad Variants:",
+          "dragon": {
+            "title": "Dragon",
+            "description": "Bet on streaks of 4+ wins"
+          },
+          "pingPong": {
+            "title": "Ping Pong",
+            "description": "Track alternating Player/Banker wins"
+          },
+          "oneTwo": {
+            "title": "One Two",
+            "description": "Spot patterns like 1 Banker, 2 Players"
+          },
+          "sandwich": {
+            "title": "Sandwich",
+            "description": "Predict block sequences (B-P-B or P-B-P)"
+          }
+        },
+        "tracker": "All variants come with a live \"Hot Road\" tracker --- so you see the pattern as it unfolds."
+      },
+      "designedFor": {
+        "title": "Designed for Malaysian Players --- No Compromises",
+        "table": {
+          "headers": {
+            "feature": "Feature",
+            "winbox22": "Winbox22"
+          },
+          "rows": {
+            "deposit": {
+              "feature": "Deposit Methods",
+              "details": "Maybank, CIMB, RHB, DuitNow, Touch 'n Go"
+            },
+            "currency": {
+              "feature": "Currency",
+              "details": "MYR only --- zero FX fees"
+            },
+            "withdrawals": {
+              "feature": "Withdrawals",
+              "details": "15-minute processing via bank transfer or e-wallet"
+            },
+            "support": {
+              "feature": "Support",
+              "details": "24/7 Live Chat (Malay, English, Chinese) + WhatsApp"
+            },
+            "bonuses": {
+              "feature": "Bonuses",
+              "details": "Daily reloads, free spins, VIP cashback"
+            },
+            "device": {
+              "feature": "Device Support",
+              "details": "Works on all phones, tablets, desktops --- no app needed"
+            }
+          }
+        },
+        "note": "We built this platform because other sites ignore what matters to you: Fast deposits. Local payments. Real support. And games that feel fair."
+      },
+      "howToStart": {
+        "title": "How to Start Playing in 60 Seconds",
+        "steps": {
+          "step1": "Visit",
+          "step1Link": "Winbox22.com",
+          "step2": "Sign Up --- Enter your name and mobile number",
+          "step3": "Verify OTP --- Sent instantly to your phone",
+          "step4": "Deposit --- Minimum RM20 via Maybank, DuitNow, or Touch 'n Go",
+          "step5": "Go to Live Casino → HotRoad → Pick your game",
+          "step6": "Bet. Watch. Win."
+        },
+        "note": "No downloads. No registration forms. No waiting."
+      },
+      "security": {
+        "title": "Your Security Is Non-Negotiable",
+        "description1": "Winbox22 operates under a PAGCOR license --- the same authority that regulates legal casinos in the Philippines.",
+        "description2": "Every game is audited for fairness. Every transaction is encrypted with 256-bit SSL.",
+        "description3": "Your personal data is never sold. Your funds are held separately.",
+        "description4": "We don't just say we're safe. We prove it --- with transparency, licensing, and local trust."
+      },
+      "dailyRewards": {
+        "title": "Daily Rewards Just for You",
+        "newPlayer": "New player? Get 100% bonus up to RM100 on your first deposit (min. RM20).",
+        "realValue": "But the real value comes daily:",
+        "rewards": {
+          "dailySpin": {
+            "title": "Daily Spin Bonus:",
+            "description": "Deposit RM30 → get 1 free spin → win up to RM50"
+          },
+          "turnover": {
+            "title": "Turnover Spins:",
+            "description": "Earn 1 free spin for every RM3,000 wagered --- unlimited"
+          },
+          "vip": {
+            "title": "VIP Program:",
+            "description": "Regular players unlock cashback, birthday gifts, priority withdrawals"
+          }
+        },
+        "note": "All bonuses work in MYR. No hidden terms. No currency tricks."
+      },
+      "faqs": {
+        "title": "Frequently Asked Questions",
+        "questions": {
+          "whatIs": {
+            "question": "What is HotRoad Baccarat?",
+            "answer": "A live casino game using robotic arms to physically deal real cards. No human dealers. No manipulation. Just fast, verifiable results."
+          },
+          "legal": {
+            "question": "Is it legal in Malaysia?",
+            "answer": "Playing licensed offshore platforms like Winbox22 (PAGCOR-certified) is not prohibited under current Malaysian law for private players."
+          },
+          "mobile": {
+            "question": "Can I play on my phone?",
+            "answer": "Yes. Fully responsive browser experience --- works on Android and iOS without downloading an app."
+          },
+          "deposit": {
+            "question": "How do I deposit in MYR?",
+            "answer": "Use any local bank (Maybank, CIMB, RHB) or e-wallet (Touch 'n Go, DuitNow). Deposits are instant and fee-free."
+          },
+          "withdrawals": {
+            "question": "Are withdrawals fast?",
+            "answer": "Yes. Most withdrawals process within 15 minutes via bank transfer or e-wallet."
+          },
+          "whyChoose": {
+            "question": "Why choose Winbox22 over others?",
+            "answer": "Because we're the only site offering full HotRoad access with local banking, multilingual support, daily rewards, and no hidden catches --- built for Malaysians, by Malaysians."
+          }
+        }
+      },
+      "conclusion": {
+        "title": "Ready to Play Real Baccarat --- The Malaysian Way?",
+        "description1": "Stop guessing. Stop waiting. Stop playing games that feel fake.",
+        "description2": "HotRoad Baccarat on Winbox22 gives you the closest thing to a real casino --- without leaving your home.",
+        "loginButton": "👉 Login Winbox",
+        "playersCount": "Now --- Join 15,000+ Malaysian Players",
+        "tagline": "No app. No delay. Just real cards. Real deals. Real rewards."
+      }
+    },
+
+    "ezugi": {
+    "meta": {
+      "title": "Ezugi Casino Malaysia: Live Roulette & Real Dealers on Winbox22",
+      "description": "Play Ezugi Casino live games in Malaysia - real dealers, instant DuitNow deposits & zero lag on mobile. Ezugi Roulette, Baccarat & Blackjack with no app needed."
+    },
+    "title": "Ezugi Casino Malaysia -- Live Dealers, Real Games, Instant Play on Winbox22",
+    "intro": {
+      "description1": "Play",
+      "linkText": "Ezugi",
+      "description2": "live casino games the way they're meant to be played --- smooth, real-time, and made for Malaysia.",
+      "description3": "No delays. No bots. No fake spins.",
+      "description4": "Just professional dealers, HD streams, and tables that load instantly on your phone --- whether you're in KL, Penang, Johor, or Kuching.",
+      "description5": "At Winbox22, we don't resell Ezugi games. We partner directly with them. That means you get full access to every table, every feature, and every update --- without the lag, the pop-ups, or the broken streams you'll find elsewhere.",
+      "description6": "This isn't another casino site.",
+      "description7": "This is Ezugi --- delivered right to your screen, the way it was designed to be played."
+    },
+    "roulette": {
+      "title": "Ezugi Roulette -- Spin Like You're at Genting",
+      "description1": "Real wheel. Real dealer. Real Malaysian limits.",
+      "description2": "Start from RM5. Go up to RM5,000 per spin.",
+      "description3": "Every number, every bounce, every call --- streamed live from Ezugi's studios in Malta and the Philippines.",
+      "description4": "You'll see the ball drop. You'll hear the dealer say \"No more bets.\" You'll feel the tension before the win.",
+      "description5": "On other sites, the stream freezes. The audio cuts out. The wheel feels slow.",
+      "description6": "Not here.",
+      "description7": "Winbox22",
+      "description8": "uses Ezugi's premium HD feed --- optimized for local networks like Unifi, Maxis, and TM. Even on an older Android phone, it runs clean. No app needed. Just open your browser. Hit play.",
+      "testimonial": "\"I've tried three other sites. Only Winbox22 doesn't buffer during big wins.\" --- Amir, Shah Alam"
+    },
+    "baccarat": {
+      "title": "Ezugi Baccarat -- The Asian Classic, Done Right",
+      "description1": "Baccarat isn't just popular in Malaysia --- it's part of the culture.",
+      "subtitle": "Ezugi brings you three versions:",
+      "versions": {
+        "standard": {
+          "title": "Standard Baccarat",
+          "description": "classic, calm, clean"
+        },
+        "speed": {
+          "title": "Speed Baccarat",
+          "description": "30% faster rounds, perfect for quick sessions"
+        },
+        "squeeze": {
+          "title": "Squeeze Baccarat",
+          "description": "watch as the dealer slowly reveals each card, just like in VIP rooms"
+        }
+      },
+      "description2": "All tables support Malay and English chat. Deal a hand. Say \"Selamat pagi.\" The dealer will smile back.",
+      "description3": "And unlike competitors who use RNG or delayed video, Ezugi on Winbox22 is 100% live --- every card dealt by hand, every result visible, every session recorded for fairness.",
+      "description4": "Ideal for players who want tradition --- without the wait."
+    },
+    "moreGames": {
+      "title": "Ezugi Blackjack, Sic Bo & Dragon Tiger -- More Than Just Roulette",
+      "subtitle": "Why stop at one game?",
+      "description": "Ezugi gives you the full suite --- all available on Winbox22:",
+      "games": {
+        "blackjack": {
+          "title": "Blackjack Multi-Hand",
+          "description": "Play up to 5 hands at once. Perfect if you like to spread your bets."
+        },
+        "dreamCatcher": {
+          "title": "Dream Catcher",
+          "description": "Spin the giant money wheel with multipliers up to x500. Live host, real-time results."
+        },
+        "sicBo": {
+          "title": "Sic Bo",
+          "description": "Roll the dice with traditional Chinese betting options. Big, small, triple --- all clear and fast."
+        },
+        "dragonTiger": {
+          "title": "Dragon Tiger",
+          "description": "Two cards. One bet. Winner decided in seconds. Fastest live game in Asia."
+        }
+      },
+      "conclusion1": "No downloads. No plugins. Just click and play --- even on 3G.",
+      "conclusion2": "We tested this on budget phones. It works."
+    },
+    "whyDifferent": {
+      "title": "Why Winbox22 Is Different",
+      "description1": "Most sites say \"we have Ezugi.\"",
+      "description2": "Few actually deliver it well.",
+      "description3": "Here's what sets us apart:",
+      "comparison": {
+        "headers": {
+          "others": "What Others Do",
+          "us": "What We Do"
+        },
+        "rows": {
+          "partnership": {
+            "others": "Use third-party resellers",
+            "us": "Direct partnership with Ezugi"
+          },
+          "streams": {
+            "others": "Slow streams on mobile",
+            "us": "Optimized for MY networks (Unifi, Celcom, Digi)"
+          },
+          "support": {
+            "others": "No Malay support",
+            "us": "Live chat in Bahasa & English"
+          },
+          "payments": {
+            "others": "Only accept credit cards",
+            "us": "FPX, DuitNow, Touch 'n Go, Boost --- instant deposits"
+          },
+          "fees": {
+            "others": "Hidden fees",
+            "us": "Zero transaction costs on deposits or withdrawals"
+          },
+          "withdrawals": {
+            "others": "Delayed payouts",
+            "us": "Withdrawals processed in under 15 minutes"
+          }
+        }
+      },
+      "conclusion1": "We don't hide behind flashy banners.",
+      "conclusion2": "We build for players who care about speed, trust, and simplicity."
+    },
+    "howToStart": {
+      "title": "How to Start Playing Ezugi on Winbox22",
+      "steps": {
+        "step1": "Visit Winbox22.com on your phone or desktop.",
+        "step2": "Click \"Live Casino\" → Select \"Ezugi.\"",
+        "step3": "Choose your game --- Roulette, Baccarat, Blackjack, or more.",
+        "step4": "Deposit via DuitNow or FPX --- funds arrive instantly.",
+        "step5": "Play. Win. Withdraw."
+      },
+      "note1": "No long forms. No ID uploads unless you withdraw over RM5,000.",
+      "note2": "No forced registration. Try demo mode first --- no deposit needed."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "questions": {
+        "whatIs": {
+          "question": "What is Ezugi?",
+          "answer": "Ezugi is a licensed live casino provider that streams real dealer games from professional studios. Trusted across Southeast Asia."
+        },
+        "legal": {
+          "question": "Is Ezugi legal in Malaysia?",
+          "answer": "Playing at offshore-licensed platforms like Winbox22 (PAGCOR-regulated) is not illegal for individual players. Always play responsibly."
+        },
+        "mobile": {
+          "question": "Can I play on my Android or iPhone?",
+          "answer": "Yes. All Ezugi games run in your browser --- no app required. Works on all modern phones."
+        },
+        "download": {
+          "question": "Do I need to download anything?",
+          "answer": "No. Everything loads instantly in Chrome, Safari, or Firefox. No Flash. No plugins."
+        },
+        "realDealers": {
+          "question": "Are the dealers real?",
+          "answer": "Yes. Every dealer is filmed live in Ezugi studios. No AI. No pre-recorded clips."
+        },
+        "deposit": {
+          "question": "How do I deposit money?",
+          "answer": "Use FPX, DuitNow, Touch 'n Go, Boost, or GrabPay. Deposits are instant and free."
+        },
+        "withdrawals": {
+          "question": "How fast are withdrawals?",
+          "answer": "Most withdrawals hit your bank account within 15 minutes via DuitNow. Manual reviews apply only for amounts over RM5,000."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Ready to Play Ezugi Like a Pro?",
+      "description1": "Stop scrolling. Stop waiting.",
+      "description2": "The tables are live. The dealers are ready.",
+      "description3": "Your next win is one click away.",
+      "loginButton": "Login Winbox",
+      "description4": "and Play Ezugi Live Casino Now on Winbox22",
+      "tagline": "No signup required. No hidden fees. Just real games, real fast."
     }
+  },
+  "sv388": {
+    "meta": {
+      "title": "SV388 Malaysia: Live Cockfighting & SV388 Gold Casino | Winbox22",
+      "description": "Play SV388 Malaysia live cockfighting & SV388 Gold casino with RM1 bets. No app needed. Deposit via Boost, TNG, bank transfer. Fast payouts. Winbox22.com"
+    },
+    "title": "SV388 Malaysia: Live Cockfighting & SV388 Gold Casino",
+    "intro": {
+      "description1": "If you're looking for real Sabong Ayam --- the kind fought in kampung cockpits, watched by families, bet on with trusted cash --- this is where it lives online.",
+      "description2": "At Winbox22, we connect you directly to",
+      "linkText": "SV388",
+      "description3": "Malaysia: live rooster fights streamed in HD, real-time betting in RM, and instant payouts via Boost, Touch 'n Go, or bank transfer. No apps. No delays. Just the fight, the odds, and your win."
+    },
+    "comparison": {
+      "title": "How SV388 Compares --- Winbox22 vs Others",
+      "note": "Based on audit of top SERP competitors. Winbox22 is the only platform offering true local payment integration, low entry bets, and direct server access without app dependency.",
+      "table": {
+        "headers": {
+          "feature": "Feature",
+          "winbox22": "Winbox22",
+          "competitor": "Competitor"
+        },
+        "rows": {
+          "platform": {
+            "feature": "Platform Access",
+            "winbox22": "Direct SV388 server link --- no middleman",
+            "competitor": "Unknown reseller"
+          },
+          "mobile": {
+            "feature": "Mobile Experience",
+            "winbox22": "No app needed. Works on any browser (Android/iOS)",
+            "competitor": "App recommended"
+          },
+          "payment": {
+            "feature": "Payment Methods",
+            "winbox22": "✅ Boost • ✅ Touch 'n Go • ✅ DuitNow • ✅ Bank Transfer",
+            "competitor": "❌ Crypto only"
+          },
+          "minBet": {
+            "feature": "Minimum Bet (Sabong)",
+            "winbox22": "RM1",
+            "competitor": "RM5"
+          },
+          "description": {
+            "feature": "Cockfighting Description",
+            "winbox22": "Real fights. Licensed arenas. No fake footage.",
+            "competitor": "\"Brutal fights between roosters\" --- sensationalized"
+          },
+          "support": {
+            "feature": "Live Dealer Support",
+            "winbox22": "✅ Bahasa Malaysia + English",
+            "competitor": "❌ Not mentioned"
+          },
+          "withdrawal": {
+            "feature": "Withdrawal Speed",
+            "winbox22": "Under 5 minutes",
+            "competitor": "15--30 mins"
+          },
+          "gold": {
+            "feature": "SV388 Gold Included",
+            "winbox22": "✅ Yes --- same login, same wallet",
+            "competitor": "❌ Not mentioned"
+          },
+          "customer": {
+            "feature": "Customer Support",
+            "winbox22": "✅ 24/7 WhatsApp & Live Chat (Malay/English)",
+            "competitor": "✅ Live Chat only"
+          },
+          "trust": {
+            "feature": "Trust Signal",
+            "winbox22": "No hype. No promises. Direct access.",
+            "competitor": "Uses \"brutal,\" \"easiest to win\" --- red flag"
+          }
+        }
+      }
+    },
+    "sabong": {
+      "title": "SV388: The Original Sabong Experience",
+      "description1": "Cockfighting isn't new. It's 6,000 years old. In Malaysia, it's tradition.",
+      "description2": "SV388 brings that tradition online --- without the noise, without the crowds. Two roosters, armed with steel spurs, placed in a sealed cockpit. The whistle blows. The crowd shouts. You place your bet.",
+      "description3": "At Winbox22, we stream only licensed arenas with certified handlers. No fake footage. No rigged outcomes. Just raw, unedited matches --- exactly how it's done in Pahang, Kelantan, or Johor.",
+      "description4": "Betting opens 30 seconds before each bout. Odds shift in real time. Win if your bird lands the final strike --- or simply outlasts the other.",
+      "minBet": "Minimum bet: RM1.",
+      "note": "No app needed. Play instantly on any phone."
+    },
+    "gold": {
+      "title": "SV388 Gold: Simple Games. Real Payouts.",
+      "description1": "After the fight, switch to SV388 Gold --- the built-in casino suite designed for Malaysian players.",
+      "description2": "Fish shooting. Dragon Tiger. Roulette. Lucky Wheel.",
+      "description3": "All games load in under 2 seconds. All bets start at RM1. All wins pay out within minutes --- straight to your Boost wallet, TNG eWallet, or bank account.",
+      "description4": "No complex menus. No confusing rules. Just clean, fast action --- same login, same balance, zero switching.",
+      "testimonial": {
+        "label": "Real user from Johor Bahru:",
+        "quote": "\"I play sabong during my lunch break. Then I spin the wheel for 5 minutes. Won RM87 last week. Cashout took 90 seconds.\""
+      }
+    },
+    "howToLogin": {
+      "title": "How to Login to SV388 on Winbox22",
+      "steps": {
+        "step1": "Open",
+        "step1Link": "Winbox22.com", 
+        "step1End": "on your phone or browser.",
+        "step2": "Click \"Join Now\" --- enter your name and mobile number.",
+        "step3": "Verify your number with the SMS code sent instantly.",
+        "step4": "Deposit using Boost, Touch 'n Go, DuitNow, or bank transfer. Minimum RM10.",
+        "step5": "Click \"SV388\" → \"Play Now\"."
+      },
+      "conclusion": "That's all.",
+      "note1": "No waiting. Your account works on Android and iOS --- even on older models.",
+      "note2": "Bookmark this page. Use it every time. Avoid third-party links. Only Winbox22.com connects you directly to the official SV388 server network."
+    },
+    "whyWinbox": {
+      "title": "Why Winbox22? Not the Others.",
+      "description1": "Many sites say they offer \"SV388.\" Most are resellers.",
+      "description2": "They delay payouts. Break streams. Charge hidden fees. Force you to download risky APKs.",
+      "description3": "Winbox22 is not a middleman.",
+      "description4": "We are directly linked to the SV388 platform. That means:",
+      "benefits": {
+        "loading": "Instant match loading --- no buffering",
+        "odds": "Real-time odds synced to live arenas",
+        "support": "Customer support in Bahasa Malaysia, available 24/7",
+        "uptime": "Zero downtime during peak hours --- weekends, Hari Raya, Chinese New Year"
+      },
+      "conclusion": "We don't push high-risk slots. We don't bombard you with bonuses. We give you what you came for: clean access to Sabong and SV388 Gold."
+    },
+    "faqs": {
+      "title": "FAQ",
+      "questions": {
+        "whatIs": {
+          "question": "What is SV388 Malaysia?",
+          "answer": "SV388 is a live online platform for cockfighting (Sabong Ayam) and casino games, widely used in Malaysia. It streams real fights from licensed arenas with betting options in RM."
+        },
+        "legal": {
+          "question": "Is SV388 legal in Malaysia?",
+          "answer": "Cockfighting is permitted under cultural exemptions in some states. Online platforms like Winbox22 operate as private entertainment portals --- not public gambling sites."
+        },
+        "deposit": {
+          "question": "How do I deposit money for SV388?",
+          "answer": "Use Boost, Touch 'n Go, DuitNow, or direct bank transfer. All methods process instantly. No credit cards accepted."
+        },
+        "mobile": {
+          "question": "Can I play SV388 on my phone?",
+          "answer": "Yes. No app required. Open Winbox22.com in Chrome or Safari. Log in and play immediately. Works on all Android and iPhone models."
+        },
+        "gold": {
+          "question": "What is SV388 Gold?",
+          "answer": "SV388 Gold is a collection of simple casino-style games --- fish shooting, roulette, wheel spin --- built into the same system as sabong. Same login. Same wallet."
+        },
+        "googlePlay": {
+          "question": "Why can't I find SV388 on Google Play?",
+          "answer": "Because SV388 is a web-based service. Third-party APKs are unsafe. Always play through Winbox22.com."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Ready to Play?",
+      "loginButton": "Login H5 Winbox",
+      "description": "to SV388 Now --- Free Registration",
+      "disclaimer": "Always play responsibly. This platform is for users aged 18+. Gambling may be addictive."
+    }
+  },
+
+  "ekor": {
+    "meta": {
+      "title": "Ekor Lottery Numbers Malaysia -- Official Sup Ekor | Winbox22",
+      "description": "Winbox22 is Malaysia's trusted Ekor lottery. Buy online with official vendors: Magnum 4D, Da Ma Cai, Sport Toto & Lucky Hari-Hari. Real results. No fake numbers."
+    },
+    "intro": {
+      "title": "Ekor Lottery Numbers Malaysia – Official Sup Ekor",
+      "description1": "Most websites claim to show \"Ekor numbers today\" --- but few explain how Ekor actually works.",
+      "description2": "And even fewer admit they're just guessing.",
+      "description3": "At Winbox22, we don't pretend to pull live draws we can't access.",
+      "description4": "Instead, we show you exactly how",
+      "linkText": "Ekor",
+      "description5": "lottery functions --- what's real, what's fake, and how to avoid being tricked by platforms that sell false hope.",
+      "description6": "You won't find magic formulas here.",
+      "description7": "But you <em>will</em> find clarity."
+    },
+    "comparison": {
+      "title": "Comparison Table",
+      "note": "Note: If a site shows \"live\" Ekor numbers but doesn't link to an official draw source --- it's generating numbers. Not displaying them.",
+      "table": {
+        "headers": {
+          "platform": "Platform",
+          "dataSource": "Actual Data Source",
+          "transparency": "Transparency",
+          "userExperience": "User Experience",
+          "riskLevel": "Risk Level"
+        },
+        "rows": {
+          "winbox22": {
+            "platform": "Winbox22",
+            "dataSource": "Educational & analytical",
+            "transparency": "✅ Fully transparent",
+            "userExperience": "Clean, ad-free, no pop-ups",
+            "riskLevel": "Low --- no false promises"
+          },
+          "others": {
+            "platform": "Others",
+            "dataSource": "Unknown / Auto-generated",
+            "transparency": "❌ Hidden source",
+            "userExperience": "Pop-up ads, slow loading",
+            "riskLevel": "High --- numbers change randomly"
+          }
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "How Ekor Lottery Actually Works (Malaysia)",
+      "description1": "Ekor --- short for \"ekor nombor\" (tail number) --- is a popular Malaysian betting game where players predict the last two, three, or four digits of official lottery results.",
+      "description2": "It's not a standalone draw.",
+      "description3": "It's a derived result.",
+      "subtitle": "Here's how it works in practice:",
+      "steps": {
+        "step1": "Official draws happen daily (e.g., Magnum 4D, Toto, Da Ma Cai).",
+        "step2": "Each draw produces a 4-digit winning number --- e.g., 9174.",
+        "step3": "The \"Ekor\" is the last 2 digits → 74",
+        "step3Sub1": "Sometimes extended to last 3 → 174",
+        "step3Sub2": "Or last 4 → 9174 (full number)",
+        "step4": "Bettors then place wagers on these endings --- often via private agents or online platforms."
+      },
+      "important": {
+        "title": "Important:",
+        "description1": "There is no official \"Ekor draw\".",
+        "description2": "Everything labeled \"Ekor result\" is pulled from existing 4D lottery results.",
+        "description3": "So if a site says \"Our Ekor system is live,\" they're either:",
+        "option1": "Pulling data from public 4D results (and hiding it), OR",
+        "option2": "Generating random numbers to look \"real\"",
+        "conclusion1": "Winbox22 does neither.",
+        "conclusion2": "We tell you how it works --- so you know what to expect."
+      }
+    },
+    "supEkor": {
+      "title": "What Is \"Sup Ekor\"? And Why It's Not Magic",
+      "description1": "\"Sup Ekor\" (support number) refers to patterns observed from historical Ekor endings.",
+      "example": {
+        "title": "Example:",
+        "description1": "If the last digit '4' appeared 6 times in the past 10 days, some call it a \"hot number\".",
+        "description2": "If '0' hasn't appeared in 15 days, it's called \"cold\"."
+      },
+      "description2": "This isn't prediction.",
+      "description3": "It's pattern recognition --- like noticing rain usually falls after dark clouds.",
+      "provides": {
+        "title": "Winbox22 provides:",
+        "item1": "7-Day Ekor Frequency Chart --- which endings appear most",
+        "item2": "30-Day Trend Analysis --- long-term behavior of digits",
+        "item3": "Odd/Even & High/Low Distribution --- helps balance your selection"
+      },
+      "clarification1": "We don't say \"74 will win tomorrow\".",
+      "clarification2": "We say: *\"74 has been the most common Ekor in the last week. You may consider it --- but remember, each draw is independent.\"*",
+      "conclusion": "That's the difference between education and exploitation."
+    },
+    "whyOthersLie": {
+      "title": "Why Other Sites Lie About \"Live Ekor Numbers\"",
+      "description": "Most platforms show fake \"live\" Ekor because:",
+      "reasons": {
+        "reason1": "They don't have API access to official lottery results",
+        "reason2": "They use JavaScript to auto-generate numbers every time you refresh",
+        "reason3": "They copy old data and label it \"today\"",
+        "reason4": "They profit from clicks --- not player wins"
+      },
+      "test": {
+        "title": "Check this:",
+        "description1": "Visit any competitor site. Refresh 5 times.",
+        "description2": "Do the \"Ekor numbers\" stay the same?",
+        "result1": "If they change --- it's not real data.",
+        "result2": "It's a generator."
+      },
+      "promise1": "Winbox22 never does this.",
+      "promise2": "We show you how the system works --- so you can spot the scams yourself."
+    },
+    "howToFind": {
+      "title": "How to Find Real Ekor Results (Without Being Scammed)",
+      "description1": "You don't need a \"special tool\".",
+      "description2": "You just need to know where to look.",
+      "steps": {
+        "step1": {
+          "title": "Step 1: Go to official lottery sites:",
+          "sites": {
+            "magnum": "Magnum 4D",
+            "toto": "Toto",
+            "damacai": "Da Ma Cai"
+          }
+        },
+        "step2": {
+          "title": "Step 2: Find the latest 4D result.",
+          "example": "Example: *Magnum 4D Draw #XXXX --- Winning Number: 8261*"
+        },
+        "step3": {
+          "title": "Step 3: Take the last 2 digits → 61 = Ekor 2D",
+          "sub1": "Last 3 → 261 = Ekor 3D",
+          "sub2": "Full number → 8261 = Ekor 4D"
+        },
+        "step4": {
+          "title": "Step 4: Record it. Track it. Analyze it."
+        }
+      },
+      "conclusion1": "That's it.",
+      "conclusion2": "No app. No registration. No payment.",
+      "conclusion3": "Just logic.",
+      "conclusion4": "Winbox22 gives you the tools to do this --- without pretending to be something we're not."
+    },
+    "conclusion": {
+      "title": "Conclusion: Ekor Isn't Broken --- The System Is",
+      "description1": "Ekor isn't a scam.",
+      "description2": "The *fake services* that pretend to give you \"live results\" are.",
+      "description3": "Winbox22 doesn't sell you numbers.",
+      "description4": "We teach you how to find them --- honestly.",
+      "description5": "If you want to play smart, stop trusting sites that flash flashing \"LIVE EKOR NOW!\"",
+      "description6": "Start trusting the ones that say:",
+      "quote": "\"Here's how it works. Here's where to check. Here's what to watch for.\"",
+      "values1": "That's transparency.",
+      "values2": "That's trust.",
+      "values3": "That's Winbox22."
+    },
+    "faqs": {
+      "title": "FAQs",
+      "questions": {
+        "howWorks": {
+          "question": "How does Ekor lottery work in Malaysia?",
+          "answer": "Ekor uses the last 2--4 digits from official 4D lottery results (like Magnum or Toto). There's no separate Ekor draw --- it's derived from existing results."
+        },
+        "liveData": {
+          "question": "Is there such a thing as live Ekor data?",
+          "answer": "Only if the site pulls directly from official lottery APIs. Most don't. They generate fake numbers instead."
+        },
+        "supEkor": {
+          "question": "What is Sup Ekor?",
+          "answer": "Sup Ekor is analysis of past Ekor endings to identify recurring patterns. It helps inform choices --- not guarantee wins."
+        },
+        "trustSites": {
+          "question": "Can I trust sites that show \"Ekor Today\"?",
+          "answer": "Only if they link to official sources like Magnum or Toto. If numbers change on refresh --- it's fake."
+        },
+        "registration": {
+          "question": "Do I need to register to see real Ekor numbers?",
+          "answer": "No. All official results are free and public. You only register if you want to place bets --- and even then, use licensed operators."
+        },
+        "predictions": {
+          "question": "Are Ekor predictions reliable?",
+          "answer": "No. Each draw is random. Patterns help you understand history --- not predict the future. Beware of anyone claiming otherwise."
+        }
+      }
+    },
+    "cta": {
+      "title": "Want to play smarter?",
+      "description1": "Stop guessing. Start understanding.",
+      "registerButton": "Register Winbox",
+      "description2": "here",
+      "tagline": "Winbox22: Where honesty beats hype."
+    }
+  },
+  "rcb988": {
+    "meta": {
+      "title": "RCB988 Malaysia: Horse Racing & Sports Betting at Winbox22.com",
+      "description": "RCB988 Malaysia at Winbox22.com -- Bet on horse racing, dog racing & harness races with live odds, RM10 minimum deposit, instant DuitNow/FPX withdrawals."
+    },
+    "title": "RCB988 Malaysia: Horse Racing & Sports Betting at Winbox22.com",
+    "intro": {
+      "description1": "If you're in Malaysia and want to bet on horse racing with fast payouts, real-time odds, and local support ---",
+      "linkText": "RCB988",
+      "description2": "is one of the most trusted providers available. At Winbox22.com, we give you direct, secure access to RCB988's full sportsbook --- no intermediaries, no delays, no hidden terms.",
+      "description3": "No app needed. No complicated sign-ups. Just log in and start betting on races from Kuala Lumpur, Singapore, Hong Kong, Australia, and beyond --- all with Malaysian payment methods."
+    },
+    "whatIs": {
+      "title": "What Is RCB988?",
+      "description1": "RCB988 is a leading Asian sportsbook provider specializing in live and pre-match horse racing, dog racing, and harness racing. It's widely used by Malaysian punters for its clean interface, competitive starting prices, and reliable customer service.",
+      "description2": "Unlike general casino sites that spread thin across slots and table games, RCB988 focuses on racing --- delivering detailed race cards, updated odds minutes before post time, and low-margin markets that favor informed bettors.",
+      "description3": "At Winbox22.com, we connect you directly to RCB988's platform. No redirects. No third-party portals. Just pure access."
+    },
+    "racingMarkets": {
+      "title": "Racing Markets You Can Bet On",
+      "subtitle": "RCB988 covers over 15 major racecourses daily. Popular tracks include:",
+      "tracks": {
+        "kl": "Kuala Lumpur Racecourse (KL) -- Friday and Sunday meets",
+        "singapore": "Singapore Kranji -- High-stakes international fields",
+        "hongkong": "Hong Kong Sha Tin & Happy Valley -- Premium global events",
+        "australia": "Australia (Randwick, Flemington, Caulfield) -- Major cup races",
+        "uk": "UK (Ascot, Newmarket) -- Classic flat racing"
+      },
+      "betTypes": {
+        "title": "Common Bet Types:",
+        "win": "Win -- Pick the horse that finishes first",
+        "place": "Place -- Win if your horse finishes 1st or 2nd",
+        "show": "Show -- Win if your horse finishes in top 3"
+      },
+      "liveBetting": "Live betting is enabled on all major races. Adjust stakes mid-race with zero lag --- even during peak times like the Melbourne Cup or Singapore Derby."
+    },
+    "payments": {
+      "title": "How to Deposit & Withdraw in Malaysia",
+      "description": "We don't make you wait. Or pay fees. Or use foreign currencies.",
+      "deposit": {
+        "title": "Deposit Methods (Instant):",
+        "methods": {
+          "fpx": "FPX",
+          "duitnow": "DuitNow",
+          "tng": "Touch 'n Go eWallet",
+          "bank": "Bank Transfer (Maybank, CIMB, Public Bank, etc.)"
+        },
+        "minimum": "Minimum deposit: RM10"
+      },
+      "withdrawal": {
+        "title": "Withdrawals:",
+        "speed": "Processed within 5 minutes for verified accounts",
+        "limits": "No withdrawal limits beyond standard KYC thresholds",
+        "destination": "All funds go straight to your local bank or e-wallet"
+      },
+      "advantage": "Other platforms take hours. We move faster because we understand Malaysian players don't have time to wait."
+    },
+    "bonuses": {
+      "title": "Bonuses That Actually Work",
+      "description": "Most sites promise bonuses but lock them behind impossible wagering rules. Not here.",
+      "welcome": {
+        "title": "Welcome Bonus:",
+        "match": "100% match up to RM200 on your first deposit",
+        "usage": "Use it on any racing market --- no restrictions",
+        "requirements": "No hidden playthrough requirements"
+      },
+      "daily": {
+        "title": "Daily Free Credit:",
+        "amount": "Logged-in users receive RM5--RM20 in free credits every day",
+        "requirement": "No deposit needed --- just log in and claim",
+        "purpose": "Perfect for testing new picks or learning race form"
+      },
+      "conclusion": "These aren't marketing traps. They're tools to help you bet smarter --- not risk more."
+    },
+    "support": {
+      "title": "Support That Answers in Malay",
+      "description1": "You won't find automated bots or ticket systems here.",
+      "description2": "Our support team speaks fluent Bahasa Melayu and English, and they're available 24/7 via:",
+      "method": "Live Chat: Bottom-right corner of this page",
+      "promise": "Questions about balance, bonus rules, or race cancellations? Get answers in under 90 seconds --- even at 2 a.m.",
+      "conclusion": "No waiting. No emails. Just real people who know how RCB988 works."
+    },
+    "mobile": {
+      "title": "Mobile-Friendly. No App Needed.",
+      "description1": "Your phone is your betting station.",
+      "description2": "Winbox22.com works perfectly on Android and iOS. No APK download. No installation. No storage usage.",
+      "description3": "Open your browser. Log in. Place your bet. Done.",
+      "description4": "The interface is clean, buttons are large, odds load instantly --- even on slow networks. Designed for Malaysians on the move."
+    },
+    "whyChoose": {
+      "title": "Why Choose Winbox22.com Over Other Sites?",
+      "description1": "Many portals list RCB988 among dozens of providers. They're cluttered. Slow. Hard to navigate.",
+      "description2": "We do one thing differently: we only offer RCB988.",
+      "description3": "That means:",
+      "benefits": {
+        "menu": "No confusing menus",
+        "banners": "No competing banners",
+        "odds": "No delayed odds",
+        "racecards": "No outdated racecards"
+      },
+      "conclusion1": "Everything is curated for racing fans. Every feature exists to help you place better bets --- faster.",
+      "conclusion2": "And since we're focused, our support, payments, and updates are always aligned with what RCB988 users in Malaysia actually need."
+    },
+    "faqs": {
+      "title": "FAQs",
+      "questions": {
+        "whatIs": {
+          "question": "What is RCB988?",
+          "answer": "RCB988 is an Asian sportsbook provider focused on horse racing, dog racing, and harness racing. Trusted by Malaysian players for fast odds and local payment support."
+        },
+        "mobile": {
+          "question": "Can I use RCB988 on my phone?",
+          "answer": "Yes. Winbox22.com works smoothly on all mobile browsers. No app required."
+        },
+        "legal": {
+          "question": "Is RCB988 legal in Malaysia?",
+          "answer": "RCB988 operates offshore and accepts Malaysian players. We provide access to international platforms commonly used by locals --- always responsibly."
+        },
+        "bonus": {
+          "question": "How do I claim the welcome bonus?",
+          "answer": "Register at Winbox22.com, deposit at least RM10, and your 100% bonus auto-credits to your account. Use it on any racing market."
+        },
+        "races": {
+          "question": "Which races can I bet on?",
+          "answer": "Kuala Lumpur, Singapore Kranji, Hong Kong, Australia, UK, and more. Full schedules updated daily."
+        },
+        "verification": {
+          "question": "Do I need ID verification?",
+          "answer": "Only for withdrawals above RM5,000. Otherwise, no documents are needed to start betting."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to bet on RCB988?",
+      "description": "Start with RM10. Claim your free credit today. See how fast your winnings arrive.",
+      "registerButton": "Register Winbox"
+    }
+  }
 }

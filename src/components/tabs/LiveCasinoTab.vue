@@ -14,6 +14,7 @@
 
     <!-- Content Section Based on Document -->
     <div class="content-section">
+      <license_payment />
       <h1>{{ $t('liveCasino.title') }}</h1>
       
       <p>{{ $t('liveCasino.intro.description1') }}</p>
@@ -87,6 +88,8 @@
 </template>
 
 <script setup>
+import license_payment from '../license_payment.vue';
+
 // Import the live casino provider images in the specified sequence
 import evolution from "@/assets/evolution.png";
 import sexy from "@/assets/sexy.png";
@@ -107,12 +110,16 @@ const {
   goToHomepage,
   goToLogin,
   goToLiveCasino,
+  goToEvolution,
+  goToHotRoad,
+  goToEzugi,
+  goToSv388,
 } = useNavigation();
 
 // Define live casino games in the specified sequence
 const liveGames = [
   {
-    id: "login",
+    id: "evolution",
     name: "Evolution",
     image: evolution,
     alt: "Winbox Evolution"
@@ -124,7 +131,7 @@ const liveGames = [
     alt: "Winbox AE Sexy"
   },
   {
-    id: "login",
+    id: "hotRoad",
     name: "Hot Road",
     image: hotroad,
     alt: "Winbox Hot Road"
@@ -136,7 +143,7 @@ const liveGames = [
     alt: "Winbox Pretty Gaming"
   },
   {
-    id: "login",
+    id: "ezugi",
     name: "Ezugi",
     image: ezugi,
     alt: "Winbox Ezugi"
@@ -166,7 +173,7 @@ const liveGames = [
     alt: "Winbox Big Gaming"
   },
   {
-    id: "login",
+    id: "sv388",
     name: "SV388",
     image: sv388,
     alt: "Winbox SV388"
@@ -174,11 +181,25 @@ const liveGames = [
 ];
 
 const navigateToGame = (gameId) => {
-  if (gameId === "login") {
-    goToRegister();
-  } else {
-    // For future live casino specific pages
-    goToRegister();
+  switch (gameId) {
+    case "login":
+      goToRegister();
+      break;
+    case "evolution":
+      goToEvolution();
+      break;
+    case "hotRoad":
+      goToHotRoad();
+      break;
+    case "sv388":
+      goToSv388();
+      break;
+    case "ezugi":
+      goToEzugi();
+      break;
+    default:
+      goToRegister();
+      break;
   }
 };
 </script>

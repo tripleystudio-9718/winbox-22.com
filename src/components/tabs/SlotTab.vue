@@ -14,6 +14,7 @@
 
       <!-- Content Section Based on Document -->
       <div class="content-section">
+        <license_payment />
         <h1>{{ $t('slotGames.title') }}</h1>
         
         <p>{{ $t('slotGames.intro.description1') }} <span class="homepage-link" @click="goToSlots">{{ $t('slotGames.intro.linkText') }}</span> {{ $t('slotGames.intro.description2') }}</p>
@@ -84,6 +85,8 @@
 </template>
 
 <script setup>
+import license_payment from '../license_payment.vue';
+
 // Import all slot game images according to the sequence
 import askmeslot from "@/assets/askmeslot.png";
 import pragmatic_play from "@/assets/pragmatic-play.png";
@@ -108,6 +111,7 @@ const {
   goToRegister,
   goToAcewin,
   goToJili,
+  goToLucky365,
   goToSpadeGaming,
   goToPlaytech,
   goToPragmaticPlay,
@@ -134,7 +138,7 @@ const slotGames = [
     alt: "Winbox Pragmatic Play"
   },
   {
-    id: "login",
+    id: "lucky365",
     name: "Lucky 365",
     image: lucky365,
     alt: "Winbox Lucky 365"
@@ -218,6 +222,9 @@ const navigateToGame = (gameId) => {
   switch (gameId) {
     case "login":
       goToRegister();
+      break;
+    case "lucky365":
+      goToLucky365();
       break;
     case "askmeslot":
       goToAskmeslot();

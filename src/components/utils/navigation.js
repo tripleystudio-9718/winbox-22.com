@@ -90,6 +90,10 @@ export function useNavigation() {
     router.push(getLocalizedPath('/acewin'))
   }
 
+  const goToLucky365 = () => {
+    router.push(getLocalizedPath('/lucky365'))
+  }
+
   const goToJili = () => {
     router.push(getLocalizedPath('/jili'))
   }
@@ -116,6 +120,46 @@ export function useNavigation() {
 
   const goToMonkeyking = () => {
     router.push(getLocalizedPath('/monkeyking'))
+  }
+
+  const goToMaxbet = () => {
+    router.push(getLocalizedPath('/maxbet'))
+  }
+
+  const goToCmd368 = () => {
+    router.push(getLocalizedPath('/cmd368'))
+  }
+
+  const goToNineWickets = () => {
+    router.push(getLocalizedPath('/9wickets'))
+  }
+
+  const goToBti = () => {
+    router.push(getLocalizedPath('/bti'))
+  }
+
+  const goToEvolution = () => {
+    router.push(getLocalizedPath('/evolution'))
+  }
+
+  const goToHotRoad = () => {
+    router.push(getLocalizedPath('/hotroad'))
+  }
+
+  const goToEzugi = () => {
+    router.push(getLocalizedPath('/ezugi'))
+  }
+
+  const goToSv388 = () => {
+    router.push(getLocalizedPath('/sv388'))
+  }
+
+  const goToEkor = () => {
+    router.push(getLocalizedPath('/ekor'))
+  }
+
+  const goToRcb988 = () => {
+    router.push(getLocalizedPath('/rcb988'))
   }
 
     const goToSlots = () => {
@@ -157,6 +201,7 @@ export function useNavigation() {
     post: () => getLocalizedPath('/post'),
     // Slot games
     acewin: () => getLocalizedPath('/acewin'),
+    lucky365: () => getLocalizedPath('/lucky365'),
     jili: () => getLocalizedPath('/jili'),
     spadegaming: () => getLocalizedPath('/spadegaming'),
     playtech: () => getLocalizedPath('/playtech'),
@@ -166,6 +211,16 @@ export function useNavigation() {
     monkeyking: () => getLocalizedPath('/monkeyking'),
     slot: () => getLocalizedPath('/slot'),
     sportsBetting: () => getLocalizedPath('/sports-betting'),
+    maxbet: () => getLocalizedPath('/maxbet'),
+    cmd368: () => getLocalizedPath('/cmd368'),
+    wickets: () => getLocalizedPath('/9wickets'),
+    bti: () => getLocalizedPath('/bti'),
+    evolution: () => getLocalizedPath('/evolution'),
+    hotRoad: () => getLocalizedPath('/hotroad'),
+    ezugi: () => getLocalizedPath('/ezugi'),
+    sv388: () => getLocalizedPath('/sv388'),
+    ekor: () => getLocalizedPath('/ekor'),
+    rcb988: () => getLocalizedPath('/rcb988'),
   }
 
   return {
@@ -190,6 +245,7 @@ export function useNavigation() {
     
     // Slot games
     goToAcewin,
+    goToLucky365,
     goToJili,
     goToSpadeGaming,
     goToPlaytech,
@@ -199,6 +255,16 @@ export function useNavigation() {
     goToMonkeyking,
     goToSlots,
     goToSportsBetting,
+    goToMaxbet,
+    goToCmd368,
+    goToNineWickets,
+    goToBti,
+    goToEvolution,
+    goToHotRoad,
+    goToEzugi,
+    goToSv388,
+    goToEkor,
+    goToRcb988,
     
     // Utility functions
     navigateTo,

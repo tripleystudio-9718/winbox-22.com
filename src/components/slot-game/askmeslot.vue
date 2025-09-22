@@ -11,7 +11,6 @@
         </div>
       </div>
 
-      <!-- Content Section Based on Document -->
       <div class="content-section">
         <h1>{{ $t('askMeSlot.title') }}</h1>
         

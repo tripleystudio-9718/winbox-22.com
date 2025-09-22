@@ -151,7 +151,7 @@
           <img :src="mega_giveaway" alt="mega giveaway" @click="navigateToRegister">
         </div>
         <div v-if="isMobile" class="dragon-tiger-ranking">
-          <img :src="dragon_tiger_ranking" alt="dragon tiger ranking" @click="navigateToRegister">
+          <img :src="lucky365RankingChampionshipBanner" alt="Lucky365 Ranking Championship banner with a mystical character, RM288,888 prize, and 'MAKE YOUR MONEY AS YOU WISH' text." @click="navigateToRegister">
         </div>
 
         <div class="column-left-4">

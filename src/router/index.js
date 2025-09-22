@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { setSchemaOrg } from '@/services/schemaService.js'
 
 // Main pages
 import HomePage from '@/components/HomePage.vue'
@@ -8,6 +9,17 @@ import Chat from '@/components/Chat.vue'
 import Promo from '@/components/Promo.vue'
 import acewin from '@/components/slot-game/acewin.vue'
 import jili from '@/components/slot-game/jili.vue'
+import lucky365 from '@/components/slot-game/lucky365.vue'
+import maxbet from '@/components/sports-game/maxbet.vue'
+import cmd368 from '@/components/sports-game/cmd368.vue'
+import wickets from '@/components/sports-game/9wickets.vue'
+import bti from '@/components/sports-game/bti.vue'
+import evolution from '@/components/live-casino-game/evolution.vue'
+import ezugi from '@/components/live-casino-game/ezugi.vue'
+import sv388 from '@/components/live-casino-game/sv388.vue'
+import ekor from '@/components/lottery-game/ekor.vue'
+import rcb988 from '@/components/horse-game/rcb988.vue'
+import hotRoad from '@/components/live-casino-game/hot-road.vue'
 import spadegaming from '@/components/slot-game/spadegaming.vue'
 import playtech from '@/components/slot-game/playtech.vue'
 import pragmatic_play from '@/components/slot-game/pragmatic-play.vue'
@@ -94,236 +106,6 @@ function setOpenGraphAndTwitterTags(meta, route) {
   setMetaTag('twitter:title', title, true)
   setMetaTag('twitter:description', description, true)
   setMetaTag('twitter:image', image, true)
-}
-
-// Helper function to add/remove schema.org structured data
-function setSchemaOrg(isHomepage) {
-  // Remove existing schema if it exists
-  const existingSchema = document.querySelector('script[type="application/ld+json"]')
-  if (existingSchema) {
-    existingSchema.remove()
-  }
-  
-  // Only add schema.org for homepage
-  if (isHomepage) {
-    const schemaScript = document.createElement('script')
-    schemaScript.type = 'application/ld+json'
-    schemaScript.textContent = JSON.stringify({
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Organization",
-          "name": "Winbox22",
-          "url": "https://www.winbox22.com",
-          "logo": "https://www.winbox22.com/assets/winbox_logo-DAaVgAO3.png",
-          "sameAs": [
-            "https://www.facebook.com/winbox22",
-            "https://www.instagram.com/winbox22",
-            "https://x.com/winboxmalaysi"
-          ]
-        },
-        {
-          "@type": "LocalBusiness",
-          "@id": "https://www.winbox22.com/",
-          "name": "Winbox Malaysia | Online Casino Malaysia Games & Rewards",
-          "brand": "Winbox Malaysia",
-          "description": "Looking for a fun and reliable place to play online? Winbox Malaysia also known as Winbox MY has everything you need. This trusted Winbox Online Casino brings you top games like JILI Slots, Lion King Slots, and Lucky365, perfect for slot lovers chasing big wins. Into sports betting or checking your luck with 4D results? Winbox has that too. Whether you're playing from your phone or desktop, the experience is smooth, secure, and packed with excitement. Thousands of Malaysians trust Winbox casino every day not just for the games, but for fast payouts, great support, and non-stop entertainment.",
-          "url": "https://www.winbox22.com",
-          "mainEntityOfPage": "https://www.winbox22.com/",
-          "image": "https://www.winbox22.com/assets/winbox_logo-DAaVgAO3.png",
-          "priceRange": "$",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "1, Menara Prestige, Jalan Pinang, Kuala Lumpur, 50450 Kuala Lumpur, Federal Territory of Kuala Lumpur",
-            "addressLocality": "Kuala Lumpur",
-            "postalCode": "50450",
-            "addressRegion": "Federal Territory of Kuala Lumpur",
-            "addressCountry": "MY"
-          },
-          "openingHoursSpecification": {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": [
-              "Monday",
-              "Tuesday",
-              "Wednesday",
-              "Thursday",
-              "Friday",
-              "Saturday",
-              "Sunday"
-            ],
-            "opens": "00:00",
-            "closes": "23:59"
-          },
-          "sameAs": [
-            "https://www.facebook.com/winbox22",
-            "https://www.instagram.com/winbox22",
-            "https://x.com/winboxmalaysi",
-            "https://www.pinterest.com/winboxmalaysiacasino/",
-            "https://www.tumblr.com/winboxmalaysiacasino",
-            "https://www.youtube.com/channel/UCOi30puEmT0UvrFFWDQAHbA",
-            "https://gravatar.com/creationrad65567b19ff",
-            "https://www.reddit.com/user/winboxmalaysiacasino/",
-            "https://disqus.com/by/winboxmalaysiacasino/about/",
-            "https://www.twitch.tv/winboxmalaysiacasino",
-            "https://wakelet.com/@winboxmalaysiacasino",
-            "https://www.instapaper.com/p/16584651",
-            "https://pixabay.com/users/51235527/",
-            "https://connect.garmin.com/modern/profile/3100f16d-f02c-41f6-8788-80b99c3d5691",
-            "https://leetcode.com/u/bIxgwJCiIc/",
-            "https://www.notebook.ai/@winboxmalaysiacasino",
-            "https://myanimelist.net/profile/winboxmalaysiaca",
-            "https://tooter.in/winboxmalaysiacasino",
-            "https://www.walkscore.com/people/220219372799/winbox-malaysia-casino",
-            "https://issuu.com/winboxmalaysiacasino",
-            "https://www.metooo.it/u/winboxmalaysiacasino",
-            "https://www.multichain.com/qa/user/winboxmalaysiacasino",
-            "https://www.dotafire.com/profile/winboxmalaysiacasino-185197?profilepage",
-            "https://www.producthunt.com/@winboxmalaysiacasino",
-            "https://uccle.monopinion.belgium.be/profiles/winboxmalaysiacasino/activity",
-            "https://gitlab.com/winboxmalaysiacasino",
-            "https://500px.com/p/winboxmalaysiacasino?view=photos",
-            "https://heylink.me/winboxmalaysiacasino/",
-            "https://linkin.bio/winboxmalaysiacasino/",
-            "https://www.magcloud.com/user/winboxmalaysiacasino",
-            "https://lit.link/en/winboxmalaysiacasino",
-            "https://fliphtml5.com/homepage/fculf/winbox-malaysia-casino/",
-            "https://about.me/winboxmalaysiacasino",
-            "https://sites.google.com/view/winboxmalaysiacasino/trang-ch%E1%BB%A7",
-            "https://winboxmalaysiacasino.blogspot.com/2025/07/winbox-malaysia-casino.html",
-            "https://www.quora.com/profile/Winbox-Malaysia-Casino",
-            "https://we-xpats.com/vi/member/52544/",
-            "https://pubhtml5.com/homepage/tmhkn/preview",
-            "https://profile.hatena.ne.jp/winboxmalaysiacasino/profile",
-            "https://evently.pl/profile/winbox-malaysia-casino",
-            "https://gitee.com/trangiaminh",
-            "https://www.rossoneriblog.com/author/winboxmalaysiacasino/",
-            "https://www.behance.net/winboxcasino6",
-            "https://bio.site/winboxmalaysiacasino",
-            "https://edabit.com/user/r5234zo6gD7q8kg9P",
-            "https://files.fm/trangiaminh2881/info",
-            "https://www.elephantjournal.com/profile/trangiaminh2881/",
-            "https://wykop.pl/ludzie/winboxmalaysiacasino",
-            "https://ask.embedded-wizard.de/user/winboxmalaysiacasino",
-            "https://vocal.media/authors/winbox-malaysia-casino",
-            "https://forum.index.hu/User/UserDescription?u=2113562",
-            "https://manga-no.com/@winboxmalaysi/profile"
-          ]
-        },
-        {
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How do I make my first deposit at Winbox?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "After logging in, go to \"Wallet\" and choose your method. Winbox supports e-wallets, bank transfers, and more. Your balance should update within minutes."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What are the most popular games on Winbox right now?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Games like 918Kiss, LionKing, Lucky365 and Live Baccarat are trending now among Malaysian users."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I play multiple games at once on Winbox?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Yes! The Winbox app allows multi-game use. Switch between slots, sports, or live dealers seamlessly."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What should I do if a game crashes or doesn't load?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Restart the app and check your internet. If issues remain, Winbox Malaysia support is available via chat or WhatsApp 24/7."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Are there any loyalty or VIP rewards on Winbox Malaysia?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. VIPs enjoy cashback, priority withdrawals, and exclusive promotions."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Can I change my username or password later?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Usernames are permanent, but you can change your password anytime from account settings for added security."
-              }
-            }
-          ]
-        },
-        {
-          "@type": "ItemList",
-          "name": "Winbox Promotions",
-          "itemListElement": [
-            {
-              "@type": "ListItem",
-              "position": 1,
-              "item": {
-                "@type": "Offer",
-                "name": "100% Match bonus for new players",
-                "url": "https://www.winbox22.com/winbox-promotion",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "New Player Bonus"
-                }
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 2,
-              "item": {
-                "@type": "Offer",
-                "name": "Daily scratch and win up to RM2888",
-                "url": "https://www.winbox22.com/winbox-promotion",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Daily Scratch & Win"
-                }
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 3,
-              "item": {
-                "@type": "Offer",
-                "name": "1.5x turnover for slots every 7th, 17th and 27th of the month",
-                "url": "https://www.winbox22.com/winbox-promotion",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Slots Turnover Bonus"
-                }
-              }
-            },
-            {
-              "@type": "ListItem",
-              "position": 4,
-              "item": {
-                "@type": "Offer",
-                "name": "Monthly rescue bonus up to RM58888",
-                "url": "https://www.winbox22.com/winbox-promotion",
-                "itemOffered": {
-                  "@type": "Service",
-                  "name": "Monthly Rescue Bonus"
-                }
-              }
-            }
-          ]
-        }
-      ]
-    })
-    document.head.appendChild(schemaScript)
-  }
 }
 
 // Base routes with canonical URLs
@@ -525,6 +307,19 @@ const baseRoutes = [
     }
   },
   {
+    path: '/lucky365',
+    name: 'lucky365',
+    component: lucky365,
+    meta: {
+      title: 'Lucky365 Slot Malaysia: Official Login & RM10 Free Bonus',
+      description: 'Play Lucky365 slots safely Malaysia. Enjoy instant browser play, free test ID with RM50 credits, and 24/7 support. Fast withdrawals. Join risk-free trial.',
+      titleZh: 'Lucky365老虎机马来西亚：官方登录 & RM10免费奖金',
+      descriptionZh: '在马来西亚安全畅玩Lucky365老虎机。享受即时浏览器游戏，领取RM50测试ID，全天候客服支持，快速提款。立即加入无风险体验。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/lucky365`
+    }
+  },
+  {
     path: '/jili',
     name: 'Jili',
     component: jili,
@@ -596,12 +391,142 @@ const baseRoutes = [
     name: 'Microslot',
     component: microslot,
     meta: {
-      title: 'Microslot Games | Compact Gaming Fun',
-      description: 'Experience compact and exciting Microslot games with big winning potential.',
-      titleZh: 'Microslot游戏 | 紧凑游戏乐趣',
-      descriptionZh: '体验紧凑而令人兴奋的Microslot游戏，具有巨大的获胜潜力。',
+      title: 'MicroSlot Games Malaysia | 30+ High RTP Slots & Free Demo',
+      description: 'Play 33+ MicroSlot games on Winbox22 free demos available. Mahjong Ways, Super Ace Deluxe & more. BMM-certified, mobile-optimized, instant withdrawals.',
+      titleZh: 'MicroSlot游戏马来西亚 | 30+高RTP老虎机 & 免费试玩',
+      descriptionZh: '在Winbox22畅玩33+款MicroSlot游戏，提供免费试玩。热门游戏包括麻将胡了、Super Ace Deluxe等。BMM认证，移动端优化，快速提款。',
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/microslot`
+    }
+  },
+  {
+    path: '/maxbet',
+    name: 'MaxBet',
+    component: maxbet,
+    meta: {
+      title: 'MaxBet Malaysia | Online Sportsbook Casino Betting | Winbox22',
+      description: 'Bet live football, esports & Keno on MaxBet via Winbox22. Get RM100 welcome bonus, instant MYR deposits, 24/7 support & fair odds. Play now on mobile.',
+      titleZh: 'MaxBet马来西亚 | 在线体育博彩 & 赌场投注 | Winbox22',
+      descriptionZh: '通过Winbox22畅玩MaxBet足球、电竞与基诺即时投注。领取RM100欢迎奖金，支持MYR即时存款，24/7客服与公平赔率，手机免下载畅玩。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/maxbet`
+    }
+  },
+  {
+    path: '/cmd368',
+    name: 'Cmd368',
+    component: cmd368,
+    meta: {
+      title: 'CMD368 Malaysia: Winbox Sports Betting Platform',
+      description: 'CMD368 Malaysia via Winbox22.com – Official access to live sports betting, 11+ live casinos with Malaysian players. Fast MYR deposits, 24/7 Malay support, native apps.',
+      titleZh: 'CMD368马来西亚：Winbox体育博彩平台',
+      descriptionZh: '通过Winbox22.com进入CMD368马来西亚官方平台，畅享体育博彩与11+真人娱乐场，与本地玩家同场竞技。支持MYR快速存款，24/7马来语客服，原生应用。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/cmd368`
+    }
+  },
+  {
+    path: '/9wickets',
+    name: '9wickets',
+    component: wickets,
+    meta: {
+      title: '9 Wickets APK Download & Link 2025 | Winbox22.com',
+      description: 'Official 9 Wickets APK & working link for Android in Malaysia. Safe, updated daily. Play 9 Wickets Pro with fast payouts. Only on Winbox22.com.',
+      titleZh: '9 Wickets APK下载 & 链接2025 | Winbox22.com',
+      descriptionZh: '马来西亚官方9 Wickets安卓APK与最新链接，安全可靠，每日更新。畅玩9 Wickets Pro，快速提款，仅在Winbox22.com。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/9wickets`
+    }
+  },
+  {
+    path: '/bti',
+    name: 'Bti',
+    component: bti,
+    meta: {
+      title: 'BTI Sport Betting Malaysia | Live Odds & Esports',
+      description: 'Bet on BTI Sport in Malaysia with live football, basketball & esports odds. PAGCOR-certified. Deposit via MayBank, Touch ‘n Go. Claim RM50 free credit.',
+      titleZh: 'BTI体育博彩马来西亚 | 实时赔率 & 电子竞技',
+      descriptionZh: '在马来西亚投注BTI体育，提供足球、篮球及电竞实时赔率。PAGCOR认证，支持MayBank与Touch ‘n Go存款，立即领取RM50免费彩金。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/bti`
+    }
+  },
+  {
+    path: '/evolution',
+    name: 'Evolution',
+    component: evolution,
+    meta: {
+      title: 'Evolution Gaming Malaysia | Play Live Casino on Winbox22.com',
+      description: 'Play official Evolution Gaming live casino in Malaysia — no app needed. MYR deposits via DuitNow, Boost & bank transfer. 24/7 WhatsApp support.',
+      titleZh: 'Evolution Gaming马来西亚 | 在Winbox22.com畅玩真人娱乐场',
+      descriptionZh: '在马来西亚体验Evolution Gaming官方真人娱乐场，无需下载App。支持DuitNow、Boost与银行转账存款，提供24/7 WhatsApp客服支持。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/evolution`
+    }
+  },
+  {
+    path: '/hotroad',
+    name: 'HotRoad',
+    component: hotRoad,
+    meta: {
+      title: 'HotRoad Baccarat Malaysia | Robot-Dealt Games | Winbox22',
+      description: 'Play HotRoad Baccarat with robotic arms & real card scanning. 96.5% RTP. MYR deposits via Maybank, DuitNow. 24/7 support in Malay & Chinese. Start at Winbox22',
+      titleZh: 'HotRoad百家乐马来西亚 | 机器人发牌游戏 | Winbox22',
+      descriptionZh: '畅玩HotRoad百家乐，体验机器人手臂与真实牌扫描技术。96.5%RTP，支持Maybank与DuitNow存款，24/7马来语与中文客服，从Winbox22开始。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/hotroad`
+    }
+  },
+  {
+    path: '/ezugi',
+    name: 'Ezugi',
+    component: ezugi,
+    meta: {
+      title: 'Ezugi Casino Malaysia: Live Roulette & Real Dealers on Winbox22',
+      description: 'Play Ezugi Casino live games in Malaysia — real dealers, instant DuitNow deposits & zero lag on mobile. Ezugi Roulette, Baccarat & Blackjack with no app needed.',
+      titleZh: 'Ezugi赌场马来西亚：真人轮盘 & 真人荷官 | Winbox22',
+      descriptionZh: '在马来西亚畅玩Ezugi真人赌场游戏，真实荷官发牌。支持DuitNow即时存款，手机零延迟。提供Ezugi轮盘、百家乐与二十一点，无需下载App。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/ezugi`
+    }
+  },
+  {
+    path: '/sv388',
+    name: 'Sv388',
+    component: sv388,
+    meta: {
+      title: 'SV388 Malaysia: Live Cockfighting & SV388 Gold Casino | Winbox22',
+      description: 'Play SV388 Malaysia live cockfighting & SV388 Gold casino with RM1 bets. No app needed. Deposit via Boost, TNG, bank transfer. Fast payouts. Winbox22.com',
+      titleZh: 'SV388马来西亚：真人斗鸡 & SV388黄金赌场 | Winbox22',
+      descriptionZh: '在马来西亚畅玩SV388真人斗鸡与SV388黄金赌场，低至RM1投注。无需下载App，支持Boost、TNG及银行转账存款，快速提款，尽在Winbox22.com。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/sv388`
+    }
+  },
+  {
+    path: '/ekor',
+    name: 'Ekor',
+    component: ekor,
+    meta: {
+      title: 'Ekor Lottery Numbers Malaysia – Official Sup Ekor | Winbox22',
+      description: 'Winbox22 is Malaysia’s trusted Ekor lottery. Buy online with official vendors: Magnum 4D, Da Ma Cai, Sport Toto & Lucky Hari-Hari. Real results. No fake numbers.',
+      titleZh: 'Ekor马来西亚彩票号码 – 官方Sup Ekor | Winbox22',
+      descriptionZh: 'Winbox22是马来西亚值得信赖的Ekor彩票网站。通过Magnum 4D、大马彩、Sport Toto与Lucky Hari-Hari官方渠道购票。真实开奖结果，绝无假号。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/ekor`
+    }
+  },
+  {
+    path: '/rcb988',
+    name: 'Rcb988',
+    component: rcb988,
+    meta: {
+      title: 'RCB988 Malaysia: Horse Racing & Sports Betting at Winbox22.com',
+      description: 'RCB988 Malaysia at Winbox22.com – Bet on horse racing, dog racing & harness races with live odds, RM10 minimum deposit, instant DuitNow/FPX withdrawals.',
+      titleZh: 'RCB988马来西亚：赛马 & 体育博彩 | Winbox22.com',
+      descriptionZh: '通过Winbox22.com畅玩RCB988马来西亚，投注赛马、赛狗与挽马赛事，提供实时赔率。最低存款RM10，支持DuitNow/FPX即时提款。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/rcb988`
     }
   },
   {
@@ -842,8 +767,7 @@ router.afterEach((to) => {
   }
   
   // Set schema.org structured data only for homepage
-  const isHomepage = to.name === 'Home' || to.name === 'Home_zh'
-  setSchemaOrg(isHomepage)
+  setSchemaOrg(to)
 })
 
 export default router

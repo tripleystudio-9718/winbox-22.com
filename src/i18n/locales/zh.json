@@ -2285,5 +2285,1977 @@
           }
         }
       }
+    },
+
+    "lucky365": {
+      "title": "Lucky365 老虎机 -- 50+ 高赔付游戏，即时登录和马来西亚玩家免费试玩",
+      "intro": {
+        "description": "无需下载。无延迟。只有真正的老虎机游戏支付 --- 由值得信赖的亚洲游戏技术支持。立即使用 RM10 免费试玩积分开始游戏。"
+      },
+      "topGames": {
+        "title": "🎰 前 5 名 Lucky365 老虎机游戏（马来西亚最爱）",
+        "table": {
+          "headers": {
+            "game": "游戏",
+            "theme": "主题",
+            "rtp": "RTP",
+            "bestFor": "最适合"
+          },
+          "rows": {
+            "monkeyKing": {
+              "game": "齐天大圣 3",
+              "theme": "神话冒险",
+              "rtp": "96.8%",
+              "bestFor": "高波动性，奖金回合"
+            },
+            "fortuneTiger": {
+              "game": "招财虎",
+              "theme": "传统幸运",
+              "rtp": "96.2%",
+              "bestFor": "低投注，频繁获胜"
+            },
+            "godOfWealth": {
+              "game": "财神 2",
+              "theme": "农历新年",
+              "rtp": "95.7%",
+              "bestFor": "奖金倍数，级联卷轴"
+            },
+            "dolphinReef": {
+              "game": "海豚礁",
+              "theme": "海洋生活",
+              "rtp": "96.1%",
+              "bestFor": "休闲玩家，舒缓视觉"
+            },
+            "qinShiHuang": {
+              "game": "秦始皇",
+              "theme": "古代中国",
+              "rtp": "95.9%",
+              "bestFor": "扩展百搭，大额支付"
+            }
+          }
+        },
+        "note": "所有游戏都在 HTML5 上运行 --- 适用于三星、小米、iPhone、Oppo、华为。无延迟。无插件。"
+      },
+      "howToLogin": {
+        "title": "🔐 如何登录 Lucky365（分步指南）",
+        "steps": {
+          "step1": "访问：",
+          "step1Link": "https://www.winbox22.com/lucky365",
+          "step1Continued": "（仅官方网站）",
+          "step2": "点击右上角的\"登录\"",
+          "step3": "输入您的用户名和密码",
+          "step4": "按\"提交\" → 您已登录"
+        },
+        "forgotPassword": "💡 忘记密码？点击\"忘记密码？\" → 通过电子邮件或 WhatsApp 重置。",
+        "securityNote": "🔒 切勿使用第三方链接。我们不与任何其他域名合作。"
+      },
+      "freeDemo": {
+        "title": "🆓 免费试玩 Lucky365 --- 无需存款",
+        "description": "使用测试 ID 或试玩模式无风险地玩所有游戏：",
+        "features": {
+          "noRegistration": "打开任何老虎机 → 选择\"免费游戏\" → 立即开始旋转",
+          "noCardDetails": "无需注册。无需银行卡详情。无压力。",
+          "fullAccess": "想要完全访问权限？通过实时聊天请求免费测试 ID --- 我们将在几秒钟内发送给您 RM50 虚拟积分。"
+        },
+        "statistic": "87% 的新玩家在真钱投注前使用此功能。"
+      },
+      "downloadApk": {
+        "title": "⬇️ 下载 Lucky365 APK（仅限 Android）",
+        "subtitle": "（用于更快加载、推送通知、离线访问）",
+        "whyDownload": {
+          "title": "✅ 为什么要下载？",
+          "features": {
+            "faster": "比浏览器版本快 40% 的加载时间",
+            "notifications": "即使关闭时也能收到每日奖金提醒",
+            "oldPhones": "适用于旧手机（Android 8+）"
+          }
+        },
+        "howToInstall": {
+          "title": "📥 如何安装：",
+          "steps": {
+            "step1": "在您的 Android 手机上点击",
+            "step1Link": "下载 APK",
+            "step1Continued": "",
+            "step2": "转到设置 > 安全 > 启用\"来源未知的安装\"",
+            "step3": "打开下载的文件 → 点击\"安装\"",
+            "step4": "启动应用 → 登录 → 开始游戏"
+          }
+        },
+        "warning": "⚠️ 请勿从 Telegram、Facebook 或第三方网站下载。仅使用上述链接。"
+      },
+      "whyChoose": {
+        "title": "💡 为什么马来西亚玩家选择 Lucky365",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "whyItMatters": "重要性"
+          },
+          "rows": {
+            "payment": {
+              "feature": "本地支付方式",
+              "description": "通过 DuitNow、Touch 'n Go、Boost、CIMB、Maybank 存取款 --- 无需 PayPal 或加密货币"
+            },
+            "bonus": {
+              "feature": "RM10 欢迎奖金",
+              "description": "首次存款自动入账 --- 无需代码"
+            },
+            "support": {
+              "feature": "24/7 实时聊天",
+              "description": "马来语和英语支持 --- 平均回复时间：42 秒"
+            },
+            "rng": {
+              "feature": "公平 RNG 认证",
+              "description": "所有游戏每月审核 --- 透明度报告可根据要求提供"
+            },
+            "mobile": {
+              "feature": "移动优先设计",
+              "description": "完全响应式 --- 在小屏幕、低端设备上完美运行"
+            }
+          }
+        }
+      },
+      "promotions": {
+        "title": "🏆 独家促销（仅限马来西亚）",
+        "dailyReload": {
+          "title": "每日充值奖金：",
+          "description": "每天直到吉隆坡时间晚上 11 点，存款额外获得 30%"
+        },
+        "freeSpins": {
+          "title": "每日早晨免费旋转：",
+          "description": "马来西亚时间上午 8 点在招财虎上获得 10 次免费旋转"
+        },
+        "vip": {
+          "title": "VIP 计划：",
+          "description": "赚取积分 → 兑换现金、小工具或音乐会门票"
+        },
+        "referral": {
+          "title": "推荐朋友：",
+          "description": "当他们首次存款时获得 RM20"
+        },
+        "note": "促销活动每周更改。登录后查看\"我的奖金\"。"
+      },
+      "faqs": {
+        "title": "❓ 常见问题 (FAQ)",
+        "questions": {
+          "testId": {
+            "question": "什么是 Lucky365 测试 ID？",
+            "answer": "一个拥有 RM50 积分的免费虚拟账户，用于试玩所有老虎机。通过实时聊天请求 --- 无需电子邮件或电话。"
+          },
+          "iphone": {
+            "question": "我可以在 iPhone 上玩吗？",
+            "answer": "可以。使用 Safari 访问",
+            "link": "https://www.winbox22.com/lucky365",
+            "continued": "。功能齐全 --- 不存在 App Store 应用。"
+          },
+          "legal": {
+            "question": "Lucky365 在马来西亚合法吗？",
+            "answer": "Lucky365 作为国际游戏平台运营。马来西亚用户私下访问。我们遵守全球安全标准，从不存储敏感财务数据。"
+          },
+          "withdrawals": {
+            "question": "提款速度如何？",
+            "answer": "大多数通过 DuitNow 或银行转账的提款在 15 分钟内完成。最长等待时间：2 小时。"
+          },
+          "download": {
+            "question": "我需要下载才能玩吗？",
+            "answer": "不需要。所有游戏都在浏览器中运行。只有在您想要更快性能或推送通知时才下载。"
+          },
+          "rigged": {
+            "question": "游戏被操纵了吗？",
+            "answer": "没有。每次旋转都使用认证的 RNG 技术。结果无法被员工或系统控制。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "🚀 准备好玩了吗？立即开始 --- 100% 无风险试用可用",
+        "linkText": "👉 点击 Winbox 登录",
+        "description": "并领取您的 RM10 奖金"
+      }
+    },
+
+    "microslot": {
+      "title": "Winbox22 上的 MicroSlot 游戏 -- 在马来西亚玩 30+ 高赔付老虎机游戏",
+      "intro": {
+        "description1": "如果您正在寻找新鲜、快节奏且实际支付的老虎机 --- 没有复杂规则或缓慢加载 ---",
+        "linkText": "MicroSlot",
+        "description2": "在 Winbox22 上是为您而建的。",
+        "description3": "没有华丽的承诺。只有干净的游戏玩法、值得信赖的公平性和真正的胜利。无论您喜欢中国主题的麻将老虎机还是像超级王牌这样的爆炸性卡牌组合，一切都在您的手机上流畅运行。",
+        "description4": "这就是马来西亚玩家今天旋转的地方。",
+        "description5": "您将在这里找到所有顶级 MicroSlot 游戏 --- 包括试玩版，无需注册即可试玩。"
+      },
+      "comparison": {
+        "title": "MicroSlot Winbox 比较表",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "microslot": "Microslot (Winbox)",
+            "others": "其他赌场"
+          },
+          "rows": {
+            "gameLibrary": {
+              "feature": "游戏库",
+              "microslot": "33+ 独家游戏",
+              "others": "通常少于 15 个"
+            },
+            "demoMode": {
+              "feature": "试玩模式",
+              "microslot": "✅ 免费游戏可用",
+              "others": "❌ 很少提供"
+            },
+            "mobileOptimization": {
+              "feature": "移动优化",
+              "microslot": "原生应用性能",
+              "others": "基于网页，在旧手机上卡顿"
+            },
+            "languageSupport": {
+              "feature": "本地语言支持",
+              "microslot": "完整马来语和英语",
+              "others": "仅限英语"
+            },
+            "payoutSpeed": {
+              "feature": "支付速度",
+              "microslot": "即时提款",
+              "others": "1-3 个工作日"
+            },
+            "certification": {
+              "feature": "认证",
+              "microslot": "BMM Testlabs 认证",
+              "others": "未知或未验证"
+            },
+            "support": {
+              "feature": "24/7 支持",
+              "microslot": "WhatsApp + 实时聊天（马来西亚号码）",
+              "others": "仅电子邮件或海外聊天"
+            }
+          }
+        },
+        "note": "表格基于 2025 年经过验证的平台比较。Winbox22 是唯一提供完整 MicroSlot 集成和直接马来西亚支持的本地合作伙伴。"
+      },
+      "gamesAvailable": {
+        "title": "您现在可以在 Winbox22 上玩的 MicroSlot 游戏",
+        "description1": "零学习曲线地玩真钱老虎机。每个 MicroSlot 游戏都设计用于快速旋转、大视觉冲击和清晰的奖金触发器 --- 非常适合工作间隙、通勤或家庭时间的短暂休息。",
+        "description2": "麻将方式将传统的瓷砖匹配带入现代老虎机格式 --- 在 5 个卷轴上匹配符号，并通过扩展百搭触发免费旋转。糖果幸福以糖果主题倍数器取悦，而超级王牌豪华版让您直接在卷轴上构建获胜的扑克手牌。",
+        "description3": "这些不仅仅是图形 --- 它们是为保留而构建的机制。",
+        "description4": "所有游戏在 4G 上在 2 秒内加载。没有弹窗。没有强制教程。只是旋转。"
+      },
+      "whyStandsOut": {
+        "title": "为什么 MicroSlot 在其他供应商中脱颖而出",
+        "description1": "与通用老虎机供应商不同，MicroSlot 于 2020 年推出，有一个目标：制作让亚洲玩家感到亲切的老虎机。",
+        "description2": "这意味着文化相关的主题 --- 想想龙图案、寺庙宝藏和本地水果符号 --- 而不是回收的欧洲童话故事。",
+        "description3": "他们的猴子跳跃游戏在奖金回合期间具有在屏幕上攀爬的倍数岩石 --- 这是您在 PG Soft 或 Pragmatic Play 上找不到的机制。",
+        "description4": "甚至他们的音效设计使用马来西亚观众熟悉的环境音调：轻柔的加美兰钟声、远方寺庙钟声、清脆的硬币掉落声。",
+        "description5": "他们还为每个游戏提供免费试玩版本。用虚拟积分试玩地牢宝藏 10 分钟。看看分散符号如何支付。了解购买功能成本。然后决定是否值得真钱游戏。"
+      },
+      "howToStart": {
+        "title": "如何在 Winbox22 上开始玩 MicroSlot",
+        "steps": {
+          "step1": "从我们的官方网站下载 Winbox22 应用 --- 没有第三方链接。",
+          "step2": "打开应用并点击\"老虎机\" > \"MicroSlot\"。",
+          "step3": "选择任何游戏 --- 点击\"试玩\"免费游戏，或\"真钱游戏\"存款。",
+          "step4": "最低存款 RM10 即可解锁欢迎奖金。",
+          "step5": "通过 Boost、Touch 'n Go 或银行转账即时提取奖金。"
+        },
+        "note": "无表格。无等待。无验证延迟。"
+      },
+      "fairness": {
+        "title": "您可以信任的公平性",
+        "description1": "每个 MicroSlot 游戏都由 BMM Testlabs 认证，这是一个国际认可的实验室，审核 RNG 系统。这不是自我声明的\"公平\"标签 --- 它是第三方、经过审核且可公开验证的。",
+        "description2": "您可以直接在游戏中检查您的游戏 RTP（玩家回报率）。大多数 MicroSlot 游戏范围从 96.2% 到 97.8% --- 高于行业平均水平。"
+      },
+      "conclusion": {
+        "title": "Winbox22 上的 MicroSlot 游戏 -- 您在马来西亚公平、快速和本地化老虎机的可信选择",
+        "description1": "如果您想要理解马来西亚玩家的老虎机 --- 不仅仅是翻译它们 --- Winbox22 提供。",
+        "description2": "拥有超过 30 个 MicroSlot 游戏、免费试玩、即时支付和本地支持，没有更好的地方可以玩。今天就开始旋转。"
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "whatIs": {
+            "question": "什么是 MicroSlot？",
+            "answer": "MicroSlot 是一个成立于 2020 年的现代老虎机供应商，专门从事移动优先的视频老虎机，具有高 RTP、文化主题和通过 BMM Testlabs 认证证明的公平性。"
+          },
+          "playFree": {
+            "question": "我可以免费玩 MicroSlot 游戏吗？",
+            "answer": "可以。Winbox22 上的每个 MicroSlot 游戏都有试玩模式。无需存款。在投注真钱之前，使用虚拟积分学习功能。"
+          },
+          "safeToPlay": {
+            "question": "在马来西亚玩 MicroSlot 安全吗？",
+            "answer": "是的。Winbox22 仅与获得许可的供应商合作。MicroSlot 游戏经过 BMM Testlabs 认证，端到端加密，并符合国际 iGaming 标准。"
+          },
+          "popularGames": {
+            "question": "哪些 MicroSlot 游戏在马来西亚最受欢迎？",
+            "answer": "热门选择包括麻将方式、超级王牌豪华版、宙斯之王和糖果幸福。所有游戏都具有本地化视觉效果和高频奖金触发器。"
+          },
+          "needDownload": {
+            "question": "我需要下载应用才能玩 MicroSlot 吗？",
+            "answer": "您可以在浏览器中即时游戏，但我们推荐 Winbox22 应用以获得更快的加载速度、奖金推送通知和更流畅的触控操作。"
+          },
+          "withdraw": {
+            "question": "如何提取我的 MicroSlot 奖金？",
+            "answer": "提款在 5 分钟内通过 Boost、Touch 'n Go、DuitNow 或银行转账处理。最低提款：RM10。"
+          }
+        }
+      },
+      "readyToSpin": {
+        "title": "准备好用真正的胜利旋转 MicroSlot 游戏了吗？",
+        "description": "马来西亚加载最快的老虎机。零延迟。无需注册即可试玩。",
+        "linkText": "👉 立即下载 Winbox 应用",
+        "bonus": " -- 首次存款获得 RM10 免费奖金",
+        "tagline": "（Android 和 iOS | 3 秒安装 | 马来语游戏）",
+        "slogan": "明智游戏。本地游戏。Winbox22 游戏。"
+      }
+    },
+
+    "maxbet": {
+      "title": "MaxBet 马来西亚 -- 在 Winbox22 上投注现场体育和赌场",
+      "subtitle": "您值得信赖的亚洲领先体育博彩门户 -- 快速、安全、为马来西亚玩家完全本地化",
+      "whyWinbox": {
+        "title": "为什么在 Winbox22 上选择 MaxBet？",
+        "description1": "MaxBet 不仅仅是另一个投注网站 --- 它是亚洲最值得信赖的体育博彩和赌场供应商，每月为足球、电子竞技、虚拟体育和基诺提供超过 2,000 场现场活动。",
+        "description2": "在 Winbox22，我们提供直接、无缝的 MaxBet 访问 --- 无重定向、无延迟，只有为马来西亚玩家优化的纯粹投注性能。",
+        "description3": "不再需要切换平台。不再有缓慢的提款。只有干净的竞争赔率访问、通过本地银行的即时存款，以及马来语、英语和中文的实时支持 --- 全部在一个安全的屋檐下。"
+      },
+      "whatToBet": {
+        "title": "您可以投注什么",
+        "sports": {
+          "title": "⚽ 体育投注（现场和赛前）",
+          "description": "对最大的全球联赛和本地热门进行投注：",
+          "football": "足球：英超联赛、西甲、欧洲冠军联赛、马来西亚超级联赛、新加坡 S 联赛",
+          "basketball": "篮球：NBA、欧洲联赛、东盟篮球联赛",
+          "others": "网球、板球、橄榄球、MMA、飞镖、斯诺克、赛车运动、泰拳",
+          "liveInPlay": "现场比赛：赔率每秒更新。随着动作的展开进行投注。"
+        },
+        "esports": {
+          "title": "🎮 电子竞技",
+          "description": "通过现场投注主导数字竞技场：",
+          "cs2": "反恐精英 2 (CS2)",
+          "dota2": "Dota 2",
+          "lol": "英雄联盟",
+          "valorant": "Valorant",
+          "fifa": "FIFA",
+          "starcraft": "星际争霸 2",
+          "tournaments": "每天都有锦标赛举行，您永远不会缺乏动作。"
+        },
+        "virtual": {
+          "title": "🔄 虚拟体育（24/7 动作）",
+          "description": "不想等待真实比赛？玩不间断的虚拟游戏：",
+          "soccer": "虚拟足球国家",
+          "tennis": "电子网球",
+          "horse": "电子赛马",
+          "basketball": "电子篮球",
+          "note": "全部由认证的 RNG 系统生成 --- 公平、快速且始终可用。"
+        },
+        "keno": {
+          "title": "🔢 RNG 基诺和体育数字游戏",
+          "description": "每 90 秒快速开奖。选择您的数字，赢得大奖。简单、令人上瘾，非常适合短暂休息。"
+        }
+      },
+      "howToStart": {
+        "title": "如何在 60 秒内开始",
+        "steps": {
+          "step1": "访问",
+          "step1Link": "Winbox22.com",
+          "step2": "点击\"注册\" → 输入您的手机号码",
+          "step3": "设置 6 字符 ID + 密码（字母 + 数字）",
+          "step4": "验证发送到您手机的 OTP",
+          "step5": "通过 Maybank、CIMB、Public Bank、RHB 或即时充值存入 RM20+",
+          "step6": "从游戏供应商菜单中选择\"MaxBet\" → 立即开始投注"
+        },
+        "benefits": {
+          "noApp": "✅ 无需下载应用 --- 在 Android 和 iOS 上完全响应",
+          "noPaperwork": "✅ 无文书延迟 --- 首次存款后进行验证",
+          "noFees": "✅ 无隐藏费用 --- 存款和提款在几分钟内处理"
+        }
+      },
+      "bonuses": {
+        "title": "马来西亚玩家专属奖金",
+        "table": {
+          "headers": {
+            "bonus": "奖金",
+            "details": "详情"
+          },
+          "rows": {
+            "welcome": {
+              "bonus": "欢迎奖金",
+              "details": "首次存款 100% 匹配最高 RM100（最低 RM20）"
+            },
+            "daily": {
+              "bonus": "每日存款奖励",
+              "details": "存款 RM20 或更多 → 第二天领取 RM20 奖金积分"
+            },
+            "useAnywhere": {
+              "bonus": "随处使用",
+              "details": "奖金积分适用于 MaxBet 体育、虚拟游戏、基诺等"
+            }
+          }
+        },
+        "note": "奖金自动入账。无需促销代码。"
+      },
+      "deposits": {
+        "title": "存款和提款 --- 为马来西亚而设",
+        "table": {
+          "headers": {
+            "method": "方式",
+            "minimum": "最低金额",
+            "processing": "处理时间",
+            "notes": "备注"
+          },
+          "rows": {
+            "bankTransfer": {
+              "method": "银行转账（Maybank、CIMB、Public Bank、RHB、Affin、Hong Leong）",
+              "minimum": "RM20",
+              "processing": "即时",
+              "notes": "直接链接到您的银行账户"
+            },
+            "instantTopUp": {
+              "method": "即时充值",
+              "minimum": "RM20",
+              "processing": "<1 分钟",
+              "notes": "通过 FPX 实时处理"
+            },
+            "withdrawals": {
+              "method": "提款",
+              "minimum": "RM50",
+              "processing": "30 分钟内",
+              "notes": "无限制、无文书、无延迟"
+            }
+          }
+        },
+        "tagline": "您的资金在这里比马来西亚任何地方都移动得更快。"
+      },
+      "security": {
+        "title": "您可以信任的安全性",
+        "features": {
+          "ssl": {
+            "title": "🔒 SSL 加密",
+            "description": "所有数据都受到军用级加密保护（所有页面上都可见挂锁）"
+          },
+          "licensed": {
+            "title": "🛡️ 许可和认证",
+            "description": "库拉索电子游戏许可证 + PAGCOR + BMM、iTech Labs、TST Global 审计"
+          },
+          "privacy": {
+            "title": "👮‍♂️ 隐私第一",
+            "description": "您的个人详细信息永远不会被共享。我们遵守国际数据协议"
+          },
+          "support": {
+            "title": "💬 24/7 支持",
+            "description": "实时聊天、WhatsApp、Telegram --- 所有员工都说马来语、英语和普通话"
+          }
+        },
+        "testimonial": "\"我使用过 5 个不同的网站。只有 Winbox22 + MaxBet 在 20 分钟内向我付款。\" --- 经过验证的用户，吉隆坡"
+      },
+      "whyChoose": {
+        "title": "为什么马来西亚的赌徒选择 Winbox22 上的 MaxBet",
+        "features": {
+          "markets": "✅ 更多市场 --- 覆盖 200+ 联赛，包括泰国超级联赛和印尼甲级联赛等利基联赛",
+          "odds": "✅ 更好的赔率 --- 在主要足球比赛中始终高于本地竞争对手",
+          "noLag": "✅ 无延迟 --- 即使在旧手机或慢网络上也能即时加载",
+          "interface": "✅ 干净的界面 --- 白蓝设计、直观菜单、快速访问搜索栏",
+          "fairPlay": "✅ 保证公平游戏 --- 每个虚拟游戏和基诺开奖都经过独立审计以确保随机性"
+        }
+      },
+      "responsibleGambling": {
+        "title": "负责任赌博很重要",
+        "description": "我们关心您的体验。这就是为什么我们提供：",
+        "features": {
+          "selfExclusion": "自我排除工具",
+          "depositLimits": "每日/每周存款限制",
+          "realityChecks": "长时间游戏期间的现实检查",
+          "helplines": "赌博帮助热线链接"
+        },
+        "reminder": "赌博应该是有趣的。不是冒险的。始终在您的能力范围内游戏。"
+      },
+      "faqs": {
+        "title": "常见问题 (FAQ)",
+        "questions": {
+          "whatIs": {
+            "question": "什么是 MaxBet？",
+            "answer": "MaxBet 是亚洲领先的在线体育博彩和赌场供应商，前身为 IBCBET。成立于 2008 年，为 2,000+ 月度活动、虚拟体育和 RNG 基诺提供现场投注 --- 因公平、速度和可靠性而受到马来西亚玩家信赖。"
+          },
+          "mobile": {
+            "question": "我可以在手机上使用 MaxBet 吗？",
+            "answer": "可以。MaxBet 通过移动浏览器在 Android 和 iOS 上完美运行。无需安装应用 --- 只需在手机上访问 Winbox22.com 并登录。界面会自动调整到任何屏幕尺寸。"
+          },
+          "legal": {
+            "question": "MaxBet 在马来西亚合法吗？",
+            "answer": "虽然在线赌博在马来西亚处于法律灰色地带，但 MaxBet 持有完整的国际许可证（库拉索电子游戏和 PAGCOR）。Winbox22 在这些离岸许可证下为玩家提供服务，确保符合全球标准。"
+          },
+          "deposit": {
+            "question": "我如何向 MaxBet 存钱？",
+            "answer": "通过 Maybank、CIMB、Public Bank、RHB 或其他主要马来西亚银行使用银行转账或即时充值。最低存款：RM20。资金立即出现在您的 MaxBet 钱包中。"
+          },
+          "withdrawals": {
+            "question": "提款速度如何？",
+            "answer": "提款在 30 分钟内处理。最低金额：RM50。无费用。无延迟。付款直接转入您注册的银行账户。"
+          },
+          "verification": {
+            "question": "我需要验证身份吗？",
+            "answer": "是的 --- 为了安全和合规。首次存款后，我们的团队将简要联系您以验证您的姓名和手机号码。需要不到 5 分钟。"
+          },
+          "sports": {
+            "question": "我可以投注哪些体育项目？",
+            "answer": "足球（英超、MSL、西甲）、篮球、网球、板球、MMA、飞镖、赛车运动、电子竞技（CS2、Dota 2、LoL）和虚拟体育，如虚拟足球国家和电子网球 --- 所有都有现场投注选项。"
+          },
+          "existingBonuses": {
+            "question": "现有用户有奖金吗？",
+            "answer": "有的。每天存款 RM20 或更多，第二天领取 RM20 奖金积分。奖金资金适用于 MaxBet 体育、虚拟游戏和基诺。"
+          },
+          "localLeagues": {
+            "question": "我可以投注马来西亚本地联赛吗？",
+            "answer": "当然可以。MaxBet 涵盖马来西亚超级联赛、马来西亚杯和其他国内比赛，提供专门的赔率和可用的现场直播。"
+          },
+          "whyWinbox": {
+            "question": "为什么选择 Winbox22 而不是其他 MaxBet 门户？",
+            "answer": "Winbox22 提供零重定向的直接访问、更快的加载时间、独家每日奖金和专门的马来语支持。其他网站可能通过第三方重定向您 --- 我们不会。"
+          },
+          "rigged": {
+            "question": "MaxBet 被操纵了吗？",
+            "answer": "没有。MaxBet 为虚拟游戏使用认证的 RNG 系统，并与 BetRadar 和 CMD368 合作提供现场赔率。所有操作都由 BMM、iTech Labs 和 TST Global 审计 --- 可公开验证。"
+          },
+          "support": {
+            "question": "我如何联系支持？",
+            "answer": "通过 Winbox22.com 上的实时聊天、WhatsApp 或 Telegram 24/7 联系我们。我们的团队说马来语、英语和普通话 --- 准备帮助解决存款、投注或账户问题。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "准备像专业人士一样投注？",
+        "description1": "您不需要等待。您不需要下载任何东西。",
+        "description2": "您不需要猜测哪个网站是安全的。",
+        "description3": "只需前往",
+        "linkText": "Winbox22.com",
+        "description4": "，60 秒内注册，存入 RM20，开始在 MaxBet 上投注 --- 马来西亚现场体育、电子竞技和虚拟游戏的第一选择。",
+        "offer": "👉 新用户首次存款获得 RM100 免费奖金。限时优惠。",
+        "registerText": "Winbox 注册",
+        "here": "这里"
+      }
+    },
+
+    "cmd368": {
+      "title": "CMD368 体育：像专业人士一样投注，而非休闲玩家",
+      "intro": {
+        "description1": "如果您正在寻找一个提供真钱体育投注、真人荷官赌场和高注额扑克的单一平台 --- 全部合法、快速且专为马来西亚玩家设计 ---",
+        "linkText": "CMD368",
+        "description2": "是不断获胜的名字。",
+        "description3": "在 Winbox22.com，我们直接连接您到 CMD368 的全套服务：没有中间商，没有延迟，只有对亚洲最可靠博彩公司的干净访问。无论您是在英超比赛上下注、玩现场轮盘，还是加入 PKR 锦标赛，一切都在这里顺利运行。"
+      },
+      "comparison": {
+        "title": "比较表",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "cmd368": "CMD368（通过 Winbox）",
+            "others": "其他本地平台"
+          },
+          "rows": {
+            "sportsBetting": {
+              "feature": "体育投注重点",
+              "cmd368": "亚洲让球、现场比赛、虚拟体育",
+              "others": "有限市场，较慢的赔率更新"
+            },
+            "liveCasino": {
+              "feature": "真人娱乐场合作伙伴",
+              "cmd368": "11+（AG、DG、AE Sexy、GP）",
+              "others": "通常 3-5 个，较低流质量"
+            },
+            "poker": {
+              "feature": "扑克网络",
+              "cmd368": "IDNPoker（每月 60 万+ 马来西亚用户）",
+              "others": "较小网络，较少锦标赛"
+            },
+            "deposits": {
+              "feature": "存款/提款",
+              "cmd368": "快速银行转账、电子钱包、加密货币",
+              "others": "延迟高达 48 小时很常见"
+            },
+            "mobile": {
+              "feature": "移动体验",
+              "cmd368": "专用应用 + 响应式网页",
+              "others": "基本移动网站，导航差"
+            },
+            "support": {
+              "feature": "支持渠道",
+              "cmd368": "实时聊天、微信、Telegram、电话",
+              "others": "仅电子邮件或响应缓慢"
+            },
+            "localized": {
+              "feature": "本地化内容",
+              "cmd368": "马来语界面、泰语/越南语彩票选项",
+              "others": "仅英语，无地区游戏"
+            }
+          }
+        },
+        "note": "注意：CMD368 本身不是赌场运营商 --- 它是门户。Winbox22 是您直接进入其完整生态系统的门户。"
+      },
+      "sportsBetting": {
+        "title": "CMD368 体育投注卓越",
+        "description1": "CMD368 以精确赔率、实时数据和深度市场覆盖主导亚洲体育投注 --- 特别是足球和篮球。",
+        "description2": "马来西亚投注者依赖 CMD368，因为它不仅提供更多游戏 --- 它提供更智能的游戏。该平台专门从事亚洲让球线，为您提供比全球博彩公司更紧的利润和更好的价值。",
+        "description3": "现场投注在比赛期间每 15 秒更新一次，因此您可以立即对红牌、进球或动量变化做出反应。",
+        "description4": "除了足球和篮球，您还会找到电子竞技（英雄联盟、Dota2、王者荣耀）和虚拟体育的专门部分 --- 当您没有时间等待真实比赛时，非常适合快速 3 分钟投注。",
+        "description5": "赔率是可定制的；您可以根据偏好在十进制、分数或香港格式之间切换。",
+        "useCase": "真实用例：吉隆坡的一位用户在曼联对阿森纳的中场休息时间下了现场投注 --- 在进球后将让球从 -0.5 调整到 -1.0，锁定 +110 赔率，并在全场结束前以 2 倍回报兑现。"
+      },
+      "casino": {
+        "title": "CMD368 娱乐场：真人荷官遇见真正玩家",
+        "description1": "超过 11 个真人娱乐场供应商意味着您永远不会被困在一个无聊的桌子上。",
+        "description2": "CMD368 与 AG Gaming、DG Casino 和 AE Sexy 等顶级工作室合作 --- 每个都提供不同的氛围。喜欢有闪光灯的高能量主持人吗？选择 AE Sexy。想要安静、专业的发牌和水晶般清晰的流媒体吗？DG Casino 提供。",
+        "library": {
+          "title": "游戏库包括：",
+          "baccarat": "百家乐（带龙虎边注）",
+          "roulette": "轮盘（欧洲、美国、闪电）",
+          "sicBo": "骰宝、Teen Patti、Andar Bahar",
+          "gameShows": "游戏节目：梦想捕手、大富翁现场"
+        },
+        "description3": "所有桌子都在高清流上运行，零延迟 --- 即使在 3G 上。没有 flash 插件。没有弹窗。只有纯粹的游戏玩法。",
+        "bonus": "奖金：泰语和越南语彩票游戏（QQ 泰国彩票、Ok368）直接集成到大厅中 --- 如果您每周玩基诺或本地抽奖，无需切换平台。"
+      },
+      "poker": {
+        "title": "CMD368 扑克：每月与 60 万+ 马来西亚人对战",
+        "description1": "由 CMD368 提供支持的 IDNPoker 不仅仅是另一个扑克网站 --- 它是马来西亚在线扑克的心跳。",
+        "description2": "每月有超过 50 万活跃的马来西亚玩家登录，桌子总是满的。无论您是 $0.10/$0.20 现金游戏的初学者还是追逐锦标赛大奖，都有座位等待。",
+        "features": {
+          "title": "使其脱颖而出的因素：",
+          "tcoins": {
+            "title": "Tcoins：",
+            "description": "通过游戏赚取虚拟货币，进入独家免费锦标赛和 VIP 活动。"
+          },
+          "privateTables": {
+            "title": "私人桌子：",
+            "description": "与朋友创建自己的游戏，设置盲注，只邀请您想要的人。"
+          },
+          "multiCurrency": {
+            "title": "多货币支持：",
+            "description": "用 MYR、THB、VND 游戏 --- 无隐藏转换费用。"
+          },
+          "cashback": {
+            "title": "返现和回扣：",
+            "description": "在选定桌子上高达 30% 的返水，每周支付。"
+          }
+        },
+        "description3": "这不是对抗机器人的软件。这是真人 --- 从槟城到新山 --- 与您玩同样的游戏。"
+      },
+      "whyWinbox": {
+        "title": "为什么 Winbox22.com 是您的 CMD368 最佳门户",
+        "description1": "您在其他地方找不到这种级别的集成。虽然其他门户将您重定向到通用 CMD368 链接，但 Winbox22.com 一键直接连接您到您的个人 CMD368 账户 --- 无注册延迟，无第三方登录。",
+        "optimization": {
+          "title": "我们为马来西亚用户优化了体验：",
+          "deposit": "通过 Maybank、CIMB、Touch 'n Go 电子钱包即时存款",
+          "support": "通过实时聊天、微信和 WhatsApp 提供 24/7 马来语支持",
+          "mobile": "为 Android 和 iOS 下载移动应用 --- 为本地网络预配置",
+          "promotions": "为开斋节、农历新年和主要体育赛事更新的每日促销"
+        },
+        "description2": "没有炒作。没有废话。只是更快地访问您已经信任的游戏。"
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "whatIs": {
+            "question": "什么是 CMD368？",
+            "answer": "CMD368 是一个获得许可的亚洲体育博彩和赌场平台，提供现场投注、扑克和真人荷官游戏。它在马来西亚、泰国和越南广泛使用。"
+          },
+          "legal": {
+            "question": "CMD368 在马来西亚合法吗？",
+            "answer": "虽然马来西亚的在线赌博法律复杂，但 CMD368 在离岸许可下运营，合法为国际玩家提供服务。许多马来西亚用户访问它没有问题。"
+          },
+          "deposit": {
+            "question": "我如何通过 Winbox22 向 CMD368 存钱？",
+            "answer": "通过 Winbox22.com 登录，选择\"存款\"，选择您首选的方式（银行转账、电子钱包），并按照提示操作。资金在 2 分钟内出现。"
+          },
+          "mobile": {
+            "question": "我可以在手机上玩 CMD368 吗？",
+            "answer": "可以。通过 Winbox22 的主页下载官方 Android 或 iOS 应用。没有 APK 风险 --- 所有应用都经过验证和安全。"
+          },
+          "support": {
+            "question": "CMD368 提供马来语实时聊天支持吗？",
+            "answer": "当然。他们的支持团队包括通过实时聊天、微信和 Telegram 24/7 提供服务的马来语代理。"
+          },
+          "bonuses": {
+            "question": "新用户有任何奖金吗？",
+            "answer": "有的。首次存款者在体育或赌场上获得最高 RM200 的匹配奖金，加上免费旋转和扑克 Tcoins。条款适用。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "最后说明",
+        "description": "CMD368 不仅仅是另一个游戏网站 --- 它是马来西亚最活跃的在线投注社区背后的基础设施。在 Winbox22.com，我们不销售访问权限。我们提供它 --- 干净、快速且可靠。",
+        "ready": "准备开始？点击",
+        "loginText": "登录",
+        "or": "或",
+        "registerText": "Winbox 注册",
+        "now": "您的 CMD368 账户现在。"
+      }
+    },
+
+    "nineWickets": {
+      "title": "9 Wickets APK 下载和链接 2025 -- 在 Winbox22.com 上玩 9 Wickets Pro",
+      "subtitle": "官方。安全。即时。获取最新的 9 Wickets APK 和有效链接 --- 每日为马来西亚玩家验证。无欺诈。无过期网址。只有快速访问 9 Wickets Pro。",
+      "keyTakeaways": {
+        "title": "✅ 关键要点",
+        "points": {
+          "trusted": "9 Wickets 是马来西亚数千人信赖的真人荷官游戏供应商。",
+          "official": "始终从 Winbox22.com 下载官方 APK --- 绝不从第三方网站。",
+          "pro": "9 Wickets Pro 提供更高限额、更快支付和私人桌子。",
+          "links": "链接经常更改 --- 我们每日更新以确保 100% 正常运行时间。",
+          "android": "Android 用户：启用\"安装未知来源\"并在几秒钟内安装。",
+          "platform": "Winbox22.com 是唯一具有 9 Wickets 实时状态跟踪的本地平台。"
+        }
+      },
+      "apkDownload": {
+        "title": "📲 官方 9 Wickets APK 下载（仅限 Android）",
+        "description1": "直接从 Winbox22.com 下载最新的 9 Wickets APK --- 安全、干净且每小时更新。",
+        "description2": "9 Wickets 应用不在 Google Play 上提供。这对于真钱游戏平台来说是标准的。相反，您通过 APK 文件手动安装 --- 但只能从可信来源。",
+        "security": {
+          "title": "在 Winbox22.com，我们的 APK：",
+          "hosted": "托管在安全服务器上",
+          "scanned": "每日扫描恶意软件",
+          "updated": "在任何供应商补丁的几小时内更新",
+          "free": "免费下载 --- 无需注册"
+        },
+        "installation": {
+          "title": "如何安装：",
+          "step1": "点击下面的按钮下载。",
+          "step2": "转到手机的设置 > 安全 > 为您的浏览器（Chrome/Firefox）启用\"安装未知应用\"。",
+          "step3": "打开下载的文件并点击安装。",
+          "step4": "启动应用并登录 --- 您就可以开始游戏了。"
+        },
+        "downloadButton": "👉 Winbox 下载 APK",
+        "testimonial": "\"我试过其他三个网站。两个给了我病毒。一个根本没有加载。Winbox22 第一次尝试就成功了。\" --- Amir，新山"
+      },
+      "currentLink": {
+        "title": "🔗 当前 9 Wickets 链接 --- 始终最新",
+        "description1": "不要使用旧链接。它们每几周就停止工作。",
+        "description2": "像 9 Wickets 这样的供应商轮换其域名以避免地区封锁。上周有效的现在可能显示\"找不到网站\"。",
+        "description3": "这就是为什么 Winbox22.com 是唯一在下载下显示实时状态指示器的马来西亚门户。我们的团队 24/7 监控 9 Wickets 的服务器状态。如果链接更改，我们会立即更新此页面 --- 甚至在您搜索之前。",
+        "bookmark": "收藏此页面：",
+        "bookmarkLink": "https://winbox22.com/9wickets",
+        "warning": "绝不依赖来自 Facebook、Telegram 或 YouTube 的链接。它们几乎总是过时或虚假的。"
+      },
+      "pro": {
+        "title": "🏆 9 Wickets Pro --- 为什么值得升级",
+        "description": "Pro 不仅仅是一个名字 --- 它是更好的体验。",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "standard": "标准版",
+            "pro": "专业版"
+          },
+          "rows": {
+            "maxBet": {
+              "feature": "最大投注限额",
+              "standard": "RM500",
+              "pro": "RM5,000+"
+            },
+            "payout": {
+              "feature": "支付速度",
+              "standard": "15-60 分钟",
+              "pro": "15 分钟内"
+            },
+            "tables": {
+              "feature": "桌子拥挤度",
+              "standard": "高",
+              "pro": "私人 / 低玩家数量"
+            },
+            "support": {
+              "feature": "支持响应",
+              "standard": "10-30 分钟",
+              "pro": "优先实时聊天"
+            },
+            "stability": {
+              "feature": "游戏稳定性",
+              "standard": "良好",
+              "pro": "为低延迟网络优化"
+            }
+          }
+        },
+        "upgrade": "如果您经常游戏、每周存款超过 RM100，或喜欢更安静的桌子和更快的结果 --- Pro 是明智的选择。在 Winbox22.com 上，登录后切换到 Pro 只需一键。无额外费用。无隐藏条件。",
+        "statistic": "68% 的回访用户在 14 天内升级到 Pro。"
+      },
+      "mistakes": {
+        "title": "❌ 避免这些常见错误",
+        "points": {
+          "blogs": "从随机博客下载 → 恶意软件或数据被盗的风险",
+          "expired": "使用过期链接 → 您会得到\"找不到网站\"或重定向广告",
+          "ios": "在 iOS 上安装 → 9 Wickets 不支持 iPhone/iPad（仅 Android）",
+          "whatsapp": "信任 WhatsApp 群组 → 99% 是欺诈页面或钓鱼尝试"
+        },
+        "official": "只有 Winbox22.com 和 9wicket.com 与供应商正式关联。所有其他都未经验证。",
+        "browser": "注意：我们的网站在 Google Chrome 或 Firefox 上效果最佳。避免 Safari 或过时的浏览器。"
+      },
+      "faqs": {
+        "title": "💬 常见问题",
+        "questions": {
+          "whatIs": {
+            "question": "什么是 9 Wickets？",
+            "answer": "一个提供实时百家乐、龙虎和骰宝的真人荷官赌场游戏供应商。在马来西亚因流畅的游戏玩法和即时支付而受欢迎。"
+          },
+          "free": {
+            "question": "9 Wickets APK 免费下载吗？",
+            "answer": "是的。从 Winbox22.com 下载 APK 完全免费。无订阅，无隐藏费用。"
+          },
+          "register": {
+            "question": "我需要注册才能下载吗？",
+            "answer": "不需要。您可以在不注册的情况下下载 APK。只有在打开应用时才需要注册。"
+          },
+          "iphone": {
+            "question": "我可以在 iPhone 上玩吗？",
+            "answer": "不可以。9 Wickets 仅作为 Android APK 提供。iOS 用户可以通过 Winbox22.com 上的移动浏览器访问网页版本。"
+          },
+          "linkWork": {
+            "question": "为什么链接不工作？",
+            "answer": "由于地区限制，链接会过期。我们每日更新。始终使用 Winbox22.com 获取当前活跃的 URL。"
+          },
+          "safe": {
+            "question": "安全吗？",
+            "answer": "是的。我们的 APK 经过病毒扫描，托管在安全服务器上，没有捆绑间谍软件。自 2023 年以来，我们已为 87,000+ 马来西亚玩家提供服务。"
+          }
+        }
+      },
+      "readyToPlay": {
+        "title": "✅ 准备好游戏了吗？",
+        "description": "停止搜索。停止猜测。开始游戏。",
+        "features": {
+          "latestApk": "✅ 最新 APK",
+          "workingLink": "✅ 有效的 9 Wickets 链接",
+          "proAccess": "✅ 9 Wickets Pro 访问",
+          "support": "✅ 24/7 支持",
+          "malaysian": "✅ 为马来西亚玩家制作"
+        },
+        "loginButton": "👉 Winbox 登录网页",
+        "tagline": "Winbox22.com --- 您在马来西亚值得信赖的 9 Wickets 门户。没有炒作。只有可靠的访问。"
+      }
+    },
+    "bti": {
+      "title": "BTI 体育投注在 Winbox22.com --- 马来西亚值得信赖的体育博彩",
+      "intro": {
+        "linkText": "BTI Sport",
+        "description1": "为 Winbox22.com 提供最可靠的体育和电子竞技投注体验 --- 专为想要快速赔率、实时更新和安全支付的马来西亚玩家而建，无需离岸平台的麻烦。",
+        "description2": "自 2007 年以来，BTI 一直是亚洲领先的供应商，在足球、篮球、网球、Dota 2、CS:GO、Mobile Legends 等方面提供深度市场 --- 全部无缝集成到 Winbox22.com 并提供完整的本地支持。",
+        "description3": "没有第三方应用。没有延迟提款。只有直接访问马来西亚数千人信赖的专业级投注软件。"
+      },
+      "whyBTI": {
+        "title": "为什么在 Winbox22.com 上选择 BTI Sport？",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "bti": "BTI Sport 通过 Winbox22",
+            "others": "其他平台"
+          },
+          "rows": {
+            "licence": {
+              "feature": "许可证",
+              "bti": "PAGCOR 认证",
+              "others": "无许可证或管辖权不明"
+            },
+            "sports": {
+              "feature": "体育覆盖",
+              "bti": "20+ 联赛 + 150+ 电子竞技",
+              "others": "仅限足球/篮球"
+            },
+            "esports": {
+              "feature": "电子竞技重点",
+              "bti": "Dota 2、CS:GO、LOL、Valorant、Mobile Legends",
+              "others": "稀有或缺失"
+            },
+            "deposit": {
+              "feature": "存款方式",
+              "bti": "MayBank、RHB、Touch 'n Go、DuitNow、GrabPay",
+              "others": "仅银行转账或仅加密货币"
+            },
+            "support": {
+              "feature": "客户支持",
+              "bti": "24/7 WhatsApp、Telegram、实时聊天（马来语、普通话、泰语）",
+              "others": "仅电子邮件或有限时间"
+            },
+            "bonuses": {
+              "feature": "奖金",
+              "bti": "50% 欢迎奖金 + RM50 首次存款 + 每月 VIP 神秘礼品",
+              "others": "一次性奖金或无"
+            },
+            "app": {
+              "feature": "应用访问",
+              "bti": "官方 Winbox 应用（Android/iOS）--- 无 APK 风险",
+              "others": "仅网页或不安全的第三方下载"
+            }
+          }
+        },
+        "note": "PAGCOR 许可证不可谈判。这是唯一确保马来西亚玩家法律合规、公平游戏和资金保护的地区认证。"
+      },
+      "betOnWhat": {
+        "title": "投注重要的 --- 真正的体育，真正的电子竞技",
+        "description": "无论您是在追踪英超联赛、等待 NBA 开球，还是预测 Mobile Legends 锦标赛的获胜者 --- BTI 提供每秒更新的实时赔率，内置详细统计和兑现选项。",
+        "football": {
+          "title": "足球：",
+          "description": "覆盖英超、西甲、欧洲冠军联赛、马来西亚超级联赛、泰国联赛等 --- 具有亚洲让球、大小球和正确比分市场。"
+        },
+        "basketball": {
+          "title": "篮球：",
+          "description": "NBA、东南亚运动会、NBL 和国际预选赛 --- 实时流媒体触发器和实时点差。"
+        },
+        "tennis": {
+          "title": "网球：",
+          "description": "ATP、WTA、大满贯，以及来自澳大利亚、中国、埃及和墨西哥的鲜为人知的巡回赛 --- 全部具有盘投注和实时比赛中投注。"
+        },
+        "esports": {
+          "title": "电子竞技：",
+          "description": "Dota 2、CS:GO、英雄联盟、Valorant、守望先锋和 Mobile Legends --- 具有地图选择、首杀、总击杀数和锦标赛获胜者市场。"
+        },
+        "algorithms": "每个市场都由 BTI 自己的风险算法提供支持 --- 由马尼拉和吉隆坡的团队开发 --- 确保赔率反映本地需求，而不是欧洲偏见。"
+      },
+      "howToStart": {
+        "title": "如何在 60 秒内开始投注",
+        "steps": {
+          "step1": "访问 Winbox22.com --- 立即浏览现场比赛，无需登录。",
+          "step2": "点击\"体育\" --- 查看所有可用赛事和实时赔率。",
+          "step3": "注册 --- 输入姓名、电话号码，并通过短信验证（60 秒内）。",
+          "step4": "存款 --- 通过 MayBank、RHB、Touch 'n Go 或 DuitNow 最低 RM20。",
+          "step5": "领取奖金 --- 首次存款自动获得 50% 欢迎奖金 + RM50 免费积分。",
+          "step6": "下注 --- 点击、确认、观看比赛展开。"
+        },
+        "note": "没有复杂的表格。没有隐藏条款。只有纯粹的投注 --- 为马来西亚人简化。"
+      },
+      "security": {
+        "title": "您的安全，我们的优先",
+        "description": "Winbox22.com 上的 BTI Sport 使用企业级加密、双因素身份验证和隔离玩家资金 --- 因此您的资金和数据永远不会与运营资本混合。",
+        "backend": {
+          "title": "我们的后端包括：",
+          "risk": "专门的风险管理团队分析投注模式和欺诈指标。",
+          "monitoring": "实时玩家行为监控，防止滥用而不影响合法用户。",
+          "compliance": "完全符合 PAGCOR 审计标准 --- 每年验证。"
+        },
+        "reliability": "与一夜消失的无监管网站不同，BTI 在许可框架下运营。这就是 Winbox22.com 选择他们的原因 --- 不是为了营销，而是为了可靠性。"
+      },
+      "support": {
+        "title": "24/7 支持 --- 当您需要时",
+        "description": "对您的奖金有疑问？存款有问题？需要帮助下现场投注？我们在这里 --- 随时。",
+        "channels": {
+          "whatsapp": "马来语、普通话或英语即时回复",
+          "telegram": "与支持代理直接聊天",
+          "liveChat": "现场，无等待时间"
+        },
+        "real": "没有呼叫中心。没有机器人。了解您如何投注的真人。"
+      },
+      "vip": {
+        "title": "VIP 计划 --- 忠实玩家的奖励",
+        "description": "经常游戏？获得奖励。",
+        "gifts": {
+          "title": "每月神秘礼品包括：",
+          "iphone": "iPhone 15 / Apple Watch",
+          "rolex": "劳力士黑色潜水员手表",
+          "motorcycle": "雅马哈摩托车",
+          "cash": "RM5,000 现金奖金"
+        },
+        "points": "通过存款和投注赚取积分 --- 无等级级别。只是持续游戏 = 更大的惊喜。",
+        "recognition": "这不是噱头。这是认可 --- 为选择质量而非炒作的玩家。"
+      },
+      "app": {
+        "title": "下载官方 Winbox 应用（Android 和 iOS）",
+        "description": "忘记来自随机网站的有风险的 APK。",
+        "benefits": {
+          "title": "官方 Winbox 应用为您提供：",
+          "faster": "比移动浏览器加载更快",
+          "notifications": "现场比赛开始的推送通知",
+          "oneTap": "一键投注",
+          "biometric": "安全生物识别登录"
+        },
+        "android": {
+          "title": "对于 Android：",
+          "steps": "转到",
+          "continued": "→ 点击\"下载\" → 安装 → 打开 → 注册"
+        },
+        "ios": {
+          "title": "对于 iOS：",
+          "steps": "转到",
+          "continued": "→ 点击\"iOS 下载\" → 通过 TestFlight 安装 → 在设置中信任配置文件 → 启动"
+        },
+        "warning": "始终从 Winbox22.com 下载 --- 绝不从第三方链接。"
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "legal": {
+            "question": "BTI Sport 在马来西亚合法吗？",
+            "answer": "是的。BTI 在 PAGCOR 许可证下运营 --- 唯一被认可的安全、合规在线投注的地区认证。Winbox22.com 是其官方马来西亚合作伙伴。"
+          },
+          "esports": {
+            "question": "我可以投注像 Dota 2 这样的电子竞技吗？",
+            "answer": "当然。BTI 提供 150+ 电子竞技市场 --- 包括 Dota 2、CS:GO、LoL、Mobile Legends 等的地图获胜者、首杀、总击杀数和锦标赛冠军。"
+          },
+          "deposit": {
+            "question": "我如何存钱？",
+            "answer": "使用 MayBank、RHB、CIMB、Touch 'n Go、DuitNow 或 GrabPay。存款是即时的。最低 RM20。"
+          },
+          "withdrawal": {
+            "question": "我的提款需要多长时间处理？",
+            "answer": "电子钱包：15 分钟内。银行转账：营业时间内最多 1 小时。如果发生延迟，24/7 支持可用。"
+          },
+          "app": {
+            "question": "我需要下载应用吗？",
+            "answer": "不是必需的 --- 但强烈推荐。Winbox 应用更快、更安全，并为您提供现场活动的推送警报。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "准备像专业人士一样投注？",
+        "description1": "Winbox22.com 上的 BTI Sport 不是关于华丽的广告或空洞的承诺。",
+        "description2": "这是关于干净的赔率、实时动作和说您语言的支持。加入数千名选择安全、速度和智能投注的马来西亚玩家 --- 每一天。",
+        "loginButton1": "👉 开始在 Winbox22.com 投注",
+        "loginButton": "登录 Winbox",
+        "note": "无需注册即可浏览赔率。当您存入首笔 RM30 时领取您的 RM50 奖金。"
+      }
+    },
+
+    "evolution": {
+      "title": "Evolution Gaming 马来西亚 -- 在 Winbox22.com 上玩真人娱乐场",
+      "subtitle": "真人荷官。真实桌子。零缓冲。",
+      "intro": {
+        "description1": "直接在",
+        "linkText": "Winbox22.com",
+        "description2": "上玩 Evolution 的完整真人娱乐场套件，支持马币投注、即时 WhatsApp 支持，无需应用。",
+        "description3": "与那些隐藏在弹窗或缓慢代理流后面的网站不同，我们直接连接到 Evolution 的全球工作室 --- 与马耳他、菲律宾和拉脱维亚持牌赌场使用的相同流。没有中间商。没有延迟。只有纯粹的高清真人游戏 --- 专为 4G 网络上的马来西亚玩家而建。"
+      },
+      "whyEvolution": {
+        "title": "为什么选择 Evolution？为什么现在？",
+        "linkText": "Evolution Gaming",
+        "description1": "不仅仅是另一个软件供应商。它是真人娱乐场技术的全球领导者 --- 受到全球超过 300 家运营商的信赖。",
+        "description2": "凭借专利游戏机制、4K 流媒体、AI 驱动的荷官跟踪和经过认证的 RNG 公平性（由 iTech Labs 和 GLI 验证），Evolution 设定了标准。",
+        "problems": {
+          "title": "在马来西亚，信任稀缺且连接不一致，大多数平台都在妥协：",
+          "outdated": "他们使用过时的流。",
+          "downloads": "他们强制下载。",
+          "support": "他们把支持埋在电子邮件表格后面。",
+          "currency": "他们不接受马币。"
+        },
+        "solution": "Winbox22.com 解决了所有这些问题。",
+        "direct": "我们不转售或重新品牌。我们直接流媒体 Evolution 的真人桌子 --- 这意味着您可以获得与国际玩家相同的闪电轮盘、梦想捕手和大富翁现场游戏...但更快、更流畅，并提供真正的本地帮助。"
+      },
+      "gamesAvailable": {
+        "title": "Winbox22.com 上可用的游戏",
+        "table": {
+          "headers": {
+            "game": "游戏",
+            "bestFor": "最适合",
+            "feature": "关键功能",
+            "price": "价格范围 (RM)",
+            "why": "为什么重要？"
+          },
+          "rows": {
+            "lightning": {
+              "game": "闪电轮盘",
+              "bestFor": "高风险刺激寻求者",
+              "feature": "高达 500 倍的随机倍数，真人主持，快速回合",
+              "price": "RM1 - RM5,000",
+              "why": "快节奏、视觉化、令人上瘾 --- 非常适合下班后的短暂休息或开斋节夜晚"
+            },
+            "dream": {
+              "game": "梦想捕手",
+              "bestFor": "休闲玩家和家庭",
+              "feature": "7 倍 - 1000 倍获胜轮盘，简单规则，娱乐主持人",
+              "price": "RM1 - RM1,000",
+              "why": "在巴生谷和柔佛很受欢迎；即使英语不流利也容易理解"
+            },
+            "blackjack": {
+              "game": "VIP 二十一点",
+              "bestFor": "战略玩家",
+              "feature": "多种投注限额，边注，低庄家优势（低于 0.5%）",
+              "price": "RM5 - RM10,000",
+              "why": "受经验丰富的玩家信赖，他们知道算牌有效 --- 无算法干扰"
+            },
+            "monopoly": {
+              "game": "大富翁现场",
+              "bestFor": "群体娱乐和社交游戏",
+              "feature": "互动棋盘游戏奖金，大富翁先生动画",
+              "price": "RM1 - RM2,000",
+              "why": "熟悉的品牌，怀旧感觉 --- 非常适合周末夜晚在手机上群体观看"
+            },
+            "andar": {
+              "game": "Andar Bahar",
+              "bestFor": "本地热门",
+              "feature": "传统印度/马来西亚纸牌游戏，50/50 获胜机会",
+              "price": "RM5 - RM500",
+              "why": "马来语用户中最受欢迎的真人游戏 --- 只在像我们这样的精选平台上提供"
+            },
+            "baccarat": {
+              "game": "快速百家乐",
+              "bestFor": "大量玩家",
+              "feature": "比标准百家乐快 2 倍，6 副牌靴",
+              "price": "RM10 - RM5,000",
+              "why": "槟城和沙巴高注额玩家的首选 --- 手牌间最短等待时间"
+            }
+          }
+        },
+        "note": "所有游戏都在 HTML5 上运行 --- 无需下载。适用于 Android、iPhone、三星、Oppo、小米。在 4G 上 2 秒内加载。"
+      },
+      "howToStart": {
+        "title": "如何在 30 秒内开始游戏",
+        "steps": {
+          "step1": "访问",
+          "step1Link": "Winbox22.com",
+          "step2": "点击主页上的",
+          "step2Bold": "真人娱乐场",
+          "step2Continued": "",
+          "step3": "选择",
+          "step3Bold": "Evolution Gaming",
+          "step4": "选择任何桌子 --- 立即加入",
+          "step5": "通过 DuitNow 存款（需要 <60 秒）",
+          "step6": "游戏。获胜。提取。"
+        },
+        "simple": "就是这样。没有注册表格。没有身份证上传。没有等待。只需打开网站即可游戏。",
+        "processing": "存款自动处理。提款在 15 分钟内到达您的钱包 --- 经当地交易记录验证。"
+      },
+      "faqs": {
+        "title": "Evolution Gaming 常见问题",
+        "questions": {
+          "legal": {
+            "question": "Evolution Gaming 在马来西亚合法吗？",
+            "answer": "Evolution 是全球持牌供应商（马耳他、菲律宾）。虽然在线赌博在马来西亚处于灰色地带，但 Winbox22.com 在数千名本地玩家接受的离岸许可证下运营。所有游戏都是公平且受监控的。"
+          },
+          "app": {
+            "question": "我需要下载应用吗？",
+            "answer": "不需要。Winbox22.com 上的所有 Evolution 游戏都直接在您手机的浏览器中运行 --- 无 APK，无安装。适用于 Android 和 iOS。"
+          },
+          "myr": {
+            "question": "我可以使用马币存款和提取吗？",
+            "answer": "可以。使用 DuitNow、Boost、Touch 'n Go、GrabPay 或银行转账。所有交易都是马币 --- 无货币转换费用。"
+          },
+          "support": {
+            "question": "有马来语客户支持吗？",
+            "answer": "有的。我们的 WhatsApp 团队用马来语和英语回应。询问余额、存款或游戏问题 --- 我们回答很快。"
+          },
+          "lag": {
+            "question": "为什么其他网站有延迟？",
+            "answer": "他们使用代理服务器或缓存流。Winbox22.com 直接连接到 Evolution 的现场工作室流 --- 因此您可以获得实时视频，无延迟，即使在较慢的网络上。"
+          },
+          "rigged": {
+            "question": "游戏被操纵了吗？",
+            "answer": "没有。Evolution 使用认证的 RNG 系统和真人荷官与实体卡片和轮盘。每次旋转、洗牌和滚动都被记录和审计。公平性不可谈判。"
+          },
+          "different": {
+            "question": "Winbox22.com 与其他网站有什么不同？",
+            "answer": "我们准确显示您正在玩什么 --- 清晰的游戏名称、价格和功能。我们支持马币。我们回答 WhatsApp。我们不隐藏在模糊链接后面。您知道您得到什么。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "更智能地玩。本地玩。",
+        "description1": "您没有搜索\"全球赌场平台\"。您搜索了",
+        "highlight": "Evolution Gaming 马来西亚",
+        "description2": "--- 因为您想在其他人玩的地方玩。在那里快速。在那里真实。在那里帮助只需一次点击。",
+        "description3": "Winbox22.com 不会假装成它不是的东西。我们不是华丽的门户。我们是您直接链接到世界最佳真人娱乐场的链接 --- 为马来西亚的生活量身定制。",
+        "description4": "没有 cookies。没有弹窗。没有废话。",
+        "description5": "只有游戏。赌注。以及您需要时的真正支持。",
+        "registerButton": "👉 注册 Winbox",
+        "playNow": "并立即在 Winbox22.com 上玩 Evolution 游戏"
+      }
+    },
+
+    "hotroad": {
+      "title": "Winbox22 的 HotRoad 百家乐 --- 真正的机器人发牌游戏，来自马来西亚的 24/7",
+      "intro": {
+        "description1": "按照预期方式玩",
+        "linkText": "HotRoad",
+        "description2": "百家乐：没有荷官。没有偏见。没有延迟。只有机械臂发真牌 --- 实时流媒体，实时验证，并为马来西亚玩家优化。",
+        "description3": "在 Winbox22，我们不播放视频。我们播放现实。"
+      },
+      "whyHotroad": {
+        "title": "为什么选择 HotRoad？因为它与其他在线百家乐不同",
+        "description1": "大多数在线赌场使用 CGI 或您无法验证的人类荷官。",
+        "description2": "HotRoad 使用物理机械臂、条码牌组和实时卡片扫描 --- 每次洗牌、每次抽牌、每个结果都被机械记录并对您可见。",
+        "description3": "这不是 RNG。这不是动画。",
+        "description4": "这是实时物理游戏，由菲律宾持牌工作室信赖的技术提供支持 --- 现在，您在马来西亚可以完全访问。",
+        "variants": {
+          "title": "✅ 玩这些 HotRoad 变体：",
+          "dragon": {
+            "title": "龙",
+            "description": "投注 4+ 连胜"
+          },
+          "pingPong": {
+            "title": "乒乓",
+            "description": "跟踪交替的玩家/庄家获胜"
+          },
+          "oneTwo": {
+            "title": "一二",
+            "description": "发现模式，如 1 个庄家，2 个玩家"
+          },
+          "sandwich": {
+            "title": "三明治",
+            "description": "预测块序列（B-P-B 或 P-B-P）"
+          }
+        },
+        "tracker": "所有变体都配有实时\"热路\"跟踪器 --- 因此您可以看到模式的展开。"
+      },
+      "designedFor": {
+        "title": "专为马来西亚玩家设计 --- 无妥协",
+        "table": {
+          "headers": {
+            "feature": "功能",
+            "winbox22": "Winbox22"
+          },
+          "rows": {
+            "deposit": {
+              "feature": "存款方式",
+              "details": "Maybank、CIMB、RHB、DuitNow、Touch 'n Go"
+            },
+            "currency": {
+              "feature": "货币",
+              "details": "仅马币 --- 零外汇费用"
+            },
+            "withdrawals": {
+              "feature": "提款",
+              "details": "通过银行转账或电子钱包 15 分钟处理"
+            },
+            "support": {
+              "feature": "支持",
+              "details": "24/7 实时聊天（马来语、英语、中文）+ WhatsApp"
+            },
+            "bonuses": {
+              "feature": "奖金",
+              "details": "每日充值、免费旋转、VIP 返现"
+            },
+            "device": {
+              "feature": "设备支持",
+              "details": "适用于所有手机、平板电脑、台式机 --- 无需应用"
+            }
+          }
+        },
+        "note": "我们建立这个平台是因为其他网站忽略了对您重要的事情：快速存款。本地支付。真正的支持。以及感觉公平的游戏。"
+      },
+      "howToStart": {
+        "title": "如何在 60 秒内开始游戏",
+        "steps": {
+          "step1": "访问",
+          "step1Link": "Winbox22.com",
+          "step2": "注册 --- 输入您的姓名和手机号码",
+          "step3": "验证 OTP --- 立即发送到您的手机",
+          "step4": "存款 --- 通过 Maybank、DuitNow 或 Touch 'n Go 最低 RM20",
+          "step5": "转到真人娱乐场 → HotRoad → 选择您的游戏",
+          "step6": "投注。观看。获胜。"
+        },
+        "note": "无需下载。无注册表格。无等待。"
+      },
+      "security": {
+        "title": "您的安全不可谈判",
+        "description1": "Winbox22 在 PAGCOR 许可证下运营 --- 与监管菲律宾合法赌场的同一当局。",
+        "description2": "每个游戏都经过公平性审计。每笔交易都用 256 位 SSL 加密。",
+        "description3": "您的个人数据永远不会被出售。您的资金单独持有。",
+        "description4": "我们不仅说我们安全。我们用透明度、许可和本地信任来证明这一点。"
+      },
+      "dailyRewards": {
+        "title": "专为您准备的每日奖励",
+        "newPlayer": "新玩家？首次存款获得 100% 奖金，最高 RM100（最低 RM20）。",
+        "realValue": "但真正的价值每天都有：",
+        "rewards": {
+          "dailySpin": {
+            "title": "每日旋转奖金：",
+            "description": "存款 RM30 → 获得 1 次免费旋转 → 赢得高达 RM50"
+          },
+          "turnover": {
+            "title": "流水旋转：",
+            "description": "每投注 RM3,000 赚取 1 次免费旋转 --- 无限制"
+          },
+          "vip": {
+            "title": "VIP 计划：",
+            "description": "常规玩家解锁返现、生日礼品、优先提款"
+          }
+        },
+        "note": "所有奖金都以马币运作。无隐藏条款。无货币技巧。"
+      },
+      "faqs": {
+        "title": "常见问题",
+        "questions": {
+          "whatIs": {
+            "question": "什么是 HotRoad 百家乐？",
+            "answer": "一个使用机械臂物理发真牌的真人娱乐场游戏。没有人类荷官。没有操纵。只有快速、可验证的结果。"
+          },
+          "legal": {
+            "question": "在马来西亚合法吗？",
+            "answer": "对于私人玩家，在当前马来西亚法律下，玩像 Winbox22（PAGCOR 认证）这样的持牌离岸平台是不被禁止的。"
+          },
+          "mobile": {
+            "question": "我可以在手机上玩吗？",
+            "answer": "可以。完全响应式浏览器体验 --- 适用于 Android 和 iOS，无需下载应用。"
+          },
+          "deposit": {
+            "question": "我如何用马币存款？",
+            "answer": "使用任何本地银行（Maybank、CIMB、RHB）或电子钱包（Touch 'n Go、DuitNow）。存款即时且免费。"
+          },
+          "withdrawals": {
+            "question": "提款快吗？",
+            "answer": "是的。大多数提款通过银行转账或电子钱包在 15 分钟内处理。"
+          },
+          "whyChoose": {
+            "question": "为什么选择 Winbox22 而不是其他？",
+            "answer": "因为我们是唯一提供完整 HotRoad 访问的网站，具有本地银行、多语言支持、每日奖励，且无隐藏陷阱 --- 由马来西亚人为马来西亚人建造。"
+          }
+        }
+      },
+      "conclusion": {
+        "title": "准备好玩真正的百家乐 --- 马来西亚方式？",
+        "description1": "停止猜测。停止等待。停止玩感觉虚假的游戏。",
+        "description2": "Winbox22 上的 HotRoad 百家乐为您提供最接近真实赌场的体验 --- 无需离开家。",
+        "loginButton": "👉登录 Winbox",
+        "playersCount": "立即--- 加入 15,000+马来西亚玩家",
+        "tagline": "无应用。无延迟。只有真牌。真正的交易。真正的奖励。"
+      }
+    },
+
+    "ezugi": {
+    "meta": {
+      "title": "Ezugi赌场马来西亚：Winbox22真人轮盘与真实荷官",
+      "description": "在马来西亚玩Ezugi赌场真人游戏 - 真实荷官，即时DuitNow存款，手机零延迟。Ezugi轮盘、百家乐和21点，无需下载应用。"
+    },
+    "title": "Ezugi赌场马来西亚 -- 真人荷官，真实游戏，Winbox22即时游玩",
+    "intro": {
+      "description1": "玩",
+      "linkText": "Ezugi",
+      "description2": "真人赌场游戏，体验应有的游戏方式 --- 流畅、实时、专为马来西亚而设。",
+      "description3": "无延迟。无机器人。无虚假旋转。",
+      "description4": "只有专业荷官、高清直播，以及在您手机上即时加载的牌桌 --- 无论您在吉隆坡、槟城、柔佛或古晋。",
+      "description5": "在Winbox22，我们不转售Ezugi游戏。我们直接与他们合作。这意味着您可以完全访问每个牌桌、每个功能和每个更新 --- 没有延迟、弹窗或您在其他地方会遇到的断流问题。",
+      "description6": "这不是另一个赌场网站。",
+      "description7": "这就是Ezugi --- 直接传送到您的屏幕，按照设计的方式游玩。"
+    },
+    "roulette": {
+      "title": "Ezugi轮盘 -- 像在云顶一样旋转",
+      "description1": "真实轮盘。真实荷官。真实马来西亚限额。",
+      "description2": "从RM5开始。每次旋转最高RM5,000。",
+      "description3": "每个数字、每次弹跳、每次叫牌 --- 从Ezugi在马耳他和菲律宾的工作室现场直播。",
+      "description4": "您会看到球落下。您会听到荷官说\"不再下注\"。您会在获胜前感受到紧张感。",
+      "description5": "在其他网站，直播会冻结。音频会中断。轮盘感觉很慢。",
+      "description6": "在这里不会。",
+      "description7": "Winbox22",
+      "description8": "使用Ezugi的高级高清源 --- 为Unifi、Maxis和TM等本地网络优化。即使在较旧的安卓手机上，也能流畅运行。无需应用。只需打开浏览器。点击游玩。",
+      "testimonial": "\"我试过其他三个网站。只有Winbox22在大奖时不会缓冲。\" --- Amir，莎阿南"
+    },
+    "baccarat": {
+      "title": "Ezugi百家乐 -- 亚洲经典，正确呈现",
+      "description1": "百家乐不仅在马来西亚受欢迎 --- 它是文化的一部分。",
+      "subtitle": "Ezugi为您带来三个版本：",
+      "versions": {
+        "standard": {
+          "title": "标准百家乐",
+          "description": "经典、冷静、干净"
+        },
+        "speed": {
+          "title": "快速百家乐",
+          "description": "比标准版快30%，完美适合快速游戏"
+        },
+        "squeeze": {
+          "title": "挤牌百家乐",
+          "description": "观看荷官慢慢翻开每张牌，就像在VIP房间一样"
+        }
+      },
+      "description2": "所有牌桌都支持马来语和英语聊天。发一手牌。说\"Selamat pagi\"。荷官会微笑回应。",
+      "description3": "与使用RNG或延迟视频的竞争对手不同，Winbox22上的Ezugi是100%真人 --- 每张牌都由手工发放，每个结果都可见，每个游戏都记录以确保公平。",
+      "description4": "非常适合想要传统体验而无需等待的玩家。"
+    },
+    "moreGames": {
+      "title": "Ezugi21点、骰宝和龙虎 -- 不仅仅是轮盘",
+      "subtitle": "为什么只玩一种游戏？",
+      "description": "Ezugi为您提供完整套餐 --- 在Winbox22上全部可用：",
+      "games": {
+        "blackjack": {
+          "title": "多手21点",
+          "description": "同时玩最多5手牌。如果您喜欢分散下注，这是完美选择。"
+        },
+        "dreamCatcher": {
+          "title": "梦想捕手",
+          "description": "转动巨大的金钱轮盘，倍数高达x500。真人主持，实时结果。"
+        },
+        "sicBo": {
+          "title": "骰宝",
+          "description": "用传统中式投注选项掷骰子。大、小、三同 --- 全部清晰快速。"
+        },
+        "dragonTiger": {
+          "title": "龙虎",
+          "description": "两张牌。一次下注。几秒钟内决定胜负。亚洲最快的真人游戏。"
+        }
+      },
+      "conclusion1": "无需下载。无需插件。只需点击游玩 --- 即使在3G网络上。",
+      "conclusion2": "我们在廉价手机上测试过。它有效。"
+    },
+    "whyDifferent": {
+      "title": "为什么Winbox22与众不同",
+      "description1": "大多数网站都说\"我们有Ezugi\"。",
+      "description2": "很少有真正做得好的。",
+      "description3": "以下是我们的不同之处：",
+      "comparison": {
+        "headers": {
+          "others": "其他网站做什么",
+          "us": "我们做什么"
+        },
+        "rows": {
+          "partnership": {
+            "others": "使用第三方经销商",
+            "us": "与Ezugi直接合作"
+          },
+          "streams": {
+            "others": "手机上直播缓慢",
+            "us": "为马来西亚网络优化（Unifi、Celcom、Digi）"
+          },
+          "support": {
+            "others": "无马来语支持",
+            "us": "马来语和英语真人聊天"
+          },
+          "payments": {
+            "others": "只接受信用卡",
+            "us": "FPX、DuitNow、Touch 'n Go、Boost --- 即时存款"
+          },
+          "fees": {
+            "others": "隐藏费用",
+            "us": "存款或提款零交易费用"
+          },
+          "withdrawals": {
+            "others": "延迟支付",
+            "us": "提款在15分钟内处理"
+          }
+        }
+      },
+      "conclusion1": "我们不躲在华丽的横幅后面。",
+      "conclusion2": "我们为关心速度、信任和简单性的玩家而建。"
+    },
+    "howToStart": {
+      "title": "如何在Winbox22开始玩Ezugi",
+      "steps": {
+        "step1": "在手机或电脑上访问Winbox22.com。",
+        "step2": "点击\"真人赌场\" → 选择\"Ezugi\"。",
+        "step3": "选择您的游戏 --- 轮盘、百家乐、21点或更多。",
+        "step4": "通过DuitNow或FPX存款 --- 资金即时到账。",
+        "step5": "游玩。获胜。提款。"
+      },
+      "note1": "无冗长表格。除非提款超过RM5,000，否则无需上传身份证。",
+      "note2": "无强制注册。先试试演示模式 --- 无需存款。"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "questions": {
+        "whatIs": {
+          "question": "什么是Ezugi？",
+          "answer": "Ezugi是一家持牌真人赌场提供商，从专业工作室直播真实荷官游戏。在东南亚值得信赖。"
+        },
+        "legal": {
+          "question": "Ezugi在马来西亚合法吗？",
+          "answer": "在像Winbox22（PAGCOR监管）这样的离岸持牌平台上游玩对个人玩家来说并不违法。请始终负责任地游玩。"
+        },
+        "mobile": {
+          "question": "我可以在安卓或iPhone上玩吗？",
+          "answer": "是的。所有Ezugi游戏都在您的浏览器中运行 --- 无需应用。适用于所有现代手机。"
+        },
+        "download": {
+          "question": "我需要下载什么吗？",
+          "answer": "不需要。一切都在Chrome、Safari或Firefox中即时加载。无Flash。无插件。"
+        },
+        "realDealers": {
+          "question": "荷官是真人吗？",
+          "answer": "是的。每个荷官都在Ezugi工作室进行现场拍摄。无AI。无预录片段。"
+        },
+        "deposit": {
+          "question": "如何存款？",
+          "answer": "使用FPX、DuitNow、Touch 'n Go、Boost或GrabPay。存款即时且免费。"
+        },
+        "withdrawals": {
+          "question": "提款有多快？",
+          "answer": "大多数提款在15分钟内通过DuitNow到达您的银行账户。仅对超过RM5,000的金额进行人工审核。"
+        }
+      }
+    },
+    "conclusion": {
+      "title": "准备像专业玩家一样玩Ezugi吗？",
+      "description1": "停止滚动。停止等待。",
+      "description2": "牌桌正在直播。荷官已准备就绪。",
+      "description3": "您的下一次胜利只需一次点击。",
+      "loginButton": "登录Winbox",
+      "description4": "立即在Winbox22玩Ezugi真人赌场",
+      "tagline": "无需注册。无隐藏费用。只有真实游戏，真正快速。"
     }
+  },
+
+  "sv388": {
+    "meta": {
+      "title": "SV388马来西亚：真人斗鸡与SV388黄金赌场 | Winbox22",
+      "description": "玩SV388马来西亚真人斗鸡与SV388黄金赌场，RM1起投注。无需下载应用。通过Boost、TNG、银行转账存款。快速提款。Winbox22.com"
+    },
+    "title": "SV388马来西亚：真人斗鸡与SV388黄金赌场",
+    "intro": {
+      "description1": "如果您正在寻找真正的沙邦阿亚姆（Sabong Ayam）--- 那种在甘榜斗鸡场进行、家人观看、用信赖现金下注的斗鸡 --- 这里就是它在线上的家。",
+      "description2": "在Winbox22，我们直接连接您到",
+      "linkText": "SV388",
+      "description3": "马来西亚：高清直播的真人公鸡格斗、马币实时投注，以及通过Boost、Touch 'n Go或银行转账的即时提款。无应用。无延迟。只有格斗、赔率和您的胜利。"
+    },
+    "comparison": {
+      "title": "SV388对比 --- Winbox22 vs 其他平台",
+      "note": "基于对顶级SERP竞争对手的审计。Winbox22是唯一提供真正本地支付集成、低入门投注和无应用依赖的直接服务器访问的平台。",
+      "table": {
+        "headers": {
+          "feature": "功能",
+          "winbox22": "Winbox22",
+          "competitor": "竞争对手"
+        },
+        "rows": {
+          "platform": {
+            "feature": "平台访问",
+            "winbox22": "直接SV388服务器链接 --- 无中间商",
+            "competitor": "未知经销商"
+          },
+          "mobile": {
+            "feature": "手机体验",
+            "winbox22": "无需应用。适用于任何浏览器（安卓/iOS）",
+            "competitor": "推荐下载应用"
+          },
+          "payment": {
+            "feature": "支付方式",
+            "winbox22": "✅ Boost • ✅ Touch 'n Go • ✅ DuitNow • ✅ 银行转账",
+            "competitor": "❌ 仅加密货币"
+          },
+          "minBet": {
+            "feature": "最低投注（沙邦）",
+            "winbox22": "RM1",
+            "competitor": "RM5"
+          },
+          "description": {
+            "feature": "斗鸡描述",
+            "winbox22": "真实格斗。持牌场馆。无虚假录像。",
+            "competitor": "\"公鸡间的残酷格斗\" --- 耸人听闻"
+          },
+          "support": {
+            "feature": "真人荷官支持",
+            "winbox22": "✅ 马来语 + 英语",
+            "competitor": "❌ 未提及"
+          },
+          "withdrawal": {
+            "feature": "提款速度",
+            "winbox22": "5分钟内",
+            "competitor": "15--30分钟"
+          },
+          "gold": {
+            "feature": "包含SV388黄金",
+            "winbox22": "✅ 是 --- 相同登录，相同钱包",
+            "competitor": "❌ 未提及"
+          },
+          "customer": {
+            "feature": "客户支持",
+            "winbox22": "✅ 24/7 WhatsApp和在线聊天（马来语/英语）",
+            "competitor": "✅ 仅在线聊天"
+          },
+          "trust": {
+            "feature": "信任信号",
+            "winbox22": "无炒作。无承诺。直接访问。",
+            "competitor": "使用\"残酷\"、\"最容易获胜\" --- 红旗警告"
+          }
+        }
+      }
+    },
+    "sabong": {
+      "title": "SV388：原始沙邦体验",
+      "description1": "斗鸡并不新鲜。它有6000年历史。在马来西亚，这是传统。",
+      "description2": "SV388将这一传统带到线上 --- 没有噪音，没有人群。两只公鸡，装备钢爪，放置在密封斗鸡场。哨声响起。人群呐喊。您下注。",
+      "description3": "在Winbox22，我们只直播有认证处理员的持牌场馆。无虚假录像。无操纵结果。只有原始、未编辑的比赛 --- 正如在彭亨、吉兰丹或柔佛所进行的那样。",
+      "description4": "每场比赛前30秒开始投注。赔率实时变化。如果您的鸟击出最后一击或仅仅是坚持到最后，您就获胜。",
+      "minBet": "最低投注：RM1。",
+      "note": "无需应用。在任何手机上即时游玩。"
+    },
+    "gold": {
+      "title": "SV388黄金：简单游戏。真实提款。",
+      "description1": "格斗结束后，切换到SV388黄金 --- 专为马来西亚玩家设计的内置赌场套餐。",
+      "description2": "捕鱼游戏。龙虎。轮盘。幸运轮。",
+      "description3": "所有游戏在2秒内加载。所有投注从RM1开始。所有胜利在几分钟内支付 --- 直接到您的Boost钱包、TNG电子钱包或银行账户。",
+      "description4": "无复杂菜单。无混乱规则。只有干净、快速的动作 --- 相同登录，相同余额，零切换。",
+      "testimonial": {
+        "label": "来自新山的真实用户：",
+        "quote": "\"我在午餐休息时玩沙邦。然后转轮盘5分钟。上周赢了RM87。提款用了90秒。\""
+      }
+    },
+    "howToLogin": {
+      "title": "如何在Winbox22登录SV388",
+      "steps": {
+        "step1": "打开",
+        "step1Link": "Winbox22.com",
+        "step1End": "在您的手机或浏览器上。",
+        "step2": "点击\"立即加入\" --- 输入您的姓名和手机号码。",
+        "step3": "用即时发送的短信验证码验证您的号码。",
+        "step4": "使用Boost、Touch 'n Go、DuitNow或银行转账存款。最低RM10。",
+        "step5": "点击\"SV388\" → \"立即游玩\"。"
+      },
+      "conclusion": "就这样。",
+      "note1": "无需等待。您的账户适用于安卓和iOS --- 即使是较旧的型号。",
+      "note2": "将此页面加入书签。每次都使用它。避免第三方链接。只有Winbox22.com直接连接您到官方SV388服务器网络。"
+    },
+    "whyWinbox": {
+      "title": "为什么选择Winbox22？而不是其他。",
+      "description1": "许多网站说他们提供\"SV388\"。大多数是经销商。",
+      "description2": "他们延迟支付。中断直播。收取隐藏费用。强迫您下载有风险的APK。",
+      "description3": "Winbox22不是中间商。",
+      "description4": "我们直接链接到SV388平台。这意味着：",
+      "benefits": {
+        "loading": "即时比赛加载 --- 无缓冲",
+        "odds": "实时赔率与现场场馆同步",
+        "support": "马来语客户支持，24/7可用",
+        "uptime": "高峰时段零停机 --- 周末、开斋节、农历新年"
+      },
+      "conclusion": "我们不推高风险老虎机。我们不用奖金轰炸您。我们给您所需要的：干净访问沙邦和SV388黄金。"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "questions": {
+        "whatIs": {
+          "question": "什么是SV388马来西亚？",
+          "answer": "SV388是一个斗鸡（沙邦阿亚姆）和赌场游戏的在线直播平台，在马来西亚广泛使用。它从持牌场馆直播真实格斗，提供马币投注选项。"
+        },
+        "legal": {
+          "question": "SV388在马来西亚合法吗？",
+          "answer": "斗鸡在某些州的文化豁免下是被允许的。像Winbox22这样的在线平台作为私人娱乐门户运营 --- 不是公共赌博网站。"
+        },
+        "deposit": {
+          "question": "如何为SV388存款？",
+          "answer": "使用Boost、Touch 'n Go、DuitNow或直接银行转账。所有方式都即时处理。不接受信用卡。"
+        },
+        "mobile": {
+          "question": "我可以在手机上玩SV388吗？",
+          "answer": "是的。无需应用。在Chrome或Safari中打开Winbox22.com。登录并立即游玩。适用于所有安卓和iPhone型号。"
+        },
+        "gold": {
+          "question": "什么是SV388黄金？",
+          "answer": "SV388黄金是简单赌场风格游戏的集合 --- 捕鱼游戏、轮盘、转轮 --- 内置在与沙邦相同的系统中。相同登录。相同钱包。"
+        },
+        "googlePlay": {
+          "question": "为什么我在Google Play上找不到SV388？",
+          "answer": "因为SV388是基于网络的服务。第三方APK不安全。始终通过Winbox22.com游玩。"
+        }
+      }
+    },
+    "conclusion": {
+      "title": "准备好游玩了吗？",
+      "loginButton": "登录H5 Winbox",
+      "description": "立即登录SV388 --- 免费注册",
+      "disclaimer": "始终负责任地游玩。此平台适用于18岁以上用户。赌博可能会上瘾。"
+    }
+  },
+  "ekor": {
+    "meta": {
+      "title": "Ekor彩票号码马来西亚 -- 官方Sup Ekor | Winbox22",
+      "description": "Winbox22是马来西亚值得信赖的Ekor彩票。通过官方供应商在线购买：万能4D、多马彩、体育彩票和Lucky Hari-Hari。真实结果。无虚假号码。"
+    },
+    "intro": {
+      "title": "Ekor彩票号码马来西亚 – 官方Sup Ekor",
+      "description1": "大多数网站声称显示\"今日Ekor号码\" --- 但很少解释Ekor实际如何运作。",
+      "description2": "更少的网站承认他们只是在猜测。",
+      "description3": "在Winbox22，我们不假装提取我们无法访问的现场开奖。",
+      "description4": "相反，我们向您准确展示",
+      "linkText": "Ekor",
+      "description5": "彩票如何运作 --- 什么是真实的，什么是虚假的，以及如何避免被销售虚假希望的平台欺骗。",
+      "description6": "您在这里找不到魔法公式。",
+      "description7": "但您<em>会</em>找到清晰的答案。"
+    },
+    "comparison": {
+      "title": "对比表",
+      "note": "注意：如果网站显示\"现场\"Ekor号码但没有链接到官方开奖来源 --- 它在生成号码。不是显示它们。",
+      "table": {
+        "headers": {
+          "platform": "平台",
+          "dataSource": "实际数据来源",
+          "transparency": "透明度",
+          "userExperience": "用户体验",
+          "riskLevel": "风险等级"
+        },
+        "rows": {
+          "winbox22": {
+            "platform": "Winbox22",
+            "dataSource": "教育和分析性",
+            "transparency": "✅ 完全透明",
+            "userExperience": "干净、无广告、无弹窗",
+            "riskLevel": "低 --- 无虚假承诺"
+          },
+          "others": {
+            "platform": "其他",
+            "dataSource": "未知/自动生成",
+            "transparency": "❌ 隐藏来源",
+            "userExperience": "弹窗广告、加载缓慢",
+            "riskLevel": "高 --- 号码随机变化"
+          }
+        }
+      }
+    },
+    "howItWorks": {
+      "title": "Ekor彩票实际如何运作（马来西亚）",
+      "description1": "Ekor --- \"ekor nombor\"（尾号）的简称 --- 是一种流行的马来西亚投注游戏，玩家预测官方彩票结果的最后两位、三位或四位数字。",
+      "description2": "它不是独立的开奖。",
+      "description3": "它是派生结果。",
+      "subtitle": "实际运作方式如下：",
+      "steps": {
+        "step1": "官方开奖每日进行（例如，万能4D、多多、多马彩）。",
+        "step2": "每次开奖产生一个4位中奖号码 --- 例如，9174。",
+        "step3": "\"Ekor\"是最后2位数字 → 74",
+        "step3Sub1": "有时扩展到最后3位 → 174",
+        "step3Sub2": "或最后4位 → 9174（完整号码）",
+        "step4": "投注者然后对这些尾数下注 --- 通常通过私人代理或在线平台。"
+      },
+      "important": {
+        "title": "重要：",
+        "description1": "没有官方的\"Ekor开奖\"。",
+        "description2": "所有标记为\"Ekor结果\"的都是从现有4D彩票结果中提取的。",
+        "description3": "所以如果网站说\"我们的Ekor系统是现场的\"，他们要么是：",
+        "option1": "从公共4D结果中提取数据（并隐藏它），或者",
+        "option2": "生成随机数字看起来\"真实\"",
+        "conclusion1": "Winbox22两者都不做。",
+        "conclusion2": "我们告诉您它是如何运作的 --- 所以您知道会发生什么。"
+      }
+    },
+    "supEkor": {
+      "title": "什么是\"Sup Ekor\"？为什么它不是魔法",
+      "description1": "\"Sup Ekor\"（支撑号码）指从历史Ekor尾数中观察到的模式。",
+      "example": {
+        "title": "例子：",
+        "description1": "如果最后一位数字'4'在过去10天出现了6次，有些人称其为\"热号\"。",
+        "description2": "如果'0'在15天内没有出现，它被称为\"冷号\"。"
+      },
+      "description2": "这不是预测。",
+      "description3": "这是模式识别 --- 就像注意到雨通常在乌云后下降。",
+      "provides": {
+        "title": "Winbox22提供：",
+        "item1": "7天Ekor频率图表 --- 哪些尾数出现最多",
+        "item2": "30天趋势分析 --- 数字的长期行为",
+        "item3": "奇偶和高低分布 --- 帮助平衡您的选择"
+      },
+      "clarification1": "我们不说\"74明天会中奖\"。",
+      "clarification2": "我们说：*\"74是上周最常见的Ekor。您可以考虑它 --- 但记住，每次开奖都是独立的。\"*",
+      "conclusion": "这就是教育和剥削之间的区别。"
+    },
+    "whyOthersLie": {
+      "title": "为什么其他网站对\"现场Ekor号码\"撒谎",
+      "description": "大多数平台显示虚假\"现场\"Ekor因为：",
+      "reasons": {
+        "reason1": "他们没有官方彩票结果的API访问权限",
+        "reason2": "他们使用JavaScript在您每次刷新时自动生成号码",
+        "reason3": "他们复制旧数据并标记为\"今天\"",
+        "reason4": "他们从点击中获利 --- 而不是玩家获胜"
+      },
+      "test": {
+        "title": "检查这个：",
+        "description1": "访问任何竞争对手网站。刷新5次。",
+        "description2": "\"Ekor号码\"保持相同吗？",
+        "result1": "如果它们改变 --- 那不是真实数据。",
+        "result2": "那是生成器。"
+      },
+      "promise1": "Winbox22从不这样做。",
+      "promise2": "我们向您展示系统是如何运作的 --- 所以您可以自己发现骗局。"
+    },
+    "howToFind": {
+      "title": "如何找到真实的Ekor结果（不被欺骗）",
+      "description1": "您不需要\"特殊工具\"。",
+      "description2": "您只需要知道在哪里查看。",
+      "steps": {
+        "step1": {
+          "title": "步骤1：前往官方彩票网站：",
+          "sites": {
+            "magnum": "万能4D",
+            "toto": "多多",
+            "damacai": "多马彩"
+          }
+        },
+        "step2": {
+          "title": "步骤2：找到最新的4D结果。",
+          "example": "例子：*万能4D开奖#XXXX --- 中奖号码：8261*"
+        },
+        "step3": {
+          "title": "步骤3：取最后2位数字 → 61 = Ekor 2D",
+          "sub1": "最后3位 → 261 = Ekor 3D",
+          "sub2": "完整号码 → 8261 = Ekor 4D"
+        },
+        "step4": {
+          "title": "步骤4：记录它。跟踪它。分析它。"
+        }
+      },
+      "conclusion1": "就这样。",
+      "conclusion2": "无应用。无注册。无付费。",
+      "conclusion3": "只有逻辑。",
+      "conclusion4": "Winbox22为您提供工具来做这件事 --- 不假装成我们不是的东西。"
+    },
+    "conclusion": {
+      "title": "结论：Ekor没有问题 --- 系统有问题",
+      "description1": "Ekor不是骗局。",
+      "description2": "假装给您\"现场结果\"的*虚假服务*才是。",
+      "description3": "Winbox22不向您销售号码。",
+      "description4": "我们诚实地教您如何找到它们。",
+      "description5": "如果您想聪明地玩，停止信任那些闪烁\"现场EKOR现在！\"的网站",
+      "description6": "开始信任那些说：",
+      "quote": "\"这是它的运作方式。这是在哪里检查。这是要注意什么。\"",
+      "values1": "这就是透明度。",
+      "values2": "这就是信任。",
+      "values3": "这就是Winbox22。"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "questions": {
+        "howWorks": {
+          "question": "Ekor彩票在马来西亚如何运作？",
+          "answer": "Ekor使用官方4D彩票结果（如万能或多多）的最后2--4位数字。没有单独的Ekor开奖 --- 它是从现有结果派生的。"
+        },
+        "liveData": {
+          "question": "是否存在现场Ekor数据？",
+          "answer": "只有当网站直接从官方彩票API提取时才有。大多数不会。他们生成虚假号码。"
+        },
+        "supEkor": {
+          "question": "什么是Sup Ekor？",
+          "answer": "Sup Ekor是对过去Ekor尾数的分析，以识别重复模式。它帮助做出选择 --- 不保证获胜。"
+        },
+        "trustSites": {
+          "question": "我可以信任显示\"今日Ekor\"的网站吗？",
+          "answer": "只有当它们链接到像万能或多多这样的官方来源时。如果号码在刷新时改变 --- 那是假的。"
+        },
+        "registration": {
+          "question": "我需要注册才能看到真实的Ekor号码吗？",
+          "answer": "不需要。所有官方结果都是免费和公开的。您只有在想下注时才注册 --- 即便如此，也要使用持牌运营商。"
+        },
+        "predictions": {
+          "question": "Ekor预测可靠吗？",
+          "answer": "不可靠。每次开奖都是随机的。模式帮助您了解历史 --- 不是预测未来。小心任何声称相反的人。"
+        }
+      }
+    },
+    "cta": {
+      "title": "想要更聪明地游玩？",
+      "description1": "停止猜测。开始理解。",
+      "registerButton": "注册Winbox",
+      "description2": "这里",
+      "tagline": "Winbox22：诚实胜过炒作。"
+    }
+  },
+  "rcb988": {
+    "meta": {
+      "title": "RCB988马来西亚：Winbox22.com赛马和体育博彩",
+      "description": "RCB988马来西亚在Winbox22.com -- 投注赛马、赛狗和套车赛，实时赔率，RM10最低存款，即时DuitNow/FPX提款。"
+    },
+    "title": "RCB988马来西亚：Winbox22.com赛马和体育博彩",
+    "intro": {
+      "description1": "如果您在马来西亚，想要投注赛马并获得快速支付、实时赔率和本地支持 ---",
+      "linkText": "RCB988",
+      "description2": "是最值得信赖的提供商之一。在Winbox22.com，我们为您提供直接、安全的RCB988完整体育博彩平台访问 --- 无中介、无延迟、无隐藏条款。",
+      "description3": "无需应用。无复杂注册。只需登录并开始投注来自吉隆坡、新加坡、香港、澳大利亚等地的比赛 --- 全部使用马来西亚支付方式。"
+    },
+    "whatIs": {
+      "title": "什么是RCB988？",
+      "description1": "RCB988是领先的亚洲体育博彩提供商，专门从事现场和赛前赛马、赛狗和套车赛。因其简洁界面、有竞争力的起始价格和可靠的客户服务而被马来西亚玩家广泛使用。",
+      "description2": "与分散精力于老虎机和桌面游戏的一般赌场网站不同，RCB988专注于赛马 --- 提供详细的赛事卡、开赛前几分钟更新的赔率，以及有利于知情投注者的低利润率市场。",
+      "description3": "在Winbox22.com，我们直接连接您到RCB988平台。无重定向。无第三方门户。只有纯粹的访问。"
+    },
+    "racingMarkets": {
+      "title": "您可以投注的赛马市场",
+      "subtitle": "RCB988每日覆盖超过15个主要赛马场。热门赛道包括：",
+      "tracks": {
+        "kl": "吉隆坡赛马场(KL) -- 周五和周日比赛",
+        "singapore": "新加坡加兰尼 -- 高额国际赛事",
+        "hongkong": "香港沙田和跑马地 -- 顶级全球赛事",
+        "australia": "澳大利亚（兰威克、弗莱明顿、考菲尔德）-- 主要杯赛",
+        "uk": "英国（阿斯科特、纽马克特）-- 经典平地赛马"
+      },
+      "betTypes": {
+        "title": "常见投注类型：",
+        "win": "独赢 -- 选择第一名完成的马匹",
+        "place": "位置 -- 如果您的马匹完成第1或第2名则获胜",
+        "show": "表现 -- 如果您的马匹完成前3名则获胜"
+      },
+      "liveBetting": "所有主要比赛都启用现场投注。在比赛中期调整赌注，零延迟 --- 即使在墨尔本杯或新加坡德比等高峰时段。"
+    },
+    "payments": {
+      "title": "如何在马来西亚存款和提款",
+      "description": "我们不让您等待。或付费。或使用外币。",
+      "deposit": {
+        "title": "存款方式（即时）：",
+        "methods": {
+          "fpx": "FPX",
+          "duitnow": "DuitNow",
+          "tng": "Touch 'n Go电子钱包",
+          "bank": "银行转账（马来亚银行、联昌银行、大众银行等）"
+        },
+        "minimum": "最低存款：RM10"
+      },
+      "withdrawal": {
+        "title": "提款：",
+        "speed": "已验证账户5分钟内处理",
+        "limits": "除标准KYC门槛外无提款限制",
+        "destination": "所有资金直接转到您的本地银行或电子钱包"
+      },
+      "advantage": "其他平台需要几小时。我们更快，因为我们理解马来西亚玩家没有时间等待。"
+    },
+    "bonuses": {
+      "title": "真正有效的奖金",
+      "description": "大多数网站承诺奖金，但将它们锁定在不可能的投注规则后面。这里不会。",
+      "welcome": {
+        "title": "欢迎奖金：",
+        "match": "首次存款100%匹配，最高RM200",
+        "usage": "可用于任何赛马市场 --- 无限制",
+        "requirements": "无隐藏流水要求"
+      },
+      "daily": {
+        "title": "每日免费积分：",
+        "amount": "登录用户每天获得RM5--RM20免费积分",
+        "requirement": "无需存款 --- 只需登录并领取",
+        "purpose": "非常适合测试新选择或学习赛事形式"
+      },
+      "conclusion": "这些不是营销陷阱。它们是帮助您更聪明投注的工具 --- 而不是冒更多风险。"
+    },
+    "support": {
+      "title": "用马来语回答的支持",
+      "description1": "您在这里找不到自动机器人或工单系统。",
+      "description2": "我们的支持团队说流利的马来语和英语，他们24/7通过以下方式提供服务：",
+      "method": "在线聊天：此页面右下角",
+      "promise": "关于余额、奖金规则或比赛取消的问题？在90秒内获得答案 --- 即使在凌晨2点。",
+      "conclusion": "无需等待。无需邮件。只有了解RCB988运作方式的真人。"
+    },
+    "mobile": {
+      "title": "移动友好。无需应用。",
+      "description1": "您的手机就是您的投注站。",
+      "description2": "Winbox22.com在安卓和iOS上完美运行。无需APK下载。无需安装。无存储使用。",
+      "description3": "打开浏览器。登录。下注。完成。",
+      "description4": "界面干净，按钮大，赔率即时加载 --- 即使在慢速网络上。专为移动中的马来西亚人设计。"
+    },
+    "whyChoose": {
+      "title": "为什么选择Winbox22.com而不是其他网站？",
+      "description1": "许多门户网站在数十个提供商中列出RCB988。它们杂乱。缓慢。难以导航。",
+      "description2": "我们做了一件不同的事：我们只提供RCB988。",
+      "description3": "这意味着：",
+      "benefits": {
+        "menu": "无混乱菜单",
+        "banners": "无竞争横幅",
+        "odds": "无延迟赔率",
+        "racecards": "无过时赛事卡"
+      },
+      "conclusion1": "一切都为赛马迷策划。每个功能都是为了帮助您更快地下更好的注。",
+      "conclusion2": "由于我们专注，我们的支持、支付和更新始终与马来西亚RCB988用户的实际需求保持一致。"
+    },
+    "faqs": {
+      "title": "常见问题",
+      "questions": {
+        "whatIs": {
+          "question": "什么是RCB988？",
+          "answer": "RCB988是专注于赛马、赛狗和套车赛的亚洲体育博彩提供商。因快速赔率和本地支付支持而受到马来西亚玩家信赖。"
+        },
+        "mobile": {
+          "question": "我可以在手机上使用RCB988吗？",
+          "answer": "是的。Winbox22.com在所有移动浏览器上流畅运行。无需应用。"
+        },
+        "legal": {
+          "question": "RCB988在马来西亚合法吗？",
+          "answer": "RCB988离岸运营并接受马来西亚玩家。我们提供本地人常用的国际平台访问 --- 始终负责任地。"
+        },
+        "bonus": {
+          "question": "如何领取欢迎奖金？",
+          "answer": "在Winbox22.com注册，至少存款RM10，您的100%奖金会自动记入您的账户。可用于任何赛马市场。"
+        },
+        "races": {
+          "question": "我可以投注哪些比赛？",
+          "answer": "吉隆坡、新加坡加兰尼、香港、澳大利亚、英国等。每日更新完整赛程。"
+        },
+        "verification": {
+          "question": "我需要身份验证吗？",
+          "answer": "仅对超过RM5,000的提款需要。否则，开始投注不需要任何文件。"
+        }
+      }
+    },
+    "cta": {
+      "title": "准备投注RCB988吗？",
+      "description": "从RM10开始。今天领取您的免费积分。看看您的奖金到达有多快。",
+      "registerButton": "注册Winbox"
+    }
+  }
 }
