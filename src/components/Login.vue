@@ -2,7 +2,7 @@
   <div ref="iframeWrapper" class="iframe-wrapper">
     <iframe
       ref="iframe"
-      src="https://www.winbox.cloud/wb-login.html"
+      src="https://www.wbframefe.com"
       frameborder="0"
     ></iframe>
   </div>
