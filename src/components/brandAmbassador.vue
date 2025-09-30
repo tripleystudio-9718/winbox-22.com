@@ -104,9 +104,12 @@
           <p>{{ $t('brandAmbassador.legend.paragraph3') }}</p>
           <p>
             {{ $t('brandAmbassador.legend.paragraph4.text') }}
-            <span class="homepage-link" @click="goToLogin">
+            <a 
+            :href="seoLinks.login()" 
+            class="homepage-link"
+            @click.prevent="goToLogin">
               {{ $t('brandAmbassador.legend.paragraph4.linkText') }}
-            </span>
+          </a>
             {{ $t('brandAmbassador.legend.paragraph4.textAfter') }}
           </p>
         </div>
@@ -129,9 +132,12 @@
             <p>{{ $t('brandAmbassador.events.paragraph1') }}</p>
             <p>
               {{ $t('brandAmbassador.events.paragraph2.text') }}
-              <span class="homepage-link" @click="goToHomepage">
+              <a 
+                :href="seoLinks.home()" 
+                class="homepage-link"
+                @click.prevent="goToHomepage">
                 {{ $t('brandAmbassador.events.paragraph2.linkText') }}
-              </span>
+            </a>
               {{ $t('brandAmbassador.events.paragraph2.textAfter') }}
             </p>
           </div>
@@ -191,6 +197,7 @@ import legendBackgroundImage from "@/assets/legend-bg.png"
 import { computed } from 'vue'
 
 const { goToHomepage, goToLogin, goToRegister, goToPromo } = useNavigation()
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

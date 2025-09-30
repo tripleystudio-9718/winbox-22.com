@@ -17,12 +17,18 @@
         <p v-html="$t('michaelOng.experience.paragraph1')"></p>
         <p>
           {{ $t('michaelOng.experience.paragraph2Before') }}
-          <span class="homepage-link" @click="goToBlog">{{ $t('michaelOng.experience.blogLink') }}</span>
+          <a 
+          :href="seoLinks.blog()" 
+          class="homepage-link"
+          @click.prevent="goToBlog">{{ $t('michaelOng.experience.blogLink') }}</a>
           <span v-html="$t('michaelOng.experience.paragraph2After')"></span>
         </p>
         <p>
           {{ $t('michaelOng.experience.paragraph3Before') }}
-          <span class="homepage-link" @click="goToAmandaLim">{{ $t('michaelOng.experience.amandaLimLink') }}</span>
+          <a 
+          :href="seoLinks.amandaLim()" 
+          class="homepage-link"
+          @click.prevent="goToAmandaLim">{{ $t('michaelOng.experience.amandaLimLink') }}</a>
           {{ $t('michaelOng.experience.paragraph3After') }}
         </p>
       </div>
@@ -31,7 +37,10 @@
         <h2>{{ $t('michaelOng.leadershipPhilosophy.title') }}</h2>
         <p>
           {{ $t('michaelOng.leadershipPhilosophy.descriptionBefore') }}
-          <span class="homepage-link" @click="goToResponsibleGaming">{{ $t('michaelOng.leadershipPhilosophy.responsibleGamingLink') }}</span>
+          <a 
+          :href="seoLinks.responsibleGaming()" 
+          class="homepage-link"
+          @click.prevent="goToResponsibleGaming">{{ $t('michaelOng.leadershipPhilosophy.responsibleGamingLink') }}</a>
           {{ $t('michaelOng.leadershipPhilosophy.descriptionAfter') }}
         </p>
       </div>
@@ -68,7 +77,10 @@
         <p v-html="$t('michaelOng.futureVision.paragraph1')"></p>
         <p>
           {{ $t('michaelOng.futureVision.paragraph2Before') }}
-          <span class="homepage-link" @click="goToAbout">{{ $t('michaelOng.futureVision.aboutUsLink') }}</span>
+          <a 
+          :href="seoLinks.about()" 
+          class="homepage-link"
+          @click.prevent="goToAbout">{{ $t('michaelOng.futureVision.aboutUsLink') }}</a>
           {{ $t('michaelOng.futureVision.paragraph2After') }}
         </p>
       </div>

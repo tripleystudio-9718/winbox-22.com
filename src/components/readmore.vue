@@ -55,7 +55,16 @@
       <div class="read-more__expanded-section">
         <h1>{{ $t('content.mainTitle') }}</h1>
         <p>{{ $t('content.intro') }}</p>
-        <p><span class="homepage-link" @click="goToHomepage">{{ $t('links.winboxMalaysia') }}</span> {{ $t('content.introContinued') }}</p>
+        <p>
+          <a 
+            :href="seoLinks.home()" 
+            class="homepage-link"
+            @click.prevent="goToHomepage"
+          >
+            {{ $t('links.winboxMalaysia') }}
+          </a> 
+          {{ $t('content.introContinued') }}
+        </p>
         
         <h2>{{ $t('content.joinTitle') }}</h2>
         <p>{{ $t('content.joinDescription') }}</p>
@@ -63,7 +72,17 @@
         <p>{{ $t('content.joinThinking') }}</p>
         <p>{{ $t('content.joinSteps') }}</p>
         <ol>
-          <li>{{ $t('content.step1Before') }} <span class="homepage-link" @click="goToRegister">{{ $t('links.winboxRegister') }}</span> {{ $t('content.step1After') }}</li>
+          <li>{{ $t('content.step1Before') }} 
+            <a 
+              :href="seoLinks.register()" 
+              class="homepage-link"
+              @click.prevent="goToRegister"
+            >
+              {{ $t('links.winboxRegister') }}
+            </a> 
+            {{ $t('content.step1After') }}
+          </li>
+
           <li>{{ $t('content.step2') }}</li>
           <li>{{ $t('content.step3') }}</li>
           <li>{{ $t('content.step4') }}</li>
@@ -101,7 +120,17 @@
           <li>{{ $t('content.bonus3') }}</li>
           <li>{{ $t('content.bonus4') }}</li>
         </ul>
-        <p>{{ $t('content.bonusesConclusion') }} <span class="homepage-link" @click="goToPromo">{{ $t('links.winboxPromotion') }}</span> {{ $t('content.bonusesConclusionAfter') }}</p>
+        <p>
+          {{ $t('content.bonusesConclusion') }}
+          <a 
+            :href="seoLinks.promo()" 
+            class="homepage-link"
+            @click.prevent="goToPromo"
+          >
+            {{ $t('links.winboxPromotion') }}
+          </a>
+          {{ $t('content.bonusesConclusionAfter') }}
+        </p>
         
         <h2>{{ $t('content.paymentTitle') }}</h2>
         <p>{{ $t('content.paymentDescription') }}</p>
@@ -130,10 +159,30 @@
           <li>{{ $t('content.choice4') }}</li>
           <li>{{ $t('content.choice5') }}</li>
         </ul>
-        <p>{{ $t('content.choiceConclusion') }} <span class="homepage-link" @click="goToDownload">{{ $t('links.winboxDownload') }}</span> {{ $t('content.choiceConclusionAfter') }}</p>
+        <p>
+          {{ $t('content.choiceConclusion') }} 
+          <a 
+            :href="seoLinks.download()" 
+            class="homepage-link"
+            @click.prevent="goToDownload"
+          >
+            {{ $t('links.winboxDownload') }}
+          </a> 
+          {{ $t('content.choiceConclusionAfter') }}
+        </p>
 
         <h2>{{ $t('content.playWinTitle') }}</h2>
-        <p>{{ $t('content.playWinDescription') }} <span class="homepage-link" @click="goToLogin">{{ $t('links.winboxLogin') }}</span> {{ $t('content.playWinDescriptionAfter') }}</p>
+        <p>
+          {{ $t('content.playWinDescription') }} 
+          <a 
+            :href="seoLinks.login()" 
+            class="homepage-link"
+            @click.prevent="goToLogin"
+          >
+            {{ $t('links.winboxLogin') }}
+          </a> 
+          {{ $t('content.playWinDescriptionAfter') }}
+        </p>
 
         <h2>{{ $t('content.faqTitle') }}</h2>
         <div class="faq-section">
@@ -187,6 +236,8 @@ const {
   goToDownload,
   openExternalLink
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 // Social links
 const navigateToFacebook = () => openExternalLink('https://www.facebook.com/profile.php?id=61573394108771');

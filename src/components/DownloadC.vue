@@ -120,7 +120,10 @@
     <h2>{{ $t('download.safeInstallation.title') }}</h2>
     <p>
       {{ $t('download.safeInstallation.descriptionBefore') }}
-      <span class="homepage-link" @click="goToRegister">{{ $t('download.safeInstallation.registerLink') }}</span>
+      <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('download.safeInstallation.registerLink') }}</a>
       {{ $t('download.safeInstallation.descriptionAfter') }}
     </p>
   </div>
@@ -135,7 +138,10 @@
       <li>{{ $t('download.topGames.features.banking') }}</li>
       <li>
         {{ $t('download.topGames.features.bonusesBefore') }}
-        <span class="homepage-link" @click="goToPromo">{{ $t('download.topGames.promotionLink') }}</span>
+        <a 
+          :href="seoLinks.promo()" 
+          class="homepage-link"
+          @click.prevent="goToPromo">{{ $t('download.topGames.promotionLink') }}</a>
         {{ $t('download.topGames.features.bonusesAfter') }}
       </li>
     </ul>
@@ -146,7 +152,10 @@
     <h2>{{ $t('download.appBenefits.title') }}</h2>
     <p>
       {{ $t('download.appBenefits.introBefore') }}
-      <span class="homepage-link" @click="goToLogin">{{ $t('download.appBenefits.loginWebLink') }}</span>
+      <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('download.appBenefits.loginWebLink') }}</a>
       {{ $t('download.appBenefits.introAfter') }}
     </p>
     <ul>
@@ -162,7 +171,10 @@
     <h2>{{ $t('download.conclusion.title') }}</h2>
     <p>
       <span v-html="$t('download.conclusion.descriptionBefore')"></span>
-      <span class="homepage-link" @click="goToHomepage">{{ $t('download.conclusion.winboxLink') }}</span>
+      <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('download.conclusion.winboxLink') }}</a>
       {{ $t('download.conclusion.descriptionAfter') }}
     </p>
   </div>
@@ -171,7 +183,10 @@
     <h2>{{ $t('download.conclusion.title') }}</h2>
     <p>
       <span v-html="$t('download.conclusion.descriptionBefore')"></span>
-      <span class="homepage-link" @click="goToHomepage">{{ $t('download.conclusion.winboxMalaysiaLink') }}</span>
+      <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('download.conclusion.winboxMalaysiaLink') }}</a>
       {{ $t('download.conclusion.descriptionAfter') }}
     </p>
   </div>
@@ -186,6 +201,8 @@ import wbLogo from "@/assets/wb-logo.png";
 import iosLogo from "@/assets/apple-logo.svg";
 import androidLogo from "@/assets/android-logo.svg";
 import signUp from "@/assets/sign-up.svg";
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 // Navigation
 const { goToLogin, goToRegister, goToHomepage, goToPromo } = useNavigation();

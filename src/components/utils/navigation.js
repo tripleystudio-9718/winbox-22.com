@@ -2,6 +2,9 @@
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 
+// Site URL constant
+const SITE_URL = 'https://winbox22.com'
+
 export function useNavigation() {
   const router = useRouter()
   const { locale } = useI18n()
@@ -14,6 +17,11 @@ export function useNavigation() {
     }
     // For English, return original path
     return path
+  }
+
+  // Helper function to create full URL
+  const getFullUrl = (path) => {
+    return `${SITE_URL}${getLocalizedPath(path)}`
   }
 
   // Navigation functions with automatic language prefixing
@@ -162,7 +170,7 @@ export function useNavigation() {
     router.push(getLocalizedPath('/rcb988'))
   }
 
-    const goToSlots = () => {
+  const goToSlots = () => {
     router.push(getLocalizedPath('/slot'))
   }
 
@@ -180,7 +188,7 @@ export function useNavigation() {
     window.open(url, '_blank')
   }
 
-  // Router-link paths for template usage
+  // Router-link paths for template usage (relative paths)
   const routerLinks = {
     home: () => getLocalizedPath('/'),
     register: () => getLocalizedPath('/winbox-register'),
@@ -221,6 +229,49 @@ export function useNavigation() {
     sv388: () => getLocalizedPath('/sv388'),
     ekor: () => getLocalizedPath('/ekor'),
     rcb988: () => getLocalizedPath('/rcb988'),
+  }
+
+  // Full URL links for SEO (absolute URLs)
+  const seoLinks = {
+    home: () => getFullUrl('/'),
+    register: () => getFullUrl('/winbox-register'),
+    login: () => getFullUrl('/winbox-login-web'),
+    promo: () => getFullUrl('/winbox-promotion'),
+    download: () => getFullUrl('/download'),
+    chat: () => getFullUrl('/chat'),
+    about: () => getFullUrl('/about'),
+    bwfPartnership: () => getFullUrl('/bwf-winbox-partnership'),
+    brandAmbassador: () => getFullUrl('/brand-ambassador'),
+    responsibleGaming: () => getFullUrl('/responsible-gaming'),
+    amandaLim: () => getFullUrl('/amanda-lim'),
+    michealOng: () => getFullUrl('/micheal-ong'),
+    privacyPolicy: () => getFullUrl('/privacy-policy'),
+    termsAndCondition: () => getFullUrl('/terms-and-condition'),
+    contactUs: () => getFullUrl('/contact-us'),
+    blog: () => getFullUrl('/blog'),
+    post: () => getFullUrl('/post'),
+    // Slot games
+    acewin: () => getFullUrl('/acewin'),
+    lucky365: () => getFullUrl('/lucky365'),
+    jili: () => getFullUrl('/jili'),
+    spadegaming: () => getFullUrl('/spadegaming'),
+    playtech: () => getFullUrl('/playtech'),
+    pragmaticPlay: () => getFullUrl('/pragmatic-play'),
+    askmeslot: () => getFullUrl('/askmeslot'),
+    microslot: () => getFullUrl('/microslot'),
+    monkeyking: () => getFullUrl('/monkeyking'),
+    slot: () => getFullUrl('/slot'),
+    sportsBetting: () => getFullUrl('/sports-betting'),
+    maxbet: () => getFullUrl('/maxbet'),
+    cmd368: () => getFullUrl('/cmd368'),
+    wickets: () => getFullUrl('/9wickets'),
+    bti: () => getFullUrl('/bti'),
+    evolution: () => getFullUrl('/evolution'),
+    hotRoad: () => getFullUrl('/hotroad'),
+    ezugi: () => getFullUrl('/ezugi'),
+    sv388: () => getFullUrl('/sv388'),
+    ekor: () => getFullUrl('/ekor'),
+    rcb988: () => getFullUrl('/rcb988'),
   }
 
   return {
@@ -270,8 +321,15 @@ export function useNavigation() {
     navigateTo,
     openExternalLink,
     getLocalizedPath,
+    getFullUrl,
     
-    // Router-link paths for templates
-    routerLinks
+    // Router-link paths for templates (relative)
+    routerLinks,
+    
+    // SEO-friendly links with full URLs
+    seoLinks,
+    
+    // Site URL constant
+    SITE_URL
   }
 }

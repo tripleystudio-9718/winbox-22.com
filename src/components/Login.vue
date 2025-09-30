@@ -12,7 +12,10 @@
     <p>{{ $t('login.intro') }}</p>
     <p>
       {{ $t('login.officialPageBefore') }}
-      <span class="homepage-link" @click="goToLogin">{{ $t('login.winboxLoginWeb') }}</span>
+      <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('login.winboxLoginWeb') }}</a>
       {{ $t('login.officialPageAfter') }}
     </p>
   </div>
@@ -32,7 +35,10 @@
       <li>{{ $t('login.howToLogin.step1.browser') }}</li>
       <li>
         {{ $t('login.howToLogin.step1.typeBefore') }}
-        <span class="homepage-link" @click="goToLogin">{{ $t('login.howToLogin.step1.loginUrl') }}</span>
+        <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('login.howToLogin.step1.loginUrl') }}</a>
         {{ $t('login.howToLogin.step1.typeAfter') }}
       </li>
       <li>{{ $t('login.howToLogin.step1.security') }}</li>
@@ -74,7 +80,10 @@
     </ul>
     <p>
       {{ $t('login.howToLogin.thatsItBefore') }}
-      <span class="homepage-link" @click="goToDownload">{{ $t('login.howToLogin.downloadLink') }}</span>
+      <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('login.howToLogin.downloadLink') }}</a>
       {{ $t('login.howToLogin.thatsItAfter') }}
     </p>
   </div>
@@ -102,7 +111,10 @@
     </ul>
     <p>
       {{ $t('login.cantLogin.smoothBefore') }}
-      <span class="homepage-link" @click="goToRegister">{{ $t('login.cantLogin.registerLink') }}</span>
+      <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('login.cantLogin.registerLink') }}</a>
       {{ $t('login.cantLogin.smoothAfter') }}
     </p>
   </div>
@@ -116,7 +128,10 @@
       <li>{{ $t('login.whyChoose.sports') }}</li>
       <li>
         {{ $t('login.whyChoose.dailyBefore') }}
-        <span class="homepage-link" @click="goToPromo">{{ $t('login.whyChoose.promotionLink') }}</span>
+        <a 
+          :href="seoLinks.promo()" 
+          class="homepage-link"
+          @click.prevent="goToPromo">{{ $t('login.whyChoose.promotionLink') }}</a>
         {{ $t('login.whyChoose.dailyAfter') }}
       </li>
       <li>{{ $t('login.whyChoose.fast') }}</li>
@@ -128,7 +143,10 @@
     <h2>{{ $t('login.startWinning.title') }}</h2>
     <p>
       {{ $t('login.startWinning.withBefore') }}
-      <span class="homepage-link" @click="goToHomepage">{{ $t('login.startWinning.winboxMalaysia') }}</span>
+      <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('login.startWinning.winboxMalaysia') }}</a>
       {{ $t('login.startWinning.withAfter') }}
     </p>
   </div>
@@ -140,7 +158,7 @@
 import { onMounted, onBeforeUnmount, ref } from "vue";
 import { useNavigation } from '@/components/utils/navigation';
 
-const { goToLogin, goToPromo, goToHomepage, goToDownload, goToRegister } = useNavigation();
+const { seoLinks, goToLogin, goToPromo, goToHomepage, goToDownload, goToRegister } = useNavigation();
 
 const iframeWrapper = ref(null);
 

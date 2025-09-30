@@ -144,7 +144,7 @@
       <div class="content-block">
         <h2>{{ $t('microslot.readyToSpin.title') }}</h2>
         <p>{{ $t('microslot.readyToSpin.description') }}</p>
-        <p><span class="homepage-link" @click="goToDownload">{{ $t('microslot.readyToSpin.linkText') }}</span> {{ $t('microslot.readyToSpin.bonus') }}</p>
+        <p>{{ $t('microslot.readyToSpin.bonus1') }}<span class="homepage-link" @click="goToDownload">{{ $t('microslot.readyToSpin.linkText') }}</span> {{ $t('microslot.readyToSpin.bonus') }}</p>
         <p><em>{{ $t('microslot.readyToSpin.tagline') }}</em></p>
         <p><em>{{ $t('microslot.readyToSpin.slogan') }}</em></p>
       </div>

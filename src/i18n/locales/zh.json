@@ -2373,8 +2373,8 @@
         "howToInstall": {
           "title": "📥 如何安装：",
           "steps": {
-            "step1": "在您的 Android 手机上点击",
-            "step1Link": "下载 APK",
+            "step1": "在您的 Android 手机上点击 下载",
+            "step1Link": "Winbox APK",
             "step1Continued": "",
             "step2": "转到设置 > 安全 > 启用\"来源未知的安装\"",
             "step3": "打开下载的文件 → 点击\"安装\"",
@@ -2467,7 +2467,8 @@
       },
       "conclusion": {
         "title": "🚀 准备好玩了吗？立即开始 --- 100% 无风险试用可用",
-        "linkText": "👉 点击 Winbox 登录",
+        "description1": "👉 点击 ",
+        "linkText": "Winbox 登录",
         "description": "并领取您的 RM10 奖金"
       }
     },
@@ -2598,7 +2599,8 @@
       "readyToSpin": {
         "title": "准备好用真正的胜利旋转 MicroSlot 游戏了吗？",
         "description": "马来西亚加载最快的老虎机。零延迟。无需注册即可试玩。",
-        "linkText": "👉 立即下载 Winbox 应用",
+        "bonus1": "👉 立即下载 ",
+        "linkText": " Winbox 应用",
         "bonus": " -- 首次存款获得 RM10 免费奖金",
         "tagline": "（Android 和 iOS | 3 秒安装 | 马来语游戏）",
         "slogan": "明智游戏。本地游戏。Winbox22 游戏。"
@@ -2980,7 +2982,7 @@
         "title": "最后说明",
         "description": "CMD368 不仅仅是另一个游戏网站 --- 它是马来西亚最活跃的在线投注社区背后的基础设施。在 Winbox22.com，我们不销售访问权限。我们提供它 --- 干净、快速且可靠。",
         "ready": "准备开始？点击",
-        "loginText": "登录",
+        "loginText": "Winbox登入",
         "or": "或",
         "registerText": "Winbox 注册",
         "now": "您的 CMD368 账户现在。"
@@ -3121,7 +3123,8 @@
           "support": "✅ 24/7 支持",
           "malaysian": "✅ 为马来西亚玩家制作"
         },
-        "loginButton": "👉 Winbox 登录网页",
+        "loginButton": "👉 Winbox 登录",
+        "login-text": "网页",
         "tagline": "Winbox22.com --- 您在马来西亚值得信赖的 9 Wickets 门户。没有炒作。只有可靠的访问。"
       }
     },
@@ -3300,7 +3303,7 @@
         "description1": "Winbox22.com 上的 BTI Sport 不是关于华丽的广告或空洞的承诺。",
         "description2": "这是关于干净的赔率、实时动作和说您语言的支持。加入数千名选择安全、速度和智能投注的马来西亚玩家 --- 每一天。",
         "loginButton1": "👉 开始在 Winbox22.com 投注",
-        "loginButton": "登录 Winbox",
+        "loginButton": "Winbox 登入",
         "note": "无需注册即可浏览赔率。当您存入首笔 RM30 时领取您的 RM50 奖金。"
       }
     },
@@ -3593,7 +3596,7 @@
         "title": "准备好玩真正的百家乐 --- 马来西亚方式？",
         "description1": "停止猜测。停止等待。停止玩感觉虚假的游戏。",
         "description2": "Winbox22 上的 HotRoad 百家乐为您提供最接近真实赌场的体验 --- 无需离开家。",
-        "loginButton": "👉登录 Winbox",
+        "loginButton": "👉登入 Winbox",
         "playersCount": "立即--- 加入 15,000+马来西亚玩家",
         "tagline": "无应用。无延迟。只有真牌。真正的交易。真正的奖励。"
       }
@@ -3764,7 +3767,7 @@
       "description1": "停止滚动。停止等待。",
       "description2": "牌桌正在直播。荷官已准备就绪。",
       "description3": "您的下一次胜利只需一次点击。",
-      "loginButton": "登录Winbox",
+      "loginButton": "登入Winbox",
       "description4": "立即在Winbox22玩Ezugi真人赌场",
       "tagline": "无需注册。无隐藏费用。只有真实游戏，真正快速。"
     }
@@ -3925,7 +3928,7 @@
     },
     "conclusion": {
       "title": "准备好游玩了吗？",
-      "loginButton": "登录H5 Winbox",
+      "loginButton": "Login H5 Winbox",
       "description": "立即登录SV388 --- 免费注册",
       "disclaimer": "始终负责任地游玩。此平台适用于18岁以上用户。赌博可能会上瘾。"
     }

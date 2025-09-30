@@ -181,7 +181,7 @@
 
       <div class="content-block">
         <h2>{{ $t('lucky365.conclusion.title') }}</h2>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('lucky365.conclusion.linkText') }}</span> {{ $t('lucky365.conclusion.description') }}</p>
+        <p>{{ $t('lucky365.conclusion.description1') }}<span class="homepage-link" @click="goToLogin">{{ $t('lucky365.conclusion.linkText') }}</span> {{ $t('lucky365.conclusion.description') }}</p>
       </div>
     </div>
   </div>

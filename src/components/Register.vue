@@ -12,7 +12,12 @@
     <p>{{ $t('register.intro') }}</p>
     <p>
       {{ $t('register.descriptionBefore') }}
-      <span class="homepage-link" @click="goToHomepage">{{ $t('register.winboxMalaysia') }}</span>
+      <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage"
+          >{{ $t('register.winboxMalaysia') }}
+        </a>
       <span v-html="$t('register.descriptionAfter')"></span>
     </p>
     <p>{{ $t('register.guide') }}</p>
@@ -26,7 +31,11 @@
       <li>{{ $t('register.howTo.step1') }}</li>
       <li>
         {{ $t('register.howTo.step2Before') }}
-        <span class="homepage-link" @click="goToRegister">{{ $t('register.howTo.registerLink') }}</span>
+        <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('register.howTo.registerLink') }}
+        </a>
         {{ $t('register.howTo.step2After') }}
       </li>
       <li>{{ $t('register.howTo.step3') }}</li>
@@ -46,7 +55,11 @@
       <li>{{ $t('register.whyNumber1.features.withdrawals') }}</li>
       <li>
         {{ $t('register.whyNumber1.features.promotionsBefore') }}
-        <span class="homepage-link" @click="goToPromo">{{ $t('register.whyNumber1.promoLink') }}</span>
+        <a 
+          :href="seoLinks.promo()" 
+          class="homepage-link"
+          @click.prevent="goToPromo">{{ $t('register.whyNumber1.promoLink') }}
+        </a>
         {{ $t('register.whyNumber1.features.promotionsAfter') }}
       </li>
     </ul>
@@ -58,7 +71,11 @@
     <p v-html="$t('register.mobileFriendly.intro')"></p>
     <p>
       {{ $t('register.mobileFriendly.mobilePreferenceBefore') }}
-      <span class="homepage-link" @click="goToDownload">{{ $t('register.mobileFriendly.downloadLink') }}</span>
+        <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('register.mobileFriendly.downloadLink') }}
+        </a>
       {{ $t('register.mobileFriendly.mobilePreferenceAfter') }}
     </p>
     <p>{{ $t('register.mobileFriendly.anywhere') }}</p>
@@ -68,7 +85,11 @@
     <h2>{{ $t('register.dailyDeals.title') }}</h2>
     <p>
       {{ $t('register.dailyDeals.introBefore') }}
-      <span class="homepage-link" @click="goToRegister">{{ $t('register.dailyDeals.registerLink') }}</span>
+      <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('register.dailyDeals.registerLink') }}
+        </a>
       {{ $t('register.dailyDeals.introAfter') }}
     </p>
     <p>{{ $t('register.dailyDeals.includes') }}</p>
@@ -91,7 +112,10 @@
     <h2>{{ $t('register.bestCasino.title') }}</h2>
     <p>
       {{ $t('register.bestCasino.descriptionBefore') }}
-      <span class="homepage-link" @click="goToLogin">{{ $t('register.bestCasino.loginLink') }}</span>
+      <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('register.bestCasino.loginLink') }}</a>
       {{ $t('register.bestCasino.descriptionAfter') }}
     </p>
   </div>
@@ -134,6 +158,8 @@ const {
   goToDownload,
   goToLogin
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 // Dynamically resize iframe based on available viewport height
 const resizeIframe = () => {

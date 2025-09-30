@@ -7,7 +7,11 @@
       <br>
       <p>
         {{ $t('privacyPolicy.introBefore') }}
-        <span class="homepage-link" @click="goToHomepage">{{ $t('privacyPolicy.websiteLink') }}</span>
+        <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage"
+          >{{ $t('privacyPolicy.websiteLink') }}</a>
         {{ $t('privacyPolicy.introAfter') }}
       </p>
 
@@ -76,7 +80,10 @@
         <h2>{{ $t('privacyPolicy.sections.contact.title') }}</h2>
         <p>
           <span v-html="$t('privacyPolicy.sections.contact.descriptionBefore')"></span>
-          <span class="homepage-link" @click="goToChat">{{ $t('privacyPolicy.sections.contact.supportLink') }}</span>
+          <a 
+          :href="seoLinks.chat()" 
+          class="homepage-link"
+          @click.prevent="goToChat">{{ $t('privacyPolicy.sections.contact.supportLink') }}</a>
           {{ $t('privacyPolicy.sections.contact.descriptionAfter') }}
         </p>
       </div>
@@ -87,8 +94,9 @@
 <script setup>
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
 import { useNavigation } from '@/components/utils/navigation'
-
+ 
 const { goToHomepage, goToLogin, goToRegister, goToChat } = useNavigation()
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

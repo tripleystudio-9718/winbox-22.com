@@ -118,9 +118,12 @@
             <div class="feature-text">
             <h3>{{ $t('bwfPartnership.features.register.title') }}</h3>
             <p>
-              <span class="homepage-link" @click="goToRegister">
+              <a 
+              :href="seoLinks.register()" 
+              class="homepage-link"
+              @click.prevent="goToRegister">
                 {{ $t('bwfPartnership.features.register.linkText') }}
-              </span>
+            </a>
               {{ $t('bwfPartnership.features.register.content') }}
             </p>
             </div>
@@ -158,9 +161,12 @@
           <h2>{{ $t('bwfPartnership.cta.title') }}</h2>
           <p>
             {{ $t('bwfPartnership.cta.content').replace($t('bwfPartnership.cta.winboxMalaysiaText'), '') }}
-            <span class="homepage-link" @click="goToHomepage">
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link"
+              @click.prevent="goToHomepage">
               {{ $t('bwfPartnership.cta.winboxMalaysiaText') }}
-            </span>
+          </a>
             {{ $t('bwfPartnership.cta.content').split($t('bwfPartnership.cta.winboxMalaysiaText'))[1] }}
           </p>
           <button 

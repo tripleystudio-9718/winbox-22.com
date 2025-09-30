@@ -148,7 +148,7 @@
           <li>{{ $t('nineWickets.readyToPlay.features.malaysian') }}</li>
         </ul>
         
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('nineWickets.readyToPlay.loginButton') }}</span></p>
+        <p><span class="homepage-link" @click="goToLogin">{{ $t('nineWickets.readyToPlay.loginButton') }}</span>{{ $t('nineWickets.readyToPlay.login-text') }}</p>
         <p><em>{{ $t('nineWickets.readyToPlay.tagline') }}</em></p>
       </div>
     </div>

@@ -43,7 +43,10 @@
         <p v-html="$t('about.achievements.paragraph2')"></p>
         <p>
           <span v-html="$t('about.achievements.paragraph3Before')"></span>
-          <span class="homepage-link" @click="goToResponsibleGaming">{{ $t('about.achievements.responsibleGamingLink') }}</span>
+          <a 
+          :href="seoLinks.responsibleGaming()" 
+          class="homepage-link"
+          @click.prevent="goToResponsibleGaming">{{ $t('about.achievements.responsibleGamingLink') }}</a>
           {{ $t('about.achievements.paragraph3After') }}
         </p>
         <p>{{ $t('about.achievements.paragraph4') }}</p>
@@ -69,7 +72,10 @@
         <h3>{{ $t('about.leadership.amanda.title') }}</h3>
         <p>
           {{ $t('about.leadership.amanda.descriptionBefore') }}
-          <span class="homepage-link" @click="goToAmandaLim">{{ $t('about.leadership.amanda.amandaLimLink') }}</span>
+          <a 
+          :href="seoLinks.amandaLim()" 
+          class="homepage-link"
+          @click.prevent="goToAmandaLim">{{ $t('about.leadership.amanda.amandaLimLink') }}</a>
           {{ $t('about.leadership.amanda.descriptionAfter') }}
         </p>
         <p v-html="$t('about.leadership.amanda.experience')"></p>
@@ -83,7 +89,10 @@
         <p>{{ $t('about.leadership.michael.description') }}</p>
         <p>
           <span v-html="$t('about.leadership.michael.teamRoleBefore')"></span>
-          <span class="homepage-link" @click="goToBlog">{{ $t('about.leadership.michael.blogLink') }}</span>
+          <a 
+          :href="seoLinks.blog()" 
+          class="homepage-link"
+          @click.prevent="goToBlog">{{ $t('about.leadership.michael.blogLink') }}</a>
           <span v-html="$t('about.leadership.michael.teamRoleAfter')"></span>
         </p>
         <br>
@@ -98,7 +107,10 @@
         <p>{{ $t('about.gettingStarted.paragraph2') }}</p>
         <p>
           {{ $t('about.gettingStarted.paragraph3Before') }}
-          <span class="homepage-link" @click="goToLogin">{{ $t('about.gettingStarted.winboxLoginLink') }}</span>
+          <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('about.gettingStarted.winboxLoginLink') }}</a>
           {{ $t('about.gettingStarted.paragraph3After') }}
         </p>
       </div>
@@ -112,6 +124,7 @@ import { useNavigation } from '@/components/utils/navigation'
 import aboutUsBanner from "@/assets/about-banner.png";
 
 const { goToHomepage, goToLogin, goToRegister, goToAmandaLim, goToResponsibleGaming, goToBlog } = useNavigation()
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

@@ -123,7 +123,7 @@
     "links": {
       "winboxMalaysia": "Winbox Malaysia",
       "winboxRegister": "Winbox register",
-      "winboxPromotion": "Winbox promotion",
+      "winboxPromotion": " Winbox promotion ",
       "winboxDownload": "Winbox download APK",
       "winboxLogin": "Winbox login web"
     },
@@ -2259,7 +2259,8 @@
       },
       "conclusion": {
         "title": "🚀 Ready to Play? Start Now --- 100% Risk-Free Trial Available",
-        "linkText": "👉 Click Winbox Login",
+        "description1": "👉 Click ",
+        "linkText": "Winbox Login",
         "description": "& Claim Your RM10 Bonus"
       }
     },
@@ -2389,8 +2390,9 @@
       "readyToSpin": {
         "title": "Ready to Spin MicroSlot Games with Real Wins?",
         "description": "Malaysia's fastest-loading slots. Zero delay. No registration needed to try.",
-        "linkText": "👉 Download the Winbox App",
-        "bonus": "Now -- Get RM10 Free Bonus on First Deposit",
+        "bonus1": "👉 Download the ",
+        "linkText": "Winbox App",
+        "bonus": " Now -- Get RM10 Free Bonus on First Deposit",
         "tagline": "(Android & iOS | 3-Second Install | Play in Bahasa Melayu)",
         "slogan": "Play smart. Play local. Play Winbox22."
       }
@@ -2770,7 +2772,7 @@
         "title": "Final Note",
         "description": "CMD368 isn't just another gaming site --- it's the infrastructure behind Malaysia's most active online betting community. At Winbox22.com, we don't sell access. We deliver it --- cleanly, quickly, and reliably.",
         "ready": "Ready to start? Click",
-        "loginText": "log in",
+        "loginText": "Winbox H5",
         "or": "or",
         "registerText": "Winbox register",
         "now": "your CMD368 account now."
@@ -2912,6 +2914,7 @@
           "malaysian": "✅ Made for Malaysian Players"
         },
         "loginButton": "👉 Winbox Login Web",
+        "login-text": "",
         "tagline": "Winbox22.com --- Your trusted gateway to 9 Wickets in Malaysia. No hype. Just reliable access."
       }
     },

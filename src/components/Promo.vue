@@ -17,7 +17,10 @@
       <p v-html="$t('promo.intro')"></p>
       <p>
         {{ $t('promo.descriptionBefore') }}
-        <span class="homepage-link" @click="goToHomepage">{{ $t('promo.winboxMalaysia') }}</span>
+        <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('promo.winboxMalaysia') }}</a>
         <span v-html="$t('promo.descriptionAfter')"></span>
       </p>
     </div>
@@ -33,7 +36,10 @@
       <h2>{{ $t('promo.bestPromotion.title') }}</h2>
       <p>
         {{ $t('promo.bestPromotion.introBefore') }}
-        <span class="homepage-link" @click="goToPromo">{{ $t('promo.bestPromotion.winboxPromotion') }}</span>
+        <a 
+          :href="seoLinks.promo()" 
+          class="homepage-link"
+          @click.prevent="goToPromo">{{ $t('promo.bestPromotion.winboxPromotion') }}</a>
         {{ $t('promo.bestPromotion.introAfter') }}
       </p>
       <p>{{ $t('promo.bestPromotion.whatYouFind') }}</p>
@@ -56,7 +62,10 @@
       <p>{{ $t('promo.whyNumber1.smartPlayers') }}</p>
       <p>
         {{ $t('promo.whyNumber1.designedClearBefore') }}
-        <span class="homepage-link" @click="goToDownload">{{ $t('promo.whyNumber1.downloadLink') }}</span>
+        <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('promo.whyNumber1.downloadLink') }}</a>
         {{ $t('promo.whyNumber1.designedClearAfter') }}
       </p>
     </div>
@@ -67,7 +76,10 @@
       <ol>
         <li>
           {{ $t('promo.howToClaim.step1Before') }}
-          <span class="homepage-link" @click="goToRegister">{{ $t('promo.howToClaim.registerLink') }}</span>
+          <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('promo.howToClaim.registerLink') }}</a>
           {{ $t('promo.howToClaim.step1After') }}
         </li>
         <li>{{ $t('promo.howToClaim.step2') }}</li>
@@ -83,7 +95,10 @@
       <p v-html="$t('promo.readyToClaim.noWait')"></p>
       <p>
         {{ $t('promo.readyToClaim.goAheadBefore') }}
-        <span class="homepage-link" @click="goToLogin">{{ $t('promo.readyToClaim.loginLink') }}</span>
+        <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('promo.readyToClaim.loginLink') }}</a>
         {{ $t('promo.readyToClaim.goAheadAfter') }}
       </p>
     </div>
@@ -98,6 +113,8 @@
   import promo_5 from '@/components/promo/promo-5.vue';
   import promo_6 from '@/components/promo/promo-6.vue';
   import { useNavigation } from '@/components/utils/navigation';
+
+  const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
   const {
     goToHomepage,

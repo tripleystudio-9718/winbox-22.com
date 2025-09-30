@@ -47,7 +47,10 @@
         <h3 style="color: #5A5A5A;">{{ $t('responsibleGaming.measures.howToApply.title') }}</h3>
         <p>
           {{ $t('responsibleGaming.measures.howToApply.descriptionBefore') }}
-          <span class="homepage-link" @click="goToChat">{{ $t('responsibleGaming.measures.howToApply.customerSupportLink') }}</span>
+          <a 
+          :href="seoLinks.chat()" 
+          class="homepage-link"
+          @click.prevent="goToChat">{{ $t('responsibleGaming.measures.howToApply.customerSupportLink') }}</a>
           {{ $t('responsibleGaming.measures.howToApply.descriptionAfter') }}
         </p>
       </div>
@@ -56,7 +59,13 @@
         <h2>{{ $t('responsibleGaming.supportEducation.title') }}</h2>
         <p>{{ $t('responsibleGaming.supportEducation.intro') }}</p>
         <p>
-          {{ $t('responsibleGaming.supportEducation.acknowledgeBefore') }}<span class="homepage-link" @click="goToTermsAndCondition">{{ $t('responsibleGaming.supportEducation.termsLink') }}</span>{{ $t('responsibleGaming.supportEducation.acknowledgeMiddle') }}<span class="homepage-link" @click="goToPrivacyPolicy">{{ $t('responsibleGaming.supportEducation.privacyLink') }}</span>{{ $t('responsibleGaming.supportEducation.acknowledgeAfter') }}
+          {{ $t('responsibleGaming.supportEducation.acknowledgeBefore') }}<a 
+          :href="seoLinks.termsAndCondition()" 
+          class="homepage-link"
+          @click.prevent="goToTermsAndCondition">{{ $t('responsibleGaming.supportEducation.termsLink') }}</a>{{ $t('responsibleGaming.supportEducation.acknowledgeMiddle') }}<a 
+          :href="seoLinks.privacyPolicy()" 
+          class="homepage-link"
+          @click.prevent="goToPrivacyPolicy">{{ $t('responsibleGaming.supportEducation.privacyLink') }}</a>{{ $t('responsibleGaming.supportEducation.acknowledgeAfter') }}
         </p>
       </div>
     </div>
@@ -69,6 +78,7 @@ import { useNavigation } from '@/components/utils/navigation'
 import responsibleGamblingBanner from "@/assets/responsible-gambling-banner.png";
 
 const { goToChat, goToPrivacyPolicy, goToTermsAndCondition } = useNavigation()
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

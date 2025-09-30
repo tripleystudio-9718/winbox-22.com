@@ -29,7 +29,10 @@
         </ul>
         <p>
           {{ $t('amandaLim.leadership.collaborationBefore') }}
-          <span class="homepage-link" @click="goToMichealOng">{{ $t('amandaLim.leadership.michaelOngLink') }}</span>
+          <a 
+          :href="seoLinks.michealOng()" 
+          class="homepage-link"
+          @click.prevent="goToMichealOng">{{ $t('amandaLim.leadership.michaelOngLink') }}</a>
           {{ $t('amandaLim.leadership.collaborationAfter') }}
         </p>
       </div>
@@ -48,7 +51,10 @@
         <h2>{{ $t('amandaLim.futureVisions.title') }}</h2>
         <p>
           {{ $t('amandaLim.futureVisions.descriptionBefore') }}
-          <span class="homepage-link" @click="goToHomepage">{{ $t('amandaLim.futureVisions.winboxLink') }}</span>
+          <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('amandaLim.futureVisions.winboxLink') }}</a>
           <span v-html="$t('amandaLim.futureVisions.descriptionAfter')"></span>
         </p>
       </div>
@@ -64,6 +70,8 @@
 <script setup>
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
 import { useNavigation } from '@/components/utils/navigation'
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const { goToHomepage, goToLogin, goToRegister, goToMichealOng } = useNavigation()
 </script>
