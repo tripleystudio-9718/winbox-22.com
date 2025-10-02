@@ -4,7 +4,11 @@
     <div class="content-section">
       <h1>{{ $t('hotroad.title') }}</h1>
       
-      <p>{{ $t('hotroad.intro.description1') }} <span class="homepage-link" @click="goToHotroad">{{ $t('hotroad.intro.linkText') }}</span> {{ $t('hotroad.intro.description2') }}</p>
+      <p>{{ $t('hotroad.intro.description1') }} <a 
+          :href="seoLinks.hotRoad()" 
+          class="homepage-link"
+          @click.prevent="goToHotRoad"
+          >{{ $t('hotroad.intro.linkText') }}</a> {{ $t('hotroad.intro.description2') }}</p>
       <p>{{ $t('hotroad.intro.description3') }}</p>
 
       <div class="content-block">
@@ -72,7 +76,10 @@
         <h2>{{ $t('hotroad.howToStart.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>{{ $t('hotroad.howToStart.steps.step1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('hotroad.howToStart.steps.step1Link') }}</span></li>
+          <li>{{ $t('hotroad.howToStart.steps.step1') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('hotroad.howToStart.steps.step1Link') }}</a></li>
           <li>{{ $t('hotroad.howToStart.steps.step2') }}</li>
           <li>{{ $t('hotroad.howToStart.steps.step3') }}</li>
           <li>{{ $t('hotroad.howToStart.steps.step4') }}</li>
@@ -131,7 +138,10 @@
         <h2>{{ $t('hotroad.conclusion.title') }}</h2>
         <p>{{ $t('hotroad.conclusion.description1') }}</p>
         <p>{{ $t('hotroad.conclusion.description2') }}</p>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('hotroad.conclusion.loginButton') }}</span> {{ $t('hotroad.conclusion.playersCount') }}</p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('hotroad.conclusion.loginButton') }}</a> {{ $t('hotroad.conclusion.playersCount') }}</p>
         <p><em>{{ $t('hotroad.conclusion.tagline') }}</em></p>
       </div>
     </div>
@@ -143,11 +153,13 @@
 import { useNavigation } from '@/components/utils/navigation';
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
 
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToHotroad,
+  goToHotRoad,
 } = useNavigation();
 </script>
 

@@ -16,7 +16,11 @@
         
         <p>{{ $t('askMeSlot.subtitle') }}</p>
         
-        <p><span class="homepage-link" @click="goToHomepage">{{ $t('askMeSlot.linkText') }}</span> {{ $t('askMeSlot.description') }}</p>
+        <p><a 
+          :href="seoLinks.askmeslot()" 
+          class="homepage-link"
+          @click.prevent="goToAskmeSlot"
+          >{{ $t('askMeSlot.linkText') }}</a> {{ $t('askMeSlot.description') }}</p>
         
         <p>{{ $t('askMeSlot.callToAction') }}</p>
 
@@ -88,7 +92,12 @@
         <div class="content-block">
           <h2>{{ $t('askMeSlot.howToStart.title') }}</h2>
           <ol>
-            <li>{{ $t('askMeSlot.howToStart.steps.step1.before') }}<span class="homepage-link" @click="goToHomepage">{{ $t('askMeSlot.howToStart.steps.step1.link') }}</span>{{ $t('askMeSlot.howToStart.steps.step1.after') }}</li>
+            <li>{{ $t('askMeSlot.howToStart.steps.step1.before') }}
+              <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage"
+          >{{ $t('askMeSlot.howToStart.steps.step1.link') }}</a>{{ $t('askMeSlot.howToStart.steps.step1.after') }}</li>
             <li>{{ $t('askMeSlot.howToStart.steps.step2') }}</li>
             <li>{{ $t('askMeSlot.howToStart.steps.step3') }}</li>
             <li>{{ $t('askMeSlot.howToStart.steps.step4') }}</li>
@@ -129,7 +138,11 @@
         <div class="content-block">
           <h2>{{ $t('askMeSlot.cta.title') }}</h2>
           <p>{{ $t('askMeSlot.cta.description') }}</p>
-          <p><span class="homepage-link" @click="goToLogin">{{ $t('askMeSlot.cta.loginButton') }}</span> {{ $t('askMeSlot.cta.now') }}</p>
+          <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin"
+          >{{ $t('askMeSlot.cta.loginButton') }}</a> {{ $t('askMeSlot.cta.now') }}</p>
           <p>{{ $t('askMeSlot.cta.disclaimer') }}</p>
         </div>
 
@@ -181,6 +194,8 @@ import { useNavigation } from '@/components/utils/navigation';
 import button_frame from '@/assets/main-button.png';
 
 const { goToRegister, goToHomepage, goToLogin } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const handleImageError = (event) => {
   event.target.src = button_frame;

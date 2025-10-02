@@ -11,12 +11,21 @@
     <p>{{ $t('contactUs.section.contactMethodsIntro') }}</p>
     <ul class="dots">
         <li>{{ $t('contactUs.section.contactMethods.0.label') }}: {{ $t('contactUs.section.contactMethods.0.value') }}</li>
-        <li><span class="homepage-link" @click="goToChat">{{ $t('contactUs.section.contactMethods.1.label') }}</span> {{ $t('contactUs.section.contactMethods.1.value') }}</li>
+        <li><a 
+          :href="seoLinks.chat()" 
+          class="homepage-link"
+          @click.prevent="goToChat">{{ $t('contactUs.section.contactMethods.1.label') }}</a> {{ $t('contactUs.section.contactMethods.1.value') }}</li>
     </ul>
 
-    <p>{{ $t('contactUs.section.website.label') }}: <span class="homepage-link" @click="goToHomepage">{{ $t('contactUs.section.website.url') }}</span></p>
+    <p>{{ $t('contactUs.section.website.label') }}: <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('contactUs.section.website.url') }}</a></p>
 
-    <p>{{ $t('contactUs.section.aboutUsText') }} <span class="homepage-link" @click="goToAbout">{{ $t('contactUs.section.aboutUsLink.label') }}</span> page.</p>
+    <p>{{ $t('contactUs.section.aboutUsText') }} <a 
+          :href="seoLinks.about()" 
+          class="homepage-link"
+          @click.prevent="goToAbout">{{ $t('contactUs.section.aboutUsLink.label') }}</a> page.</p>
 </div>
   </div>
   </ThreeColumnContent>
@@ -28,6 +37,8 @@ import { useNavigation } from '@/components/utils/navigation'
 import contactUsBanner from "@/assets/contact-us-banner.png";
 
 const { goToHomepage, goToLogin, goToRegister, goToChat, goToAbout } = useNavigation()
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

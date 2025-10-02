@@ -105,7 +105,11 @@
       <div class="content-block">
         <h2>{{ $t('pragmaticPlay.whyMatters.title') }}</h2>
         <p>{{ $t('pragmaticPlay.whyMatters.intro') }}</p>
-        <p>{{ $t('pragmaticPlay.whyMatters.description1') }} <span class="homepage-link" @click="goToPragmaticPlay">{{ $t('pragmaticPlay.whyMatters.linkText') }}</span> {{ $t('pragmaticPlay.whyMatters.description2') }}</p>
+        <p>{{ $t('pragmaticPlay.whyMatters.description1') }} <a 
+          :href="seoLinks.pragmaticPlay()" 
+          class="homepage-link"
+          @click.prevent="goToPragmaticPlay"
+          >{{ $t('pragmaticPlay.whyMatters.linkText') }}</a> {{ $t('pragmaticPlay.whyMatters.description2') }}</p>
         <p>{{ $t('pragmaticPlay.whyMatters.description3') }}</p>
         <p>{{ $t('pragmaticPlay.whyMatters.conclusion') }}</p>
       </div>
@@ -241,12 +245,19 @@
         <p>{{ $t('pragmaticPlay.faqs.questions.freeSpins.answer') }}</p>
 
         <h3>{{ $t('pragmaticPlay.faqs.questions.needDownload.question') }}</h3>
-        <p>{{ $t('pragmaticPlay.faqs.questions.needDownload.answer1') }} <span class="homepage-link" @click="goToDownload">{{ $t('pragmaticPlay.faqs.questions.needDownload.linkText') }}</span> {{ $t('pragmaticPlay.faqs.questions.needDownload.answer2') }}</p>
+        <p>{{ $t('pragmaticPlay.faqs.questions.needDownload.answer1') }} 
+          <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('pragmaticPlay.faqs.questions.needDownload.linkText') }}</a> {{ $t('pragmaticPlay.faqs.questions.needDownload.answer2') }}</p>
       </div>
 
       <div class="content-block">
         <h2>{{ $t('pragmaticPlay.readyToPlay.title') }}</h2>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('pragmaticPlay.readyToPlay.loginText') }}</span> {{ $t('pragmaticPlay.readyToPlay.description') }}</p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('pragmaticPlay.readyToPlay.loginText') }}</a> {{ $t('pragmaticPlay.readyToPlay.description') }}</p>
         <p>{{ $t('pragmaticPlay.readyToPlay.footer') }}</p>
       </div>
       
@@ -261,6 +272,7 @@ import { useNavigation } from '@/components/utils/navigation';
 
 // Use your existing navigation utilities
 const { goToRegister, goToHomepage, goToLogin, goToDownload, goToPragmaticPlay } = useNavigation();
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 // Mobile detection
 const windowWidth = ref(window.innerWidth);

@@ -56,7 +56,10 @@
         <h2>{{ $t('maxbet.howToStart.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>{{ $t('maxbet.howToStart.steps.step1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('maxbet.howToStart.steps.step1Link') }}</span></li>
+          <li>{{ $t('maxbet.howToStart.steps.step1') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('maxbet.howToStart.steps.step1Link') }}</a></li>
           <li>{{ $t('maxbet.howToStart.steps.step2') }}</li>
           <li>{{ $t('maxbet.howToStart.steps.step3') }}</li>
           <li>{{ $t('maxbet.howToStart.steps.step4') }}</li>
@@ -224,8 +227,14 @@
         <h2>{{ $t('maxbet.conclusion.title') }}</h2>
         <p>{{ $t('maxbet.conclusion.description1') }}</p>
         <p>{{ $t('maxbet.conclusion.description2') }}</p>
-        <p>{{ $t('maxbet.conclusion.description3') }} <span class="homepage-link" @click="goToHomepage">{{ $t('maxbet.conclusion.linkText') }}</span>{{ $t('maxbet.conclusion.description4') }}</p>
-        <p>{{ $t('maxbet.conclusion.offer') }} <span class="homepage-link" @click="goToRegister">{{ $t('maxbet.conclusion.registerText') }}</span> {{ $t('maxbet.conclusion.here') }}</p>
+        <p>{{ $t('maxbet.conclusion.description3') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('maxbet.conclusion.linkText') }}</a>{{ $t('maxbet.conclusion.description4') }}</p>
+        <p>{{ $t('maxbet.conclusion.offer') }} <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('maxbet.conclusion.registerText') }}</a> {{ $t('maxbet.conclusion.here') }}</p>
       </div>
     </div>
   </div>
@@ -236,6 +245,8 @@
 import { useNavigation } from '@/components/utils/navigation';
 import maxbetBanner from "@/assets/maxbet-banner.png";
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

@@ -4,7 +4,10 @@
     <div class="content-section">
         <h1>{{ $t('ekor.intro.title') }}</h1>
       <p>{{ $t('ekor.intro.description1') }}<br>{{ $t('ekor.intro.description2') }}</p>
-      <p>{{ $t('ekor.intro.description3') }}<br>{{ $t('ekor.intro.description4') }} <span class="homepage-link" @click="goToEkor">{{ $t('ekor.intro.linkText') }}</span> {{ $t('ekor.intro.description5') }}</p>
+      <p>{{ $t('ekor.intro.description3') }}<br>{{ $t('ekor.intro.description4') }} <a 
+          :href="seoLinks.ekor()" 
+          class="homepage-link"
+          @click.prevent="goToEkor">{{ $t('ekor.intro.linkText') }}</a> {{ $t('ekor.intro.description5') }}</p>
       <p v-html="`${$t('ekor.intro.description6')}<br>${$t('ekor.intro.description7')}`"></p>
 
       <div class="content-block">
@@ -190,7 +193,10 @@
 
       <div class="content-block">
         <h2>{{ $t('ekor.cta.title') }}</h2>
-        <p>{{ $t('ekor.cta.description1') }}<br>👉 <span class="homepage-link" @click="goToRegister">{{ $t('ekor.cta.registerButton') }}</span> {{ $t('ekor.cta.description2') }}</p>
+        <p>{{ $t('ekor.cta.description1') }}<br>👉 <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('ekor.cta.registerButton') }}</a> {{ $t('ekor.cta.description2') }}</p>
         <p><em>{{ $t('ekor.cta.tagline') }}</em></p>
       </div>
     </div>
@@ -208,6 +214,8 @@ const {
   goToLogin,
   goToEkor,
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

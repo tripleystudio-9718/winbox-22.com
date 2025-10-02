@@ -4,7 +4,12 @@
     <div class="content-section">
       <h1>{{ $t('ezugi.title') }}</h1>
       
-      <p>{{ $t('ezugi.intro.description1') }} <span class="homepage-link" @click="goToEzugi">{{ $t('ezugi.intro.linkText') }}</span> {{ $t('ezugi.intro.description2') }}</p>
+      <p>{{ $t('ezugi.intro.description1') }} 
+        <a 
+          :href="seoLinks.ezugi()" 
+          class="homepage-link"
+          @click.prevent="goToEzugi"
+          >{{ $t('ezugi.intro.linkText') }}</a> {{ $t('ezugi.intro.description2') }}</p>
       <p>{{ $t('ezugi.intro.description3') }}<br>{{ $t('ezugi.intro.description4') }}</p>
       <p>{{ $t('ezugi.intro.description5') }}</p>
       <p>{{ $t('ezugi.intro.description6') }}<br>{{ $t('ezugi.intro.description7') }}</p>
@@ -142,7 +147,11 @@
       <div class="content-block">
         <h2>{{ $t('ezugi.conclusion.title') }}</h2>
         <p>{{ $t('ezugi.conclusion.description1') }} {{ $t('ezugi.conclusion.description2') }}<br>{{ $t('ezugi.conclusion.description3') }}</p>
-        <p>👉 <span class="homepage-link" @click="goToLogin">{{ $t('ezugi.conclusion.loginButton') }}</span> {{ $t('ezugi.conclusion.description4') }}</p>
+        <p>👉 <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin"
+          >{{ $t('ezugi.conclusion.loginButton') }}</a> {{ $t('ezugi.conclusion.description4') }}</p>
         <p><em>{{ $t('ezugi.conclusion.tagline') }}</em></p>
       </div>
     </div>
@@ -153,6 +162,8 @@
 <script setup>
 import { useNavigation } from '@/components/utils/navigation';
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

@@ -17,7 +17,10 @@
         <license_payment />
         <h1>{{ $t('slotGames.title') }}</h1>
         
-        <p>{{ $t('slotGames.intro.description1') }} <span class="homepage-link" @click="goToSlots">{{ $t('slotGames.intro.linkText') }}</span> {{ $t('slotGames.intro.description2') }}</p>
+        <p>{{ $t('slotGames.intro.description1') }} <a 
+          :href="seoLinks.slot()" 
+          class="homepage-link"
+          @click.prevent="goToSlots">{{ $t('slotGames.intro.linkText') }}</a> {{ $t('slotGames.intro.description2') }}</p>
         
         <p v-html="$t('slotGames.intro.welcome')"></p>
 
@@ -69,7 +72,10 @@
           <p>{{ $t('slotGames.faqs.questions.fairness.answer') }}</p>
 
           <h3>{{ $t('slotGames.faqs.questions.mobile.question') }}</h3>
-          <p>{{ $t('slotGames.faqs.questions.mobile.answer1') }} <span class="homepage-link" @click="goToDownload">{{ $t('slotGames.faqs.questions.mobile.linkText') }}</span> {{ $t('slotGames.faqs.questions.mobile.answer2') }}</p>
+          <p>{{ $t('slotGames.faqs.questions.mobile.answer1') }} <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('slotGames.faqs.questions.mobile.linkText') }}</a> {{ $t('slotGames.faqs.questions.mobile.answer2') }}</p>
 
           <h3>{{ $t('slotGames.faqs.questions.safety.question') }}</h3>
           <p>{{ $t('slotGames.faqs.questions.safety.answer') }}</p>
@@ -78,7 +84,10 @@
         <div class="content-block">
           <h2>{{ $t('slotGames.conclusion.title') }}</h2>
           <p>{{ $t('slotGames.conclusion.description') }}</p>
-          <p><strong>{{ $t('slotGames.conclusion.cta1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('slotGames.conclusion.linkText') }}</span> {{ $t('slotGames.conclusion.cta2') }}</strong></p>
+          <p><strong>{{ $t('slotGames.conclusion.cta1') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('slotGames.conclusion.linkText') }}</a> {{ $t('slotGames.conclusion.cta2') }}</strong></p>
         </div>
       </div>
     </div>
@@ -106,6 +115,8 @@ import mega88 from "@/assets/mega88.png";
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

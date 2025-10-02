@@ -40,7 +40,10 @@
           <li>{{ $t('nineWickets.apkDownload.installation.step4') }}</li>
         </ol>
 
-        <p><span class="homepage-link" @click="goToDownload">{{ $t('nineWickets.apkDownload.downloadButton') }}</span></p>
+        <p><a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('nineWickets.apkDownload.downloadButton') }}</a></p>
         <p><em>{{ $t('nineWickets.apkDownload.testimonial') }}</em></p>
       </div>
 
@@ -49,7 +52,10 @@
         <p>{{ $t('nineWickets.currentLink.description1') }}</p>
         <p>{{ $t('nineWickets.currentLink.description2') }}</p>
         <p>{{ $t('nineWickets.currentLink.description3') }}</p>
-        <p>{{ $t('nineWickets.currentLink.bookmark') }} <span class="homepage-link" @click="goToNineWickets">{{ $t('nineWickets.currentLink.bookmarkLink') }}</span></p>
+        <p>{{ $t('nineWickets.currentLink.bookmark') }} <a 
+          :href="seoLinks.wickets()" 
+          class="homepage-link"
+          @click.prevent="goToNineWickets">{{ $t('nineWickets.currentLink.bookmarkLink') }}</a></p>
         <p>{{ $t('nineWickets.currentLink.warning') }}</p>
       </div>
 
@@ -148,7 +154,10 @@
           <li>{{ $t('nineWickets.readyToPlay.features.malaysian') }}</li>
         </ul>
         
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('nineWickets.readyToPlay.loginButton') }}</span>{{ $t('nineWickets.readyToPlay.login-text') }}</p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('nineWickets.readyToPlay.loginButton') }}</a>{{ $t('nineWickets.readyToPlay.login-text') }}</p>
         <p><em>{{ $t('nineWickets.readyToPlay.tagline') }}</em></p>
       </div>
     </div>
@@ -159,6 +168,8 @@
 <script setup>
 import { useNavigation } from '@/components/utils/navigation';
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

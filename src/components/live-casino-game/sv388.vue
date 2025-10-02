@@ -5,7 +5,10 @@
       <h1>{{ $t('sv388.title') }}</h1>
       
       <p>{{ $t('sv388.intro.description1') }}</p>
-      <p>{{ $t('sv388.intro.description2') }} <span class="homepage-link" @click="goToSV388">{{ $t('sv388.intro.linkText') }}</span> {{ $t('sv388.intro.description3') }}</p>
+      <p>{{ $t('sv388.intro.description2') }} <a 
+          :href="seoLinks.sv388()" 
+          class="homepage-link"
+          @click.prevent="goToSv388">{{ $t('sv388.intro.linkText') }}</a> {{ $t('sv388.intro.description3') }}</p>
 
       <div class="content-block">
         <h2>{{ $t('sv388.comparison.title') }}</h2>
@@ -105,7 +108,10 @@
         <h2>{{ $t('sv388.howToLogin.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>Open <span class="homepage-link" @click="goToHomepage">Winbox22.com</span> on your phone or browser.</li>
+          <li>Open <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">Winbox22.com</a> on your phone or browser.</li>
           <li>{{ $t('sv388.howToLogin.steps.step2') }}</li>
           <li>{{ $t('sv388.howToLogin.steps.step3') }}</li>
           <li>{{ $t('sv388.howToLogin.steps.step4') }}</li>
@@ -158,7 +164,10 @@
 
       <div class="content-block">
         <h2>{{ $t('sv388.conclusion.title') }}</h2>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('sv388.conclusion.loginButton') }}</span> {{ $t('sv388.conclusion.description') }}</p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('sv388.conclusion.loginButton') }}</a> {{ $t('sv388.conclusion.description') }}</p>
         <p><em>{{ $t('sv388.conclusion.disclaimer') }}</em></p>
       </div>
     </div>
@@ -170,11 +179,13 @@
 import { useNavigation } from '@/components/utils/navigation';
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
 
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToSV388,
+  goToSv388,
 } = useNavigation();
 </script>
 

@@ -4,7 +4,10 @@
     <div class="content-section">
       <h1>{{ $t('bti.title') }}</h1>
       
-      <p><span class="homepage-link" @click="goToBTI">{{ $t('bti.intro.linkText') }}</span> {{ $t('bti.intro.description1') }}</p>
+      <p><a 
+          :href="seoLinks.bti()" 
+          class="homepage-link"
+          @click.prevent="goToBti">{{ $t('bti.intro.linkText') }}</a> {{ $t('bti.intro.description1') }}</p>
       <p>{{ $t('bti.intro.description2') }}</p>
       <p>{{ $t('bti.intro.description3') }}</p>
 
@@ -153,10 +156,17 @@
         </ul>
 
         <h3>{{ $t('bti.app.android.title') }}</h3>
-        <p>{{ $t('bti.app.android.steps') }} <span class="homepage-link" @click="goToHomepage">Winbox22.com</span> {{ $t('bti.app.android.continued') }}</p>
+        <p>{{ $t('bti.app.android.steps') }} 
+          <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">Winbox22.com</a> {{ $t('bti.app.android.continued') }}</p>
 
         <h3>{{ $t('bti.app.ios.title') }}</h3>
-        <p>{{ $t('bti.app.ios.steps') }} <span class="homepage-link" @click="goToHomepage">Winbox22.com</span> {{ $t('bti.app.ios.continued') }}</p>
+        <p>{{ $t('bti.app.ios.steps') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">Winbox22.com</a> {{ $t('bti.app.ios.continued') }}</p>
         
         <p><em>{{ $t('bti.app.warning') }}</em></p>
       </div>
@@ -184,7 +194,10 @@
         <h2>{{ $t('bti.conclusion.title') }}</h2>
         <p>{{ $t('bti.conclusion.description1') }}</p>
         <p>{{ $t('bti.conclusion.description2') }}</p>
-        <p>{{ $t('bti.conclusion.loginButton1') }}<span class="homepage-link" @click="goToLogin">{{ $t('bti.conclusion.loginButton') }}</span></p>
+        <p>{{ $t('bti.conclusion.loginButton1') }}<a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('bti.conclusion.loginButton') }}</a></p>
         <p><em>{{ $t('bti.conclusion.note') }}</em></p>
       </div>
     </div>
@@ -200,8 +213,11 @@ const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToBTI,
+  goToBti,
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 </script>
 
 <style scoped>

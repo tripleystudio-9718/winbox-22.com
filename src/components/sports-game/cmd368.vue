@@ -4,7 +4,10 @@
     <div class="content-section">
       <h1>{{ $t('cmd368.title') }}</h1>
       
-      <p>{{ $t('cmd368.intro.description1') }} <span class="homepage-link" @click="goToCMD368">{{ $t('cmd368.intro.linkText') }}</span> {{ $t('cmd368.intro.description2') }}</p>
+      <p>{{ $t('cmd368.intro.description1') }} <a 
+          :href="seoLinks.cmd368()" 
+          class="homepage-link"
+          @click.prevent="goToCmd368">{{ $t('cmd368.intro.linkText') }}</a> {{ $t('cmd368.intro.description2') }}</p>
       <p>{{ $t('cmd368.intro.description3') }}</p>
 
       <div class="content-block">
@@ -145,7 +148,13 @@
       <div class="content-block">
         <h2>{{ $t('cmd368.conclusion.title') }}</h2>
         <p>{{ $t('cmd368.conclusion.description') }}</p>
-        <p>{{ $t('cmd368.conclusion.ready') }} <span class="homepage-link" @click="goToLogin">{{ $t('cmd368.conclusion.loginText') }}</span> {{ $t('cmd368.conclusion.or') }} <span class="homepage-link" @click="goToRegister">{{ $t('cmd368.conclusion.registerText') }}</span> {{ $t('cmd368.conclusion.now') }}</p>
+        <p>{{ $t('cmd368.conclusion.ready') }} <a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('cmd368.conclusion.loginText') }}</a> {{ $t('cmd368.conclusion.or') }} <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('cmd368.conclusion.registerText') }}</a> {{ $t('cmd368.conclusion.now') }}</p>
       </div>
     </div>
   </div>
@@ -160,8 +169,11 @@ const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToCMD368,
+  goToCmd368,
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 </script>
 
 <style scoped>

@@ -16,7 +16,11 @@
       <img :src="microslotBanner" alt="winbox microslot banner" class="banner-img">
       <h1>{{ $t('microslot.title') }}</h1>
       
-      <p>{{ $t('microslot.intro.description1') }} <span class="homepage-link" @click="goToMicroslot">{{ $t('microslot.intro.linkText') }}</span> {{ $t('microslot.intro.description2') }}</p>
+      <p>{{ $t('microslot.intro.description1') }} 
+        <a 
+          :href="seoLinks.microslot()" 
+          class="homepage-link"
+          @click.prevent="goToMicroslot">{{ $t('microslot.intro.linkText') }}</a> {{ $t('microslot.intro.description2') }}</p>
       <p>{{ $t('microslot.intro.description3') }}</p>
       <p>{{ $t('microslot.intro.description4') }}</p>
       <p>{{ $t('microslot.intro.description5') }}</p>
@@ -144,7 +148,10 @@
       <div class="content-block">
         <h2>{{ $t('microslot.readyToSpin.title') }}</h2>
         <p>{{ $t('microslot.readyToSpin.description') }}</p>
-        <p>{{ $t('microslot.readyToSpin.bonus1') }}<span class="homepage-link" @click="goToDownload">{{ $t('microslot.readyToSpin.linkText') }}</span> {{ $t('microslot.readyToSpin.bonus') }}</p>
+        <p>{{ $t('microslot.readyToSpin.bonus1') }}<a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('microslot.readyToSpin.linkText') }}</a> {{ $t('microslot.readyToSpin.bonus') }}</p>
         <p><em>{{ $t('microslot.readyToSpin.tagline') }}</em></p>
         <p><em>{{ $t('microslot.readyToSpin.slogan') }}</em></p>
       </div>
@@ -164,6 +171,8 @@ const {
   goToMicroslot,
   goToDownload 
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 // Function to handle image loading errors
 const handleImageError = (event) => {

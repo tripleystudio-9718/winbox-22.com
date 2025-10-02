@@ -4,7 +4,11 @@
     <div class="content-section">
       <h1>{{ $t('rcb988.title') }}</h1>
       
-      <p>{{ $t('rcb988.intro.description1') }} <span class="homepage-link" @click="goToRCB988">{{ $t('rcb988.intro.linkText') }}</span> {{ $t('rcb988.intro.description2') }}</p>
+      <p>{{ $t('rcb988.intro.description1') }} <a 
+          :href="seoLinks.rcb988()" 
+          class="homepage-link"
+          @click.prevent="goToRcb988"
+          >{{ $t('rcb988.intro.linkText') }}</a> {{ $t('rcb988.intro.description2') }}</p>
       <p>{{ $t('rcb988.intro.description3') }}</p>
 
       <div class="content-block">
@@ -141,7 +145,10 @@
       <div class="content-block">
         <h2>{{ $t('rcb988.cta.title') }}</h2>
         <p>{{ $t('rcb988.cta.description') }}</p>
-        <p><span class="homepage-link" @click="goToRegister">{{ $t('rcb988.cta.registerButton') }}</span></p>
+        <p><a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('rcb988.cta.registerButton') }}</a></p>
       </div>
     </div>
   </div>
@@ -152,11 +159,13 @@
 import { useNavigation } from '@/components/utils/navigation';
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
 
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToRCB988,
+  goToRcb988,
 } = useNavigation();
 </script>
 

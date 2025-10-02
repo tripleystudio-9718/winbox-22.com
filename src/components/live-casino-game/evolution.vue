@@ -5,12 +5,19 @@
       <h1>{{ $t('evolution.title') }}</h1>
       
       <h2>{{ $t('evolution.subtitle') }}</h2>
-      <p>{{ $t('evolution.intro.description1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('evolution.intro.linkText') }}</span>{{ $t('evolution.intro.description2') }}</p>
+      <p>{{ $t('evolution.intro.description1') }} 
+        <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('evolution.intro.linkText') }}</a>{{ $t('evolution.intro.description2') }}</p>
       <p>{{ $t('evolution.intro.description3') }}</p>
 
       <div class="content-block">
         <h2>{{ $t('evolution.whyEvolution.title') }}</h2>
-        <p><span class="homepage-link" @click="goToEvolution">{{ $t('evolution.whyEvolution.linkText') }}</span> {{ $t('evolution.whyEvolution.description1') }}</p>
+        <p><a 
+          :href="seoLinks.evolution()" 
+          class="homepage-link"
+          @click.prevent="goToEvolution">{{ $t('evolution.whyEvolution.linkText') }}</a> {{ $t('evolution.whyEvolution.description1') }}</p>
         <p>{{ $t('evolution.whyEvolution.description2') }}</p>
         
         <p>{{ $t('evolution.whyEvolution.problems.title') }}</p>
@@ -93,7 +100,11 @@
         <h2>{{ $t('evolution.howToStart.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>{{ $t('evolution.howToStart.steps.step1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('evolution.howToStart.steps.step1Link') }}</span></li>
+          <li>{{ $t('evolution.howToStart.steps.step1') }} 
+            <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage">{{ $t('evolution.howToStart.steps.step1Link') }}</a></li>
           <li>{{ $t('evolution.howToStart.steps.step2') }} <strong>{{ $t('evolution.howToStart.steps.step2Bold') }}</strong> {{ $t('evolution.howToStart.steps.step2Continued') }}</li>
           <li>{{ $t('evolution.howToStart.steps.step3') }} <strong>{{ $t('evolution.howToStart.steps.step3Bold') }}</strong></li>
           <li>{{ $t('evolution.howToStart.steps.step4') }}</li>
@@ -136,7 +147,10 @@
         <p>{{ $t('evolution.conclusion.description3') }}</p>
         <p>{{ $t('evolution.conclusion.description4') }}</p>
         <p>{{ $t('evolution.conclusion.description5') }}</p>
-        <p><span class="homepage-link" @click="goToRegister">{{ $t('evolution.conclusion.registerButton') }}</span> {{ $t('evolution.conclusion.playNow') }}</p>
+        <p><a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister">{{ $t('evolution.conclusion.registerButton') }}</a> {{ $t('evolution.conclusion.playNow') }}</p>
       </div>
     </div>
   </div>
@@ -153,6 +167,8 @@ const {
   goToLogin,
   goToEvolution,
 } = useNavigation();
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

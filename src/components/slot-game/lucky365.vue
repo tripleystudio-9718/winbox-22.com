@@ -62,7 +62,10 @@
         <h2>{{ $t('lucky365.howToLogin.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>{{ $t('lucky365.howToLogin.steps.step1') }} <span class="homepage-link" @click="goToLucky365">{{ $t('lucky365.howToLogin.steps.step1Link') }}</span> {{ $t('lucky365.howToLogin.steps.step1Continued') }}</li>
+          <li>{{ $t('lucky365.howToLogin.steps.step1') }} <a 
+          :href="seoLinks.lucky365()" 
+          class="homepage-link"
+          @click.prevent="goToLucky365">{{ $t('lucky365.howToLogin.steps.step1Link') }}</a> {{ $t('lucky365.howToLogin.steps.step1Continued') }}</li>
           <li>{{ $t('lucky365.howToLogin.steps.step2') }}</li>
           <li>{{ $t('lucky365.howToLogin.steps.step3') }}</li>
           <li>{{ $t('lucky365.howToLogin.steps.step4') }}</li>
@@ -98,7 +101,10 @@
 
         <h3>{{ $t('lucky365.downloadApk.howToInstall.title') }}</h3>
         <ol class="numbered-list">
-          <li>{{ $t('lucky365.downloadApk.howToInstall.steps.step1') }} <span class="homepage-link" @click="goToDownload">{{ $t('lucky365.downloadApk.howToInstall.steps.step1Link') }}</span> {{ $t('lucky365.downloadApk.howToInstall.steps.step1Continued') }}</li>
+          <li>{{ $t('lucky365.downloadApk.howToInstall.steps.step1') }} <a 
+          :href="seoLinks.download()" 
+          class="homepage-link"
+          @click.prevent="goToDownload">{{ $t('lucky365.downloadApk.howToInstall.steps.step1Link') }}</a> {{ $t('lucky365.downloadApk.howToInstall.steps.step1Continued') }}</li>
           <li>{{ $t('lucky365.downloadApk.howToInstall.steps.step2') }}</li>
           <li>{{ $t('lucky365.downloadApk.howToInstall.steps.step3') }}</li>
           <li>{{ $t('lucky365.downloadApk.howToInstall.steps.step4') }}</li>
@@ -164,7 +170,10 @@
         <p>{{ $t('lucky365.faqs.questions.testId.answer') }}</p>
 
         <h3>{{ $t('lucky365.faqs.questions.iphone.question') }}</h3>
-        <p>{{ $t('lucky365.faqs.questions.iphone.answer') }} <span class="homepage-link" @click="goToLucky365">{{ $t('lucky365.faqs.questions.iphone.link') }}</span>{{ $t('lucky365.faqs.questions.iphone.continued') }}</p>
+        <p>{{ $t('lucky365.faqs.questions.iphone.answer') }} <a 
+          :href="seoLinks.lucky365()" 
+          class="homepage-link"
+          @click.prevent="goToLucky365">{{ $t('lucky365.faqs.questions.iphone.link') }}</a>{{ $t('lucky365.faqs.questions.iphone.continued') }}</p>
 
         <h3>{{ $t('lucky365.faqs.questions.legal.question') }}</h3>
         <p>{{ $t('lucky365.faqs.questions.legal.answer') }}</p>
@@ -181,7 +190,10 @@
 
       <div class="content-block">
         <h2>{{ $t('lucky365.conclusion.title') }}</h2>
-        <p>{{ $t('lucky365.conclusion.description1') }}<span class="homepage-link" @click="goToLogin">{{ $t('lucky365.conclusion.linkText') }}</span> {{ $t('lucky365.conclusion.description') }}</p>
+        <p>{{ $t('lucky365.conclusion.description1') }}<a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('lucky365.conclusion.linkText') }}</a> {{ $t('lucky365.conclusion.description') }}</p>
       </div>
     </div>
   </div>
@@ -192,6 +204,8 @@
 import { useNavigation } from '@/components/utils/navigation';
 import lucky365Banner from "@/assets/lucky365-banner.png";
 import ThreeColumnContent from '@/components/ThreeColumnContent.vue'
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,
