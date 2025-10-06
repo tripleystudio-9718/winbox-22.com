@@ -11,6 +11,12 @@ import acewin from '@/components/slot-game/acewin.vue'
 import jili from '@/components/slot-game/jili.vue'
 import lucky365 from '@/components/slot-game/lucky365.vue'
 import maxbet from '@/components/sports-game/maxbet.vue'
+import asiaGaming from '@/components/live-casino-game/asiaGaming.vue'
+import sexy from '@/components/live-casino-game/sexy.vue'
+import bigGaming from '@/components/live-casino-game/bigGaming.vue'
+import dbGaming from '@/components/live-casino-game/dbGaming.vue'
+import prettyGaming from '@/components/live-casino-game/prettyGaming.vue'
+// import playtech from '@/components/live-casino-game/playtech.vue'
 import cmd368 from '@/components/sports-game/cmd368.vue'
 import wickets from '@/components/sports-game/9wickets.vue'
 import bti from '@/components/sports-game/bti.vue'
@@ -345,19 +351,19 @@ const baseRoutes = [
       canonical: `${DOMAIN}/spadegaming`
     }
   },
-  {
-    path: '/playtech',
-    name: 'Playtech',
-    component: playtech,
-    meta: {
-      title: 'Playtech Slots | World-Class Gaming Software',
-      description: 'Experience world-class Playtech slot games with exceptional quality.',
-      titleZh: 'Playtech老虎机 | 世界级游戏软件',
-      descriptionZh: '体验具有卓越品质的世界级Playtech老虎机游戏。',
-      image: DEFAULT_IMAGE,
-      canonical: `${DOMAIN}/playtech`
-    }
-  },
+  // {
+  //   path: '/playtech',
+  //   name: 'Playtech',
+  //   component: playtech,
+  //   meta: {
+  //     title: 'Playtech Slots | World-Class Gaming Software',
+  //     description: 'Experience world-class Playtech slot games with exceptional quality.',
+  //     titleZh: 'Playtech老虎机 | 世界级游戏软件',
+  //     descriptionZh: '体验具有卓越品质的世界级Playtech老虎机游戏。',
+  //     image: DEFAULT_IMAGE,
+  //     canonical: `${DOMAIN}/playtech`
+  //   }
+  // },
   {
     path: '/pragmatic-play',
     name: 'PragmaticPlay',
@@ -410,6 +416,84 @@ const baseRoutes = [
       descriptionZh: '通过Winbox22畅玩MaxBet足球、电竞与基诺即时投注。领取RM100欢迎奖金，支持MYR即时存款，24/7客服与公平赔率，手机免下载畅玩。',
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/maxbet`
+    }
+  },
+  {
+    path: '/sexy-live-casino',
+    name: 'Sexy',
+    component: sexy,
+    meta: {
+      title: 'AE Sexy Live Casino | Winbox22 – Play Baccarat & Roulette Live',
+      description: 'Play AE Sexy live casinos like Baccarat, Roulette & Sic Bo instantly on Winbox22. HD streams, 22-second rounds, MYR betting—no download needed for Malaysia.',
+      titleZh: 'AE性感真人娱乐场 | Winbox22 – 真人百家乐 & 轮盘游戏',
+      descriptionZh: '在Winbox22畅玩AE性感真人娱乐场，包括百家乐、轮盘与骰宝。高清直播，22秒一局，支持MYR下注，无需下载，畅享马来西亚体验。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/sexy-live-casino`
+    }
+  },
+  {
+    path: '/asia-gaming',
+    name: 'AsiaGaming',
+    component: asiaGaming,
+    meta: {
+      title: 'Asia Gaming Live Casino & AG Slot – Winbox22 Malaysia',
+      description: 'Play Asia Gaming live dealer tables & AG Slot instantly on Winbox22. MYR support, no app needed, free Test ID, and 24/7 Malay support for Malaysian players.',
+      titleZh: '亚洲真人娱乐场 & AG老虎机 – Winbox22 马来西亚',
+      descriptionZh: '在Winbox22畅玩亚洲真人娱乐场与AG老虎机。支持MYR，无需下载，提供免费测试ID和24小时马来语客服，为马来西亚玩家打造极致体验。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/asia-gaming`
+    }
+  },
+  {
+    path: '/big-gaming',
+    name: 'BigGaming',
+    component: bigGaming,
+    meta: {
+      title: 'Big Gaming Live Casino – Premium Table & Live Dealer on Winbox22',
+      description: 'Play Big Gaming Live Casino games like Baccarat, Roulette & Fishing Master on Winbox22—HD streaming, MYR betting, and secure gameplay for Malaysian players.',
+      titleZh: 'Big Gaming 真人娱乐场 – 高端桌台与真人荷官 | Winbox22',
+      descriptionZh: '在Winbox22畅玩Big Gaming真人娱乐场，包括百家乐、轮盘与捕鱼大师。高清直播、MYR下注、安全稳定，为马来西亚玩家打造顶级娱乐体验。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/big-gaming`
+    }
+  },
+  {
+    path: '/db-gaming',
+    name: 'DbGaming',
+    component: dbGaming,
+    meta: {
+      title: 'Play DB Gaming Live Casino on Winbox22 – Malaysia Trusted Platform',
+      description: 'Play DB Gaming Live Casino on Winbox22 – Malaysia’s fastest, secure & MYR-friendly platform. No app needed. Instant access, 24/7 support.',
+      titleZh: 'DB Gaming 真人娱乐场 – 马来西亚最值得信赖的平台 | Winbox22',
+      descriptionZh: '在Winbox22畅玩DB Gaming真人娱乐场——马来西亚速度最快、安全又支持MYR的平台。无需下载，立即畅玩，全天候客服支持。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/db-gaming`
+    }
+  },
+  {
+    path: '/playtech',
+    name: 'Playtech',
+    component: playtech,
+    meta: {
+      title: 'PLAYTECH Games at Winbox22 – Live Casino, Jackpot Slots & Premium Table Games',
+      description: 'Explore top-rated PLAYTECH slots, live dealer tables, and progressive jackpots—all available in MYR on Winbox22. Licensed, secure, and optimized for Malaysian.',
+      titleZh: 'PLAYTECH 游戏合集 | Winbox22 – 真人娱乐场、累积奖池老虎机与高端桌台',
+      descriptionZh: '在Winbox22体验PLAYTECH顶级游戏，包括老虎机、真人荷官桌台与累积大奖。支持MYR、安全持牌、专为马来西亚玩家优化。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/playtech`
+    }
+  },
+  {
+    path: '/pretty-gaming',
+    name: 'PrettyGaming',
+    component: prettyGaming,
+    meta: {
+      title: 'Pretty Gaming Live Casino with HD Dealers on Winbox22',
+      description: 'Play Pretty Gaming live casino on Winbox22—HD Baccarat, Roulette & Dragon Tiger with stylish dealers, MYR support, and fast mobile access for Malaysian players.',
+      titleZh: 'Pretty Gaming 真人娱乐场 | Winbox22 – 高清荷官百家乐、轮盘与龙虎斗',
+      descriptionZh: '在Winbox22畅玩Pretty Gaming真人娱乐场——提供高清百家乐、轮盘及龙虎斗，由专业美女荷官主持，支持MYR与手机极速访问，专为马来西亚玩家打造。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/pretty-gaming`
     }
   },
   {
@@ -688,6 +772,10 @@ const routes = [
   {
     path: '/contact/',
     redirect: '/contact-us'
+  },
+  {
+    path: '/post/why-winbox-is-the-top-online-casino-in-malaysia-in-2025',
+    redirect: '/blog/why-winbox-is-the-top-online-casino-in-malaysia-in-2025'
   },
   
   // Chinese redirects (from image requirements)

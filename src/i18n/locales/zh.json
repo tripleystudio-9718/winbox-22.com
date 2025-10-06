@@ -1,20 +1,28 @@
 {
   "navigation": {
-    "home": "主页",
-    "promo": "促销",
+    "home": "首页",
+    "promo": "优惠",
     "login": "登录",
     "register": "注册",
     "download": "下载",
-    "bwfPartnership": "BWF x Winbox 合作伙伴",
-    "brandAmbassador": "品牌代言人",
-    "responsibleGaming": "负责任博彩",
+    "bwfPartnership": "BWF x Winbox 合作伙伴关系",
+    "brandAmbassador": "品牌大使",
+    "responsibleGaming": "责任博彩",
     "amandaLim": "Amanda Lim",
     "michealOng": "Micheal Ong",
     "aboutUs": "关于我们",
     "privacyPolicy": "隐私政策",
-    "termsAndCondition": "条款和条件",
+    "termsAndCondition": "条款与条件",
     "contactUs": "联系我们",
-    "blog": "博客"
+    "blog": "博客",
+    "slots": "老虎机",
+    "liveCasino": "真人娱乐场",
+    "lottery": "彩票",
+    "sport": "体育",
+    "horsing": "赛马",
+    "brandInfo": "品牌与信息",
+    "ourAmbassadors": "我们的代言人",
+    "helpLegal": "帮助与法律"
   },
   "common": {
     "marqueeText": "快速支付 • 可信平台 • 24/7客户支持 – 安心游戏！",
@@ -4260,5 +4268,1004 @@
       "description": "从RM10开始。今天领取您的免费积分。看看您的奖金到达有多快。",
       "registerButton": "注册Winbox"
     }
+  },
+
+  "aeSexy": {
+  "title": "Winbox22上的AE性感真人娱乐场 – 畅玩实时百家乐、轮盘及更多游戏",
+  "intro": {
+    "description1": "体验",
+    "linkText": "AE Sexy",
+    "description2": "真人娱乐场的激情——现已登陆Winbox22。无需下载，无需等待。",
+    "description3": "仅需高清真人荷官，22秒极速局数，以及为马来西亚玩家量身打造的流畅互动体验。",
+    "description4": "无论你是新手还是追逐大奖的老手，AE Sexy都能带来专业荷官、多语言支持以及适合休闲与高额投注玩家的沉浸式游戏体验。"
+  },
+  "whyStandOut": {
+    "title": "为什么AE Sexy在Winbox22中脱颖而出",
+    "description1": "AE Sexy由AE集团（Awesome Entertainment Group）于2016年推出，前身为Sexy Gaming，如今已发展成为亚洲最知名的真人娱乐场品牌之一。",
+    "description2": "与普通供应商不同，AE Sexy将娱乐性与功能性完美结合：",
+    "features": {
+      "studios": "工作室级别的真人荷官直播",
+      "rounds": "22秒极速局数，不间断刺激",
+      "betting": "多样化投注 & 快速投注，灵活策略",
+      "analytics": "路单分析，实时追踪走势",
+      "mobile": "全面移动端优化——手机、平板、桌面设备皆可畅玩"
+    },
+    "conclusion": "所有功能都能直接通过浏览器在Winbox22上访问，无需安装应用程序。"
+  },
+  "featuredGames": {
+    "title": "AE Sexy精选真人娱乐场游戏",
+    "description": "AE Sexy提供精心挑选的经典桌面游戏——每款游戏都加入了特色功能，实现更快更智能的投注体验。",
+    "table": {
+      "headers": {
+        "game": "游戏",
+        "features": "主要特色",
+        "betRange": "最低 / 最高投注 (MYR)"
+      },
+      "rows": {
+        "baccarat": {
+          "name": "性感百家乐",
+          "features": "经典版 & 保险版，支持路单追踪",
+          "betRange": "RM10 – RM100,000"
+        },
+        "dragonTiger": {
+          "name": "性感龙虎",
+          "features": "单牌对决，极速结果",
+          "betRange": "RM10 – RM50,000"
+        },
+        "sicBo": {
+          "name": "性感骰宝",
+          "features": "三颗骰子，动态赔率",
+          "betRange": "RM10 – RM30,000"
+        },
+        "roulette": {
+          "name": "性感轮盘",
+          "features": "欧洲轮盘，真人发球",
+          "betRange": "RM10 – RM20,000"
+        },
+        "fishPrawnCrab": {
+          "name": "性感鱼虾蟹",
+          "features": "本地经典游戏，界面生动活泼",
+          "betRange": "RM10 – RM25,000"
+        }
+      }
+    },
+    "note": "每款游戏均包含自定义音效控制、筹码预设与实时历史记录，确保你每一局都尽在掌控。"
+  },
+  "seamlessAccess": {
+    "title": "为马来西亚玩家提供无缝体验",
+    "description": "Winbox22确保马来西亚玩家能够即时进入AE Sexy：",
+    "features": {
+      "registration": "快速注册：完成Winbox注册不到2分钟",
+      "login": "一键登录：使用Winbox22账号直接进入AE Sexy",
+      "betting": "MYR投注：1 MYR = 1 游戏点数——无需兑换货币",
+      "languages": "多语言界面：英语、中文、泰语、越南语、韩语、日语",
+      "demo": "试玩模式：使用虚拟筹码先行体验再进行真实投注"
+    },
+    "conclusion": "无需第三方应用，无地域限制。只需使用你喜欢的设备，直接安全畅玩。"
+  },
+  "highStakes": {
+    "title": "高额刺激，为真正玩家打造",
+    "description": "AE Sexy不仅仅追求视觉效果，更专注性能：",
+    "features": {
+      "ceiling": "高额投注上限：百家乐单局可下注高达RM100,000",
+      "threshold": "低门槛入场：最低仅RM10即可开始",
+      "results": "透明结果：所有开奖均为实时直播，无延迟",
+      "interaction": "荷官互动：屏幕上显示联系方式，便于个性化服务"
+    },
+    "conclusion": "这种兼顾可玩性与高强度的模式，使AE Sexy同时适合休闲玩家与策略高手。"
+  },
+  "howToStart": {
+    "title": "如何在Winbox22上开始玩AE Sexy",
+    "description": "只需三个简单步骤即可开始：",
+    "steps": {
+      "step1": {
+        "title": "注册或登录",
+        "description": "访问",
+        "extra": "，完成Winbox注册，或已有账户直接登录。"
+      },
+      "step2": {
+        "title": "进入真人娱乐场",
+        "description": "在大厅中选择“AE Sexy”分类即可。"
+      },
+      "step3": {
+        "title": "选择游戏并开始",
+        "description": "选择百家乐、轮盘或任何精选游戏——几秒钟即可下注。"
+      }
+    },
+    "conclusion": "无需下载，无需等待。点击即刻开启你的真人娱乐场体验。"
+  },
+  "trustedTechnology": {
+    "title": "值得信赖的技术与全球支持",
+    "description1": "AE集团在澳门、柬埔寨及菲律宾拥有实体娱乐中心，包括柬埔寨的Venus Entertainment City——一个集赌场、科技实验室与VIP会所为一体的综合度假村。",
+    "description2": "这些实体设施确保AE Sexy的线上平台严格符合以下标准：",
+    "features": {
+      "stability": "稳定直播（99.8%在线率）",
+      "gameplay": "公平游戏（认证随机数生成器与实时审计）",
+      "transactions": "安全交易（通过可信赖的本地支付渠道）"
+    },
+    "conclusion": "在Winbox22上玩AE Sexy，你背后有实体运营与信誉保障，而不仅仅是华丽的包装。"
+  },
+  "playResponsibly": {
+    "title": "理性游戏，自信获胜",
+    "description": "Winbox22致力于安全透明的博彩体验。所有AE Sexy游戏均：",
+    "features": {
+      "encrypted": "通过SSL加密",
+      "monitored": "受公平性监控",
+      "support": "由24/7全天候MYR客服支持"
+    },
+    "conclusion": "设定存款限额，使用试玩模式测试策略，并始终量力而行。"
+  },
+  "readyToPlay": {
+    "title": "准备好体验AE Sexy真人娱乐场了吗？",
+    "description": "加入成千上万的马来西亚玩家，在Winbox22畅享实时百家乐、轮盘与龙虎斗，搭配靓丽荷官与闪电般的局速。",
+    "loginButton": "Winbox H5 登录",
+    "cta": "立即开始你的AE Sexy之旅。"
+  },
+  "faqs": {
+    "title": "常见问题 (FAQ)",
+    "questions": {
+      "whatIs": {
+        "question": "什么是AE Sexy？",
+        "answer": "AE Sexy（前身为Sexy Gaming）是AE集团推出的真人娱乐场供应商，以高质量直播、迷人荷官及22秒极速局数而闻名。"
+      },
+      "mobile": {
+        "question": "AE Sexy可以在手机上玩吗？",
+        "answer": "可以。AE Sexy可直接在手机浏览器中运行——无需下载，全面兼容iOS与Android。"
+      },
+      "download": {
+        "question": "玩AE Sexy需要下载吗？",
+        "answer": "不需要。Winbox22采用HTML5（H5）技术——使用任意现代浏览器即可即时畅玩。"
+      },
+      "minBet": {
+        "question": "AE Sexy最低投注是多少？",
+        "answer": "所有游戏最低RM10。百家乐最高可下注RM100,000。"
+      },
+      "free": {
+        "question": "AE Sexy可以免费玩吗？",
+        "answer": "可以。提供试玩模式，可用虚拟筹码学习规则或测试策略。"
+      },
+      "licensed": {
+        "question": "Winbox22是否获得授权提供AE Sexy？",
+        "answer": "Winbox22与AE集团直接合作，提供符合区域博彩标准的AE Sexy真人娱乐场授权访问。"
+      }
+    }
   }
+},
+
+"asiaGaming": {
+  "title": "Asia Gaming 真人娱乐场与AG老虎机 – 即刻畅玩Winbox22",
+  "intro": {
+    "linkText": "Asia Gaming",
+    "description1": "为马来西亚玩家带来最沉浸式的真人荷官体验——无需下载应用。通过Winbox22即可实时畅玩百家乐、龙虎斗、牛牛以及独家AG老虎机。支持MYR货币、本地银行入款，并提供24小时马来语客服。"
+  },
+  "whyChoose": {
+    "title": "为什么马来西亚玩家选择在Winbox22玩Asia Gaming",
+    "description1": "Asia Gaming（AG）不仅仅是另一家赌场供应商——自2012年以来，它一直是真人荷官创新的先驱。与其他普通平台不同，AG以独家游戏模式、可验证的区块链公平系统及VIP私人包厢而闻名。",
+    "description2": "在Winbox22，您将享有：",
+    "features": {
+      "access": "✅ 即时进入——无需下载或VPN",
+      "myr": "✅ 完整支持MYR（马来西亚令吉）",
+      "deposits": "✅ 通过Maybank、CIMB、Public Bank等银行无缝入款",
+      "realtime": "✅ 高清工作室真人互动实时游戏",
+      "testId": "✅ 免费试玩账号，无需注册即可体验"
+    },
+    "conclusion": "与其他网站将AG内容埋藏在一般促销之下不同，Winbox22为您提供稳定、快速、直达的AG全套内容体验——兼容桌面与手机端。"
+  },
+  "whatIs": {
+    "title": "什么是Asia Gaming？",
+    "description1": "Asia Gaming是一家总部位于亚洲的持牌真人娱乐场软件开发商，已获得Gaming Laboratories International (GLI)认证及First Cagayan博彩牌照。专注于实时发牌游戏与互动荷官直播，致力于公平、透明与高效的娱乐体验。",
+    "description2": "AG也提供老虎机（AG Slot品牌），但其核心优势仍在真人牌桌游戏——尤其是百家乐系列、牛牛与区块链加密发牌系统。",
+    "quote": "AG的“Squeeze Baccarat（挤牌百家乐）”与“Revealing Card（揭牌）”玩法改变了马来西亚玩家的真人桌台体验——集悬念、操控与公平于一体。——iGaming Asia Report 2024"
+  },
+  "exclusiveGames": {
+    "title": "Winbox22独家AG真人游戏",
+    "games": {
+      "baccarat": {
+        "title": "🃏 百家乐（Cagayan、AGQ、EURO工作室）",
+        "description": "选择不同风格的工作室——Cagayan优雅经典、AGQ节奏明快、EURO适合高额玩家。所有桌台均提供实时玩家数据、路单图与多种边注玩法。“挤牌”功能让您重现实体赌场的刺激体验。"
+      },
+      "dragonTiger": {
+        "title": "🐉 龙虎斗",
+        "description": "AG大厅中节奏最快的游戏之一。两张牌，一次下注，无平局——纯粹的速度与刺激。"
+      },
+      "bullBull": {
+        "title": "🐂 牛牛（Niu Niu）",
+        "description": "东南亚玩家最爱的牌类游戏之一。将5张牌分成3+2，左手必须凑出10的倍数，右手决定胜负。规则简单但极具参与感。"
+      },
+      "threeFace": {
+        "title": "👑 三公（Golden Flower）",
+        "description": "龙凤双方各3张牌的扑克对决。附带Pair 8 Plus边注玩法，赢取额外奖金。"
+      },
+      "agStream": {
+        "title": "📡 AG直播间",
+        "description": "不只是游戏，更是社交体验。加入专业荷官主持的直播，实时聊天、打赏并下注。就像将真人秀与互动博彩结合在一起。"
+      },
+      "blockchain": {
+        "title": "🔗 区块链验证系统",
+        "description": "AG的亮点特色：每次洗牌后，牌值都会被加密并公开。揭牌后，玩家可通过AG官网验证结果，确保绝无操控。这种透明度在在线博彩中极为罕见。"
+      }
+    }
+  },
+  "agSlot": {
+    "title": "AG老虎机：次要但稳定的选择",
+    "description1": "虽然AG以真人桌台闻名，但其AG Slot系列同样包含100多款经典、视频与累积奖池老虎机。所有游戏均支持跨平台与移动设备，并可在同一个Winbox22大厅中直接访问。",
+    "description2": "不过要现实一点——AG老虎机并非主打。如果您追求高RTP或电影级画面，PG Soft或Pragmatic Play仍是首选。但若您希望在一个平台上同时玩真人与老虎机，AG是兼顾方便与品质的好选择。"
+  },
+  "noApp": {
+    "title": "无需App？没问题！",
+    "description1": "在Winbox22玩Asia Gaming无需下载任何应用。整个过程可在手机浏览器（Chrome、Safari或Edge）中流畅运行——不卡顿、不崩溃、无隐藏APK。",
+    "description2": "这对可能无法直接访问AG官网的马来西亚玩家尤其方便。Winbox22作为稳定的本地化通道，帮助您轻松进入游戏并确保完整体验。"
+  },
+  "testId": {
+    "title": "试玩账号：免费体验AG游戏",
+    "description": "首次接触AG？您可使用免费试玩账号，无风险体验真人桌台：",
+    "credentials": {
+      "userId": "用户ID：Test00000 至 Test99999（例如：Test12345）",
+      "password": "密码：test4321"
+    },
+    "tip": "💡 提示：若账号被占用，请尝试其他数字。系统同时支持10万组测试登录。",
+    "conclusion": "您可体验真实荷官互动、游戏流程与界面，无需注册或充值。"
+  },
+  "howToStart": {
+    "title": "如何开始在Winbox22上游戏",
+    "steps": {
+      "step1": "访问网站",
+      "step2": "点击“立即游戏”或使用已有账号登录",
+      "step3": "在游戏大厅选择“Asia Gaming”",
+      "step4": "选择真人赌场或AG老虎机",
+      "step5": "立即开始游戏——若您是新玩家，注册仅需2分钟"
+    },
+    "note": "注册只需手机号码（用于验证码）及密码，无需上传身份证即可开始游戏。"
+  },
+  "safeLicensed": {
+    "title": "安全、持牌与公正认证",
+    "description": "Asia Gaming持有以下资质：",
+    "licenses": {
+      "cagayan": "菲律宾First Cagayan博彩牌照",
+      "gli": "GLI游戏公平性认证",
+      "pagcor": "PAGCOR认可的区域合作合规认证"
+    },
+    "platform": "AG平台本身受监管，但您的安全也取决于游戏平台。Winbox22采用加密连接、资金隔离与认证银行渠道，确保您的MYR资金安全。",
+    "warning": "⚠️ 请务必通过Winbox22等可信平台访问AG游戏，避免非官方渠道的风险。"
+  },
+  "banking": {
+    "title": "马来西亚友好银行系统",
+    "description": "Winbox22支持即时MYR存取款服务，包括：",
+    "banks": {
+      "maybank": "Maybank（马银行）",
+      "cimb": "CIMB银行",
+      "publicBank": "Public Bank（大众银行）",
+      "rhb": "RHB银行",
+      "affin": "Affin Bank（安联银行）",
+      "hongLeong": "Hong Leong Bank（丰隆银行）"
+    },
+    "processing": "银行营业时间内，交易通常10分钟内完成。无需电子钱包，只需您的网上银行账户。"
+  },
+  "support": {
+    "title": "24小时多语言客服支持",
+    "description1": "无论是下注问题、充值疑问还是游戏规则说明，Winbox22客服团队全天候待命：",
+    "description2": "通过应用内实时聊天（Live Chat）联系",
+    "languages": "客服人员均能以马来语、英语及中文沟通——无机器人、无等待。"
+  },
+  "promotions": {
+    "title": "新玩家专属优惠活动",
+    "description": "Winbox22定期为AG玩家推出专属优惠：",
+    "offers": {
+      "welcome": "RM10注册免费彩金（合资格新账号无需存款）",
+      "deposit": "首存100%红利高达RM300",
+      "reload": "每日再存优惠：存RM20送RM20",
+      "referral": "好友推荐：每成功推荐1人奖励RM50"
+    },
+    "note": "活动每月更新，请登录后查看“优惠”页面。"
+  },
+  "faqs": {
+    "title": "常见问题（FAQ）",
+    "questions": {
+      "legal": {
+        "question": "Asia Gaming在马来西亚合法吗？",
+        "answer": "线上博彩在马来西亚属灰色地带，但Asia Gaming为国际持牌公司。通过安全可信的平台如Winbox22进行游戏，可降低风险并确保公平。"
+      },
+      "vpn": {
+        "question": "我需要VPN才能访问AG吗？",
+        "answer": "不需要。Winbox22已针对马来西亚优化，无需VPN或代理即可访问。"
+      },
+      "liveGames": {
+        "question": "AG的真人游戏真的是现场直播吗？",
+        "answer": "是的。所有桌台均由菲律宾及柬埔寨的AG工作室实时直播，真实荷官与实体纸牌。"
+      },
+      "mobile": {
+        "question": "我能在手机上玩AG老虎机吗？",
+        "answer": "当然可以。所有AG游戏——包括老虎机——完全响应式，安卓与iOS浏览器均可即时加载。"
+      },
+      "verify": {
+        "question": "我如何验证游戏结果？",
+        "answer": "可使用AG的区块链验证工具（游戏内提供）检查每轮发牌的加密哈希，确保结果真实。"
+      },
+      "testId": {
+        "question": "如果我的试玩账号无法使用怎么办？",
+        "answer": "该账号可能已被占用。请尝试其他编号00000–99999（例如：Test54321）。系统随时有数千个可用账号。"
+      }
+    }
+  },
+  "conclusion": {
+    "title": "总结：AG × Winbox22 = 马来西亚玩家首选",
+    "description": "Asia Gaming重新定义了东南亚的真人娱乐场体验——在Winbox22，您将享受最快、最稳定、最全面的AG访问体验。不论是刺激的挤牌百家乐、紧张的牛牛，还是免费试玩体验，一切都在MYR货币、手机端、并附带本地客服下顺畅运行。",
+    "cta1": "无浮夸，无套路——只有真实游戏、真实荷官与真实体验，这正是马来西亚玩家喜爱的方式。",
+    "cta2": "准备好开始了吗？",
+    "loginButton": "Winbox 登录",
+    "loginText": "立即体验",
+    "disclaimer": "Winbox22是授权的Asia Gaming内容合作平台。博彩具有风险，请理性娱乐。"
+  }
+},
+"bigGaming": {
+  "title": "Big Gaming 真人娱乐场 – 高端桌台与真人荷官游戏 | Winbox22",
+  "intro": {
+    "linkText": "Big Gaming",
+    "description1": "（又称BG Gaming 大优）是一家值得信赖的真人娱乐场供应商，为马来西亚玩家带来高画质、实时互动的游戏体验。",
+    "description2": "在Winbox22，您可直接进入Big Gaming全系列真人游戏——包括百家乐、轮盘、骰宝、龙虎斗及捕鱼大师。所有游戏均以高清画质直播，专业荷官主持，并完美兼容手机端。",
+    "description3": "无论您是新手玩家还是高额玩家，Big Gaming稳定、安全、沉浸式的平台都能让您在家中享受如同奢华赌场的临场体验。"
+  },
+  "whyStandOut": {
+    "title": "为什么Big Gaming在Winbox22脱颖而出",
+    "description1": "Big Gaming不仅仅是一家普通的赌场软件开发商。凭借菲律宾PAGCOR（博彩监管机构）牌照，并通过GamingSoft统一API集成，Big Gaming提供企业级稳定性与以玩家为核心的设计。在Winbox22，这意味着：",
+    "features": {
+      "streaming": "实时高清多角度直播",
+      "html5": "全面HTML5支持——无需下载，兼容所有手机与浏览器",
+      "latency": "低延迟体验，即使在标准4G网络下依旧流畅",
+      "rules": "真实赌场规则，投注限额贴合马来西亚玩家",
+      "access": "即时进入——无需第三方登录或跳转"
+    },
+    "conclusion": "与只提供老虎机的普通平台不同，Big Gaming专注于真人桌台游戏，再现实体赌场的刺激，是马来西亚资深玩家的首选品牌。"
+  },
+  "topGames": {
+    "title": "Winbox22热门Big Gaming真人游戏",
+    "description": "以下所有游戏均已上线Winbox22，提供真人荷官、实时聊天与多样投注选项：",
+    "games": {
+      "baccarat": {
+        "title": "1. 经典百家乐 & 特殊百家乐",
+        "description": "百家乐是马来西亚高额玩家最喜爱的真人游戏。Big Gaming提供标准规则的经典百家乐（3种摄像角度）与带有边注（如Perfect Pair、Dragon Bonus）的特殊版本。最低投注RM5，每局最高可达RM50,000。"
+      },
+      "roulette": {
+        "title": "2. 真人轮盘",
+        "description": "体验欧洲式轮盘的真实转动。可选择内围投注（单号、双号、直线）或外围投注（红/黑、单/双、1–18/19–36）。游戏全天开放，配有中英文荷官。"
+      },
+      "sicBo": {
+        "title": "3. 骰宝（大小）",
+        "description": "马来西亚玩家最爱的传统快节奏游戏。使用三颗骰子，提供超过12种下注方式——从简单的“大/小”到三连组合，最高赔率可达180:1。"
+      },
+      "dragonTiger": {
+        "title": "4. 龙虎斗",
+        "description": "真人娱乐场中节奏最快的纸牌游戏。龙与虎各发一张牌，点数高者获胜。每轮仅需20秒，适合短时娱乐或通勤休闲。"
+      },
+      "bullBull": {
+        "title": "5. 牛牛（Niu Niu）",
+        "description": "东南亚地区广受欢迎的社交纸牌游戏。玩家使用五张牌与庄家对战。Big Gaming的牛牛提供自动下注、路单图与额外倍数奖励，提升策略深度。"
+      },
+      "fishing": {
+        "title": "6. 捕鱼大师 & BG大渔场",
+        "description": "Big Gaming不仅有桌台游戏，还有互动式捕鱼街机，玩家可射击海洋生物赢取奖金。结合技术与运气，设有累积奖池与每日竞赛。"
+      }
+    }
+  },
+  "howToPlay": {
+    "title": "如何在Winbox22玩Big Gaming游戏",
+    "description": "开始游戏不到2分钟：",
+    "steps": {
+      "step1": "前往注册",
+      "step1Extra": "（支持马来西亚手机号注册）",
+      "step2": "登录后进入“真人娱乐场”专区",
+      "step3": "从供应商列表中选择“Big Gaming”",
+      "step4": "选择任意游戏即可立即开始，无需下载App"
+    },
+    "note": "所有游戏均针对Android与iOS优化，界面自适应手机屏幕。建议网速不低于5 Mbps以确保高清流畅体验。"
+  },
+  "security": {
+    "title": "安全、公平与牌照保障",
+    "description": "Big Gaming持有菲律宾PAGCOR合法牌照（许可证号依集成方而定），并确保：",
+    "features": {
+      "rng": "非真人游戏使用经认证的随机数发生器（RNG）系统",
+      "monitoring": "所有游戏由独立审计机构实时监控",
+      "encryption": "充值与提现均采用SSL/TLS加密技术",
+      "manipulation": "零操控风险——真人游戏均使用实体牌、轮盘与骰子"
+    },
+    "platform": "Winbox22进一步强化安全性，采用双重验证（2FA）及24小时反欺诈监控，让马来西亚玩家放心游戏。"
+  },
+  "exclusivePerks": {
+    "title": "Winbox22玩家专属福利",
+    "description": "在Winbox22玩Big Gaming游戏，可享以下平台专属优惠：",
+    "perks": {
+      "welcome": "欢迎礼金：首存红利高达RM888 + 赠送58次捕鱼射击机会",
+      "cashback": "每日返水：所有BG游戏净输返0.8%",
+      "vip": "VIP等级：提现更快、专属客服、提升投注上限",
+      "myr": "MYR支持：全程令吉结算，无需兑换外币"
+    },
+    "demo": "新玩家还可在部分游戏（如捕鱼大师）中试用试玩模式，无需真实投注。"
+  },
+  "comparison": {
+    "title": "Big Gaming与其他平台对比：为何马来西亚玩家选择BG",
+    "table": {
+      "headers": {
+        "feature": "项目",
+        "bigGaming": "Big Gaming",
+        "generic": "普通平台"
+      },
+      "rows": {
+        "quality": {
+          "feature": "真人荷官质量",
+          "bigGaming": "专业多语种荷官",
+          "generic": "外包主持，质量不稳定"
+        },
+        "variety": {
+          "feature": "游戏种类",
+          "bigGaming": "20+款真人与街机游戏",
+          "generic": "主要为老虎机或基础桌台"
+        },
+        "mobile": {
+          "feature": "移动端优化",
+          "bigGaming": "全面HTML5，无延迟",
+          "generic": "需安装App或插件"
+        },
+        "limits": {
+          "feature": "投注限额（MYR）",
+          "bigGaming": "RM5 – RM50,000",
+          "generic": "通常上限低于RM5,000"
+        },
+        "payout": {
+          "feature": "出款速度",
+          "bigGaming": "即时（真人游戏）",
+          "generic": "延迟（批量处理）"
+        }
+      }
+    },
+    "conclusion": "Big Gaming专为亚洲玩家优化——从游戏节奏到界面布局、从荷官互动到投注习惯，皆完美契合马来西亚市场。"
+  },
+  "playToday": {
+    "title": "立即在Winbox22畅玩Big Gaming真人娱乐场",
+    "description": "Big Gaming将澳门或云顶赌场的真实氛围带到您的屏幕前——更高赔率、更低门槛、24小时畅玩。作为马来西亚少数拥有完整BG大优系列的游戏平台，Winbox22确保您不错过每一次发牌、旋转与掷骰的精彩瞬间。",
+    "cta": "准备好开局了吗？",
+    "registerButton": "Winbox 注册"
+  },
+  "faqs": {
+    "title": "Big Gaming常见问题",
+    "questions": {
+      "whatIs": {
+        "question": "什么是Big Gaming？",
+        "answer": "Big Gaming（BG Gaming 大优）是一家持有PAGCOR牌照的真人娱乐场供应商，以高质量的桌台游戏、捕鱼街机及直播荷官闻名亚洲。"
+      },
+      "available": {
+        "question": "Big Gaming在马来西亚可玩吗？",
+        "answer": "可以。马来西亚玩家可通过持牌平台如Winbox22合法进入并畅玩所有Big Gaming游戏。"
+      },
+      "download": {
+        "question": "我需要下载App才能玩吗？",
+        "answer": "不需要。Big Gaming基于HTML5技术，可直接在手机浏览器中运行，无需安装APK或应用程序。"
+      },
+      "fair": {
+        "question": "Big Gaming的游戏公平吗？",
+        "answer": "是的。真人游戏均采用真实设备并实时直播，非真人类游戏则使用经认证的RNG系统。"
+      },
+      "minBet": {
+        "question": "Big Gaming桌台最低投注是多少？",
+        "answer": "百家乐、轮盘与骰宝最低仅RM5，适合新手与进阶玩家。"
+      },
+      "free": {
+        "question": "可以免费试玩Big Gaming游戏吗？",
+        "answer": "部分游戏（如捕鱼大师）提供试玩模式；真人桌台需真实投注。"
+      }
+    }
+  }
+},
+
+"dbGaming": {
+  "title": "在Winbox22畅玩DB Gaming真人娱乐场游戏 – 马来西亚最值得信赖的平台",
+  "intro": {
+    "description1": "体验真实赌场的即时刺激，就在",
+    "linkText": "DB Gaming 真人娱乐场",
+    "description2": "，现已登陆Winbox22——马来西亚最顶级、安全与流畅的线上娱乐平台。",
+    "description3": "无论您偏好优雅的百家乐、紧张的轮盘，还是策略性的二十一点，DB Gaming 真人娱乐场都为您带来专业荷官、高质量直播与即时游戏体验——一次登录即可畅玩所有内容。",
+    "description4": "无需下载，无需等待。纯粹的真实赌场氛围，以高清画质直送至您的设备。"
+  },
+  "whyChoose": {
+    "title": "为什么马来西亚玩家选择在Winbox22玩DB Gaming真人娱乐场",
+    "description1": "DB Gaming 真人娱乐场并非普通的游戏供应商——它隶属于东南亚领先的API娱乐平台——DB Gaming集团。",
+    "description2": "专为性能、公平与本地化体验打造，完美契合马来西亚玩家对速度、稳定性与真实性的高要求。在Winbox22，DB Gaming 真人娱乐场经过深度优化，全面支持：",
+    "features": {
+      "latency": "低延迟直播，即使在4G网络下依旧流畅",
+      "myr": "MYR（令吉）结算，极速充值与提现",
+      "support": "24小时马来语客服支持",
+      "mobile": "移动端优先设计——畅玩无阻，适配所有手机设备"
+    },
+    "conclusion": "不同于将“真人娱乐场”作为附加选项的平台，Winbox22将DB Gaming 真人娱乐场视为核心体验。"
+  },
+  "whatIs": {
+    "title": "什么是DB Gaming 真人娱乐场？",
+    "description1": "DB Gaming 真人娱乐场是DB Gaming旗下的旗舰真人荷官部门，专注提供高清实时的桌面游戏，由专业荷官在国际级演播室中主持。凭借企业级架构与国际认证的公平标准，它将澳门与马尼拉的赌场体验直接带到您的屏幕上。",
+    "description2": "平台支持多种游戏类型，包括：",
+    "games": {
+      "baccarat": "真人百家乐（标准、极速、免佣）",
+      "roulette": "真人轮盘（欧洲及亚洲布局）",
+      "blackjack": "真人二十一点（经典与多手版）",
+      "others": "骰宝、龙虎斗、番摊等",
+      "vip": "VIP专属桌台，提供更高投注上限"
+    },
+    "features": "所有游戏均提供实时统计、投注记录追踪与多角度摄像——让您不错过任何精彩时刻。"
+  },
+  "seamlessAccess": {
+    "title": "Winbox22无缝畅玩体验 – 无需App",
+    "description": "您无需单独下载DB Casino应用即可游玩。Winbox22基于网页端架构，全面优化桌面与移动端浏览器体验。只需：",
+    "steps": {
+      "step1": "访问官网",
+      "step2": "登录（或1分钟内快速注册）",
+      "step3": "进入“真人娱乐场” → 选择“DB Gaming 真人娱乐场”",
+      "step4": "立即开玩——无需APK，无需商店审批，无需等待"
+    },
+    "advantage": "这种浏览器原生方式可实现更快更新、更高安全性，并杜绝第三方应用篡改——对注重数字安全的马来西亚用户尤其重要。",
+    "quote": "我们选择将DB Gaming 真人娱乐场整合进Winbox22，是因为其稳定API、低断线率及专业荷官团队——这些比华丽的界面更受马来西亚玩家青睐。——Winbox22产品团队"
+  },
+  "gameHighlights": {
+    "title": "游戏亮点：DB Gaming 真人娱乐场的独特优势",
+    "features": {
+      "studio": {
+        "title": "✅ 专业级演播室制作",
+        "description": "DB Gaming 真人娱乐场在菲律宾与柬埔寨设有专属工作室，采用多摄像机高清拍摄、专业灯光与实时音频，重现实体赌场氛围。"
+      },
+      "betting": {
+        "title": "✅ 低门槛投注，高RTP回报",
+        "description": "最低投注仅RM5，平均回报率（RTP）高达97.5%以上，是业内最高水平之一。"
+      },
+      "interface": {
+        "title": "✅ 马来语友好界面",
+        "description": "完整支持Bahasa Malaysia，包括游戏规则、下注提示与帮助说明，消除语言障碍。"
+      },
+      "cashout": {
+        "title": "✅ 极速提现与交易处理",
+        "description": "Winbox22在运营时间内15分钟内处理提现，支持Touch 'n Go、银行转账及加密货币方式。"
+      }
+    }
+  },
+  "howToStart": {
+    "title": "如何开始在Winbox22玩DB Gaming",
+    "description": "进入DB Gaming 真人娱乐场不到一分钟：",
+    "steps": {
+      "register": {
+        "title": "步骤1：注册账号",
+        "description": "访问官网",
+        "extra": "并点击“注册”。输入手机号与密码即可完成注册。系统通过SMS验证码验证，无需身份证上传即可开始游戏。"
+      },
+      "deposit": {
+        "title": "步骤2：存款充值",
+        "description": "选择您的充值方式：",
+        "methods": {
+          "fpx": "网上银行（FPX）",
+          "tng": "Touch 'n Go电子钱包",
+          "usdt": "USDT（TRC20）"
+        },
+        "minimum": "最低存款：RM30"
+      },
+      "play": {
+        "title": "步骤3：开始游戏",
+        "description": "进入真人娱乐场专区，选择DB Gaming 真人娱乐场并挑选桌台。新用户可享注册优惠——首存100%红利高达RM288（视活动而定）。"
+      },
+      "withdraw": {
+        "title": "步骤4：提现奖金",
+        "description": "可随时在“钱包”页面申请提现。资金将在15至60分钟内到账，具体取决于方式与交易量。"
+      }
+    }
+  },
+  "security": {
+    "title": "安全与公平 – 值得信赖的保障",
+    "description": "Winbox22采用多层安全架构，确保用户安心游戏：",
+    "features": {
+      "ssl": "所有数据传输均使用256位SSL加密",
+      "twoFactor": "支持双重验证（2FA）登录保护",
+      "provably": "基于区块链的可验证公平算法（DB Hash）",
+      "audits": "第三方机构定期审计游戏随机算法与派彩系统"
+    },
+    "platform": "DB Gaming 真人娱乐场使用认证的随机数生成系统（RNG），并由独立机构持续监管。所有发牌与轮盘操作均实时进行，无任何预录制。"
+  },
+  "promotions": {
+    "title": "马来西亚玩家专属优惠",
+    "description": "Winbox22定期推出专属区域性活动，国际平台找不到的福利包括：",
+    "offers": {
+      "reload": "每日再存红利：每逢星期二与星期五，充值额外赠送20%",
+      "cashback": "真人娱乐场返水：每周最高1.2%净输返还",
+      "referral": "好友推荐：每成功推荐一位充值玩家可得RM50",
+      "festival": "节庆活动：开斋节、农历新年与屠妖节期间专属奖励"
+    },
+    "note": "所有红利活动条款清晰公开，无隐藏流水要求，领取前可完整查看。"
+  },
+  "performance": {
+    "title": "技术表现 – 针对马来西亚全面优化",
+    "description": "我们在以下条件下对DB Gaming 真人娱乐场进行了压力测试：",
+    "tested": {
+      "networks": "Maxis、Celcom 与 Digi 4G 网络",
+      "devices": "低配安卓设备（2GB内存以上）",
+      "wifi": "公共Wi-Fi环境（如Mamak档口、商场）"
+    },
+    "results": {
+      "title": "测试结果：",
+      "stability": "720p画质下流畅度达98%",
+      "confirmation": "投注确认时间低于1.2秒",
+      "downtime": "过去6个月零宕机记录"
+    },
+    "conclusion": "这份稳定性让Winbox22被评为马来西亚DB Gaming官方合作伙伴前三名（按用户量统计）。"
+  },
+  "readyToPlay": {
+    "title": "准备好畅玩DB Gaming真人娱乐场了吗？",
+    "description": "加入数千名信赖Winbox22的马来西亚玩家，一起体验由DB Gaming驱动的公平、流畅与刺激的真人游戏世界。",
+    "cta1": "立即注册，开启您的好运之旅！",
+    "registerButton": "",
+    "cta2": "👉 已有账号？",
+    "loginButton": "Winbox 登录",
+    "loginText": "这里",
+    "closing": "您的下一次大奖，也许就在一键之间。"
+  },
+  "comparison": {
+    "title": "为什么选择Winbox22而非其他DB Gaming平台？",
+    "table": {
+      "headers": {
+        "feature": "功能对比",
+        "winbox22": "Winbox22",
+        "competitorA": "竞争平台A",
+        "competitorB": "竞争平台B"
+      },
+      "rows": {
+        "myr": {
+          "feature": "MYR令吉支持",
+          "winbox22": "✅ 完整支持",
+          "competitorA": "❌ 仅支持USD",
+          "competitorB": "✅ 部分支持"
+        },
+        "payment": {
+          "feature": "本地支付方式",
+          "winbox22": "✅ 支持TNG、FPX与加密货币",
+          "competitorA": "❌ 仅银行转账",
+          "competitorB": "✅ 仅TNG"
+        },
+        "language": {
+          "feature": "马来语界面",
+          "winbox22": "✅ 全面支持",
+          "competitorA": "❌ 仅英文",
+          "competitorB": "✅ 部分支持"
+        },
+        "withdrawal": {
+          "feature": "提现速度",
+          "winbox22": "<15分钟",
+          "competitorA": "2–24小时",
+          "competitorB": "1–6小时"
+        },
+        "support": {
+          "feature": "24小时马来语客服",
+          "winbox22": "✅ 支持",
+          "competitorA": "❌ 无",
+          "competitorB": "✅ 时间有限"
+        },
+        "app": {
+          "feature": "是否需App",
+          "winbox22": "✅ 网页直玩",
+          "competitorA": "❌ 需APK安装",
+          "competitorB": "✅ 网页可用"
+        }
+      }
+    },
+    "note": "数据来源：2025年第一季度公开测试与用户反馈"
+  }
+},
+"playtech": {
+  "title": "在Winbox22畅玩PLAYTECH游戏 – 真人娱乐场、累积奖池老虎机与高端桌台",
+  "intro": {
+    "linkText": "PLAYTECH",
+    "description1": "为马来西亚玩家提供最值得信赖的线上赌场体验之一——在Winbox22，您可畅玩其完整系列的真人娱乐场游戏、品牌老虎机及累积大奖作品。",
+    "description2": "无论您是在《众神时代》（Age of the Gods）转动转轴，还是在里加直播厅的百家乐桌下注，每一款游戏都支持MYR货币、手机端极速加载，并遵循国际公平标准。",
+    "description3": "本页面将为您介绍PLAYTECH的特色、为何深受马来西亚玩家喜爱，以及Winbox22如何安全提供原版内容。"
+  },
+  "atGlance": {
+    "title": "PLAYTECH 概览 – 为什么马来西亚玩家信赖它",
+    "description": "PLAYTECH是全球最大的线上赌场软件提供商，持有英国UKGC与马耳他MGA牌照，拥有超过500款游戏及全球最大累积奖池网络。对马来西亚玩家而言，这意味着：",
+    "features": {
+      "myr": "即时MYR支持，与本地支付方式无缝兼容",
+      "mobile": "完全优化的移动体验，支持iOS与Android，无需App",
+      "fair": "经认证RNG与eCOGRA监督，结果公平公正",
+      "branded": "拥有DC、黑客帝国、《角斗士》等正版授权品牌老虎机"
+    },
+    "conclusion": "不同于无牌平台，PLAYTECH授权的Winbox22确保每一次旋转与发牌都可验证、公平可信——在信任至上的市场中，这尤为重要。"
+  },
+  "comparison": {
+    "title": "对比：PLAYTECH vs 其他供应商（快速参考）",
+    "table": {
+      "headers": {
+        "feature": "项目",
+        "playtech": "PLAYTECH",
+        "generic": "普通供应商"
+      },
+      "rows": {
+        "jackpots": {
+          "feature": "累积奖池",
+          "playtech": "50+ 联网游戏",
+          "generic": "稀有或独立奖池"
+        },
+        "branded": {
+          "feature": "品牌老虎机",
+          "playtech": "DC、华纳兄弟等授权",
+          "generic": "无或低质仿作"
+        },
+        "studios": {
+          "feature": "真人娱乐场工作室",
+          "playtech": "8,500平方米里加总部",
+          "generic": "外包或简易布景"
+        },
+        "mobile": {
+          "feature": "移动端表现",
+          "playtech": "流畅无延迟",
+          "generic": "常见卡顿或崩溃"
+        },
+        "compliance": {
+          "feature": "合规与监管",
+          "playtech": "UKGC、MGA双牌照",
+          "generic": "无认证或不明来源"
+        }
+      }
+    },
+    "note": "提示：Winbox22仅提供经认证的PLAYTECH正版内容，无第三方修改版或盗版克隆游戏。"
+  },
+  "topSlots": {
+    "title": "Winbox22热门PLAYTECH老虎机推荐",
+    "games": {
+      "ageOfGods": {
+        "title": "众神时代系列（Age of the Gods）",
+        "description": "以希腊神话为主题的系列，包含Mini、Minor、Major与Ultimate四大奖池——任意旋转皆可触发。热门作《风暴之神》（God of Storms，RTP 96.14%）拥有“狂风重转”功能，深受高波动玩家喜爱。"
+      },
+      "buffaloBlitz": {
+        "title": "Buffalo Blitz Megaways",
+        "description": "高达117,649条中奖线路与最多100次免费旋转，单局最高可赢取投注额的20,000倍。搭载Megaways引擎与钻石倍数机制，是高额玩家的热门选择。"
+      },
+      "branded": {
+        "title": "《黑客帝国》与《绿灯侠》",
+        "description": "基于DC与华纳正版授权，这两款老虎机融合电影级画面与“崩塌符号”“能量槽”机制。《绿灯侠》支持RM1.80至RM9,000投注，适合休闲与高额玩家。"
+      },
+      "newReleases": {
+        "title": "最新上线（2024–2025）",
+        "description": "Winbox22每月新增PLAYTECH新作，包括《绝命毒师：烈焰狂潮》（Mega Fire Blaze: Breaking Bad，RTP 95.87%）与《妖精的幸运：现金收集Megaways》。所有新作均经公平测试后上线。"
+      }
+    }
+  },
+  "liveCasino": {
+    "title": "PLAYTECH 真人娱乐场 – 真实荷官，实时体验",
+    "description": "由PLAYTECH位于拉脱维亚里加的顶级演播室主持，真人娱乐场提供：",
+    "features": {
+      "dealers": "百家乐、轮盘、二十一点、骰宝等多语言真人荷官",
+      "tables": "无限座二十一点与Prestige高端轮盘桌",
+      "streaming": "高清直播，延迟小于1秒，即便在马来西亚4G网络下仍流畅",
+      "limits": "MYR投注范围：RM5至RM5,000每局"
+    },
+    "conclusion": "马来西亚玩家一致认为PLAYTECH的百家乐体验最流畅——加载快、画面清晰，优于多数地区竞争对手。"
+  },
+  "progressiveJackpots": {
+    "title": "累积奖池 – 一次旋转，改变人生",
+    "description": "PLAYTECH运营着全球最大共享奖池网络。与马来西亚相关的亮点包括：",
+    "facts": {
+      "pool": "《众神时代》系列奖池常年累积超过RM10,000,000",
+      "wins": "历年巨奖包括：2012年《海滩人生》£6.2百万；2015年《巨人奖池》£4.5百万",
+      "trigger": "任何玩家，无论投注大小，都可随机触发大奖回合"
+    },
+    "transparency": "在Winbox22，所有累积老虎机均实时显示MYR金额，透明可见。"
+  },
+  "mobileExperience": {
+    "title": "移动端体验 – 专为马来西亚玩家打造",
+    "description": "超过85%的Winbox22 PLAYTECH玩家来自手机端。主要优化包括：",
+    "features": {
+      "noDownload": "无需下载 – 直接通过Chrome、Safari或Samsung Internet游玩",
+      "dataEfficient": "节省流量 – 真人娱乐场直播每小时低于50MB",
+      "touchFriendly": "触控友好界面 – 单手操作更轻松",
+      "autoPause": "自动暂停 – 来电或通知时自动暂停游戏"
+    },
+    "tested": "已在马来西亚常见设备如iPhone 13、Samsung A54、Vivo V29上全面测试。"
+  },
+  "safety": {
+    "title": "安全与公平 – 马来西亚玩家须知",
+    "description": "Winbox22平台上的PLAYTECH游戏具备：",
+    "features": {
+      "rng": "由认证随机数生成器（RNG）驱动",
+      "audited": "定期接受eCOGRA与GLI第三方审计",
+      "ims": "托管于256位SSL加密的IMS管理系统",
+      "tools": "符合责任博彩工具（限时、限额与自我排除）"
+    },
+    "conclusion": "不同于无监管的境外站点，Winbox22仅使用PLAYTECH官方授权的实时数据源——确保无篡改、无延迟派彩。"
+  },
+  "howToStart": {
+    "title": "如何在Winbox22开始畅玩PLAYTECH游戏",
+    "steps": {
+      "step1": "注册账号",
+      "step1Extra": "（仅需2分钟，支持马来西亚手机号）",
+      "step2": "通过FPX、Touch 'n Go或银行转账充值（最低RM30）",
+      "step3": "进入“PLAYTECH”分类 – 浏览所有老虎机与真人桌台",
+      "step4": "立即开玩 – 无需验证等待，快速进入游戏"
+    },
+    "bonus": "新注册用户可获得适用于PLAYTECH老虎机的欢迎红利（遵守一般条款）。"
+  },
+  "faqs": {
+    "title": "常见问题 – Winbox22上的PLAYTECH",
+    "questions": {
+      "whatIs": {
+        "question": "什么是PLAYTECH？",
+        "answer": "PLAYTECH成立于1999年，是伦敦证券交易所上市公司（FTSE 250），亦是全球最大的线上赌场软件提供商，持有英国与马耳他牌照。"
+      },
+      "fair": {
+        "question": "PLAYTECH的游戏对马来西亚玩家公平吗？",
+        "answer": "当然。所有游戏均使用独立测试的RNG系统，并由eCOGRA监督。Winbox22不会修改游戏逻辑或RTP。"
+      },
+      "myr": {
+        "question": "PLAYTECH真人娱乐场是否支持MYR？",
+        "answer": "完全支持。所有桌台均接受马来西亚令吉下注，投注限额本地化。"
+      },
+      "download": {
+        "question": "我需要下载App吗？",
+        "answer": "不需要。Winbox22的PLAYTECH游戏可直接通过手机浏览器运行，无需APK或iOS应用。"
+      },
+      "jackpots": {
+        "question": "累积奖池对所有玩家都有效吗？",
+        "answer": "是的。任何真实投注的老虎机旋转都有机会触发奖池，无论投注金额大小。"
+      },
+      "support": {
+        "question": "客服是否支持马来语？",
+        "answer": "支持。Winbox22提供24小时实时聊天与WhatsApp客服，支持马来语与英语。"
+      }
+    }
+  },
+  "finalNote": {
+    "title": "总结：为什么PLAYTECH爱好者选择Winbox22",
+    "description": "虽然许多网站声称提供PLAYTECH游戏，但只有持牌运营商如Winbox22能完整呈现原版体验——包括大奖资格与真人荷官画质。",
+    "conclusion": "若您追求稳定性、速度与真实体验，Winbox22提供最完整的PLAYTECH系列，无需妥协。",
+    "loginButton": "Winbox H5 登录",
+    "cta": "立即开始畅玩"
+  }
+},
+"prettyGaming": {
+  "title": "Pretty Gaming 真人娱乐场 | Winbox22 – 高清荷官百家乐、轮盘与更多游戏实时畅玩",
+  "subtitle": "体验真正属于马来西亚的真人娱乐场",
+  "intro": {
+    "linkText": "Pretty Gaming",
+    "description1": "在Winbox22上，Pretty Gaming将亚洲高端真人娱乐场的热度、优雅与真实感带到您的屏幕，无论您身在马来西亚何处。",
+    "description2": "Pretty Gaming最初创立于泰国，如今风靡整个东南亚。它将专业的真人荷官、清晰的高清直播画面与经典桌台游戏完美结合，专为追求风格与体验兼备的玩家而设计。",
+    "description3": "在Winbox22，您可无缝访问所有Pretty Gaming桌台——支持MYR货币、移动端优化操作与安全支付系统，一切都为马来西亚玩家量身打造。",
+    "description4": "无论您喜欢节奏紧凑的龙虎斗，还是讲究策略的百家乐，Pretty Gaming都能带来沉浸式的真实体验，让您在家也能享受如临赌场的刺激。"
+  },
+  "whyStandOut": {
+    "title": "Pretty Gaming 的独特优势",
+    "description1": "Pretty Gaming通过高水准的视觉设计与低延迟的稳定直播，将娱乐性与专业性完美融合。",
+    "description2": "不同于普通的真人娱乐场供应商，Pretty Gaming重视演示质量与细节呈现。",
+    "description2-1": "荷官不仅精通游戏规则，更擅长专业主持与互动。整个演播室环境整洁、明亮、光线均衡，让玩家清楚看到每一次发牌与轮盘旋转。",
+    "description3": "系统支持Full HD高清直播，即使在标准4G网络下也能流畅运行——这对喜欢随时随地游戏的马来西亚玩家至关重要。",
+    "description4": "界面设计直观，投注计时器与筹码面值清晰易辨，适合初学者与老手共同使用。其注重细节的体验，使Pretty Gaming成为马来西亚玩家最舒适顺畅的真人娱乐场选择。"
+  },
+  "gamesAvailable": {
+    "title": "Pretty Gaming 提供的游戏",
+    "subtitle": "经典桌台游戏，实时投注，多角度镜头与灵活投注限额。",
+    "description": "Pretty Gaming专注于马来西亚玩家最喜爱的经典桌台游戏，没有多余的杂项，只有高质量、真人主持的纯正游戏体验：",
+    "games": {
+      "baccarat": "真人百家乐：主打游戏，设有多张桌台与不同投注限额（RM10至RM5,000）。可选择标准或极速百家乐，节奏自由切换。",
+      "dragonTiger": "龙虎斗：节奏明快的两张牌游戏，下注龙、虎或平局，30秒内揭晓结果。",
+      "roulette": "轮盘：采用欧洲轮盘制式，实时转动，高清特写与即时派彩。",
+      "sicBo": "骰宝：传统掷骰游戏，真人互动，提供多种下注方式——从大小到三同号皆可下注。",
+      "andarBahar": "Andar Bahar：源自南亚的简易纸牌游戏，规则直观，节奏快速，适合轻松社交玩法。"
+    },
+    "cameraViews": "每款游戏均支持多角度切换，可自由观看荷官操作、桌面布局或全景视角——随心调整您的观感体验。",
+    "table": {
+      "headers": {
+        "game": "游戏名称",
+        "bestFor": "适合玩家类型",
+        "roundTime": "平均时长",
+        "limits": "投注范围（MYR）"
+      },
+      "rows": {
+        "baccarat": {
+          "game": "百家乐",
+          "bestFor": "讲究策略与传统玩法",
+          "roundTime": "45–60 秒",
+          "limits": "RM10 – RM5,000"
+        },
+        "dragonTiger": {
+          "game": "龙虎斗",
+          "bestFor": "追求快速结果",
+          "roundTime": "25–30 秒",
+          "limits": "RM5 – RM2,000"
+        },
+        "roulette": {
+          "game": "轮盘",
+          "bestFor": "经典刺激体验",
+          "roundTime": "50 秒",
+          "limits": "RM10 – RM3,000"
+        },
+        "sicBo": {
+          "game": "骰宝",
+          "bestFor": "高风险高回报",
+          "roundTime": "40 秒",
+          "limits": "RM10 – RM2,500"
+        },
+        "andarBahar": {
+          "game": "Andar Bahar",
+          "bestFor": "休闲社交玩家",
+          "roundTime": "30 秒",
+          "limits": "RM5 – RM1,500"
+        }
+      }
+    }
+  },
+  "seamlessAccess": {
+    "title": "Winbox22 一键直达",
+    "subtitle": "通过Winbox22的安全本地化平台，即刻畅玩Pretty Gaming。",
+    "description1": "上手只需几分钟：",
+    "description2": "访问",
+    "description2Extra": "，注册账号并通过桌面或手机端登录。系统为响应式设计——无需下载App；若您偏好更流畅的体验，也可使用Winbox22官方App（支持Android与iOS）。",
+    "description3": "登录后，前往“真人娱乐场”专区，选择Pretty Gaming，几秒即可入桌游戏。",
+    "description3-1": "从登录到下注的整个流程都极其简洁快速，以MYR为默认货币，并支持本地银行转账与电子钱包充值或提现。",
+    "description4": "即使在高峰时段，Winbox22与Pretty Gaming服务器依然保持稳定连接，让您无论在家使用Wi-Fi或在吉隆坡、槟城使用移动数据，都能畅玩无阻。"
+  },
+  "security": {
+    "title": "安全与公平性保障",
+    "subtitle": "您的账户与资金在Winbox22受到企业级安全防护。",
+    "description1": "Winbox22遵守严格的数据保护标准，所有交易均采用256位SSL加密，账户访问可启用双重验证（2FA）。",
+    "description2": "Pretty Gaming所有游戏均为100%真人直播，无任何随机数算法（RNG）参与。每一次发牌、掷骰与转轮皆实时进行，让玩家亲眼见证公平结果。",
+    "description3": "Winbox22同样倡导理性娱乐，您可在账户设置中使用存款限额、游戏时长提醒与自我排除等功能，确保娱乐与生活保持平衡。"
+  },
+  "promotions": {
+    "title": "马来西亚玩家专属优惠",
+    "subtitle": "Winbox22为Pretty Gaming玩家量身打造的专属活动与奖励。",
+    "description": "作为Winbox22的马来西亚玩家，您将享有专属的真人娱乐场优惠：",
+    "offers": {
+      "welcome": "欢迎奖金：新用户首次充值即可享有存款红利，适合同时体验多张Pretty Gaming桌台。",
+      "reload": "每周再存优惠：每周可获得额外点数，保持活跃资金。",
+      "cashback": "真人娱乐场返水：Pretty Gaming游戏净输返还5–10%（视活动条款而定）。",
+      "seasonal": "节庆活动：春节、开斋节或屠妖节期间推出特别锦标赛、免费投注与高倍赔率奖励。"
+    },
+    "note": "所有优惠活动均可自动领取或在“优惠中心”一键申请，无繁琐流水限制。"
+  },
+  "howToStart": {
+    "title": "如何在Winbox22开始玩Pretty Gaming",
+    "subtitle": "3分钟内即可进入游戏，步骤如下：",
+    "steps": {
+      "register": {
+        "title": "注册账号：",
+        "description": "访问官网",
+        "extra": "，使用手机号创建免费账户（符合马来西亚注册规范）。"
+      },
+      "verify": {
+        "title": "验证：",
+        "description": "通过SMS验证码确认手机号码，以保护账户安全。"
+      },
+      "deposit": {
+        "title": "充值：",
+        "description": "选择本地支付方式（FPX、Touch 'n Go或银行转账），以MYR充值。"
+      },
+      "launch": {
+        "title": "进入真人娱乐场：",
+        "description": "主菜单 → 真人娱乐场 → 选择Pretty Gaming。"
+      },
+      "play": {
+        "title": "开始游戏：",
+        "description": "选择喜欢的桌台，下注并享受由专业荷官带来的实时娱乐体验。"
+      }
+    },
+    "appNote": "无需强制下载，但若您偏好App体验，可安装Winbox22安卓APK或iOS版本，以获得更快加载与新桌台推送通知。"
+  },
+  "whyTrust": {
+    "title": "为什么马来西亚玩家信赖Winbox22的Pretty Gaming",
+    "subtitle": "本地客服、极速交易与高稳定性，让Winbox22成为首选平台。",
+    "description1": "Winbox22并非海外无监管站点，而是专为马来西亚用户构建的平台。客服团队提供24小时WhatsApp与实时聊天服务，支持马来语与英语沟通。",
+    "description2": "充值到账仅需数分钟，提现通常在营业时间15–30分钟内完成——速度领先同类网站。",
+    "description3": "此外，Winbox22以稳定运营著称，不像那些几个月后就消失的站点。平台长期维护更新、条款公开透明，因此每周都有成千上万名马来西亚玩家返回参与Pretty Gaming的真人桌台游戏。"
+  },
+  "conclusion": {
+    "title": "总结：为马来西亚玩家打造的高端真人娱乐场",
+    "description1": "Winbox22上的Pretty Gaming不仅仅是游戏，更是一种体验。从专业荷官的优雅主持，到流畅的移动端整合与MYR友好银行系统，一切细节都围绕马来西亚玩家的需求精心设计。",
+    "description2": "无论您是在追逐百家乐连胜、试试轮盘运气，还是在午休时快速玩几局龙虎斗，Pretty Gaming都能带来真实、便捷与精彩兼具的娱乐体验。"
+  },
+  "readyToJoin": {
+    "title": "准备好加入桌台了吗？",
+    "loginButton": "登录 Winbox H5",
+    "cta": "立即开始畅玩Pretty Gaming高清真人娱乐场——随时随地，畅享马来西亚专属体验。",
+    "disclaimer": "Winbox22提倡理性娱乐。请合理投注，仅以可承受范围内娱乐。如需协助，请访问 BeGambleAware.org。"
+  }
+}
+
 }

@@ -14,7 +14,15 @@
     "privacyPolicy": "Privacy Policy",
     "termsAndCondition": "Terms And Condition",
     "contactUs": "Contact Us",
-    "blog": "Blog"
+    "blog": "Blog",
+    "slots": "Slots",
+    "liveCasino": "Live Casino",
+    "lottery": "Lottery",
+    "sport": "Sport",
+    "horsing": "Horsing",
+    "brandInfo": "Brand & Info",
+    "ourAmbassadors": "Our Ambassadors",
+    "helpLegal": "Help & Legal"
   },
   "common": {
     "marqueeText": "Fast Payouts • Trusted Platform • 24/7 Customer Support – Play with Confidence!",
@@ -4048,6 +4056,1004 @@
       "title": "Ready to bet on RCB988?",
       "description": "Start with RM10. Claim your free credit today. See how fast your winnings arrive.",
       "registerButton": "Register Winbox"
+    }
+  },
+
+  "aeSexy": {
+    "title": "AE Sexy Live Casino on Winbox22 – Play Real-Time Baccarat, Roulette & More",
+    "intro": {
+      "description1": "Experience the thrill of",
+      "linkText": "AE Sexy",
+      "description2": "Live Casino—now live on Winbox22. No downloads. No delays.",
+      "description3": "Just high-definition live dealer action, 22-second rounds, and seamless gameplay built for Malaysian players who value speed, style, and real-time interaction.",
+      "description4": "Whether you're new to live casino or a seasoned player chasing big wins, AE Sexy delivers a polished, immersive experience with professional dealers, multi-language support, and betting limits that suit both casual and high-stakes players."
+    },
+    "whyStandOut": {
+      "title": "Why AE Sexy Stands Out on Winbox22",
+      "description1": "Launched in 2016 by AE Group (Awesome Entertainment Group), AE Sexy—formerly known as Sexy Gaming—has evolved into one of Asia's most recognizable live casino brands.",
+      "description2": "Unlike generic providers, AE Sexy blends entertainment with functionality:",
+      "features": {
+        "studios": "Live dealers in studio-quality streams",
+        "rounds": "22-second rapid rounds for non-stop action",
+        "betting": "Multiple Bet & Quick Bet for strategic flexibility",
+        "analytics": "Roadmap analytics to track trends in real time",
+        "mobile": "Fully mobile-optimized—play on phone, tablet, or desktop"
+      },
+      "conclusion": "All this is accessible directly through your browser on Winbox22, with no app installation required."
+    },
+    "featuredGames": {
+      "title": "Featured AE Sexy Live Casino Games",
+      "description": "AE Sexy offers a curated selection of classic table games—each enhanced with signature features for faster, smarter betting.",
+      "table": {
+        "headers": {
+          "game": "Game",
+          "features": "Key Features",
+          "betRange": "Min / Max Bet (MYR)"
+        },
+        "rows": {
+          "baccarat": {
+            "name": "Sexy Baccarat",
+            "features": "Classic & Insurance variants, roadmap tracking",
+            "betRange": "RM10 – RM100,000"
+          },
+          "dragonTiger": {
+            "name": "Sexy Dragon Tiger",
+            "features": "One-card showdown, ultra-fast results",
+            "betRange": "RM10 – RM50,000"
+          },
+          "sicBo": {
+            "name": "Sexy Sic Bo",
+            "features": "Triple-dice excitement with dynamic odds",
+            "betRange": "RM10 – RM30,000"
+          },
+          "roulette": {
+            "name": "Sexy Roulette",
+            "features": "European wheel with live ball drop",
+            "betRange": "RM10 – RM20,000"
+          },
+          "fishPrawnCrab": {
+            "name": "Sexy Fish Prawn Crab",
+            "features": "Local favorite with vibrant interface",
+            "betRange": "RM10 – RM25,000"
+          }
+        }
+      },
+      "note": "Each game includes custom audio controls, chip presets, and real-time result history—ensuring you stay in control, round after round."
+    },
+    "seamlessAccess": {
+      "title": "Seamless Access for Malaysian Players",
+      "description": "Winbox22 ensures AE Sexy is instantly accessible to players across Malaysia:",
+      "features": {
+        "registration": "Fast registration: Complete your Winbox register in under 2 minutes",
+        "login": "One-click login: Use your Winbox22 credentials to enter AE Sexy",
+        "betting": "MYR-based betting: 1 MYR = 1 GamePoint—no currency conversion needed",
+        "languages": "Multi-language UI: English, Mandarin, Thai, Vietnamese, Korean, and Japanese",
+        "demo": "Demo mode available: Practice with virtual credits before playing for real"
+      },
+      "conclusion": "No third-party apps. No region blocks. Just direct, secure access via your preferred device."
+    },
+    "highStakes": {
+      "title": "High-Stakes Action, Built for Real Players",
+      "description": "AE Sexy isn't just about aesthetics—it's engineered for performance:",
+      "features": {
+        "ceiling": "High betting ceiling: Place up to RM100,000 per round in Baccarat",
+        "threshold": "Low entry threshold: Start with just RM10",
+        "results": "Transparent results: Every outcome streamed live with no delay",
+        "interaction": "Dealer interaction: Contact info displayed on-screen for personalized support"
+      },
+      "conclusion": "This balance of accessibility and intensity makes AE Sexy ideal for both weekend players and serious strategists."
+    },
+    "howToStart": {
+      "title": "How to Start Playing AE Sexy on Winbox22",
+      "description": "Getting started takes three simple steps:",
+      "steps": {
+        "step1": {
+          "title": "Register or Log In",
+          "description": "Visit",
+          "extra": ", complete your Winbox register, or log in if you're an existing user."
+        },
+        "step2": {
+          "title": "Navigate to Live Casino",
+          "description": "From the lobby, select \"AE Sexy\" under the Live Casino section."
+        },
+        "step3": {
+          "title": "Choose Your Game & Play",
+          "description": "Pick Baccarat, Roulette, or any featured title—then place your first bet in seconds."
+        }
+      },
+      "conclusion": "No downloads. No waiting. Your live casino experience begins the moment you click."
+    },
+    "trustedTechnology": {
+      "title": "Trusted Technology, Global Backing",
+      "description1": "AE Group operates physical entertainment hubs in Macau, Cambodia, and the Philippines, including the Venus Entertainment City in Cambodia—a integrated resort featuring casinos, tech labs, and VIP lounges.",
+      "description2": "This real-world infrastructure ensures AE Sexy's online platform meets rigorous standards for:",
+      "features": {
+        "stability": "Stream stability (99.8% uptime)",
+        "gameplay": "Fair gameplay (certified RNG and live audit trails)",
+        "transactions": "Secure transactions (via trusted local payment rails)"
+      },
+      "conclusion": "When you play AE Sexy on Winbox22, you're backed by a brand with regional presence and operational credibility—not just flashy marketing."
+    },
+    "playResponsibly": {
+      "title": "Play Responsibly, Win Confidently",
+      "description": "Winbox22 is committed to secure, transparent gaming. All AE Sexy sessions are:",
+      "features": {
+        "encrypted": "Encrypted via SSL",
+        "monitored": "Monitored for fair play",
+        "support": "Supported by 24/7 MYR-friendly customer service"
+      },
+      "conclusion": "Set deposit limits, use demo mode to test strategies, and always play within your means."
+    },
+    "readyToPlay": {
+      "title": "Ready to Experience AE Sexy Live Casino?",
+      "description": "Join thousands of Malaysian players already enjoying real-time Baccarat, Roulette, and Dragon Tiger with stunning dealers and lightning-fast rounds—all on Winbox22.",
+      "loginButton": "Winbox H5 Login",
+      "cta": "to start playing AE Sexy today."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "questions": {
+        "whatIs": {
+          "question": "What is AE Sexy?",
+          "answer": "AE Sexy (formerly Sexy Gaming) is a live casino provider by AE Group, known for high-quality streams, attractive dealers, and rapid 22-second game rounds."
+        },
+        "mobile": {
+          "question": "Is AE Sexy available on mobile?",
+          "answer": "Yes. AE Sexy runs directly in your mobile browser—no app needed. Fully optimized for iOS and Android."
+        },
+        "download": {
+          "question": "Do I need to download anything to play?",
+          "answer": "No. Winbox22 uses HTML5 (H5) technology—play instantly via any modern browser."
+        },
+        "minBet": {
+          "question": "What's the minimum bet on AE Sexy?",
+          "answer": "RM10 across all games. Maximum bets go up to RM100,000 in Baccarat."
+        },
+        "free": {
+          "question": "Can I play AE Sexy for free?",
+          "answer": "Yes. Demo mode is available with virtual credits—perfect for learning game rules or testing strategies."
+        },
+        "licensed": {
+          "question": "Is Winbox22 licensed to offer AE Sexy?",
+          "answer": "Winbox22 partners directly with AE Group to provide authorized access to AE Sexy's live casino suite in compliance with regional gaming standards."
+        }
+      }
+    }
+  },
+
+  "asiaGaming": {
+    "title": "Asia Gaming Live Casino & AG Slot Games – Play Instantly on Winbox22",
+    "intro": {
+      "linkText": "Asia Gaming",
+      "description1": "delivers Malaysia's most immersive live dealer experience—no app needed. Stream real-time Baccarat, Dragon Tiger, Bull Bull, and exclusive AG Slot titles directly through Winbox22, with MYR support, local bank deposits, and 24/7 Malay-speaking support."
+    },
+    "whyChoose": {
+      "title": "Why Malaysian Players Choose Asia Gaming on Winbox22",
+      "description1": "Asia Gaming (AG) isn't just another casino provider—it's a pioneer in live dealer innovation since 2012. While many platforms offer generic tables, AG stands out with exclusive game formats, provably fair blockchain verification, and VIP private rooms you won't find elsewhere.",
+      "description2": "On Winbox22, you get:",
+      "features": {
+        "access": "✅ Instant access—no download or VPN required",
+        "myr": "✅ Full MYR (Malaysian Ringgit) support",
+        "deposits": "✅ Seamless deposits via Maybank, CIMB, Public Bank & more",
+        "realtime": "✅ Real-time games hosted in HD studios with live interaction",
+        "testId": "✅ Free Test ID to try before you register"
+      },
+      "conclusion": "Unlike competitors where AG content is buried under generic promotions, Winbox22 gives you direct, stable, and fast access to the full AG suite—optimized for mobile and desktop."
+    },
+    "whatIs": {
+      "title": "What Is Asia Gaming?",
+      "description1": "Asia Gaming is a licensed live casino software developer headquartered in Asia, holding certification from Gaming Laboratories International (GLI) and a gaming license from First Cagayan. It specializes in real-time card games with interactive dealer streams, targeting players who value transparency, speed, and authenticity.",
+      "description2": "While AG does offer slot machines (branded as AG Slot), its core strength lies in live dealer tables—particularly Baccarat variants, Bull Bull, and its proprietary Blockchain-verified card dealing system.",
+      "quote": "AG's 'Squeeze Baccarat' and 'Revealing Card' formats changed how Malaysian players engage with live tables—adding suspense, control, and fairness in one experience. — Industry observer, iGaming Asia Report 2024"
+    },
+    "exclusiveGames": {
+      "title": "Exclusive AG Live Casino Games on Winbox22",
+      "games": {
+        "baccarat": {
+          "title": "🃏 Baccarat (Cagayan, AGQ, EURO Studios)",
+          "description": "Choose your studio vibe—Cagayan for classic elegance, AGQ for fast-paced action, or EURO for high-limit tables. All include real-time player stats, roadmaps, and side bets. The \"Squeeze\" feature lets you slowly reveal cards, mimicking land-based casino rituals."
+        },
+        "dragonTiger": {
+          "title": "🐉 Dragon Tiger",
+          "description": "One of the fastest games in the AG lobby. Two cards. One bet. No draws—just pure speed. Ideal for players who want quick rounds with clear outcomes."
+        },
+        "bullBull": {
+          "title": "🐂 Bull Bull (Niu Niu)",
+          "description": "A fan favorite across Southeast Asia. Split your 5-card hand into 3 + 2. Left must total a multiple of 10; right determines your win. Simple rules, high engagement."
+        },
+        "threeFace": {
+          "title": "👑 Three Face (Golden Flower)",
+          "description": "A 3-card poker-style showdown between \"Dragon\" and \"Phoenix.\" Includes optional Pair 8 Plus side bets for extra payouts."
+        },
+        "agStream": {
+          "title": "📡 AG Stream",
+          "description": "Not just a game—a social experience. Join live streams hosted by professional dealers. Chat, tip, and place bets in real time. Think of it as a hybrid between live TV and interactive gaming."
+        },
+        "blockchain": {
+          "title": "🔗 Blockchain Verification",
+          "description": "AG's standout feature: after every shuffle, card values are encrypted and published. Once revealed, you can verify the outcome using AG's public tool—ensuring no manipulation. This level of transparency is rare in online gaming."
+        }
+      }
+    },
+    "agSlot": {
+      "title": "AG Slot: A Secondary—but Solid—Offering",
+      "description1": "While AG's reputation rests on live tables, its AG Slot portfolio includes over 100+ e-games across classic, video, and progressive formats. Titles are cross-platform, mobile-optimized, and integrated into the same Winbox22 lobby.",
+      "description2": "That said—be realistic: AG Slots aren't the main draw. If you're chasing high-RTP or cinematic slots, providers like PG Soft or Pragmatic Play lead the market. But if you want one platform for both live tables and casual slots, AG delivers convenience without compromise."
+    },
+    "noApp": {
+      "title": "No App? No Problem.",
+      "description1": "You don't need to download anything to play Asia Gaming on Winbox22. The entire experience runs smoothly in your mobile browser—Chrome, Safari, or Edge—with no lag, no crashes, and no hidden APKs.",
+      "description2": "This is especially useful for Malaysian users who may face connectivity issues with direct AG links. Winbox22 acts as a stable, localized gateway—bypassing access barriers while maintaining full game integrity."
+    },
+    "testId": {
+      "title": "Try Before You Commit: Free AG Test ID",
+      "description": "New to AG? Use a free Test ID to explore live tables risk-free:",
+      "credentials": {
+        "userId": "User ID: Test00000 to Test99999 (e.g., Test12345)",
+        "password": "Password: test4321"
+      },
+      "tip": "💡 Tip: If one ID is occupied, try another number. Up to 100,000 test logins are available at any time.",
+      "conclusion": "This lets you experience real dealer interaction, game flow, and interface—without registration or deposit."
+    },
+    "howToStart": {
+      "title": "How to Start Playing on Winbox22",
+      "steps": {
+        "step1": "Visit",
+        "step2": "Click \"Play Now\" or log in with your existing account",
+        "step3": "Select \"Asia Gaming\" from the game lobby",
+        "step4": "Choose Live Casino or AG Slot",
+        "step5": "Start playing instantly—or register in under 2 minutes if you're new"
+      },
+      "note": "Registration requires only a mobile number (for OTP) and a secure password. No ID upload needed for basic play."
+    },
+    "safeLicensed": {
+      "title": "Safe, Licensed & Audited",
+      "description": "Asia Gaming holds:",
+      "licenses": {
+        "cagayan": "First Cagayan License (Philippines)",
+        "gli": "GLI Certification for game fairness",
+        "pagcor": "PAGCOR-recognized compliance (via regional partnerships)"
+      },
+      "platform": "While AG itself is licensed, your safety also depends on the platform. Winbox22 uses encrypted connections, segregated player funds, and verified banking channels—so your MYR deposits stay secure.",
+      "warning": "⚠️ Always play AG through trusted platforms like Winbox22. Unofficial sites may lack proper oversight."
+    },
+    "banking": {
+      "title": "Malaysian-Friendly Banking",
+      "description": "Winbox22 supports instant MYR deposits and withdrawals via:",
+      "banks": {
+        "maybank": "Maybank",
+        "cimb": "CIMB",
+        "publicBank": "Public Bank",
+        "rhb": "RHB",
+        "affin": "Affin Bank",
+        "hongLeong": "Hong Leong Bank"
+      },
+      "processing": "Transactions typically process in under 10 minutes during banking hours. No e-wallets needed—just your online banking credentials."
+    },
+    "support": {
+      "title": "24/7 Support in Your Language",
+      "description1": "Got a question about a bet? Deposit issue? Game rules? Winbox22's support team is available round-the-clock via:",
+      "description2": "Live Chat (in-app)",
+      "languages": "All agents speak Bahasa Malaysia, English, and Mandarin—no bots, no hold times."
+    },
+    "promotions": {
+      "title": "Current Promotions for New Players",
+      "description": "Winbox22 regularly runs AG-focused incentives for Malaysian users:",
+      "offers": {
+        "welcome": "RM10 Welcome Free Credit (no deposit required for eligible new accounts)",
+        "deposit": "100% Deposit Match up to RM300",
+        "reload": "Daily Reload Bonus: Deposit RM20, get RM20 free play",
+        "referral": "Refer-a-Friend: Earn RM50 for every successful referral"
+      },
+      "note": "Promotions are updated monthly—check the \"Promo\" tab after login."
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions (FAQ)",
+      "questions": {
+        "legal": {
+          "question": "Is Asia Gaming legal in Malaysia?",
+          "answer": "While online gambling exists in a grey area, Asia Gaming itself is licensed internationally. Playing through a secure, reputable platform like Winbox22 minimizes risk and ensures fair play."
+        },
+        "vpn": {
+          "question": "Do I need a VPN to access AG on Winbox22?",
+          "answer": "No. Winbox22 is optimized for direct access in Malaysia—no VPN or proxy required."
+        },
+        "liveGames": {
+          "question": "Are AG live games really live?",
+          "answer": "Yes. All tables are streamed in real time from AG studios in the Philippines and Cambodia, with real dealers and physical cards."
+        },
+        "mobile": {
+          "question": "Can I play AG Slot on my phone?",
+          "answer": "Absolutely. All AG games—including slots—are fully responsive and load instantly on Android and iOS browsers."
+        },
+        "verify": {
+          "question": "How do I verify a game result?",
+          "answer": "Use AG's Blockchain Verification Tool (available in-game) to check card encryption hashes after each round."
+        },
+        "testId": {
+          "question": "What if my Test ID doesn't work?",
+          "answer": "The ID is likely in use. Try another number between 00000–99999 (e.g., Test54321). Thousands are available at any moment."
+        }
+      }
+    },
+    "conclusion": {
+      "title": "Final Word: AG on Winbox22 = Best-in-Class for Malaysian Players",
+      "description": "Asia Gaming redefined live casino for Southeast Asia—and on Winbox22, you get the cleanest, fastest, and most reliable access to its full suite. Whether you're here for the tension of Squeeze Baccarat, the thrill of Bull Bull, or just to test the waters with a free ID, everything works smoothly in MYR, on your phone, with local support.",
+      "cta1": "No hype. No fluff. Just real games, real dealers, and real play—exactly how Malaysian players prefer it.",
+      "cta2": "Ready to play?",
+      "loginButton": "Winbox Login",
+      "loginText": "Now",
+      "disclaimer": "Winbox22 is an authorized gaming platform offering Asia Gaming content under regional partnership agreements. Gambling involves risk. Please play responsibly."
+    }
+  },
+  "bigGaming": {
+    "title": "Big Gaming Live Casino – Premium Table & Live Dealer Games on Winbox22",
+    "intro": {
+      "linkText": "Big Gaming",
+      "description1": "(also known as BG Gaming Dayou) is a trusted live casino provider delivering high-definition, real-time gaming experiences to players across Malaysia.",
+      "description2": "On Winbox22, you get direct access to Big Gaming's full suite of live dealer games—including Baccarat, Roulette, Sic Bo, Dragon Tiger, and Fishing Master—streamed in crisp HD with professional dealers and seamless mobile compatibility.",
+      "description3": "Whether you're placing your first bet or returning for high-stakes action, Big Gaming's secure, stable, and immersive platform ensures every session feels like you're at a luxury casino—without leaving home."
+    },
+    "whyStandOut": {
+      "title": "Why Big Gaming Stands Out on Winbox22",
+      "description1": "Big Gaming isn't just another casino software provider. Backed by PAGCOR licensing (Philippine Amusement and Gaming Corporation) and integrated via GamingSoft's unified API, Big Gaming delivers enterprise-grade reliability with a player-first design. On Winbox22, this translates to:",
+      "features": {
+        "streaming": "Real-time HD streaming with multi-angle views",
+        "html5": "Full HTML5 support – no downloads needed, works on any smartphone or browser",
+        "latency": "Low-latency gameplay even on standard 4G connections",
+        "rules": "Authentic casino rules with Malaysian-friendly betting limits",
+        "access": "Instant access – no third-party logins or redirects"
+      },
+      "conclusion": "Unlike generic slot-only platforms, Big Gaming specializes in live table games that replicate the thrill of physical casinos, making it a top choice among serious Malaysian players."
+    },
+    "topGames": {
+      "title": "Top Big Gaming Live Casino Games on Winbox22",
+      "description": "All games below are available now on Winbox22 with real dealers, live chat, and dynamic betting options.",
+      "games": {
+        "baccarat": {
+          "title": "1. Classic & Special Baccarat",
+          "description": "Baccarat remains the #1 live game among Malaysian high rollers. Big Gaming offers both Classic Baccarat (standard rules, 3x camera angles) and Special Baccarat (with side bets like Perfect Pair and Dragon Bonus). Bet from as low as RM5 or go up to RM50,000 per round."
+        },
+        "roulette": {
+          "title": "2. Live Roulette",
+          "description": "Experience European-style roulette with a real wheel, ball drop, and instant result display. Place inside bets (straight, split, street) or outside bets (red/black, odd/even, 1–18/19–36). Games run 24/7 with English and Mandarin-speaking dealers."
+        },
+        "sicBo": {
+          "title": "3. Sic Bo (Big/Small)",
+          "description": "A favourite in local Malaysian gaming circles, Sic Bo uses three dice for fast-paced betting. Big Gaming's version includes 12+ bet types—from simple Big/Small to triple combinations—with payouts up to 180:1."
+        },
+        "dragonTiger": {
+          "title": "4. Dragon Tiger",
+          "description": "The fastest card game in the live casino. One card each for Dragon and Tiger—highest value wins. Rounds complete in under 20 seconds, ideal for quick sessions during breaks or commutes."
+        },
+        "bullBull": {
+          "title": "5. Bull Bull (Niu Niu)",
+          "description": "A social card game popular across Southeast Asia. Players compete against the dealer using 5-card hands. Big Gaming's Bull Bull includes auto-bet, roadmaps, and bonus multipliers for enhanced strategy."
+        },
+        "fishing": {
+          "title": "6. Fishing Master & BG Daisen Fishing",
+          "description": "Not just table games—Big Gaming also offers interactive fishing arcade games where you shoot sea creatures to win real prizes. These blend skill and luck, with progressive jackpots and daily tournaments."
+        }
+      }
+    },
+    "howToPlay": {
+      "title": "How to Play Big Gaming Games on Winbox22",
+      "description": "Getting started takes under 2 minutes:",
+      "steps": {
+        "step1": "Register at",
+        "step1Extra": "(Malaysian phone number accepted)",
+        "step2": "Log in and go to the Live Casino section",
+        "step3": "Select \"Big Gaming\" from the provider list",
+        "step4": "Choose any game and start playing instantly—no app download required"
+      },
+      "note": "All games are optimized for Android and iOS, with adaptive layouts that work on small screens. A stable internet connection (minimum 5 Mbps) is recommended for HD streaming."
+    },
+    "security": {
+      "title": "Security, Fairness & Licensing",
+      "description": "Big Gaming operates under a valid PAGCOR license (License No. applicable per integration), ensuring:",
+      "features": {
+        "rng": "Random Number Generator (RNG) certification for non-live games",
+        "monitoring": "Real-time game monitoring by independent auditors",
+        "encryption": "Encrypted transactions (SSL/TLS) for deposits and withdrawals",
+        "manipulation": "Zero manipulation – all live games use physical cards, wheels, and dice"
+      },
+      "platform": "Winbox22 further enhances security with two-factor authentication (2FA) and 24/7 fraud monitoring, giving Malaysian players peace of mind."
+    },
+    "exclusivePerks": {
+      "title": "Exclusive Perks for Winbox22 Players",
+      "description": "When you play Big Gaming titles on Winbox22, you unlock platform-specific benefits:",
+      "perks": {
+        "welcome": "Welcome Bonus: Up to RM888 in matched deposit + 58 free fishing shots",
+        "cashback": "Daily Cashback: 0.8% on net losses across all Big Gaming tables",
+        "vip": "VIP Tiers: Faster withdrawals, personal account manager, higher betting limits",
+        "myr": "MYR Support: Full Ringgit-denominated betting and payouts—no currency conversion"
+      },
+      "demo": "New players can also try demo mode on select games (e.g., Fishing Master) before using real funds."
+    },
+    "comparison": {
+      "title": "Big Gaming vs Other Providers: Why Malaysians Choose BG",
+      "table": {
+        "headers": {
+          "feature": "Feature",
+          "bigGaming": "Big Gaming",
+          "generic": "Generic Providers"
+        },
+        "rows": {
+          "quality": {
+            "feature": "Live Dealer Quality",
+            "bigGaming": "Professional, multi-lingual",
+            "generic": "Often outsourced, inconsistent"
+          },
+          "variety": {
+            "feature": "Game Variety",
+            "bigGaming": "20+ live & arcade titles",
+            "generic": "Mostly slots or basic tables"
+          },
+          "mobile": {
+            "feature": "Mobile Optimization",
+            "bigGaming": "Full HTML5, no lag",
+            "generic": "Requires app or plugin"
+          },
+          "limits": {
+            "feature": "Betting Limits (MYR)",
+            "bigGaming": "RM5 – RM50,000",
+            "generic": "Often capped below RM5,000"
+          },
+          "payout": {
+            "feature": "Payout Speed",
+            "bigGaming": "Instant (live games)",
+            "generic": "Delayed (batch processing)"
+          }
+        }
+      },
+      "conclusion": "Big Gaming's focus on Asian player preferences—including game pace, UI layout, and dealer interaction—makes it uniquely suited for the Malaysian market."
+    },
+    "playToday": {
+      "title": "Play Big Gaming Live Casino Games Today on Winbox22",
+      "description": "Big Gaming brings the energy of a Macau or Genting Highlands casino directly to your screen—with better odds, lower minimums, and 24/7 access. As one of the few platforms in Malaysia offering the full BG Gaming Dayou portfolio, Winbox22 ensures you never miss a hand, spin, or dice roll.",
+      "cta": "Ready to play?",
+      "registerButton": "Winbox Register"
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions About Big Gaming",
+      "questions": {
+        "whatIs": {
+          "question": "What is Big Gaming?",
+          "answer": "Big Gaming (BG Gaming Dayou) is a PAGCOR-licensed live casino software provider known for high-quality table games, fishing arcades, and live dealer streaming across Asia."
+        },
+        "available": {
+          "question": "Is Big Gaming available in Malaysia?",
+          "answer": "Yes. Malaysian players can access all Big Gaming games legally through licensed platforms like Winbox22."
+        },
+        "download": {
+          "question": "Do I need to download an app to play?",
+          "answer": "No. Big Gaming runs in your mobile browser via HTML5—no APK or installation required."
+        },
+        "fair": {
+          "question": "Are Big Gaming games fair?",
+          "answer": "Yes. Live games use real equipment streamed in real time. Non-live games use certified RNG systems."
+        },
+        "minBet": {
+          "question": "What's the minimum bet on Big Gaming tables?",
+          "answer": "As low as RM5 for Baccarat, Roulette, and Sic Bo—ideal for casual and serious players alike."
+        },
+        "free": {
+          "question": "Can I play Big Gaming games for free?",
+          "answer": "Demo mode is available for select games like Fishing Master. Live dealer games require real bets."
+        }
+      }
+    }
+},
+"dbGaming": {
+    "title": "Play DB Gaming Live Casino Games on Winbox22 – Malaysia's Trusted Gaming Platform",
+    "intro": {
+      "description1": "Experience the thrill of real-time casino action with",
+      "linkText": "DB Gaming Live Casino",
+      "description2": ", now live on Winbox22—your go-to destination for premium, secure, and seamless online gaming in Malaysia.",
+      "description3": "Whether you're chasing the elegance of live baccarat, the suspense of roulette, or the strategy of blackjack, DB Gaming Live Casino delivers studio-quality tables, professional dealers, and instant gameplay—all accessible with one login.",
+      "description4": "No downloads. No delays. Just authentic casino energy, streamed in HD directly to your device."
+    },
+    "whyChoose": {
+      "title": "Why Malaysian Players Choose DB Gaming Live Casino on Winbox22",
+      "description1": "DB Gaming Live Casino isn't just another game provider—it's a subsidiary of the DB Gaming Group, Southeast Asia's leading API gaming ecosystem.",
+      "description2": "Built for performance, fairness, and local relevance, it's engineered to meet the expectations of discerning Malaysian players who value speed, reliability, and genuine entertainment. On Winbox22, we've integrated DB Gaming Live Casino with full optimization for:",
+      "features": {
+        "latency": "Low-latency streaming even on 4G networks",
+        "myr": "MYR-denominated betting with instant deposits and withdrawals",
+        "support": "24/7 Malay-speaking customer support",
+        "mobile": "Mobile-first design—play smoothly on any smartphone"
+      },
+      "conclusion": "Unlike generic platforms that offer \"live casino\" as an afterthought, Winbox22 treats DB Gaming Live Casino as a core experience, not an add-on."
+    },
+    "whatIs": {
+      "title": "What Is DB Gaming Live Casino?",
+      "description1": "DB Gaming Live Casino is the flagship live dealer division of DB Gaming, specializing in high-definition, real-time table games hosted by professional croupiers in international-standard studios. Backed by enterprise-grade infrastructure and compliant with global fairness standards, it brings the atmosphere of Macau and Manila directly to your screen.",
+      "description2": "The platform supports multiple game variants, including:",
+      "games": {
+        "baccarat": "Live Baccarat (Standard, Speed, Commission-Free)",
+        "roulette": "Live Roulette (European & Asian layouts)",
+        "blackjack": "Live Blackjack (Classic & Multi-Hand)",
+        "others": "Sic Bo, Dragon Tiger, and Fan Tan",
+        "vip": "Exclusive VIP Tables with higher betting limits"
+      },
+      "features": "All games feature real-time stats, bet history tracking, and multi-camera angles—so you never miss a moment."
+    },
+    "seamlessAccess": {
+      "title": "Seamless Access on Winbox22 – No App Required",
+      "description": "You don't need a separate DB Casino app to play. Winbox22 is a web-based platform optimized for both desktop and mobile browsers. Simply:",
+      "steps": {
+        "step1": "Visit",
+        "step2": "Log in (or register in under 60 seconds)",
+        "step3": "Navigate to \"Live Casino\" → Select \"DB Gaming Live Casino\"",
+        "step4": "Start playing instantly—no APK, no store approval, no waiting"
+      },
+      "advantage": "This browser-native approach ensures faster updates, enhanced security, and zero risk of third-party app tampering—a critical advantage for Malaysian users concerned about digital safety.",
+      "quote": "We chose DB Gaming Live Casino for Winbox22 because of its stable API, low disconnect rate, and dealer professionalism—key factors Malaysian players consistently rank above flashy graphics. — Winbox22 Product Team"
+    },
+    "gameHighlights": {
+      "title": "Game Highlights: What Makes DB Gaming Live Casino Stand Out?",
+      "features": {
+        "studio": {
+          "title": "✅ Studio-Quality Production",
+          "description": "Broadcast from dedicated studios in the Philippines and Cambodia, DB Gaming Live Casino uses multi-camera HD setups, studio lighting, and real-time audio to replicate a land-based casino feel."
+        },
+        "betting": {
+          "title": "✅ Low Minimum Bets, High RTP",
+          "description": "Start betting from as low as RM5, with Return-to-Player (RTP) rates averaging 97.5%+ across table games—among the highest in the industry."
+        },
+        "interface": {
+          "title": "✅ Malay-Friendly Interface",
+          "description": "The entire UI supports Bahasa Malaysia, including game rules, betting prompts, and help guides—removing language barriers for local players."
+        },
+        "cashout": {
+          "title": "✅ Instant Cash-Out & Transaction Speed",
+          "description": "Winbox22 processes withdrawals in under 15 minutes during operational hours, with support for Touch 'n Go eWallet, bank transfers, and crypto options."
+        }
+      }
+    },
+    "howToStart": {
+      "title": "How to Get Started on Winbox22",
+      "description": "Getting into DB Gaming Live Casino takes less than a minute:",
+      "steps": {
+        "register": {
+          "title": "Step 1: Register",
+          "description": "Visit",
+          "extra": "and click \"Register\". Fill in your mobile number and set a secure password. Verification is SMS-based—no ID upload required for basic access."
+        },
+        "deposit": {
+          "title": "Step 2: Deposit",
+          "description": "Choose your preferred method:",
+          "methods": {
+            "fpx": "Online Banking (FPX)",
+            "tng": "Touch 'n Go eWallet",
+            "usdt": "USDT (TRC20)"
+          },
+          "minimum": "Minimum deposit: RM30"
+        },
+        "play": {
+          "title": "Step 3: Play DB Gaming Live Casino",
+          "description": "Go to the Live Casino section, select DB Gaming Live Casino, and choose your table. New players receive a welcome bonus (terms apply)—often including 100% deposit match up to RM288."
+        },
+        "withdraw": {
+          "title": "Step 4: Withdraw Winnings",
+          "description": "Request a withdrawal anytime via the \"Wallet\" tab. Funds arrive within 15–60 minutes depending on method and volume."
+        }
+      }
+    },
+    "security": {
+      "title": "Security & Fairness: Built for Trust",
+      "description": "Winbox22 operates under a multi-layered security framework:",
+      "features": {
+        "ssl": "SSL 256-bit encryption for all data transfers",
+        "twoFactor": "Two-factor authentication (2FA) optional for logins",
+        "provably": "Provably fair algorithms for blockchain-integrated games (via DB Hash)",
+        "audits": "Regular third-party audits of game RNG and payout systems"
+      },
+      "platform": "DB Gaming Live Casino itself is powered by certified random number generators and monitored by independent compliance bodies. Every card dealt and wheel spun is real-time and unscripted—no pre-recorded outcomes."
+    },
+    "promotions": {
+      "title": "Exclusive Promotions for Malaysian Players",
+      "description": "Winbox22 runs region-specific campaigns you won't find on international platforms:",
+      "offers": {
+        "reload": "Daily Reload Bonus: 20% extra on deposits every Tuesday & Friday",
+        "cashback": "Live Casino Cashback: Up to 1.2% weekly on net losses",
+        "referral": "Referral Program: Earn RM50 for every friend who deposits",
+        "festival": "Festival Promos: Special rewards during Hari Raya, CNY, and Deepavali"
+      },
+      "note": "All bonuses are clearly structured—no hidden wagering traps. Full terms are visible before claiming."
+    },
+    "performance": {
+      "title": "Technical Performance: Optimized for Malaysia",
+      "description": "We've stress-tested DB Gaming Live Casino on Winbox22 across:",
+      "tested": {
+        "networks": "Maxis, Celcom, and Digi 4G networks",
+        "devices": "Low-end Android devices (2GB RAM and above)",
+        "wifi": "Public Wi-Fi hotspots (e.g., mamak shops, malls)"
+      },
+      "results": {
+        "title": "Results:",
+        "stability": "98% stream stability at 720p",
+        "confirmation": "<1.2s bet confirmation time",
+        "downtime": "Zero downtime in the past 6 months"
+      },
+      "conclusion": "This reliability is why Winbox22 is consistently ranked among the top 3 DB Gaming partners in Malaysia by user volume."
+    },
+    "readyToPlay": {
+      "title": "Ready to Play DB Gaming Live Casino?",
+      "description": "Join thousands of Malaysian players who trust Winbox22 for a smooth, fair, and exciting live casino experience powered by DB Gaming.",
+      "cta1": "",
+      "registerButton": "",
+      "cta2": "👉 Already a member?",
+      "loginButton": "Winbox Login",
+      "loginText": "Here",
+      "closing": "Your next big win is just one click away."
+    },
+    "comparison": {
+      "title": "Why Winbox22 Over Other DB Gaming Platforms?",
+      "table": {
+        "headers": {
+          "feature": "Feature",
+          "winbox22": "Winbox22",
+          "competitorA": "Competitor A",
+          "competitorB": "Competitor B"
+        },
+        "rows": {
+          "myr": {
+            "feature": "MYR Support",
+            "winbox22": "✅ Full",
+            "competitorA": "❌ USD Only",
+            "competitorB": "✅ Partial"
+          },
+          "payment": {
+            "feature": "Local Payment Methods",
+            "winbox22": "✅ TNG, FPX, Crypto",
+            "competitorA": "❌ Bank Only",
+            "competitorB": "✅ TNG Only"
+          },
+          "language": {
+            "feature": "Malay Language UI",
+            "winbox22": "✅ Full",
+            "competitorA": "❌ English Only",
+            "competitorB": "✅ Partial"
+          },
+          "withdrawal": {
+            "feature": "Withdrawal Speed",
+            "winbox22": "<15 mins",
+            "competitorA": "2–24 hrs",
+            "competitorB": "1–6 hrs"
+          },
+          "support": {
+            "feature": "24/7 Malay Support",
+            "winbox22": "✅ Yes",
+            "competitorA": "❌ No",
+            "competitorB": "✅ Limited Hours"
+          },
+          "app": {
+            "feature": "No App Required",
+            "winbox22": "✅ Web-Based",
+            "competitorA": "❌ APK Needed",
+            "competitorB": "✅ Web-Based"
+          }
+        }
+      },
+      "note": "Data based on public testing and user feedback (Q1 2025)"
+    }
+  },
+  "playtech": {
+    "title": "PLAYTECH Games at Winbox22 – Live Casino, Jackpot Slots & Premium Table Games",
+    "intro": {
+      "linkText": "PLAYTECH",
+      "description1": "powers some of the most trusted online casino experiences in Malaysia—and at Winbox22, you get full access to its complete suite of live casino games, branded slots, and jackpot titles.",
+      "description2": "Whether you're spinning Age of the Gods or betting at a live Baccarat table hosted from Riga, every game runs in MYR, loads instantly on mobile, and complies with international fairness standards.",
+      "description3": "This page details what PLAYTECH offers, why it matters to Malaysian players, and how Winbox22 delivers it securely."
+    },
+    "atGlance": {
+      "title": "PLAYTECH at a Glance – Why Malaysian Players Choose It",
+      "description": "PLAYTECH is the world's largest online casino software provider, licensed by the UKGC and MGA, with over 500 games and the biggest progressive jackpot network globally. For Malaysian users, this means:",
+      "features": {
+        "myr": "Instant MYR support with local payment compatibility",
+        "mobile": "Mobile-optimized gameplay on iOS and Android—no app needed",
+        "fair": "Fair, audited results via certified RNG and eCOGRA oversight",
+        "branded": "Branded slots based on DC Comics, The Matrix, Gladiator, and more"
+      },
+      "conclusion": "Unlike unlicensed platforms, PLAYTECH-powered casinos like Winbox22 ensure every spin and hand is provably fair—critical in a market where trust is earned, not assumed."
+    },
+    "comparison": {
+      "title": "Comparison: PLAYTECH vs Other Providers (Quick Reference)",
+      "table": {
+        "headers": {
+          "feature": "Feature",
+          "playtech": "PLAYTECH",
+          "generic": "Generic Providers"
+        },
+        "rows": {
+          "jackpots": {
+            "feature": "Progressive Jackpots",
+            "playtech": "50+ linked games",
+            "generic": "Rare or isolated"
+          },
+          "branded": {
+            "feature": "Branded Slots",
+            "playtech": "DC, Warner Bros, etc.",
+            "generic": "None or low-quality"
+          },
+          "studios": {
+            "feature": "Live Casino Studios",
+            "playtech": "8,500m² Riga facility",
+            "generic": "Outsourced or basic"
+          },
+          "mobile": {
+            "feature": "Mobile Performance",
+            "playtech": "Seamless, no lag",
+            "generic": "Often buggy"
+          },
+          "compliance": {
+            "feature": "Regulatory Compliance",
+            "playtech": "UKGC, MGA licensed",
+            "generic": "Unverified or none"
+          }
+        }
+      },
+      "note": "Note: Winbox22 exclusively features certified PLAYTECH content—no third-party reskins or uncertified clones."
+    },
+    "topSlots": {
+      "title": "Top PLAYTECH Slots Available on Winbox22",
+      "games": {
+        "ageOfGods": {
+          "title": "Age of the Gods Series",
+          "description": "This Greek mythology-themed series features four progressive jackpots—Mini, Minor, Major, and Ultimate—that can be won on any spin. God of Storms (96.14% RTP) includes Wild Winds Respins and is a favorite among Malaysian high-volatility players."
+        },
+        "buffaloBlitz": {
+          "title": "Buffalo Blitz Megaways",
+          "description": "With 117,649 ways to win and up to 100 free spins, this high-volatility slot delivers up to 20,000x your stake. Its Megaways engine and diamond multipliers make it ideal for players chasing big wins during peak hours."
+        },
+        "branded": {
+          "title": "The Matrix & Green Lantern",
+          "description": "Leveraging official DC and Warner Bros licenses, these slots blend cinematic visuals with Collapsing Symbols and bonus meters. Green Lantern supports bets from RM1.80 to RM9,000—perfect for both casual and high-roller Malaysian players."
+        },
+        "newReleases": {
+          "title": "New Releases (2024–2025)",
+          "description": "Winbox22 adds new PLAYTECH titles monthly, including Mega Fire Blaze: Breaking Bad (95.87% RTP) and Leprechaun's Luck: Cash Collect Megaways. All new games are tested for fairness before launch."
+        }
+      }
+    },
+    "liveCasino": {
+      "title": "PLAYTECH Live Casino – Real Dealers, Real Time",
+      "description": "Hosted from PLAYTECH's state-of-the-art studio in Riga, Latvia, the live casino offers:",
+      "features": {
+        "dealers": "Baccarat, Roulette, Blackjack, Sic Bo with native-speaking dealers",
+        "tables": "Unlimited Blackjack and Prestige Roulette tables",
+        "streaming": "HD streaming with <1s latency—even on 4G networks common in Malaysia",
+        "limits": "MYR betting limits from RM5 to RM5,000 per hand"
+      },
+      "conclusion": "Malaysian players consistently rank PLAYTECH's Baccarat among the smoothest live experiences—faster load times and clearer camera angles than many regional alternatives."
+    },
+    "progressiveJackpots": {
+      "title": "Progressive Jackpots – Life-Changing Wins",
+      "description": "PLAYTECH operates the largest shared jackpot network in iGaming. Notable Malaysian-relevant facts:",
+      "facts": {
+        "pool": "The Age of the Gods jackpot pool often exceeds RM10 million",
+        "wins": "Past wins include £6.2 million on Beach Life (2012) and £4.5 million on Jackpot Giant (2015)",
+        "trigger": "Any player—regardless of bet size—can trigger the jackpot round"
+      },
+      "transparency": "At Winbox22, all progressive slots are labeled with real-time prize amounts in MYR for full transparency."
+    },
+    "mobileExperience": {
+      "title": "Mobile Experience – Built for Malaysian Users",
+      "description": "Over 85% of Winbox22's PLAYTECH sessions come from mobile devices. Key optimizations include:",
+      "features": {
+        "noDownload": "No download required – runs directly in Chrome, Safari, or Samsung Internet",
+        "dataEfficient": "Data-efficient streaming – under 50MB/hour for live casino",
+        "touchFriendly": "Touch-friendly UI with one-thumb controls",
+        "autoPause": "Auto-pause during calls or notifications"
+      },
+      "tested": "Tested across popular Malaysian devices like the iPhone 13, Samsung A54, and Vivo V29."
+    },
+    "safety": {
+      "title": "Safety & Fairness – What Malaysian Players Should Know",
+      "description": "PLAYTECH games on Winbox22 are:",
+      "features": {
+        "rng": "Powered by certified RNG (Random Number Generator)",
+        "audited": "Regularly audited by eCOGRA and GLI",
+        "ims": "Hosted on IMS (Information Management System) with 256-bit SSL encryption",
+        "tools": "Compliant with responsible gambling tools (session limits, self-exclusion)"
+      },
+      "conclusion": "Unlike offshore sites with no oversight, Winbox22 only integrates PLAYTECH's direct, licensed feed—ensuring no tampering or delayed payouts."
+    },
+    "howToStart": {
+      "title": "How to Start Playing PLAYTECH Games on Winbox22",
+      "steps": {
+        "step1": "Register at",
+        "step1Extra": "(takes <2 minutes, MY phone number accepted)",
+        "step2": "Deposit via FPX, Touch 'n Go, or bank transfer (minimum RM30)",
+        "step3": "Go to \"PLAYTECH\" tab – all slots and live tables are categorized",
+        "step4": "Play instantly – no verification delay for gameplay"
+      },
+      "bonus": "New users receive welcome bonuses usable on PLAYTECH slots, subject to standard terms."
+    },
+    "faqs": {
+      "title": "FAQs – PLAYTECH on Winbox22",
+      "questions": {
+        "whatIs": {
+          "question": "What is PLAYTECH?",
+          "answer": "PLAYTECH is a London Stock Exchange-listed (FTSE 250) company and the world's largest online casino software provider, founded in 1999 and licensed in the UK and Malta."
+        },
+        "fair": {
+          "question": "Are PLAYTECH games fair for Malaysian players?",
+          "answer": "Yes. All games use independently tested RNGs and are monitored by eCOGRA. Winbox22 does not modify game logic or RTP."
+        },
+        "myr": {
+          "question": "Can I play PLAYTECH live casino in MYR?",
+          "answer": "Absolutely. All tables accept Malaysian Ringgit with localized betting limits."
+        },
+        "download": {
+          "question": "Do I need to download an app?",
+          "answer": "No. PLAYTECH games on Winbox22 run directly in your mobile browser—no APK or iOS app required."
+        },
+        "jackpots": {
+          "question": "Are progressive jackpots available to all players?",
+          "answer": "Yes. Any real-money spin on a jackpot-enabled slot qualifies you for the prize pool, regardless of bet size."
+        },
+        "support": {
+          "question": "Is customer support available in Bahasa Malaysia?",
+          "answer": "Yes. Winbox22 offers 24/7 live chat and WhatsApp support in Bahasa Malaysia and English."
+        }
+      }
+    },
+    "finalNote": {
+      "title": "Final Note: Why Winbox22 Stands Out for PLAYTECH Fans",
+      "description": "While many sites claim to offer PLAYTECH games, only licensed operators like Winbox22 provide the full, unaltered experience—from jackpot eligibility to live dealer quality.",
+      "conclusion": "For Malaysian players seeking reliability, speed, and authentic gameplay, Winbox22 delivers the complete PLAYTECH suite without compromise.",
+      "loginButton": "Winbox H5 Login",
+      "cta": "And play now"
+    }
+  },
+
+  "prettyGaming": {
+    "title": "Pretty Gaming Live Casino on Winbox22 – Play Real-Time Baccarat, Roulette & More with HD Dealers",
+    "subtitle": "Experience Live Casino the Malaysian Way",
+    "intro": {
+      "linkText": "Pretty Gaming",
+      "description1": "on Winbox22 brings the energy, elegance, and authenticity of a premium Asian live casino straight to your screen—no matter where you are in Malaysia.",
+      "description2": "Launched in Thailand and now a favorite across Southeast Asia, Pretty Gaming combines professional live dealers, crystal-clear HD streaming, and classic table games tailored for players who value both style and substance.",
+      "description3": "On Winbox22, you get seamless access to all Pretty Gaming tables with full MYR support, mobile-optimized gameplay, and secure transactions—all from a trusted platform built for Malaysian users.",
+      "description4": "Whether you're into fast-paced Dragon Tiger or strategic Baccarat, Pretty Gaming delivers a polished, immersive experience that feels like you're at the table—without leaving home."
+    },
+    "whyStandOut": {
+      "title": "Why Pretty Gaming Stands Out",
+      "description1": "Pretty Gaming blends entertainment and professionalism through visually refined live tables and reliable, low-latency streaming.",
+      "description2": "Unlike generic live casino providers, Pretty Gaming invests heavily in presentation.",
+      "description2-1": "Dealers are trained not just in game rules but in engaging hosting—maintaining a calm, courteous, and professional demeanor throughout each session. The studio environment is clean, well-lit, and designed for clarity, ensuring you never miss a card flip or wheel spin.",
+      "description3": "Streaming runs in Full HD with minimal lag, even on standard 4G connections—a critical advantage for Malaysian players who often game on the go.",
+      "description4": "The interface is intuitive, with betting timers clearly displayed and chip denominations easy to adjust. This attention to detail makes Pretty Gaming ideal for both newcomers trying live casino for the first time and seasoned players who demand smooth, distraction-free gameplay."
+    },
+    "gamesAvailable": {
+      "title": "Games Available on Pretty Gaming",
+      "subtitle": "Classic table games, optimized for real-time betting with multiple camera angles and flexible limits.",
+      "description": "Pretty Gaming focuses on the games Malaysian players love most. There's no clutter—just high-quality, live-hosted versions of timeless favorites:",
+      "games": {
+        "baccarat": "Live Baccarat: The flagship game, offered across multiple tables with varying limits (from RM10 to RM5,000). Choose between standard and Speed Baccarat for faster rounds.",
+        "dragonTiger": "Dragon Tiger: A simple, high-speed card game perfect for quick sessions. Bet on Dragon, Tiger, or Tie—and get results in under 30 seconds.",
+        "roulette": "Roulette: European-style wheel with real-time spins, HD close-ups, and instant payout confirmation.",
+        "sicBo": "Sic Bo: A traditional dice game with live dealer interaction, offering dozens of betting options—from small/big to triple combinations.",
+        "andarBahar": "Andar Bahar: A South Asian favorite with straightforward rules and rapid gameplay, ideal for casual or social betting."
+      },
+      "cameraViews": "Each game features multiple camera views, so you can watch the dealer's hands, the table layout, or the action from a wide angle—whichever suits your style.",
+      "table": {
+        "headers": {
+          "game": "Game",
+          "bestFor": "Best For",
+          "roundTime": "Avg. Round Time",
+          "limits": "Table Limits (MYR)"
+        },
+        "rows": {
+          "baccarat": {
+            "game": "Baccarat",
+            "bestFor": "Strategy & tradition",
+            "roundTime": "45–60 sec",
+            "limits": "RM10 – RM5,000"
+          },
+          "dragonTiger": {
+            "game": "Dragon Tiger",
+            "bestFor": "Quick wins",
+            "roundTime": "25–30 sec",
+            "limits": "RM5 – RM2,000"
+          },
+          "roulette": {
+            "game": "Roulette",
+            "bestFor": "Classic thrill",
+            "roundTime": "50 sec",
+            "limits": "RM10 – RM3,000"
+          },
+          "sicBo": {
+            "game": "Sic Bo",
+            "bestFor": "High variance",
+            "roundTime": "40 sec",
+            "limits": "RM10 – RM2,500"
+          },
+          "andarBahar": {
+            "game": "Andar Bahar",
+            "bestFor": "Casual, social play",
+            "roundTime": "30 sec",
+            "limits": "RM5 – RM1,500"
+          }
+        }
+      }
+    },
+    "seamlessAccess": {
+      "title": "Seamless Access on Winbox22",
+      "subtitle": "Play Pretty Gaming instantly on any device through Winbox22's secure, locally optimized platform.",
+      "description1": "Getting started takes minutes.",
+      "description2": "Visit",
+      "description2Extra": ", register your account, and log in via desktop or mobile. The platform is fully responsive—no app required—but for the smoothest experience, Malaysian players often prefer the Winbox22 mobile app (available for Android and iOS).",
+      "description3": "Once logged in, navigate to the Live Casino section, select Pretty Gaming, and you're at the table in seconds.",
+      "description3-1": "The entire flow—from login to first bet—is designed for speed and simplicity, with MYR as the default currency and local payment methods like bank transfer and e-wallets supported for deposits and withdrawals.",
+      "description4": "Even during peak hours, Winbox22 maintains stable connections to Pretty Gaming servers, ensuring your session stays uninterrupted—whether you're on Wi-Fi at home or using mobile data in KL or Penang."
+    },
+    "security": {
+      "title": "Security & Fair Play You Can Trust",
+      "subtitle": "Your gameplay and funds are protected with enterprise-grade security on Winbox22.",
+      "description1": "Winbox22 operates under strict data protection protocols. All transactions are secured with 256-bit SSL encryption, and account access is safeguarded by two-factor authentication options.",
+      "description2": "Importantly, Pretty Gaming games are 100% live and transparent—no random number generators (RNGs) are used. Every card dealt, every dice roll, and every roulette spin happens in real time, streamed directly from the studio. This ensures fairness you can see with your own eyes.",
+      "description3": "Winbox22 also promotes responsible gaming. Tools like deposit limits, session timers, and self-exclusion options are available in your account settings—because entertainment should never come at the cost of well-being."
+    },
+    "promotions": {
+      "title": "Exclusive Promotions for Malaysian Players",
+      "subtitle": "Winbox22 offers tailored bonuses to enhance your Pretty Gaming sessions.",
+      "description": "As a Malaysian player on Winbox22, you're eligible for promotions designed specifically for live casino enthusiasts:",
+      "offers": {
+        "welcome": "Welcome Bonus: New users receive a matched deposit bonus on their first top-up—ideal for testing multiple Pretty Gaming tables.",
+        "reload": "Weekly Reload Offers: Get extra credits every week to keep your bankroll active.",
+        "cashback": "Live Casino Cashback: Earn 5–10% cashback on net losses from Pretty Gaming games (terms apply).",
+        "seasonal": "Seasonal Events: During festive periods like Chinese New Year or Hari Raya, Winbox22 often runs special tournaments with prize pools, free bets, or enhanced odds on select tables."
+      },
+      "note": "These offers are automatically applied or easily claimable via the promotions tab—no complicated wagering hoops."
+    },
+    "howToStart": {
+      "title": "How to Start Playing Pretty Gaming on Winbox22",
+      "subtitle": "Get into the game in under 3 minutes with these simple steps.",
+      "steps": {
+        "register": {
+          "title": "Register:",
+          "description": "Visit",
+          "extra": "and create a free account using your mobile number (standard for MY compliance)."
+        },
+        "verify": {
+          "title": "Verify:",
+          "description": "Confirm your number via SMS—this helps protect your account."
+        },
+        "deposit": {
+          "title": "Deposit:",
+          "description": "Choose a local method (e.g., FPX, Touch 'n Go, or bank transfer) and fund your account in MYR."
+        },
+        "launch": {
+          "title": "Launch Live Casino:",
+          "description": "From the main menu, go to Live Casino → Pretty Gaming."
+        },
+        "play": {
+          "title": "Play:",
+          "description": "Select your preferred game and table, place your bets, and enjoy real-time action with professional dealers."
+        }
+      },
+      "appNote": "No downloads are mandatory—but if you prefer app-based play, the Winbox22 APK (for Android) and iOS version offer faster load times and push notifications for new tables or promotions."
+    },
+    "whyTrust": {
+      "title": "Why Malaysian Players Trust Winbox22 for Pretty Gaming",
+      "subtitle": "Local support, fast transactions, and consistent uptime make Winbox22 a top choice.",
+      "description1": "Winbox22 isn't just another offshore casino—it's built with Malaysian users in mind. Customer support is available 24/7 via WhatsApp and live chat, with agents who speak Bahasa Malaysia and English.",
+      "description2": "Deposits are processed in minutes, and withdrawals typically clear within 15–30 minutes during business hours—far faster than many regional competitors.",
+      "description3": "Moreover, Winbox22 has earned a reputation for reliability. Unlike sketchy sites that vanish after a few months, Winbox22 maintains consistent uptime, regular platform updates, and transparent terms. That's why thousands of Malaysian players return week after week for their Pretty Gaming sessions."
+    },
+    "conclusion": {
+      "title": "Conclusion: Premium Live Casino, Designed for Malaysia",
+      "description1": "Pretty Gaming on Winbox22 delivers more than just games—it offers an experience. From the polished presentation of its live dealers to the seamless mobile integration and MYR-friendly banking, every detail is tuned for Malaysian players who expect both quality and convenience.",
+      "description2": "Whether you're chasing a Baccarat streak, testing your luck on Roulette, or enjoying a quick round of Dragon Tiger during your lunch break, Pretty Gaming provides the perfect blend of authenticity and accessibility."
+    },
+    "readyToJoin": {
+      "title": "Ready to join the table?",
+      "loginButton": "Login H5 Winbox",
+      "cta": "today and play Pretty Gaming in Full HD—anytime, anywhere in Malaysia.",
+      "disclaimer": "Winbox22 promotes responsible gaming. Please gamble responsibly and only bet what you can afford to lose. For support, visit BeGambleAware.org."
     }
   }
 }

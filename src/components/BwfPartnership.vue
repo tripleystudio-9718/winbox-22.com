@@ -198,6 +198,7 @@ import performanceIcon from "@/assets/access.png";
 import { computed } from 'vue'
 
 const { goToHomepage, goToLogin, goToRegister } = useNavigation()
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

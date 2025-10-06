@@ -1,6 +1,7 @@
 // src/utils/navigation.js
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
+import PrettyGaming from '../live-casino-game/prettyGaming.vue'
 
 // Site URL constant
 const SITE_URL = 'https://winbox22.com'
@@ -134,6 +135,26 @@ export function useNavigation() {
     router.push(getLocalizedPath('/maxbet'))
   }
 
+  const goToSexy = () => {
+    router.push(getLocalizedPath('/sexy-live-casino'))
+  }
+
+  const goToAsiaGaming = () => {
+    router.push(getLocalizedPath('/asia-gaming'))
+  }
+
+  const goToBigGaming = () => {
+    router.push(getLocalizedPath('/big-gaming'))
+  }
+
+  const goToDbGaming = () => {
+    router.push(getLocalizedPath('/db-gaming'))
+  }
+
+  const goToPrettyGaming = () => {
+    router.push(getLocalizedPath('/pretty-gaming'))
+  }
+
   const goToCmd368 = () => {
     router.push(getLocalizedPath('/cmd368'))
   }
@@ -178,6 +199,18 @@ export function useNavigation() {
     router.push(getLocalizedPath('/sports-betting'))
   }
 
+  const goToLiveCasino = () => {
+    router.push(getLocalizedPath('/live-casino'))
+  }
+
+  const goToLottery = () => {
+    router.push(getLocalizedPath('/ekor-lottery'))
+  }
+
+  const goToHorse = () => {
+    router.push(getLocalizedPath('/horse-racing-rcb988'))
+  }
+
   // Generic navigation function
   const navigateTo = (path) => {
     router.push(getLocalizedPath(path))
@@ -219,7 +252,15 @@ export function useNavigation() {
     monkeyking: () => getLocalizedPath('/monkeyking'),
     slot: () => getLocalizedPath('/slot'),
     sportsBetting: () => getLocalizedPath('/sports-betting'),
+    liveCasino: () => getLocalizedPath('/live-casino'),
+    lottery: () => getLocalizedPath('/ekor-lottery'),
+    horsing: () => getLocalizedPath('/horse-racing-rcb988'),
     maxbet: () => getLocalizedPath('/maxbet'),
+    sexy: () => getLocalizedPath('/sexy-live-casino'),
+    asiaGaming: () => getLocalizedPath('/asia-gaming'),
+    bigGaming: () => getLocalizedPath('/big-gaming'),
+    dbGaming: () => getLocalizedPath('/db-gaming'),
+    PrettyGaming: () => getLocalizedPath('/pretty-gaming'),
     cmd368: () => getLocalizedPath('/cmd368'),
     wickets: () => getLocalizedPath('/9wickets'),
     bti: () => getLocalizedPath('/bti'),
@@ -262,7 +303,15 @@ export function useNavigation() {
     monkeyking: () => getFullUrl('/monkeyking'),
     slot: () => getFullUrl('/slot'),
     sportsBetting: () => getFullUrl('/sports-betting'),
+    liveCasino: () => getFullUrl('/live-casino'),
+    lottery: () => getFullUrl('/ekor-lottery'),
+    horsing: () => getFullUrl('/horse-racing-rcb988'),
     maxbet: () => getFullUrl('/maxbet'),
+    sexy: () => getFullUrl('/sexy-live-casino'),
+    asiaGaming: () => getFullUrl('/asia-gaming'),
+    bigGaming: () => getFullUrl('/big-gaming'),
+    dbGaming: () => getFullUrl('/db-gaming'),
+    prettyGaming: () => getFullUrl('/pretty-gaming'),
     cmd368: () => getFullUrl('/cmd368'),
     wickets: () => getFullUrl('/9wickets'),
     bti: () => getFullUrl('/bti'),
@@ -306,7 +355,11 @@ export function useNavigation() {
     goToMonkeyking,
     goToSlots,
     goToSportsBetting,
+    goToLiveCasino,
+    goToLottery,
+    goToHorse,
     goToMaxbet,
+    goToSexy,
     goToCmd368,
     goToNineWickets,
     goToBti,
@@ -316,6 +369,10 @@ export function useNavigation() {
     goToSv388,
     goToEkor,
     goToRcb988,
+    goToAsiaGaming,
+    goToBigGaming,
+    goToDbGaming,
+    goToPrettyGaming,
     
     // Utility functions
     navigateTo,

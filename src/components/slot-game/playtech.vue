@@ -80,12 +80,15 @@
       </div>
     </div>
   </div>
+
+<playtechContent />
 </template>
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import button_frame from "@/assets/button-frame.png";
 import { useNavigation } from '@/components/utils/navigation';
+import playtechContent from '@/components/live-casino-game/playtech.vue';
 
 // Use your existing navigation utilities
 const { goToRegister } = useNavigation();

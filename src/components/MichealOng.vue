@@ -94,6 +94,8 @@ import { useNavigation } from '@/components/utils/navigation'
 import michaelOngBanner from "@/assets/micheal-ong.jpg";
 
 const { goToBlog, goToAmandaLim, goToAbout, goToResponsibleGaming } = useNavigation()
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 </script>
 
 <style scoped>

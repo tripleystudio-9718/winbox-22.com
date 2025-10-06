@@ -14,11 +14,19 @@
       <h1>{{ $t('sportsBetting.title') }}</h1>
       
       <p v-html="$t('sportsBetting.intro.description1')"></p>
-      <p>{{ $t('sportsBetting.intro.description2') }} <span class="homepage-link" @click="goToSportsBetting">{{ $t('sportsBetting.intro.linkText') }}</span> {{ $t('sportsBetting.intro.description3') }}</p>
+      <p>{{ $t('sportsBetting.intro.description2') }} <a 
+          :href="seoLinks.sportsBetting()" 
+          class="homepage-link"
+          @click.prevent="goToSportsBetting"
+          >{{ $t('sportsBetting.intro.linkText') }}</a> {{ $t('sportsBetting.intro.description3') }}</p>
 
       <div class="content-block">
         <h2>{{ $t('sportsBetting.providers.title') }}</h2>
-        <p>{{ $t('sportsBetting.providers.description1') }} <span class="homepage-link" @click="goToHomepage">{{ $t('sportsBetting.providers.linkText') }}</span> {{ $t('sportsBetting.providers.description2') }}</p>
+        <p>{{ $t('sportsBetting.providers.description1') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage"
+          >{{ $t('sportsBetting.providers.linkText') }}</a> {{ $t('sportsBetting.providers.description2') }}</p>
 
         <h3>{{ $t('sportsBetting.providers.maxbet.title') }}</h3>
         <p v-html="$t('sportsBetting.providers.maxbet.description')"></p>
@@ -109,7 +117,16 @@
       <div class="content-block">
         <h2>{{ $t('sportsBetting.conclusion.title') }}</h2>
         <p>{{ $t('sportsBetting.conclusion.description') }}</p>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('sportsBetting.conclusion.loginText') }}</span> | <span class="homepage-link" @click="goToRegister">{{ $t('sportsBetting.conclusion.betText') }}</span></p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin"
+          >{{ $t('sportsBetting.conclusion.loginText') }}</a> | 
+          <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister"
+          >{{ $t('sportsBetting.conclusion.betText') }}</a></p>
       </div>
     </div>
   </div>
@@ -125,6 +142,8 @@ import bti from '@/assets/bti.png';
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

@@ -18,7 +18,11 @@
       <h1>{{ $t('liveCasino.title') }}</h1>
       
       <p>{{ $t('liveCasino.intro.description1') }}</p>
-      <p>{{ $t('liveCasino.intro.description2') }} <span class="homepage-link" @click="goToHomepage">{{ $t('liveCasino.intro.linkText') }}</span> {{ $t('liveCasino.intro.description3') }}<strong>{{ $t('liveCasino.intro.description4') }}</strong>{{ $t('liveCasino.intro.description5') }}</p>
+      <p>{{ $t('liveCasino.intro.description2') }} <a 
+          :href="seoLinks.home()" 
+          class="homepage-link"
+          @click.prevent="goToHomepage"
+          >{{ $t('liveCasino.intro.linkText') }}</a> {{ $t('liveCasino.intro.description3') }}<strong>{{ $t('liveCasino.intro.description4') }}</strong>{{ $t('liveCasino.intro.description5') }}</p>
       <p>{{ $t('liveCasino.intro.description6') }}</p>
 
       <div class="content-block">
@@ -81,7 +85,11 @@
       <div class="content-block">
         <h2>{{ $t('liveCasino.conclusion.title') }}</h2>
         <p>{{ $t('liveCasino.conclusion.description') }}</p>
-        <p>{{ $t('liveCasino.conclusion.loginText1') }}<span class="homepage-link" @click="goToLogin">{{ $t('liveCasino.conclusion.loginText') }}</span> {{ $t('liveCasino.conclusion.playText') }}</p>
+        <p>{{ $t('liveCasino.conclusion.loginText1') }}<a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin"
+          >{{ $t('liveCasino.conclusion.loginText') }}</a> {{ $t('liveCasino.conclusion.playText') }}</p>
       </div>
     </div>
   </div>
@@ -104,6 +112,7 @@ import sv388 from "@/assets/sv388.png";
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,
@@ -113,6 +122,12 @@ const {
   goToEvolution,
   goToHotRoad,
   goToEzugi,
+  goToSexy,
+  goToAsiaGaming,
+  goToBigGaming,
+  goToPlaytech,
+  goToDbGaming,
+  goToPrettyGaming,
   goToSv388,
 } = useNavigation();
 
@@ -125,7 +140,7 @@ const liveGames = [
     alt: "Winbox Evolution"
   },
   {
-    id: "login",
+    id: "sexy",
     name: "AE Sexy",
     image: sexy,
     alt: "Winbox AE Sexy"
@@ -137,7 +152,7 @@ const liveGames = [
     alt: "Winbox Hot Road"
   },
   {
-    id: "login",
+    id: "prettyGaming",
     name: "Pretty Gaming",
     image: prettyGaming,
     alt: "Winbox Pretty Gaming"
@@ -149,25 +164,25 @@ const liveGames = [
     alt: "Winbox Ezugi"
   },
   {
-    id: "login",
+    id: "DbGaming",
     name: "DB Casino",
     image: dbCasino,
     alt: "Winbox DB Casino"
   },
   {
-    id: "login",
+    id: "playtech",
     name: "Playtech",
     image: playtech,
     alt: "Winbox Playtech"
   },
   {
-    id: "login",
+    id: "asiaGaming",
     name: "Asia Gaming",
     image: asiaGaming,
     alt: "Winbox Asia Gaming"
   },
   {
-    id: "login",
+    id: "bigGaming",
     name: "Big Gaming",
     image: bigGaming,
     alt: "Winbox Big Gaming"
@@ -196,6 +211,24 @@ const navigateToGame = (gameId) => {
       break;
     case "ezugi":
       goToEzugi();
+      break;
+    case "sexy":
+      goToSexy();
+      break;
+    case "asiaGaming":
+      goToAsiaGaming();
+      break;
+    case "bigGaming":
+      goToBigGaming();
+      break;
+    case "DbGaming":
+      goToDbGaming();
+      break;
+    case "playtech":
+      goToPlaytech();
+      break;
+    case "prettyGaming":
+      goToPrettyGaming();
       break;
     default:
       goToRegister();

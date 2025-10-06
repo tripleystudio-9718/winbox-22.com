@@ -22,9 +22,17 @@ const routes = [
   { path: '/bwf-winbox-partnership', priority: '0.6', changefreq: 'monthly' },
   { path: '/brand-ambassador', priority: '0.6', changefreq: 'monthly' },
   
+  // Game Category Pages
+  { path: '/slot', priority: '0.8', changefreq: 'weekly' },
+  { path: '/sports-betting', priority: '0.8', changefreq: 'weekly' },
+  { path: '/live-casino', priority: '0.8', changefreq: 'weekly' },
+  { path: '/ekor-lottery', priority: '0.8', changefreq: 'weekly' },
+  { path: '/horse-racing-rcb988', priority: '0.8', changefreq: 'weekly' },
+  
   // Slot game routes
   { path: '/acewin', priority: '0.6', changefreq: 'monthly' },
   { path: '/jili', priority: '0.6', changefreq: 'monthly' },
+  { path: '/lucky365', priority: '0.6', changefreq: 'monthly' },
   { path: '/spadegaming', priority: '0.6', changefreq: 'monthly' },
   { path: '/playtech', priority: '0.6', changefreq: 'monthly' },
   { path: '/pragmatic-play', priority: '0.6', changefreq: 'monthly' },
@@ -32,24 +40,29 @@ const routes = [
   { path: '/microslot', priority: '0.6', changefreq: 'monthly' },
   { path: '/monkeyking', priority: '0.6', changefreq: 'monthly' },
   
+  // Sports betting routes
+  { path: '/maxbet', priority: '0.6', changefreq: 'monthly' },
+  { path: '/cmd368', priority: '0.6', changefreq: 'monthly' },
+  { path: '/9wickets', priority: '0.6', changefreq: 'monthly' },
+  { path: '/bti', priority: '0.6', changefreq: 'monthly' },
+  
+  // Live casino routes
+  { path: '/evolution', priority: '0.6', changefreq: 'monthly' },
+  { path: '/ezugi', priority: '0.6', changefreq: 'monthly' },
+  { path: '/sv388', priority: '0.6', changefreq: 'monthly' },
+  { path: '/hotroad', priority: '0.6', changefreq: 'monthly' },
+  
+  // Lottery routes
+  { path: '/ekor', priority: '0.6', changefreq: 'monthly' },
+  
+  // Horse racing routes
+  { path: '/rcb988', priority: '0.6', changefreq: 'monthly' },
+  
   // Legal pages
   { path: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
   { path: '/terms-and-condition', priority: '0.3', changefreq: 'yearly' },
   { path: '/responsible-gaming', priority: '0.3', changefreq: 'yearly' },
 ];
-
-// Additional URLs to add (from the image requirements)
-const additionalEnglishUrls = [
-  { path: '/privacy-policy', priority: '0.3', changefreq: 'yearly' },
-  { path: '/terms-and-condition', priority: '0.3', changefreq: 'yearly' },
-  { path: '/blog', priority: '0.6', changefreq: 'monthly' }
-];
-
-// URL changes to handle (old -> new mappings)
-const urlChanges = {
-  '/winbox-download-apk/': '/download',
-  '/contact/': '/contact-us'
-};
 
 // Generate Chinese routes (lower priority as per SEO best practices)
 const chineseRoutes = routes.map(route => ({
@@ -89,7 +102,7 @@ function generateSitemap() {
   return sitemap;
 }
 
-// Function to write sitemap to file and handle redirects
+// Function to write sitemap to file
 function writeSitemap() {
   try {
     const sitemapContent = generateSitemap();
@@ -102,55 +115,55 @@ function writeSitemap() {
     
     // Write sitemap file
     fs.writeFileSync(OUTPUT_FILE, sitemapContent, 'utf8');
-    console.log(`✅ Sitemap generated successfully: ${OUTPUT_FILE}`);
-    console.log(`📊 Total URLs: ${allRoutes.length}`);
-    console.log(`🌐 Domain: ${DOMAIN}`);
-    
-    // Log URL changes that need to be handled
-    console.log('\n📝 URL Changes to implement:');
-    console.log('From <loc>https://www.winbox22.com/winbox-download-apk/</loc> change to <loc>https://www.winbox22.com/download/</loc>');
-    console.log('From <loc>https://www.winbox22.com/contact/</loc> change to <loc>https://www.winbox22.com/contact-us/</loc>');
-    console.log('\n🇨🇳 Same for zh chinese:');
-    console.log('From <loc>https://www.winbox22.com/zh/winbox-download-apk/</loc> change to <loc>https://www.winbox22.com/zh/download/</loc>');
-    console.log('From <loc>https://www.winbox22.com/zh/contact/</loc> change to <loc>https://www.winbox22.com/zh/contact-us/</loc>');
-    console.log('\n🔄 And make redirect for:');
-    console.log('"https://www.winbox22.com/zh/winbox-download-apk/" to "https://www.winbox22.com/zh/download/"');
-    console.log('"https://www.winbox22.com/zh/contact/" to "https://www.winbox22.com/zh/contact-us/"');
-    console.log('\n📄 For EN add these URLs:');
-    console.log('https://www.winbox22.com/privacy-policy');
-    console.log('https://www.winbox22.com/terms-and-condition');
-    console.log('https://www.winbox22.com/blog');
-    console.log('\n🇨🇳 For ZH add these URLs:');
-    console.log('https://www.winbox22.com/zh/privacy-policy');
-    console.log('https://www.winbox22.com/zh/terms-and-condition');
-    console.log('https://www.winbox22.com/zh/blog');
+    console.log(`Sitemap generated successfully: ${OUTPUT_FILE}`);
+    console.log(`Total URLs: ${allRoutes.length}`);
+    console.log(`Domain: ${DOMAIN}`);
     
     // Log summary
     const englishRoutes = routes.length;
     const chineseRoutesCount = chineseRoutes.length;
-    console.log(`\n📊 Summary:`);
-    console.log(`📄 English routes: ${englishRoutes}`);
-    console.log(`🇨🇳 Chinese routes: ${chineseRoutesCount}`);
+    console.log(`\nSummary:`);
+    console.log(`English routes: ${englishRoutes}`);
+    console.log(`Chinese routes: ${chineseRoutesCount}`);
+    
+    // Log game categories
+    console.log(`\nGame Categories:`);
+    console.log(`- Slot games: 9 providers`);
+    console.log(`- Sports betting: 4 providers`);
+    console.log(`- Live casino: 4 providers`);
+    console.log(`- Lottery: 1 provider`);
+    console.log(`- Horse racing: 1 provider`);
     
   } catch (error) {
-    console.error('❌ Error generating sitemap:', error);
+    console.error('Error generating sitemap:', error);
     process.exit(1);
   }
 }
 
 // Function to validate routes against router configuration
 function validateRoutes() {
-  console.log('🔍 Validating routes...');
+  console.log('Validating routes...');
   
-  // Check for any missing routes that might be in the router
+  // All routes that should be in the sitemap based on router
   const routerPaths = [
     '/', '/winbox-login-web', '/winbox-register', '/winbox-promotion', 
     '/download', '/chat', '/contact-us', '/about', '/blog', 
     '/amanda-lim', '/michael-ong', '/bwf-winbox-partnership', 
-    '/brand-ambassador', '/acewin', '/jili', '/spadegaming', 
-    '/playtech', '/pragmatic-play', '/askmeslot', '/microslot', 
-    '/monkeyking', '/privacy-policy', '/terms-and-condition', 
-    '/responsible-gaming'
+    '/brand-ambassador', '/privacy-policy', '/terms-and-condition', 
+    '/responsible-gaming',
+    // Game categories
+    '/slot', '/sports-betting', '/live-casino', '/ekor-lottery', '/horse-racing-rcb988',
+    // Slot games
+    '/acewin', '/jili', '/lucky365', '/spadegaming', '/playtech', 
+    '/pragmatic-play', '/askmeslot', '/microslot', '/monkeyking',
+    // Sports
+    '/maxbet', '/cmd368', '/9wickets', '/bti',
+    // Live casino
+    '/evolution', '/ezugi', '/sv388', '/hotroad',
+    // Lottery
+    '/ekor',
+    // Horse racing
+    '/rcb988'
   ];
   
   const sitemapPaths = routes.map(r => r.path);
@@ -158,21 +171,21 @@ function validateRoutes() {
   const extra = sitemapPaths.filter(p => !routerPaths.includes(p));
   
   if (missing.length > 0) {
-    console.warn('⚠️ Routes in router but missing from sitemap:', missing);
+    console.warn('Routes in router but missing from sitemap:', missing);
   }
   
   if (extra.length > 0) {
-    console.warn('⚠️ Routes in sitemap but not in router:', extra);
+    console.warn('Routes in sitemap but not in router:', extra);
   }
   
   if (missing.length === 0 && extra.length === 0) {
-    console.log('✅ All routes are synchronized!');
+    console.log('All routes are synchronized!');
   }
 }
 
 // Main execution
 if (require.main === module) {
-  console.log('🚀 Starting sitemap generation...');
+  console.log('Starting sitemap generation...');
   validateRoutes();
   writeSitemap();
 }

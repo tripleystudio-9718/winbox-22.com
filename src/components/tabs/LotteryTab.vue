@@ -17,7 +17,11 @@
       <license_payment />
       <h1>{{ $t('lottery.title') }}</h1>
       
-      <p>{{ $t('lottery.intro.description1') }} <span class="homepage-link" @click="goToEkor">{{ $t('lottery.intro.linkText') }}</span> {{ $t('lottery.intro.description2') }}</p>
+      <p>{{ $t('lottery.intro.description1') }} <a 
+          :href="seoLinks.ekor()" 
+          class="homepage-link"
+          @click.prevent="goToEkor"
+          >{{ $t('lottery.intro.linkText') }}</a> {{ $t('lottery.intro.description2') }}</p>
       <p>{{ $t('lottery.intro.description3') }}</p>
       
       <ul class="dots">
@@ -139,7 +143,11 @@
         <h2>{{ $t('lottery.conclusion.title') }}</h2>
         <p>{{ $t('lottery.conclusion.description1') }} <strong>{{ $t('lottery.conclusion.highlight') }}</strong> {{ $t('lottery.conclusion.description2') }}</p>
         <p>{{ $t('lottery.conclusion.description3') }}</p>
-        <p>{{ $t('lottery.conclusion.description4') }} <span class="homepage-link" @click="goToRegister">{{ $t('lottery.conclusion.linkText') }}</span> {{ $t('lottery.conclusion.description5') }}</p>
+        <p>{{ $t('lottery.conclusion.description4') }} <a 
+          :href="seoLinks.register()" 
+          class="homepage-link"
+          @click.prevent="goToRegister"
+          >{{ $t('lottery.conclusion.linkText') }}</a> {{ $t('lottery.conclusion.description5') }}</p>
       </div>
     </div>
   </div>
@@ -151,6 +159,8 @@ import license_payment from '../license_payment.vue';
 
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
+
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
 
 const {
   goToRegister,

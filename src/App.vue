@@ -30,6 +30,10 @@
   const isSidebarOpen = ref(false);
   const isFollowDropdownOpen = ref(false);
   
+  // Dropdown states
+  const isBrandDropdownOpen = ref(false);
+  const isHelpDropdownOpen = ref(false);
+  
   // Popup state
   const showPopup = ref(false);
   
@@ -72,6 +76,16 @@
     isFollowDropdownOpen.value = !isFollowDropdownOpen.value;
   };
   
+  // Toggle brand dropdown
+  const toggleBrandDropdown = () => {
+    isBrandDropdownOpen.value = !isBrandDropdownOpen.value;
+  };
+  
+  // Toggle help dropdown
+  const toggleHelpDropdown = () => {
+    isHelpDropdownOpen.value = !isHelpDropdownOpen.value;
+  };
+  
   // Handle social media clicks
   const handleSocialClick = (link) => {
     if (link.isRegister) {
@@ -87,6 +101,15 @@
     goToRegister();
   };
   
+  // Watch sidebar state to close dropdowns when sidebar closes
+  watch(isSidebarOpen, (newValue) => {
+    if (!newValue) {
+      isBrandDropdownOpen.value = false;
+      isHelpDropdownOpen.value = false;
+      isFollowDropdownOpen.value = false;
+    }
+  });
+  
   // Reset scroll position on route change
   watch(
     () => route.path,
@@ -101,7 +124,7 @@
       if (mainContent) {
         mainContent.scrollTo({
           top: 0,
-          behavior: 'instant' // Use 'smooth' for animated scrolling
+          behavior: 'instant'
         });
       }
     }
@@ -157,87 +180,119 @@
         >
           <div class="sidebar" :class="{ 'open': isSidebarOpen }" @click.stop>
             <div class="sidebar-header">
-              <router-link :to="routerLinks.home()" class="menu-item">
+              <router-link :to="routerLinks.home()" @click="closeSidebar" class="menu-item">
                 <img src="@/assets/winbox_logo.png" alt="WINBOX Logo" class="sidebar-logo">
               </router-link>
             </div>
             <nav class="sidebar-nav">
               <div class="sidebar-content">
                 <ul>
+                  <!-- Login & Register -->
                   <li>
-                    <router-link :to="routerLinks.home()" class="menu-item">
-                      <span>{{ $t('navigation.home') }}</span>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link :to="routerLinks.promo()" class="menu-item">
-                      <span>{{ $t('navigation.promo') }}</span>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link :to="routerLinks.login()" class="menu-item">
+                    <router-link :to="routerLinks.login()" class="menu-item" @click="closeSidebar">
                       <span>{{ $t('navigation.login') }}</span>
                     </router-link>
                   </li>
                   <li>
-                    <router-link :to="routerLinks.register()" class="menu-item">
+                    <router-link :to="routerLinks.register()" class="menu-item" @click="closeSidebar">
                       <span>{{ $t('navigation.register') }}</span>
                     </router-link>
                   </li>
+
+                  <!-- Main Navigation -->
                   <li>
-                    <router-link :to="routerLinks.download()" class="menu-item">
+                    <router-link :to="routerLinks.home()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.home') }}</span>
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link :to="routerLinks.promo()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.promo') }}</span>
+                    </router-link>
+                  </li>
+                  <li>
+                    <router-link :to="routerLinks.download()" class="menu-item" @click="closeSidebar">
                       <span>{{ $t('navigation.download') }}</span>
                     </router-link>
                   </li>
+
+                  <!-- Gaming Categories -->
                   <li>
-                    <router-link :to="routerLinks.bwfPartnership()" class="menu-item">
-                      <span>{{ $t('navigation.bwfPartnership') }}</span>
+                    <router-link :to="routerLinks.slot()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.slots') }}</span>
                     </router-link>
                   </li>
                   <li>
-                    <router-link :to="routerLinks.responsibleGaming()" class="menu-item">
-                      <span>{{ $t('navigation.responsibleGaming') }}</span>
+                    <router-link :to="routerLinks.liveCasino()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.liveCasino') }}</span>
                     </router-link>
                   </li>
                   <li>
-                    <router-link :to="routerLinks.amandaLim()" class="menu-item">
-                      <span>{{ $t('navigation.amandaLim') }}</span>
+                    <router-link :to="routerLinks.lottery()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.lottery') }}</span>
                     </router-link>
                   </li>
                   <li>
-                    <router-link :to="routerLinks.michealOng()" class="menu-item">
-                      <span>{{ $t('navigation.michealOng') }}</span>
+                    <router-link :to="routerLinks.sportsBetting()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.sport') }}</span>
                     </router-link>
                   </li>
                   <li>
-                    <router-link :to="routerLinks.brandAmbassador()" class="menu-item">
-                      <span>{{ $t('navigation.brandAmbassador') }}</span>
+                    <router-link :to="routerLinks.horsing()" class="menu-item" @click="closeSidebar">
+                      <span>{{ $t('navigation.horsing') }}</span>
                     </router-link>
                   </li>
-                  <li>
-                    <router-link :to="routerLinks.about()" class="menu-item">
-                      <span>{{ $t('navigation.aboutUs') }}</span>
-                    </router-link>
+
+                  <!-- Brand & Info Dropdown -->
+                  <li class="dropdown-item">
+                    <div class="dropdown-header" @click="toggleBrandDropdown">
+                      <span class="dropdown-text">{{ $t('navigation.brandInfo') }}</span>
+                      <span class="dropdown-arrow" :class="{ 'open': isBrandDropdownOpen }">
+                        <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16">
+                          <path d="M4 6l4 4 4-4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                    </div>
+                    <div class="sub-dropdown" :class="{ 'open': isBrandDropdownOpen }">
+                      <router-link :to="routerLinks.brandAmbassador()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.ourAmbassadors') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.bwfPartnership()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.bwfPartnership') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.about()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.aboutUs') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.blog()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.blog') }}</span>
+                      </router-link>
+                    </div>
                   </li>
-                  <li>
-                    <router-link :to="routerLinks.privacyPolicy()" class="menu-item">
-                      <span>{{ $t('navigation.privacyPolicy') }}</span>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link :to="routerLinks.termsAndCondition()" class="menu-item">
-                      <span>{{ $t('navigation.termsAndCondition') }}</span>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link :to="routerLinks.contactUs()" class="menu-item">
-                      <span>{{ $t('navigation.contactUs') }}</span>
-                    </router-link>
-                  </li>
-                  <li>
-                    <router-link :to="routerLinks.blog()" class="menu-item">
-                      <span>{{ $t('navigation.blog') }}</span>
-                    </router-link>
+
+                  <!-- Help & Legal Dropdown -->
+                  <li class="dropdown-item">
+                    <div class="dropdown-header" @click="toggleHelpDropdown">
+                      <span class="dropdown-text">{{ $t('navigation.helpLegal') }}</span>
+                      <span class="dropdown-arrow" :class="{ 'open': isHelpDropdownOpen }">
+                        <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16">
+                          <path d="M4 6l4 4 4-4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                    </div>
+                    <div class="sub-dropdown" :class="{ 'open': isHelpDropdownOpen }">
+                      <router-link :to="routerLinks.contactUs()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.contactUs') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.responsibleGaming()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.responsibleGaming') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.privacyPolicy()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.privacyPolicy') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.termsAndCondition()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.termsAndCondition') }}</span>
+                      </router-link>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -638,8 +693,8 @@ footer a {
   top: 0;
   left: -300px;
   width: 280px;
-  height: 100vh; /* Full viewport height */
-  max-height: 100vh; /* Ensure it doesn't exceed viewport */
+  height: 100vh;
+  max-height: 100vh;
   background-color: #02D0FD;
   background-position: center;
   background-size: 100% 100%;
@@ -661,16 +716,16 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 25px 20px 20px 20px; /* Reduced top padding */
+  padding: 25px 20px 20px 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
   backdrop-filter: blur(10px);
-  flex-shrink: 0; /* Prevent header from shrinking */
+  flex-shrink: 0;
 }
 
 .sidebar-logo {
   height: auto;
-  width: 60%; /* Reduced logo size */
+  width: 60%;
   filter: drop-shadow(0 3px 6px rgba(0, 0, 0, 0.15));
   transition: transform 0.3s ease;
 }
@@ -683,10 +738,10 @@ footer a {
 .sidebar-nav {
   flex: 1;
   display: flex;
-  padding: 15px 0 20px 0; /* Reduced padding */
+  padding: 15px 0 20px 0;
   position: relative;
-  overflow-y: auto; /* Make nav scrollable */
-  min-height: 0; /* Allow shrinking */
+  overflow-y: auto;
+  min-height: 0;
 }
 
 .sidebar-content {
@@ -694,16 +749,16 @@ footer a {
   flex-direction: column;
   width: 100%;
   height: 100%;
-  min-height: min-content; /* Ensure content can grow */
+  min-height: min-content;
 }
 
 .sidebar-nav ul {
   list-style: none;
-  padding: 0 20px 20px 20px; /* Added bottom padding */
+  padding: 0 20px 20px 20px;
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 4px; /* Reduced gap */
+  gap: 4px;
 }
 
 .sidebar-nav li {
@@ -735,13 +790,6 @@ footer a {
 .sidebar.open .sidebar-nav li:nth-child(15) { animation-delay: 0.8s; }
 .sidebar.open .sidebar-nav li:nth-child(16) { animation-delay: 0.85s; }
 .sidebar.open .sidebar-nav li:nth-child(17) { animation-delay: 0.9s; }
-.sidebar.open .sidebar-nav li:nth-child(18) { animation-delay: 0.95s; }
-.sidebar.open .sidebar-nav li:nth-child(19) { animation-delay: 1.0s; }
-.sidebar.open .sidebar-nav li:nth-child(20) { animation-delay: 1.05s; }
-
-.sidebar.open .sidebar-nav li:nth-child(n+21) { 
-  animation-delay: 1.1s; 
-}
 
 @keyframes slideInFade {
   to {
@@ -752,21 +800,21 @@ footer a {
 
 /* Enhanced menu item styling */
 .sidebar-nav a, 
-.sidebar-nav .menu-link {
+.sidebar-nav .menu-item {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 12px 20px; /* Reduced padding */
+  padding: 12px 20px;
   color: white;
   text-decoration: none;
   width: 100%;
-  font-size: 14px; /* Slightly smaller font */
+  font-size: 14px;
   font-weight: 600;
   position: relative;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 20px;
   cursor: pointer;
-  margin-bottom: 2px; /* Reduced margin */
+  margin-bottom: 2px;
   background: transparent;
   overflow: hidden;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -774,7 +822,7 @@ footer a {
 
 /* Subtle hover effect */
 .sidebar-nav a:hover,
-.sidebar-nav .menu-link:hover {
+.sidebar-nav .menu-item:hover {
   background: rgba(255, 255, 255, 0.15);
   transform: translateX(8px);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
@@ -783,7 +831,7 @@ footer a {
 
 /* Active state with beautiful curved background */
 .sidebar-nav a.router-link-active,
-.sidebar-nav .menu-link.active {
+.sidebar-nav .menu-item.active {
   background: linear-gradient(135deg, 
     rgba(255, 255, 255, 0.25) 0%, 
     rgba(255, 255, 255, 0.18) 50%, 
@@ -804,7 +852,7 @@ footer a {
 
 /* Active state curved background effect - top curve */
 .sidebar-nav a.router-link-active::before,
-.sidebar-nav .menu-link.active::before {
+.sidebar-nav .menu-item.active::before {
   content: '';
   position: absolute;
   left: -20px;
@@ -818,7 +866,7 @@ footer a {
 
 /* Active state curved background effect - bottom curve */
 .sidebar-nav a.router-link-active::after,
-.sidebar-nav .menu-link.active::after {
+.sidebar-nav .menu-item.active::after {
   content: '';
   position: absolute;
   left: -20px;
@@ -832,9 +880,9 @@ footer a {
 
 /* Icon styling */
 .menu-icon {
-  width: 20px; /* Smaller icon */
+  width: 20px;
   height: 20px;
-  margin-right: 12px; /* Reduced margin */
+  margin-right: 12px;
   object-fit: contain;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.15));
@@ -842,7 +890,7 @@ footer a {
 
 /* Text styling */
 .sidebar-nav a span,
-.sidebar-nav .menu-link span {
+.sidebar-nav .menu-item span {
   flex: 1;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
@@ -851,55 +899,60 @@ footer a {
 /* Hover effects for icons and text */
 .sidebar-nav a:hover .menu-icon,
 .sidebar-nav a:hover span,
-.sidebar-nav .menu-link:hover .menu-icon,
-.sidebar-nav .menu-link:hover span {
+.sidebar-nav .menu-item:hover .menu-icon,
+.sidebar-nav .menu-item:hover span {
   transform: translateX(4px);
 }
 
 /* Active state for icons and text */
 .sidebar-nav a.router-link-active .menu-icon,
 .sidebar-nav a.router-link-active span,
-.sidebar-nav .menu-link.active .menu-icon,
-.sidebar-nav .menu-link.active span {
+.sidebar-nav .menu-item.active .menu-icon,
+.sidebar-nav .menu-item.active span {
   transform: translateX(0);
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
-/* Follow us dropdown enhancements */
-.follow-us-item {
+/* Dropdown styles */
+.dropdown-item {
   width: 100%;
 }
 
-.follow-us-header {
+.dropdown-header {
   display: flex;
   align-items: center;
-  padding: 12px 20px; /* Reduced padding */
+  justify-content: space-between;
+  padding: 12px 20px;
   color: white;
-  font-size: 14px; /* Smaller font */
+  font-size: 14px;
   font-weight: 600;
   cursor: pointer;
   border-radius: 20px;
   position: relative;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 2px; /* Reduced margin */
+  transition: all 0.25s ease-out;
+  margin-bottom: 2px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background: transparent;
+  will-change: transform, background;
 }
 
-.follow-us-header:hover {
+.dropdown-header:hover {
   background: rgba(255, 255, 255, 0.15);
   transform: translateX(8px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   backdrop-filter: blur(10px);
 }
 
-.follow-us-text {
-  margin-left: 16px;
+.dropdown-text {
   flex: 1;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  user-select: none;
 }
 
 .dropdown-arrow {
-  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease-out;
   margin-left: 12px;
 }
 
@@ -908,55 +961,97 @@ footer a {
 }
 
 .dropdown-icon {
-  fill: none;
-  stroke: white;
-  stroke-width: 2.5;
-  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.2));
+  display: block;
 }
 
-/* Social dropdown improvements */
-.social-dropdown {
+/* Smooth Dropdown Animation */
+.sub-dropdown {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 30px;
-  width: calc(100% - 30px);
+  transition: max-height 0.4s ease-in-out,
+              opacity 0.35s ease-in-out,
+              margin-top 0.3s ease-in-out,
+              padding 0.3s ease-in-out;
+  margin-left: 20px;
+  width: calc(100% - 20px);
   background: rgba(255, 255, 255, 0.08);
   border-radius: 15px;
-  margin-top: 8px;
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  margin-top: 0;
+  padding: 0;
+  will-change: max-height, opacity;
 }
 
-.social-dropdown.open {
-  max-height: 300px;
-  padding: 15px 0;
+.sub-dropdown.open {
+  max-height: 500px;
+  padding: 12px 0;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  opacity: 1;
 }
 
-.social-link {
+/* Sub-link Styling */
+.sub-link {
   display: flex;
   align-items: center;
-  padding: 12px 20px;
-  color: rgba(255, 255, 255, 0.9);
-  text-decoration: none;
-  margin: 3px 15px;
+  padding: 11px 20px;
+  color: rgba(255, 255, 255, 0.9) !important;
+  text-decoration: none !important;
+  margin: 3px 10px;
   cursor: pointer;
   border-radius: 12px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  font-size: 14px;
+  transition: all 0.2s ease-out;
+  font-size: 13px;
   font-weight: 500;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transform: translateY(-8px);
+  will-change: transform, background, opacity;
 }
 
-.social-link:hover {
-  background: rgba(255, 255, 255, 0.12);
-  color: white;
+/* Staggered fade-in animation */
+.sub-dropdown.open .sub-link {
+  animation: subLinkFadeIn 0.4s ease-out forwards;
+}
+
+.sub-dropdown.open .sub-link:nth-child(1) { animation-delay: 0.1s; }
+.sub-dropdown.open .sub-link:nth-child(2) { animation-delay: 0.16s; }
+.sub-dropdown.open .sub-link:nth-child(3) { animation-delay: 0.22s; }
+.sub-dropdown.open .sub-link:nth-child(4) { animation-delay: 0.28s; }
+.sub-dropdown.open .sub-link:nth-child(5) { animation-delay: 0.34s; }
+
+@keyframes subLinkFadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sub-link:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: white !important;
   transform: translateX(6px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.social-name {
-  font-size: 14px;
+.sub-link.router-link-active {
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.25) 0%, 
+    rgba(255, 255, 255, 0.15) 100%
+  );
+  color: white !important;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub-name {
+  font-size: 13px;
   font-weight: 500;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
@@ -982,7 +1077,6 @@ footer a {
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* Make nav section scrollable */
 .sidebar-nav::-webkit-scrollbar {
   width: 4px;
 }
@@ -1002,7 +1096,6 @@ footer a {
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* Additional decorative elements */
 .sidebar-nav ul::before {
   content: '';
   display: block;
@@ -1013,12 +1106,11 @@ footer a {
     rgba(255, 255, 255, 0.1) 80%, 
     transparent 100%
   );
-  margin: 0 0 15px 0; /* Reduced margin */
+  margin: 0 0 15px 0;
 }
 
-/* Ensure all menu items are visible */
 .sidebar-nav li:last-child {
-  margin-bottom: 20px; /* Extra space for last item */
+  margin-bottom: 20px;
 }
 
 ol {
@@ -1077,10 +1169,6 @@ ol {
     bottom: 150px;
   }
 
-  .floating-sqg {
-    bottom: 90px;
-  }
-
   @keyframes movemove {
     0% {
       transform: translateY(0);
@@ -1107,94 +1195,89 @@ ol {
     position: fixed;
   }
 
-  /* FIXED Mobile sidebar adjustments */
   .sidebar {
     width: 270px;
     left: -290px;
-    /* Remove fixed height constraints and ensure proper scrolling */
     height: 100vh;
-    height: 100dvh; /* Dynamic viewport height for mobile browsers */
+    height: 100dvh;
     max-height: none;
     overflow-y: auto;
     overflow-x: hidden;
   }
 
-  /* Adjust sidebar header for mobile */
   .sidebar-header {
-    padding: 20px 15px 15px 15px; /* Reduced padding for more space */
+    padding: 20px 15px 15px 15px;
     flex-shrink: 0;
   }
 
   .sidebar-logo {
-    width: 55%; /* Slightly smaller logo */
+    width: 55%;
   }
 
-  /* Optimize sidebar navigation for mobile */
   .sidebar-nav {
     flex: 1;
-    padding: 10px 0 15px 0; /* Reduced padding */
+    padding: 10px 0 15px 0;
     overflow-y: auto;
     min-height: 0;
   }
 
   .sidebar-nav ul {
-    padding: 0 15px 15px 15px; /* Reduced side padding */
-    gap: 2px; /* Tighter spacing between items */
+    padding: 0 15px 15px 15px;
+    gap: 2px;
   }
   
   .sidebar-nav a, 
-  .sidebar-nav .menu-link {
-    padding: 10px 15px; /* Reduced padding for more items to fit */
-    font-size: 13px; /* Slightly smaller font */
-    margin-bottom: 1px; /* Tighter margins */
+  .sidebar-nav .menu-item {
+    padding: 10px 15px;
+    font-size: 13px;
+    margin-bottom: 1px;
   }
   
-  .follow-us-header {
+  .dropdown-header {
     padding: 10px 15px;
     font-size: 13px;
   }
   
   .menu-icon {
-    width: 18px; /* Smaller icons */
+    width: 18px;
     height: 18px;
-    margin-right: 10px; /* Reduced margin */
+    margin-right: 10px;
   }
 
-  /* Ensure proper scrolling behavior */
   .sidebar-content {
-    min-height: calc(100vh - 80px); /* Account for header height */
-    padding-bottom: 20px; /* Extra bottom padding */
+    min-height: calc(100vh - 80px);
+    padding-bottom: 20px;
   }
 
-  /* Better scrollbar for mobile */
   .sidebar::-webkit-scrollbar {
-    width: 3px; /* Thinner scrollbar */
+    width: 3px;
   }
 
   .sidebar-nav::-webkit-scrollbar {
     width: 3px;
   }
 
-  /* Adjust animation delays for better mobile performance */
-  .sidebar.open .sidebar-nav li:nth-child(n+15) { 
-    animation-delay: 0.8s; /* Faster animation for items beyond 15 */
+  .sub-dropdown {
+    margin-left: 15px;
+    width: calc(100% - 15px);
   }
 
-  .sidebar.open .sidebar-nav li:nth-child(n+21) { 
-    animation-delay: 0.9s; 
+  .sub-link {
+    padding: 9px 15px;
+    font-size: 12px;
+    margin: 2px 8px;
   }
 }
 
-/* Additional fix for very small screens */
 @media screen and (max-width: 375px) {
   .sidebar {
-    width: 260px; /* Slightly narrower */
+    width: 260px;
     left: -280px;
   }
 
   .sidebar-nav a, 
-  .sidebar-nav .menu-link {
-    padding: 8px 12px; /* Even more compact */
+  .sidebar-nav .menu-item {
+    padding: 8px 12px;
     font-size: 12px;
   }
 
@@ -1209,7 +1292,6 @@ ol {
   }
 }
 
-/* Ensure sidebar works properly on landscape mobile */
 @media screen and (max-width: 768px) and (orientation: landscape) {
   .sidebar {
     height: 100vh;
@@ -1217,7 +1299,7 @@ ol {
   }
 
   .sidebar-nav {
-    max-height: calc(100vh - 100px); /* Account for header in landscape */
+    max-height: calc(100vh - 100px);
   }
 }
 </style>

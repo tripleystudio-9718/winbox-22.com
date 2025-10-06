@@ -15,7 +15,11 @@
       
       <p>{{ $t('horseRacing.intro.description1') }}</p>
       <p>{{ $t('horseRacing.intro.description2') }}</p>
-      <p>{{ $t('horseRacing.intro.description3') }} <span class="homepage-link" @click="goToHorseRacing">{{ $t('horseRacing.intro.linkText') }}</span>{{ $t('horseRacing.intro.description4') }}</p>
+      <p>{{ $t('horseRacing.intro.description3') }} <a 
+          :href="seoLinks.horsing()" 
+          class="homepage-link"
+          @click.prevent="goToHorse"
+          >{{ $t('horseRacing.intro.linkText') }}</a>{{ $t('horseRacing.intro.description4') }}</p>
       <p>{{ $t('horseRacing.intro.description5') }}</p>
 
       <div class="content-block">
@@ -108,7 +112,10 @@
         <h2>{{ $t('horseRacing.winningStart.title') }}</h2>
         <p>{{ $t('horseRacing.winningStart.description1') }}</p>
         <p>{{ $t('horseRacing.winningStart.description2') }}</p>
-        <p><span class="homepage-link" @click="goToLogin">{{ $t('horseRacing.winningStart.linkText') }}</span> {{ $t('horseRacing.winningStart.description3') }}</p>
+        <p><a 
+          :href="seoLinks.login()" 
+          class="homepage-link"
+          @click.prevent="goToLogin">{{ $t('horseRacing.winningStart.linkText') }}</a> {{ $t('horseRacing.winningStart.description3') }}</p>
       </div>
 
       <div class="content-block">
@@ -144,11 +151,13 @@ import license_payment from '../license_payment.vue';
 // Use your existing navigation utilities
 import { useNavigation } from '@/components/utils/navigation';
 
+const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
+
 const {
   goToRegister,
   goToHomepage,
   goToLogin,
-  goToHorseRacing,
+  goToHorse,
   goToRcb988,
 } = useNavigation();
 
