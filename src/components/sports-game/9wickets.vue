@@ -40,7 +40,9 @@
           <li>{{ $t('nineWickets.apkDownload.installation.step4') }}</li>
         </ol>
 
-        <p><a 
+        <p>
+          {{ $t('nineWickets.apkDownload.downloadText') }}
+          <a 
           :href="seoLinks.download()" 
           class="homepage-link"
           @click.prevent="goToDownload">{{ $t('nineWickets.apkDownload.downloadButton') }}</a></p>

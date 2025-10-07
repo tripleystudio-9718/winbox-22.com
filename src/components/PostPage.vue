@@ -6,26 +6,26 @@
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
           <path d="m15 18-6-6 6-6"/>
         </svg>
-        Back to Blog
+        {{ $t('postBlog.backBlog') }}
       </button>
 
       <!-- Loading State -->
       <div v-if="loading" class="loading-container">
         <div class="spinner"></div>
-        <p class="loading-text">Loading blog post...</p>
+        <p class="loading-text">{{ $t('postBlog.loading') }}</p>
       </div>
 
       <!-- Error State -->
       <div v-else-if="error" class="error-container">
         <div class="error-card">
           <div class="error-icon">😔</div>
-          <h3 class="error-title">Post Not Found</h3>
+          <h3 class="error-title">{{ $t('postBlog.notFound') }}</h3>
           <p class="error-message">{{ error }}</p>
           <button @click="goBack" class="error-back-button">
             <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
               <path d="m15 18-6-6 6-6"/>
             </svg>
-            Back to Blog
+            {{ $t('postBlog.backBlog') }}
           </button>
         </div>
       </div>
@@ -59,7 +59,7 @@
                 <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/>
                 <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z"/>
               </svg>
-              <span>Updated {{ formatDate(post.updated_at) }}</span>
+              <span>{{ $t('postBlog.updated') }} {{ formatDate(post.updated_at) }}</span>
             </div>
             <!-- SEO URL Display -->
             <div v-if="post.slug" class="meta-item slug-display">
@@ -102,8 +102,8 @@
           <div class="share-container">
             <div class="share-header">
               <div class="share-text-content">
-                <h3 class="share-title">Share this article</h3>
-                <p class="share-subtitle">Help others discover this content</p>
+                <h3 class="share-title">{{ $t('postBlog.share') }}</h3>
+                <p class="share-subtitle">{{ $t('postBlog.help') }}</p>
               </div>
             </div>
 
@@ -122,8 +122,8 @@
                   </svg>
                 </div>
                 <div class="btn-content">
-                  <span class="btn-label">Twitter</span>
-                  <span class="btn-description">Share on X</span>
+                  <span class="btn-label">{{ $t('postBlog.twitter') }}</span>
+                  <span class="btn-description">{{ $t('postBlog.shareX') }}</span>
                 </div>
               </a>
 
@@ -141,8 +141,8 @@
                   </svg>
                 </div>
                 <div class="btn-content">
-                  <span class="btn-label">Facebook</span>
-                  <span class="btn-description">Share with friends</span>
+                  <span class="btn-label">{{ $t('postBlog.facebook') }}</span>
+                  <span class="btn-description">{{ $t('postBlog.facebookS') }}</span>
                 </div>
               </a>
 
@@ -160,8 +160,8 @@
                   </svg>
                 </div>
                 <div class="btn-content">
-                  <span class="btn-label">LinkedIn</span>
-                  <span class="btn-description">Share professionally</span>
+                  <span class="btn-label">{{ $t('postBlog.linkedIn') }}</span>
+                  <span class="btn-description">{{ $t('postBlog.shareP') }}</span>
                 </div>
               </a>
 
@@ -182,15 +182,19 @@
                   </svg>
                 </div>
                 <div class="btn-content">
-                  <span class="btn-label">{{ linkCopied ? 'Copied!' : 'Copy Link' }}</span>
-                  <span class="btn-description">{{ linkCopied ? 'Link copied to clipboard' : 'Copy to clipboard' }}</span>
+                  <span class="btn-label">
+                    {{ linkCopied ? $t('postBlog.copied') : $t('postBlog.copyLink') }}
+                  </span>
+                  <span class="btn-description">
+                    {{ linkCopied ? $t('postBlog.linkCopied') : $t('postBlog.copyLink') }}
+                  </span>
                 </div>
               </button>
             </div>
 
             <!-- Share Stats -->
             <div class="share-stats">
-              <p class="stats-text">Share and help others discover great content</p>
+              <p class="stats-text">{{ $t('postBlog.shareC') }}</p>
             </div>
           </div>
         </div>

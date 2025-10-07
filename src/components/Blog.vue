@@ -3,8 +3,8 @@
     <!-- Header -->
     <header class="blog-header">
       <div class="header-content">
-        <h1 class="blog-title">Our Blog</h1>
-        <p class="blog-subtitle">Latest posts and updates</p>
+        <h1 class="blog-title">{{ $t('blog.title') }}</h1>
+        <p class="blog-subtitle">{{ $t('blog.description') }}</p>
       </div>
     </header>
 
@@ -15,7 +15,7 @@
           v-model="searchQuery"
           @input="handleSearch"
           type="text"
-          placeholder="Search blog posts..."
+          :placeholder="$t('blog.search')"
           class="search-input"
         />
         <button @click="clearSearch" v-if="searchQuery" class="clear-btn">✕</button>
@@ -25,15 +25,15 @@
     <!-- Loading State -->
     <div v-if="loading" class="loading-state">
       <div class="spinner"></div>
-      <p>Loading blog posts...</p>
+      <p>{{ $t('blog.loading') }}</p>
     </div>
 
     <!-- Error State -->
     <div v-else-if="error" class="error-state">
       <div class="error-icon">❌</div>
-      <h3>Something went wrong</h3>
+      <h3>{{ $t('blog.wentWrong') }}</h3>
       <p>{{ error }}</p>
-      <button @click="loadBlogs" class="retry-btn">Try Again</button>
+      <button @click="loadBlogs" class="retry-btn">{{ $t('blog.tryAgain') }}</button>
     </div>
 
     <!-- Empty State -->
@@ -77,7 +77,7 @@
           </p>
           
           <div class="read-more">
-            Read More →
+            {{ $t('blog.ReadMore') }}
           </div>
         </div>
       </article>
@@ -90,7 +90,7 @@
         :disabled="currentPage <= 1"
         class="page-btn"
       >
-        ← Previous
+        {{ $t('blog.previous') }}
       </button>
       
       <div class="page-numbers">
@@ -110,7 +110,7 @@
         :disabled="currentPage >= totalPages"
         class="page-btn"
       >
-        Next →
+        {{ $t('blog.Next') }}
       </button>
     </div>
   </div>

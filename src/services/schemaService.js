@@ -670,7 +670,7 @@ const schemaTemplates = {
   login: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "url": "https://www.winbox22.com/winbox-login-web",
+    "url": "https://www.winbox22.com/winbox-login",
     "name": "Fast Winbox Login Web Access – Claim Your Bonus & Start Winning",
     "description": "Learn how to easily and securely log in to your Winbox account via the web (H5 version). Follow our step-by-step guide for instant access to casino games, slots, and sports betting on any device.",
     "isPartOf": { "@id": "https://www.winbox22.com/#organization" },
@@ -692,7 +692,7 @@ const schemaTemplates = {
           "@type": "HowToStep",
           "name": "Visit the Official Login Page",
           "text": "Open a secure browser like Chrome, Firefox, or Safari and navigate to the official Winbox login page. Always ensure the URL starts with 'https' to avoid phishing websites.",
-          "url": "https://www.winbox22.com/winbox-login-web"
+          "url": "https://www.winbox22.com/winbox-login"
         },
         {
           "@type": "HowToStep",

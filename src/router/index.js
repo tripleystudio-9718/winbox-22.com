@@ -49,6 +49,7 @@ import SportsTab from '@/components/tabs/sportsTab.vue'
 import LiveCasinoTab from '@/components/tabs/LiveCasinoTab.vue'  
 import LotteryTab from '@/components/tabs/LotteryTab.vue'
 import HorseRacingTab from '@/components/tabs/HorsingTab.vue'
+import notFound from '@/components/notFound.vue'
 
 const NotFoundPage = {
   template: '<div style="text-align:center;margin-top:50px"><h1>404 - Page Not Found</h1></div>'
@@ -130,7 +131,7 @@ const baseRoutes = [
     }
   },
   {
-    path: '/winbox-login-web',
+    path: '/winbox-login',
     name: 'Login',
     component: Login,
     meta: {
@@ -139,7 +140,7 @@ const baseRoutes = [
       titleZh: '赢宝登入网页版 | 通过安全的 H5 Winbox 门户即刻畅玩',
       descriptionZh: '我们的赢宝登入网页版提供安全且适配移动设备的 H5访问。即刻畅玩老虎机、真人娱乐场、体育博彩，并轻松领取每日奖励。',
       image: DEFAULT_IMAGE,
-      canonical: `${DOMAIN}/winbox-login-web`
+      canonical: `${DOMAIN}/winbox-login`
     }
   },
   {
@@ -728,6 +729,19 @@ const baseRoutes = [
     descriptionZh: '在Winbox与RCB988一起投注现场赛马 - 马来西亚顶级在线赛马博彩。获得最佳赔率、胜/位/示投注、快速支付。加入赢取大奖！',
     image: DEFAULT_IMAGE,
     canonical: `${DOMAIN}/horse-racing-rcb988`
+  }
+},
+{
+  path: '/:pathMatch(.*)*',
+  name: 'notFound',
+  component: notFound,
+  meta: {
+    title: '404 - Page Not Found',
+    description: 'This page does not exist.',
+    titleZh: '404 - 页面未找到',
+    descriptionZh: '此页面不存在。',
+    image: DEFAULT_IMAGE,
+    canonical: `${DOMAIN}/`
   }
 }
 ]

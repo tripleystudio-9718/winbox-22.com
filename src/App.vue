@@ -986,7 +986,7 @@ footer a {
 
 .sub-dropdown.open {
   max-height: 500px;
-  padding: 12px 0;
+  padding: 12px;
   margin-top: 6px;
   margin-bottom: 10px;
   opacity: 1;

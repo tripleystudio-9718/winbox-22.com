@@ -2608,7 +2608,7 @@
         "title": "准备好用真正的胜利旋转 MicroSlot 游戏了吗？",
         "description": "马来西亚加载最快的老虎机。零延迟。无需注册即可试玩。",
         "bonus1": "👉 立即下载 ",
-        "linkText": " Winbox 应用",
+        "linkText": " Winbox APK",
         "bonus": " -- 首次存款获得 RM10 免费奖金",
         "tagline": "（Android 和 iOS | 3 秒安装 | 马来语游戏）",
         "slogan": "明智游戏。本地游戏。Winbox22 游戏。"
@@ -3029,7 +3029,8 @@
           "step3": "打开下载的文件并点击安装。",
           "step4": "启动应用并登录 --- 您就可以开始游戏了。"
         },
-        "downloadButton": "👉 Winbox 下载 APK",
+        "downloadButton": "Winbox APK",
+        "downloadText": "👉 下载",
         "testimonial": "\"我试过其他三个网站。两个给了我病毒。一个根本没有加载。Winbox22 第一次尝试就成功了。\" --- Amir，新山"
       },
       "currentLink": {
@@ -3131,7 +3132,7 @@
           "support": "✅ 24/7 支持",
           "malaysian": "✅ 为马来西亚玩家制作"
         },
-        "loginButton": "👉 Winbox 登录",
+        "loginButton": "👉 Winbox 登录 ",
         "login-text": "网页",
         "tagline": "Winbox22.com --- 您在马来西亚值得信赖的 9 Wickets 门户。没有炒作。只有可靠的访问。"
       }
@@ -3310,7 +3311,7 @@
         "title": "准备像专业人士一样投注？",
         "description1": "Winbox22.com 上的 BTI Sport 不是关于华丽的广告或空洞的承诺。",
         "description2": "这是关于干净的赔率、实时动作和说您语言的支持。加入数千名选择安全、速度和智能投注的马来西亚玩家 --- 每一天。",
-        "loginButton1": "👉 开始在 Winbox22.com 投注",
+        "loginButton1": "👉 开始在 Winbox22.com 投注 ",
         "loginButton": "Winbox 登入",
         "note": "无需注册即可浏览赔率。当您存入首笔 RM30 时领取您的 RM50 奖金。"
       }
@@ -5266,6 +5267,37 @@
     "cta": "立即开始畅玩Pretty Gaming高清真人娱乐场——随时随地，畅享马来西亚专属体验。",
     "disclaimer": "Winbox22提倡理性娱乐。请合理投注，仅以可承受范围内娱乐。如需协助，请访问 BeGambleAware.org。"
   }
+},
+
+"blog": {
+  "title": "我们的博客",
+  "description": "最新文章与动态更新",
+  "loading": "正在加载博客文章…",
+  "search": "搜索博客文章...",
+  "wentWrong": "出了点问题",
+  "tryAgain": "重试",
+  "ReadMore": "阅读全文 →",
+  "previous": "← 上一页",
+  "Next": "下一页 →"
+},
+
+"postBlog": {
+  "backBlog": "返回博客",
+  "loading": "正在加载博客文章…",
+  "updated": "更新于",
+  "notFound": "未找到文章",
+  "share": "分享这篇文章",
+  "help": "帮助更多人发现这篇内容",
+  "twitter": "推特",
+  "shareX": "分享到 X",
+  "facebook": "脸书",
+  "facebookS": "分享给好友",
+  "linkedIn": "领英",
+  "shareP": "专业分享",
+  "copyLink": "复制链接",
+  "copied": "已复制！",
+  "linkCopied": "链接已复制到剪贴板",
+  "shareC": "分享并帮助他人发现优质内容"
 }
 
 }

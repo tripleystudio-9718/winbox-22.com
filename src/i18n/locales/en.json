@@ -2820,6 +2820,7 @@
           "step4": "Launch the app and log in --- you're ready to play."
         },
         "downloadButton": "👉 Winbox Download APK",
+        "downloadText": "",
         "testimonial": "\"I tried three other sites. Two gave me viruses. One didn't load at all. Winbox22 worked first try.\" --- Amir, Johor Bahru"
       },
       "currentLink": {
@@ -5055,5 +5056,35 @@
       "cta": "today and play Pretty Gaming in Full HD—anytime, anywhere in Malaysia.",
       "disclaimer": "Winbox22 promotes responsible gaming. Please gamble responsibly and only bet what you can afford to lose. For support, visit BeGambleAware.org."
     }
+  },
+  "blog": {
+    "title": "Our Blog",
+    "description": "Latest posts and updates",
+    "loading": "Loading blog posts...",
+    "search": "Search blog posts...",
+    "wentWrong": "Something went wrong",
+    "tryAgain": "Try Again",
+    "ReadMore": "Read More →",
+    "previous": "← Previous",
+    "Next": "Next →"
+  },
+
+  "postBlog": {
+    "backBlog": "Back to Blog",
+    "loading": "Loading blog posts...",
+    "updated": "Updated",
+    "notFound": "Post Not Found",
+    "share": "Share this article",
+    "help": "Help others discover this content",
+    "twitter": "Twitter",
+    "shareX": "Share on X",
+    "facebook": "Facebook",
+    "facebookS": "Share with friends",
+    "linkedIn": "LinkedIn",
+    "shareP": "Share professionally",
+    "copyLink": "Copy Link",
+    "copied": "copied!",
+    "linkCopied": "Link copied to clipboard",
+    "shareC": "Share and help others discover great content"
   }
 }

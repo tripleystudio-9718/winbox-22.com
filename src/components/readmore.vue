@@ -122,13 +122,13 @@
         </ul>
         <p>
           {{ $t('content.bonusesConclusion') }}
-          <a 
+          <!-- <a 
             :href="seoLinks.promo()" 
             class="homepage-link"
             @click.prevent="goToPromo"
-          >
+          > -->
             {{ $t('links.winboxPromotion') }}
-          </a>
+          <!-- </a> -->
           {{ $t('content.bonusesConclusionAfter') }}
         </p>
         
