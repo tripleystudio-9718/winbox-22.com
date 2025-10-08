@@ -791,6 +791,10 @@ const routes = [
     path: '/post/why-winbox-is-the-top-online-casino-in-malaysia-in-2025',
     redirect: '/blog/why-winbox-is-the-top-online-casino-in-malaysia-in-2025'
   },
+    {
+    path: '/winbox-login',
+    redirect: '/winbox-login-web'
+  },
   
   // Chinese redirects (from image requirements)
   {
@@ -808,6 +812,10 @@ const routes = [
   {
     path: '/zh/contact/',
     redirect: '/zh/contact-us'
+  },
+   {
+    path: '/zh/winbox-login',
+    redirect: '/zh/winbox-login-web'
   },
   
   // Redirects for corrected spelling
