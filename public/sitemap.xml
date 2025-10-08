@@ -7,7 +7,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.winbox22.com/winbox-login</loc>
+    <loc>https://www.winbox22.com/winbox-login-web</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -277,7 +277,7 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://www.winbox22.com/zh/winbox-login</loc>
+    <loc>https://www.winbox22.com/zh/winbox-login-web</loc>
     <lastmod>2025-10-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>

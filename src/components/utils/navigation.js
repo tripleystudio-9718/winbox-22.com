@@ -35,7 +35,7 @@ export function useNavigation() {
   }
 
   const goToLogin = () => {
-    router.push(getLocalizedPath('/winbox-login'))
+    router.push(getLocalizedPath('/winbox-login-web'))
   }
 
   const goToPromo = () => {
@@ -225,7 +225,7 @@ export function useNavigation() {
   const routerLinks = {
     home: () => getLocalizedPath('/'),
     register: () => getLocalizedPath('/winbox-register'),
-    login: () => getLocalizedPath('/winbox-login'),
+    login: () => getLocalizedPath('/winbox-login-web'),
     promo: () => getLocalizedPath('/winbox-promotion'),
     download: () => getLocalizedPath('/download'),
     chat: () => getLocalizedPath('/chat'),
@@ -276,7 +276,7 @@ export function useNavigation() {
   const seoLinks = {
     home: () => getFullUrl('/'),
     register: () => getFullUrl('/winbox-register'),
-    login: () => getFullUrl('/winbox-login'),
+    login: () => getFullUrl('/winbox-login-web'),
     promo: () => getFullUrl('/winbox-promotion'),
     download: () => getFullUrl('/download'),
     chat: () => getFullUrl('/chat'),
