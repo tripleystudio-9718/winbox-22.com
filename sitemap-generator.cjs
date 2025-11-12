@@ -9,7 +9,7 @@ const OUTPUT_FILE = 'public/sitemap.xml';
 const routes = [
   // Main English routes
   { path: '/', priority: '1.0', changefreq: 'daily' },
-  { path: '/winbox-login', priority: '0.9', changefreq: 'weekly' },
+  { path: '/winbox-login-web', priority: '0.9', changefreq: 'weekly' },
   { path: '/winbox-register', priority: '0.9', changefreq: 'weekly' },
   { path: '/winbox-promotion', priority: '0.8', changefreq: 'daily' },
   { path: '/download', priority: '0.8', changefreq: 'weekly' },
@@ -151,7 +151,7 @@ function validateRoutes() {
   
   // All routes that should be in the sitemap based on router
   const routerPaths = [
-    '/', '/winbox-login', '/winbox-register', '/winbox-promotion', 
+    '/', '/winbox-login-web', '/winbox-register', '/winbox-promotion', 
     '/download', '/chat', '/contact-us', '/about', '/blog', 
     '/amanda-lim', '/michael-ong', '/bwf-winbox-partnership', 
     '/brand-ambassador', '/privacy-policy', '/terms-and-condition', 

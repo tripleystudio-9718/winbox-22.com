@@ -135,7 +135,7 @@ const baseRoutes = [
     }
   },
   {
-    path: '/winbox-login',
+    path: '/winbox-login-web',
     name: 'Login',
     component: Login,
     meta: {
@@ -144,7 +144,7 @@ const baseRoutes = [
       titleZh: '赢宝登入网页版 | 通过安全的 H5 Winbox 门户即刻畅玩',
       descriptionZh: '我们的赢宝登入网页版提供安全且适配移动设备的 H5访问。即刻畅玩老虎机、真人娱乐场、体育博彩，并轻松领取每日奖励。',
       image: DEFAULT_IMAGE,
-      canonical: `${DOMAIN}/winbox-login`
+      canonical: `${DOMAIN}/winbox-login-web`
     }
   },
   {
@@ -855,6 +855,10 @@ const routes = [
     path: '/post/why-winbox-is-the-top-online-casino-in-malaysia-in-2025',
     redirect: '/blog/why-winbox-is-the-top-online-casino-in-malaysia-in-2025'
   },
+    {
+    path: '/winbox-login',
+    redirect: '/winbox-login-web'
+  },
   
   // Chinese redirects (from image requirements)
   {
@@ -872,6 +876,10 @@ const routes = [
   {
     path: '/zh/contact/',
     redirect: '/zh/contact-us'
+  },
+   {
+    path: '/zh/winbox-login',
+    redirect: '/zh/winbox-login-web'
   },
   
   // Redirects for corrected spelling
