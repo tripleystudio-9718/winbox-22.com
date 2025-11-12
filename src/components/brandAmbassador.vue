@@ -413,8 +413,6 @@ const { seoLinks, routerLinks, getLocalizedPath } = useNavigation()
   color: #ffed4a;
 }
 
-
-
 /* Events Section */
 .events-section {
   margin-bottom: 50px;

@@ -7,6 +7,10 @@ import Login from '@/components/Login.vue'
 import Register from '@/components/Register.vue'
 import Chat from '@/components/Chat.vue'
 import Promo from '@/components/Promo.vue'
+import lucky365Championship from '@/components/promo/lucky365Championship.vue'
+import welcomeBonus from '@/components/promo/welcomeBonus.vue'
+import rescueBonus from '@/components/promo/rescueBonus.vue'
+import scratchAndWin from '@/components/promo/scratchAndWin.vue'
 import acewin from '@/components/slot-game/acewin.vue'
 import jili from '@/components/slot-game/jili.vue'
 import lucky365 from '@/components/slot-game/lucky365.vue'
@@ -168,6 +172,66 @@ const baseRoutes = [
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/winbox-promotion`
     }
+  },
+  {
+    path: '/lucky365championship',
+    name: 'Lucky365Championship',
+    component: lucky365Championship, 
+    meta: {
+      title: 'Winbox Lucky 365 Championship: Win RM88,888 Monthly',
+      description:
+        'Join the Lucky 365 Championship by Winbox and compete monthly for RM88,888 in cash prizes. Track your ranking, play Lucky365 games, and win big.',
+      titleZh: '赢宝 Lucky 365 锦标赛：每月赢取 RM88,888',
+      descriptionZh:
+        '参加赢宝 Lucky 365 锦标赛，每月争夺 RM88,888 现金大奖。追踪您的排名，畅玩 Lucky365 游戏，赢取丰厚奖励！',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/lucky365championship`,
+    },
+  },
+  {
+    path: '/welcome-bonus',
+    name: 'welcomeBonus',
+    component: welcomeBonus,
+    meta: {
+      title: 'Winbox Welcome Bonus Malaysia – 100% Extra Credit on First Deposit',
+      description:
+        'Register with Winbox and claim your 100% Welcome Bonus on first deposit. Instant credit for new users. Start playing with double the value today.',
+      titleZh: 'Winbox 欢迎奖金马来西亚 – 首次存款额外 100% 奖励',
+      descriptionZh:
+        '注册 Winbox 并领取您的 100% 首存欢迎奖金。新用户可立即获得双倍余额，立即开始畅玩吧！',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/welcome-bonus/`,
+    },
+  },
+  {
+    path: '/rescue-bonus',
+    name: 'rescueBonus',
+    component: rescueBonus,
+    meta: {
+      title: 'Winbox Rescue Bonus Malaysia 2025 – Get Back Losses Instantly',
+      description:
+        'Claim your Rescue Bonus with Winbox! Get a percentage of your losses back every week. Instant credit for verified users in Malaysia.',
+      titleZh: 'Winbox 救援奖金马来西亚 2025 – 即时追回您的损失',
+      descriptionZh:
+        '通过 Winbox 领取您的救援奖金！每周可取回部分损失金额。马来西亚验证用户可立即获得信用返还。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/rescue-bonus/`,
+    },
+  },
+  {
+    path: '/scratch-and-win',
+    name: 'scratchAndWin',
+    component: scratchAndWin,
+    meta: {
+      title: 'Winbox Scratch and Win Promo – Instant Prizes Every Day',
+      description:
+        'Join the Scratch and Win promo at Winbox Malaysia. Scratch daily to win free credit, cashback, and surprise prizes. No deposit needed!',
+      titleZh: 'Winbox 刮刮乐优惠 – 每日即时奖赏',
+      descriptionZh:
+        '参加 Winbox 马来西亚刮刮乐优惠活动。每日刮奖赢取免费彩金、现金回扣及惊喜奖品，无需存款！',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/scratch-and-win/`,
+    },
   },
   {
     path: '/chat',

@@ -2,6 +2,10 @@
   "navigation": {
     "home": "Home",
     "promo": "Promo",
+    "lucky365Championship": "Lucky 365 Championship",
+    "welcomeBonus": "Welcome Bonus",
+    "rescueBonus": "Rescue Bonus",
+    "scratchAnd": "Rescue Bonus",
     "login": "Login",
     "register": "Register",
     "download": "Download",
@@ -5086,5 +5090,539 @@
     "copied": "copied!",
     "linkCopied": "Link copied to clipboard",
     "shareC": "Share and help others discover great content"
-  }
+  },
+
+"lucky365Championship": {
+      "metaTitle": "Winbox Lucky 365 Championship: Win RM88,888 Monthly",
+      "metaDescription": "Join the year-round Lucky 365 Championship by Winbox and compete monthly for RM88,888 in cash prizes. Track your ranking, play Lucky365 games, and win big.",
+      "heading": "Winbox Lucky 365 Championship",
+      "subHeading": "Win Big Every Day: Lucky 365 Championship by Winbox",
+      "intro": "Join the year-round leaderboard competition where the 1st place prize is RM88,888, followed by RM58,888 for 2nd and RM38,888 for 3rd.",
+      "whatTitle": "What is the Lucky 365 Championship?",
+      "whatContentBefore": "The",
+      "lucky365Link": "Lucky 365 Championship ",
+      "whatContentAfter": "is a leaderboard-style competition operated by Winbox. Each month, players engaging in the designated 'Lucky365' game bucket accumulate points (via spins, stakes, or game eligibility) to climb the ranking chart. At the end of that cycle, the top three qualify for the major cash prizes: RM88,888 for 1st, RM58,888 for 2nd, and RM38,888 for 3rd. According to official site listings, the total prize pool has been quoted at up to <strong>RM288,888 or RM312,888</strong> in some campaign variants. This model rewards sustained engagement rather than one-time sign-up bonuses, thereby encouraging players to participate consistently.",
+      "whyTitle": "Why Join It?",
+      "reasons": {
+        "highValueTitle": "High-Value Rewards",
+        "highValueDesc": "The headline prize of RM88,888 is significant in the Malaysian context—far above typical monthly promotions. With multiple major placements (top three), this opens up real potential for serious wins.",
+        "monthlyCycleTitle": "Monthly Cycle — Fresh Chance Every Month",
+        "monthlyCycleDesc": "The championship runs monthly (e.g., 1st of month 00:00 to end of month 23:59 GMT+8). Each month offers a clean slate to compete.",
+        "transparentTitle": "Transparent Framework",
+        "transparentDesc": "The rules are clearly posted: leaderboard duration, prize distribution (1st–5th day of next month), disqualification for fraud.",
+        "fitsLocalTitle": "Fits Mobile & Local Players",
+        "fitsLocalDescBefore": "The competition is accessible via the",
+        "winboxApkLink": "Winbox Apk",
+        "fitsLocalDescAfter": "or mobile site, supporting Malaysian banks and payment methods. Local language support and payout currency (MYR) enhance ease of use."
+      },
+      "howTitle": "How It Works – Step by Step",
+      "steps": [
+        {
+          "title": "Step 1: Register or log in to Winbox",
+          "descBefore": "Sign up via the",
+          "winboxMalaysiaLink": "Winbox Malaysia",
+          "descAfter": "platform and complete any verification steps."
+        },
+        {
+          "title": "Step 2: Engage in the 'Lucky365' game category",
+          "desc": "Only games labeled 'Lucky365' count toward the leaderboard."
+        },
+        {
+          "title": "Step 3: Accumulate leaderboard points",
+          "desc": "Your spins, stakes, and in-game actions convert into points."
+        },
+        {
+          "title": "Step 4: Track the leaderboard",
+          "desc": "Monitor your ranking during the month to stay competitive."
+        },
+        {
+          "title": "Step 5: End of month and prize distribution",
+          "desc": "At the end of each cycle, winners are announced and prizes paid out between the 1st and 5th of the following month."
+        },
+        {
+          "title": "Step 6: Prepare for next round",
+          "desc": "Points reset at the beginning of each new month."
+        }
+      ],
+      "prizeTitle": "Prize Breakdown & Payout Details",
+      "prizeTable": {
+        "rank": "Rank",
+        "prize": "Prize (MYR)",
+        "notes": "Notes"
+      },
+      "prizeList": [
+        {
+          "rank": "1st",
+          "amount": "RM88,888",
+          "note": "Top spot each monthly cycle"
+        },
+        {
+          "rank": "2nd",
+          "amount": "RM58,888",
+          "note": "Second-highest ranked player"
+        },
+        {
+          "rank": "3rd",
+          "amount": "RM38,888",
+          "note": "Third-place winner"
+        }
+      ],
+      "prizeNote": "Additional placements (4th, 5th etc) may receive smaller rewards depending on the campaign. Winners must respond to contact from Winbox to claim their prize. <strong>Fraudulent behaviour leads to disqualification.</strong>",
+      "termsTitle": "Terms & Conditions – What to Watch",
+      "termsList": [
+        "Only games labeled <strong>'Lucky365'</strong> count toward this championship.",
+        "Monthly cycle timing follows <strong>GMT+8 timezone</strong>.",
+        "Winners are notified and must comply with the claim process.",
+        "Fraud, collusion or automation will result in <strong>immediate disqualification</strong>.",
+        "Review minimum stake/deposit eligibility requirements.",
+        "Responsible gaming encouraged—set limits and play within your means.",
+        {
+          "textBefore": "Your Winbox account must be registered via",
+          "textAfter": "using Referrer Code: WI888OX."
+        },
+        "Monthly competition starts at 00:00:00 on the 1st and ends at 23:59:59 on the last day of the month (GMT+8).",
+        "Winners are announced on the 1st of each month, with prizes distributed from the 1st to the 5th.",
+        "To receive your prize, you must accept the friend request after logging into Winbox.",
+        "The organiser reserves full rights to disqualify users involved in fraud, tampering, or rule violations. All decisions are final."
+      ],
+      "whoTitle": "Who Should Participate?",
+      "whoIntro": "This championship is ideal for:",
+      "whoList": [
+        "<strong>Regular Winbox users</strong>",
+        "Players familiar with <strong>Lucky365 games</strong>",
+        "Competitors aiming for <strong>monthly rewards</strong>",
+        "Malaysian users seeking <strong>MYR-based winnings</strong>"
+      ],
+      "advantagesTitle": "Advantages vs Limitations",
+      "advantages": [
+        "<strong>Significant prize amounts</strong>",
+        "<strong>Fresh opportunities</strong> every month",
+        "<strong>Clear, published rules</strong> and payout schedule",
+        "<strong>Local currency</strong> and banking support"
+      ],
+      "limitations": [
+        "<strong>Competitive environment</strong>",
+        "Requires <strong>consistent activity</strong>",
+        "<strong>No guaranteed returns</strong>",
+        "Changes in campaign rules possible each month"
+      ],
+      "maximiseTitle": "How to Maximise Your Chances",
+      "maximiseSteps": [
+        "<strong>Start early</strong> in the month to lead the board",
+        "Focus on <strong>Lucky365 games only</strong>",
+        "<strong>Monitor your progress</strong> throughout the month",
+        "<strong>Budget your play</strong> strategically",
+        "Review past trends if available",
+        "Stay updated on current month's rules"
+      ],
+      "faqTitle": "FAQs About Lucky365",
+      "faqList": [
+        {
+          "q": "What is the Lucky 365 Championship?",
+          "a": "A monthly leaderboard contest on Winbox for Lucky365 game players."
+        },
+        {
+          "q": "How much can I win?",
+          "a": "Up to RM88,888 for 1st place; RM58,888 for 2nd; RM38,888 for 3rd."
+        },
+        {
+          "q": "How do I qualify?",
+          "a": "Play Lucky365 games during the monthly cycle and earn leaderboard points."
+        },
+        {
+          "q": "When are winners announced?",
+          "a": "Typically between the 1st and 5th of the following month."
+        },
+        {
+          "q": "Can I win more than once?",
+          "a": "Yes, each month is a new contest."
+        },
+        {
+          "q": "What do I need to do to claim?",
+          "a": "Respond to Winbox contact, pass verification, and follow claim instructions."
+        }
+      ],
+    "button": {
+      "joinNow": "Join Now",
+      "register": "Register"
+    }
+  },
+
+  "welcomeBonus": {
+      "heading": "Winbox Welcome Bonus Malaysia – 100% Extra Credit on First Deposit",
+      "subHeading": "Double Your First Deposit with the Winbox Welcome Bonus!",
+      "introBefore": "Sign up now and get a 100%",
+      "welcomeBonusLink": "Welcome Bonus",
+      "introAfter": "bonus on your first deposit. Whether you're into slots, live games, or sports betting — start strong with double the credit.",
+      "registerNote": "[Register Now] (To https://www.winbox22.com/winbox-register )",
+      "howToClaimTitle": "How to Claim the Welcome Bonus",
+      "claimSteps": [
+        {
+          "title": "Step 1: Register",
+          "descBefore": "a new Winbox account via",
+          "descAfter": "with Referrer: <strong>WI888OX</strong>"
+        },
+        {
+          "title": "Step 2: Make your first deposit",
+          "desc": "Make your first deposit — minimum deposit required (varies by promotion)"
+        },
+        {
+          "title": "Step 3: Contact WhatsApp support",
+          "desc": "Contact WhatsApp support to activate your bonus"
+        },
+        {
+          "title": "Step 4: Start playing",
+          "desc": "Start playing with 2x your deposit in eligible games"
+        }
+      ],
+      "bonusExampleTitle": "Bonus Example Breakdown",
+      "bonusExampleTable": {
+        "depositAmount": "Deposit Amount",
+        "bonusAwarded": "Bonus Awarded",
+        "totalPlayCredit": "Total Play Credit"
+      },
+      "bonusExamples": [
+        {
+          "deposit": "RM100",
+          "bonus": "RM100",
+          "total": "RM200"
+        },
+        {
+          "deposit": "RM300",
+          "bonus": "RM300",
+          "total": "RM600"
+        }
+      ],
+      "whoEligibleTitle": "Who Is Eligible?",
+      "eligibilityList": [
+        "New users only — one welcome bonus per Winbox account",
+        "Account must be registered via the official site with referrer code: <strong>WI888OX</strong>",
+        "Bonus must be claimed within 7 days of registration"
+      ],
+      "termsTitle": "Terms & Conditions",
+      "termsList": [
+        "Minimum deposit applies to qualify for bonus",
+        "Wagering requirements must be met before withdrawal",
+        "Bonus funds may be restricted to certain game types",
+        "Any abuse or misuse will result in account suspension",
+        {
+          "textBefore": "Winbox reserves full rights to modify or end the",
+          "link": "promotion"
+        }
+      ],
+      "whyChooseTitle": "Why Choose the Winbox Welcome Bonus?",
+      "reasons": [
+        "Instant boost to your starting bankroll",
+        "Easy to claim and activate",
+        "Applicable across a wide range of games",
+        "Secure, verified platform with local support"
+      ],
+      "faqTitle": "FAQs About Welcome Bonus",
+      "faqList": [
+        {
+          "q": "Can I claim the Welcome Bonus more than once?",
+          "a": "No, it's strictly one-time for new users."
+        },
+        {
+          "q": "What games can I use my bonus on?",
+          "a": "Eligible games include selected slots, sportsbook, and live casino. Details vary per campaign."
+        },
+        {
+          "q": "How do I know if the bonus is activated?",
+          "a": "You'll receive confirmation from support and see the credit in your wallet."
+        },
+        {
+          "q": "What are the turnover/wagering requirements?",
+          "a": "These are set by the platform. Commonly 8x–15x the bonus amount."
+        },
+        {
+          "q": "Can I withdraw my bonus immediately?",
+          "a": "No. Bonus funds must meet wagering conditions before withdrawal."
+        }
+      ],
+      "readyTitle": "Ready to get started?",
+      "readyText": "Register today and turn RM100 into RM200 instantly. Play smarter with the Winbox Welcome Bonus!",
+      "readyLinkText": "[Register & Claim Bonus] (to link https://www.winbox22.com/winbox-register )"
+    },
+    "button": {
+      "claimNow": "Claim Now",
+      "register": "Register",
+      "registerNow": "Register Now",
+      "registerClaimBonus": "Register & Claim Bonus"
+    },
+
+    "rescueBonus": {
+      "metaTitle": "Winbox Rescue Bonus - Weekly Cashback on Net Losses",
+      "metaDescription": "Get a second chance with Winbox's Rescue Bonus. Weekly cashback on net losses for verified players.",
+      "heading": "Rescue Bonus Malaysia",
+      "totalClaimed": "RM 16,847,500",
+      "bonusStatus": "Bonus Claimed",
+      "mainTitle": "Bounce Back with the Winbox Rescue Bonus",
+      "intro": "Lost some rounds? Get a second chance with Winbox's Rescue Bonus — weekly cashback on net losses for verified players.",
+      "whatTitle": "What is the Rescue Bonus?",
+      "whatPara1": "The Rescue Bonus is a cashback feature that refunds players a portion of their net losses over a specific period, typically calculated weekly. Offered by Winbox, it serves as a safety net to keep your gameplay sustainable and less punishing during unlucky runs.",
+      "whatPara2": "Whether you're a regular or returning user, the bonus is designed to help you stay in the game without the frustration of total loss.",
+      "howTitle": "How Does It Work?",
+      "howSteps": [
+        {
+          "title": "Play Eligible Games",
+          "desc": "Focus on the platforms and games listed under the Rescue Bonus programme."
+        },
+        {
+          "title": "Accumulate Net Losses",
+          "desc": "Only total losses (bets minus winnings) are considered for the calculation."
+        },
+        {
+          "title": "Weekly Evaluation",
+          "desc": "At the end of each week, your account is reviewed for eligibility."
+        },
+        {
+          "title": "Bonus Credited",
+          "desc": "The Rescue Bonus amount is automatically credited into your account."
+        }
+      ],
+      "bonusRateTitle": "Bonus Rate Breakdown",
+      "bonusRateTable": [
+        {
+          "range": "RM100 – RM999",
+          "rate": "5%",
+          "limit": "RM50"
+        },
+        {
+          "range": "RM1,000 – RM4,999",
+          "rate": "8%",
+          "limit": "RM300"
+        },
+        {
+          "range": "RM5,000 and above",
+          "rate": "10%",
+          "limit": "RM888"
+        }
+      ],
+      "bonusRateNote": "Note: Bonus rates and caps are subject to change based on the ongoing promotion period. Always refer to the latest official terms.",
+      "eligibilityTitle": "Who Is Eligible?",
+      "eligibilityList": [
+        "Malaysian residents aged 18+",
+        {
+          "textBefore": "Must have a verified Winbox account (via",
+          "link": "https://www.winbox22.com/",
+          "textMiddle": ") with",
+          "referrerCode": "Referrer Code: WI888OX"
+        },
+        "Must play eligible Rescue Bonus games during the promo cycle"
+      ],
+      "notEligibleTitle": "Why You May Not Be Eligible for Rescue Bonus",
+      "notEligibleList": [
+        {
+          "title": "You are not registered with the required referrer code (WI888OX)",
+          "desc": "Ensure your Winbox account is created through",
+          "linkText": "Winbox Login Web",
+          "link": "https://www.winbox22.com/",
+          "descAfter": "using referrer: WI888OX."
+        },
+        {
+          "title": "You did not contact customer service via WhatsApp after gaming",
+          "desc": "Make sure to reach out to claim support post-session."
+        }
+      ],
+      "rulesTitle": "Official Rules & Requirements",
+      "rulesList": [
+        {
+          "textBefore": "Winbox accounts must be registered via",
+          "link": "www.winbox22.com",
+          "textAfter": "with referrer code: WI888OX"
+        },
+        "Bets will be counted after 5:00 PM (GMT+8) the following day",
+        "Players must accept the friend request in Winbox before claiming",
+        "Only one Rescue Bonus claim is allowed per day",
+        "Bonus is valid only for the highest turnover game of the day. For example, if BG has 5K turnover and 918KISS has 10K, only the 918KISS game is eligible.",
+        "Screenshot proof of turnover is mandatory during bonus claim"
+      ],
+      "termsTitle": "Terms & Conditions",
+      "termsList": [
+        "Rescue Bonus applies to net losses only (total bets – total winnings)",
+        "Users must maintain compliance with Winbox rules and fair play",
+        "Bonus may not be withdrawn directly; must be used as play credit first",
+        "Abuse of the bonus system may result in forfeiture or account action",
+        "Bonus cycle typically ends Sunday 23:59 GMT+8; credited within 48 hours",
+        "Applicable only to games specified in the bonus terms"
+      ],
+      "whyUseTitle": "Why Use the Rescue Bonus?",
+      "whyUseList": [
+        "Reduces the sting of a losing week",
+        "Rewards consistent players with safety net perks",
+        "Promotes sustainable and responsible betting",
+        "Re-invest bonus into your favourite games"
+      ],
+      "promotionsTitle": "Malaysia Online Casino Promotions",
+      "promotionsIntro": "Enjoy more with Winbox's free credit and promotional campaigns including:",
+      "promotionsList": [
+        "Welcome rewards",
+        "Slot gaming bonuses",
+        "Sportsbook incentives",
+        "Live casino promos",
+        "Free credit for new registrations in 2025"
+      ],
+      "faqTitle": "FAQs",
+      "faqList": [
+        {
+          "q": "How often can I claim the Rescue Bonus?",
+          "a": "It's calculated weekly based on your activity and credited automatically."
+        },
+        {
+          "q": "Do I need to apply manually?",
+          "a": "In some cases, yes. You must WhatsApp customer support and provide a screenshot."
+        },
+        {
+          "q": "Can I withdraw the Rescue Bonus?",
+          "a": "No. It must be wagered once or more before withdrawal, based on Winbox's terms."
+        },
+        {
+          "q": "What happens if I win after receiving a Rescue Bonus?",
+          "a": "Your new winnings can be withdrawn as usual after meeting any turnover requirements."
+        },
+        {
+          "q": "Is there a cap to how much I can receive?",
+          "a": "Yes — capped according to your loss bracket. Refer to the Bonus Rate Breakdown."
+        }
+      ],
+      "button": {
+      "claimNow": "Claim Now",
+      "claimBonus": "Claim Rescue Bonus",
+      "claimRescueBonus": "Claim Rescue Bonus",
+      "register": "Register"
+    }
+    },
+
+    "scratchWin": {
+      "metaTitle": "Scratch and Win - Daily Surprises with Every Tap | Winbox",
+      "metaDescription": "Get rewarded just for showing up. Join the Scratch and Win promo and stand a chance to win daily bonuses, free credit, and special rewards.",
+
+      "heading": "Scratch And Win",
+      "subtitle": "Scratch and Win — Daily Surprises with Every Tap!",
+      "introBefore": "Get rewarded just for showing up. Join the",
+      "introLink": "Scratch and Win",
+      "introAfter": "promo and stand a chance to win daily bonuses, free credit, and special rewards.",
+
+      "getCodeTitle": "Get Your Code Here :",
+
+      "howToTitle": "How to Participate in Scratch and Win",
+      "howToSteps": [
+        {
+          "title": "Log in daily",
+          "desc": "to your Winbox account via",
+          "link": "https://www.winbox22.com/",
+          "linkText": "Winbox Login",
+          "descAfter": "."
+        },
+        {
+          "title": "Access the Promo Section",
+          "desc": "and navigate to \"Scratch and Win\"."
+        },
+        {
+          "title": "CONTACT WHATSAPP",
+          "desc": "support to receive your scratch code."
+        },
+        {
+          "title": "Scratch your card",
+          "desc": "using the code to reveal your bonus."
+        },
+        {
+          "title": "Take a screenshot",
+          "desc": "of your prize and send it back to customer support."
+        },
+        {
+          "title": "Do not share your code",
+          "desc": "— transferring it to others will void your bonus."
+        },
+        {
+          "title": "Once verified",
+          "desc": ", Winbox will credit your bonus points directly."
+        }
+      ],
+
+      "whatCanWinTitle": "What Can You Win?",
+      "prizesList": [
+        { "amount": "RM3", "probability": "92.25%" },
+        { "amount": "RM5", "probability": "83.33%" },
+        { "amount": "RM8", "probability": "75.00%" },
+        { "amount": "RM10", "probability": "66.67%" },
+        { "amount": "RM18", "probability": "50.00%" },
+        { "amount": "RM28", "probability": "46.67%" },
+        { "amount": "RM38", "probability": "33.33%" },
+        { "amount": "RM58", "probability": "25.00%" },
+        { "amount": "RM88", "probability": "10.75%" },
+        { "amount": "RM188", "probability": "2.75%" },
+        { "amount": "RM288", "probability": "2.25%" },
+        { "amount": "RM588", "probability": "2%" },
+        { "amount": "RM888", "probability": "1.33%" },
+        { "amount": "RM1888", "probability": "0.50%" },
+        { "amount": "RM2888", "probability": "0.02%" }
+      ],
+
+      "whoCanJoinTitle": "Who Can Join?",
+      "whoCanJoin": [
+        "All verified Winbox users in Malaysia",
+        {
+          "textBefore": "Must have an active account via",
+          "link": "https://www.winbox22.com/",
+          "linkText": "winbox22.com",
+          "textAfter": ""
+        },
+        "Each user gets one scratch attempt per day",
+        "Referrer Code: WI888OX must be used during signup to be eligible"
+      ],
+
+      "pastWinnerTitle": "PAST WINNER SHARING",
+
+      "termsTitle": "Terms & Conditions",
+      "termsList": [
+        "Only one scratch per account per day",
+        "Users must accept Winbox friend request to qualify for prize credit",
+        "Prizes are non-transferable and may be subject to wagering requirements",
+        "Abuse or fraud will lead to disqualification",
+        {
+          "textBefore": "Winbox reserves the right to change or end the",
+          "link": "https://www.winbox88.me/scratch-and-win",
+          "linkText": "promotion",
+          "textAfter": "at any time"
+        }
+      ],
+
+      "whyJoinTitle": "Why Join Scratch and Win?",
+      "whyJoinList": [
+        "No deposit needed — risk-free participation",
+        "Daily reward system keeps you coming back",
+        "Real value in the form of credit, cashback, or spins",
+        "Perfect for both casual and loyal players"
+      ],
+
+      "faqTitle": "FAQs About Scratch And Win",
+      "faqList": [
+        {
+          "q": "Is Scratch and Win really free?",
+          "a": "Yes, all eligible users get one free attempt each day."
+        },
+        {
+          "q": "Can I win more than once?",
+          "a": "Yes, but only one win per day per account."
+        },
+        {
+          "q": "How do I know if I won?",
+          "a": "Your prize is revealed immediately after scratching and credited shortly after."
+        },
+        {
+          "q": "Do I need to deposit to qualify?",
+          "a": "No deposit is needed — just an eligible Winbox account."
+        },
+        {
+          "q": "Where do I claim my reward?",
+          "a": "Rewards are automatically credited or available in your promo wallet after verification"
+        }
+      ],
+      "button": {
+      "register": "Register Now",
+      "getCode": "Get Your Code"
+    }
+    }
 }

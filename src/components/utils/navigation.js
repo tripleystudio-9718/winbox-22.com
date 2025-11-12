@@ -2,6 +2,9 @@
 import { useRouter } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import PrettyGaming from '../live-casino-game/prettyGaming.vue'
+import Lucky365Championship from '../promo/lucky365Championship.vue'
+import WelcomeBonus from '../promo/welcomeBonus.vue'
+import RescueBonus from '../promo/rescueBonus.vue'
 
 // Site URL constant
 const SITE_URL = 'https://winbox22.com'
@@ -40,6 +43,22 @@ export function useNavigation() {
 
   const goToPromo = () => {
     router.push(getLocalizedPath('/winbox-promotion'))
+  }
+
+  const goToLucky365Championship = () => {
+    router.push(getLocalizedPath('/lucky365championship'))
+  }
+
+  const goToWelcomeBonus = () => {
+    router.push(getLocalizedPath('/welcome-bonus'))
+  }
+
+  const goToRescueBonus = () => {
+    router.push(getLocalizedPath('/rescue-bonus'))
+  }
+
+  const goToScratchAndWin = () => {
+    router.push(getLocalizedPath('/scratch-and-win'))
   }
 
   const goToDownload = () => {
@@ -227,6 +246,10 @@ export function useNavigation() {
     register: () => getLocalizedPath('/winbox-register'),
     login: () => getLocalizedPath('/winbox-login'),
     promo: () => getLocalizedPath('/winbox-promotion'),
+    lucky365Championship: () => getLocalizedPath('/lucky365championship'),
+    welcomeBonus: () => getLocalizedPath('/welcome-bonus'),
+    rescueBonus: () => getLocalizedPath('/rescue-bonus'),
+    scratchAndWin: () => getLocalizedPath('/scratch-and-win'),
     download: () => getLocalizedPath('/download'),
     chat: () => getLocalizedPath('/chat'),
     about: () => getLocalizedPath('/about'),
@@ -278,6 +301,10 @@ export function useNavigation() {
     register: () => getFullUrl('/winbox-register'),
     login: () => getFullUrl('/winbox-login'),
     promo: () => getFullUrl('/winbox-promotion'),
+    lucky365Championship: () => getFullUrl('/lucky365championship'),
+    welcomeBonus: () => getFullUrl('/welcome-bonus'),
+    rescueBonus: () => getFullUrl('/rescue-bonus'),
+    scratchAndWin: () => getFullUrl('/scratch-and-win'),
     download: () => getFullUrl('/download'),
     chat: () => getFullUrl('/chat'),
     about: () => getFullUrl('/about'),
@@ -329,6 +356,9 @@ export function useNavigation() {
     goToRegister,
     goToLogin,
     goToPromo,
+    goToLucky365Championship,
+    goToWelcomeBonus,
+    goToRescueBonus,
     goToDownload,
     goToChat,
     goToAbout,

@@ -33,6 +33,7 @@
   // Dropdown states
   const isBrandDropdownOpen = ref(false);
   const isHelpDropdownOpen = ref(false);
+   const isPromoDropdownOpen = ref(false);
   
   // Popup state
   const showPopup = ref(false);
@@ -80,6 +81,10 @@
   const toggleBrandDropdown = () => {
     isBrandDropdownOpen.value = !isBrandDropdownOpen.value;
   };
+
+  const togglePromoDropdown = () => {
+    isPromoDropdownOpen.value = !isPromoDropdownOpen.value;
+  };
   
   // Toggle help dropdown
   const toggleHelpDropdown = () => {
@@ -107,6 +112,7 @@
       isBrandDropdownOpen.value = false;
       isHelpDropdownOpen.value = false;
       isFollowDropdownOpen.value = false;
+      isPromoDropdownOpen.value = false;
     }
   });
   
@@ -205,10 +211,40 @@
                       <span>{{ $t('navigation.home') }}</span>
                     </router-link>
                   </li>
-                  <li>
-                    <router-link :to="routerLinks.promo()" class="menu-item" @click="closeSidebar">
-                      <span>{{ $t('navigation.promo') }}</span>
-                    </router-link>
+                  
+                  <!-- Promo Dropdown -->
+                  <li class="dropdown-item">
+                    <div class="dropdown-header" @click="togglePromoDropdown">
+                      <span class="dropdown-text">{{ $t('navigation.promo') }}</span>
+                      <span class="dropdown-arrow" :class="{ 'open': isPromoDropdownOpen }">
+                        <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16">
+                          <path d="M4 6l4 4 4-4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                      </span>
+                    </div>
+                    <div class="sub-dropdown" :class="{ 'open': isPromoDropdownOpen }">
+                      <router-link :to="routerLinks.promo()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.promo') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.lucky365Championship()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.lucky365Championship') }}</span>
+                      </router-link>
+                      <!-- <router-link :to="routerLinks.marcMarquezGiveaway()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.marcMarquezGiveaway') }}</span>
+                      </router-link> -->
+                      <router-link :to="routerLinks.rescueBonus()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.rescueBonus') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.scratchAndWin()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.scratchAndWin') }}</span>
+                      </router-link>
+                      <router-link :to="routerLinks.welcomeBonus()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.welcomeBonus') }}</span>
+                      </router-link>
+                      <!-- <router-link :to="routerLinks.lucky7thBonus()" class="sub-link" @click="closeSidebar">
+                        <span class="sub-name">{{ $t('navigation.lucky7thBonus') }}</span>
+                      </router-link> -->
+                    </div>
                   </li>
                   <li>
                     <router-link :to="routerLinks.download()" class="menu-item" @click="closeSidebar">
