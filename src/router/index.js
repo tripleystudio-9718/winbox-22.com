@@ -11,9 +11,12 @@ import lucky365Championship from '@/components/promo/lucky365Championship.vue'
 import welcomeBonus from '@/components/promo/welcomeBonus.vue'
 import rescueBonus from '@/components/promo/rescueBonus.vue'
 import scratchAndWin from '@/components/promo/scratchAndWin.vue'
+import marcMarquezGiveaway from '@/components/promo/mmqGiveaways.vue'
+import lucky7thBonus from '@/components/promo/lucky7.vue'
 import acewin from '@/components/slot-game/acewin.vue'
 import jili from '@/components/slot-game/jili.vue'
 import lucky365 from '@/components/slot-game/lucky365.vue'
+import mega88 from '@/components/slot-game/mega88.vue'
 import maxbet from '@/components/sports-game/maxbet.vue'
 import asiaGaming from '@/components/live-casino-game/asiaGaming.vue'
 import sexy from '@/components/live-casino-game/sexy.vue'
@@ -234,6 +237,36 @@ const baseRoutes = [
     },
   },
   {
+    path: '/marc-marquez-giveaway',
+    name: 'marcMarquezGiveaway',
+    component: marcMarquezGiveaway,
+    meta: {
+      title: 'Marc Márquez Giveaway Malaysia 2025 – Win Signed Prizes & More',
+      description:
+        'Join the official Marc Márquez giveaway by Winbox. Win signed jerseys, memorabilia, and more. Free entry for all registered users. Ends soon – enter now!',
+      titleZh: 'Marc Márquez 马来西亚赠品活动 2025 – 赢取签名奖品与更多好礼',
+      descriptionZh:
+        '参加 Winbox 举办的 Marc Márquez 官方赠品活动。赢取签名球衣、纪念品等丰富奖品。所有注册用户免费参与，活动即将截止，立即参加！',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/marc-marquez-giveaway/`,
+    },
+  },
+  {
+    path: '/lucky-7th-bonus',
+    name: 'lucky7thBonus',
+    component: lucky7thBonus,
+    meta: {
+      title: 'Winbox Lucky 7th Bonus Malaysia – Weekly Deposit Rewards',
+      description:
+        'Claim the Lucky 7th Bonus every week with Winbox. Deposit consistently for 7 days to earn free bonus credits. Open to all verified users in Malaysia.',
+      titleZh: 'Winbox 幸运第七次存款奖金 – 每周存款奖励',
+      descriptionZh:
+        '每周与 Winbox 一起领取幸运第七次存款奖金。连续存款 7 天即可获得免费奖金积分。仅限马来西亚已验证用户参与。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/lucky-7th-bonus/`,
+    },
+  },
+  {
     path: '/chat',
     name: 'Chat',
     component: Chat,
@@ -378,17 +411,19 @@ const baseRoutes = [
     }
   },
   {
-    path: '/lucky365',
-    name: 'lucky365',
-    component: lucky365,
+    path: '/mega88',
+    name: 'mega88',
+    component: mega88,
     meta: {
-      title: 'Lucky365 Slot Malaysia: Official Login & RM10 Free Bonus',
-      description: 'Play Lucky365 slots safely Malaysia. Enjoy instant browser play, free test ID with RM50 credits, and 24/7 support. Fast withdrawals. Join risk-free trial.',
-      titleZh: 'Lucky365老虎机马来西亚：官方登录 & RM10免费奖金',
-      descriptionZh: '在马来西亚安全畅玩Lucky365老虎机。享受即时浏览器游戏，领取RM50测试ID，全天候客服支持，快速提款。立即加入无风险体验。',
+      title: 'Winbox Mega88 APK – Android, iOS & PC Game App',
+      description:
+        'Download Mega88 from Winbox – play top casino slots, live games, and more. Available for Android APK, iOS, and PC. Fast install, secure & updated.',
+      titleZh: 'Winbox Mega88 APK – 安卓、iOS 与电脑游戏应用',
+      descriptionZh:
+        '从 Winbox 下载 Mega88，畅玩顶级老虎机、真人游戏等。支持安卓 APK、iOS 与电脑版本。安装快速、安全并定期更新。',
       image: DEFAULT_IMAGE,
-      canonical: `${DOMAIN}/lucky365`
-    }
+      canonical: `${DOMAIN}/mega88/`,
+    },
   },
   {
     path: '/jili',

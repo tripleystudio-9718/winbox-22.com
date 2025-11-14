@@ -5,7 +5,9 @@
     "lucky365Championship": "Lucky 365 Championship",
     "welcomeBonus": "Welcome Bonus",
     "rescueBonus": "Rescue Bonus",
-    "scratchAnd": "Rescue Bonus",
+    "scratchAndWin": "Scratch And Win",
+    "marcMarquezGiveaway": "Marc Marqueez Giveaway",
+    "lucky7thBonus": "Lucky 7th Bonus",
     "login": "Login",
     "register": "Register",
     "download": "Download",
@@ -5570,7 +5572,7 @@
           "textAfter": ""
         },
         "Each user gets one scratch attempt per day",
-        "Referrer Code: WI888OX must be used during signup to be eligible"
+        "Referrer Code: <strong>WI888OX</strong> must be used during signup to be eligible"
       ],
 
       "pastWinnerTitle": "PAST WINNER SHARING",
@@ -5591,10 +5593,10 @@
 
       "whyJoinTitle": "Why Join Scratch and Win?",
       "whyJoinList": [
-        "No deposit needed — risk-free participation",
-        "Daily reward system keeps you coming back",
-        "Real value in the form of credit, cashback, or spins",
-        "Perfect for both casual and loyal players"
+        "<strong>No deposit needed — risk-free participation</strong>",
+        "<strong>Daily reward system keeps you coming back</strong>",
+        "<strong>Real value in the form of credit, cashback, or spins</strong>",
+        "<strong>Perfect for both casual and loyal players</strong>"
       ],
 
       "faqTitle": "FAQs About Scratch And Win",
@@ -5624,5 +5626,548 @@
       "register": "Register Now",
       "getCode": "Get Your Code"
     }
+    },
+
+    "marcMarquez": {
+      "metaTitle": "Marc Marquez Giveaway - Win Exclusive MotoGP Prizes | Winbox",
+      "metaDescription": "Join the Marc Marquez Giveaway and stand a chance to win exclusive MotoGP merchandise, signed memorabilia, and amazing prizes.",
+      "heading": "Marc Marquez Giveaway",
+      "subtitle": "Win Exclusive MotoGP Prizes & Signed Memorabilia!",
+      "intro": "Celebrate the legendary <strong>Marc Marquez</strong> with Winbox! Join our exclusive giveaway and stand a chance to win <strong>signed merchandise, exclusive MotoGP gear,</strong> and amazing prizes.",
+      "whatIsTitle": "What is the Marc Marquez Giveaway?",
+      "whatIsContent": "The <strong>Marc Marquez Giveaway</strong> is a special promotional campaign by Winbox celebrating the <strong>MotoGP champion Marc Marquez</strong>. Participants can win <strong>exclusive signed memorabilia, MotoGP merchandise, race tickets,</strong> and other exciting prizes.",
+      "howToJoinTitle": "How to Join the Giveaway",
+      "howToJoinSteps": [
+        {
+          "title": "Register or Log In",
+          "desc": "to your Winbox account via",
+          "link": "https://www.winbox22.com/",
+          "linkText": "Winbox Login",
+          "descAfter": "."
+        },
+        {
+          "title": "Make a Qualifying Deposit",
+          "desc": "Check the minimum deposit amount required to participate."
+        },
+        {
+          "title": "Play Eligible Games",
+          "desc": "Accumulate turnover on selected games during the promo period."
+        },
+        {
+          "title": "Earn Entries",
+          "desc": "Every RM100 in turnover = 1 entry into the draw."
+        },
+        {
+          "title": "Wait for the Draw",
+          "desc": "Winners will be announced at the end of the campaign period."
+        },
+        {
+          "title": "Claim Your Prize",
+          "desc": "Winners will be contacted via WhatsApp or email to arrange prize delivery."
+        }
+      ],
+      "prizesTitle": "Prizes You Can Win",
+      "eligibilityTitle": "Who Can Join?",
+      "eligibilityList": [
+        "All verified Winbox users in Malaysia",
+        {
+          "textBefore": "Must have an active account via",
+          "link": "https://www.winbox22.com/",
+          "linkText": "winbox22.com",
+          "textAfter": ""
+        },
+        "Minimum deposit and turnover requirements apply",
+        "<strong>Referrer Code: WI888OX</strong> must be used during signup to be eligible",
+        "Must play eligible games during the promotional period"
+      ],
+      "pastWinnersTitle": "Past Winners",
+      "termsTitle": "Terms & Conditions",
+      "termsList": [
+        "Campaign period runs from [Start Date] to [End Date]",
+        "Minimum deposit of <strong>RM100</strong> required to participate",
+        "Every <strong>RM100 in turnover</strong> earns 1 entry ticket",
+        "Only bets on <strong>eligible games</strong> count toward turnover",
+        "Winners will be selected via <strong>random draw</strong>",
+        "Prizes are <strong>non-transferable</strong> and cannot be exchanged for cash",
+        "Winners must <strong>accept friend request</strong> in Winbox to claim prizes",
+        "Prize delivery may take <strong>2-4 weeks</strong> after winner announcement",
+        {
+          "textBefore": "Winbox reserves the right to modify or end the",
+          "link": "https://www.winbox88.me/marc-marquez-giveaway",
+          "linkText": "promotion",
+          "textAfter": "at any time"
+        },
+        "Fraudulent activity will result in <strong>immediate disqualification</strong>"
+      ],
+      "whyJoinTitle": "Why Join the Marc Marquez Giveaway?",
+      "whyJoinList": [
+        "<strong>Exclusive MotoGP Prizes:</strong> Win signed memorabilia from Marc Marquez",
+        "<strong>Multiple Winners:</strong> More chances to win with multiple prize categories",
+        "<strong>Easy to Join:</strong> Simple qualification through regular gameplay",
+        "<strong>Fair Draw System:</strong> Transparent random selection process",
+        "<strong>Premium Merchandise:</strong> Official MotoGP gear and collectibles"
+      ],
+      "faqTitle": "FAQs About Marc Marquez Giveaway",
+      "faqList": [
+        {
+          "q": "How do I earn entries?",
+          "a": "Every RM100 in qualifying turnover earns you 1 entry ticket."
+        },
+        {
+          "q": "When will winners be announced?",
+          "a": "Winners will be announced at the end of the campaign period via official channels."
+        },
+        {
+          "q": "Can I win multiple prizes?",
+          "a": "Typically, each participant can only win one major prize, but check the specific terms."
+        },
+        {
+          "q": "How will I know if I won?",
+          "a": "Winners will be contacted directly via WhatsApp or the phone number registered with Winbox."
+        },
+        {
+          "q": "Can I exchange my prize for cash?",
+          "a": "No, all prizes are non-transferable and cannot be exchanged for cash value."
+        }
+      ],
+      "button": {
+      "joinNow": "Join Now",
+      "register": "Register"
+    }
+    },
+
+    "marcMarquez": {
+      "metaTitle": "Marc Márquez Giveaway Malaysia - Win Signed Merchandise | Winbox",
+      "metaDescription": "Join the Marc Márquez Giveaway and win exclusive signed MotoGP merchandise by eight-time world champion Marc Márquez. Limited time only!",
+      "heading": "Marc Márquez Giveaway Malaysia",
+      "subtitle": "Marc Márquez Signed Merchandise Giveaway — Join Now!",
+      "intro": "Win exclusive memorabilia signed by MotoGP legend Marc Márquez. Open for all registered users — limited time only!",
+      "whatIsTitle": "What Is the Marc Márquez Giveaway?",
+      "whatIsLinkText": "Marc Márquez Giveaway",
+      "whatIsPara1": "exclusive campaign offers fans and players a rare chance to win signed MotoGP merchandise by eight-time world champion Marc Márquez. The giveaway is organised by Winbox and is available only through the official participation portal.",
+      "whatIsPara2": "This is a limited-time promotional event, with all logistics and distribution handled directly by the platform.",
+      "whatCanWinTitle": "What Can You Win?",
+      "prizesTable": [
+        {
+          "prizeType": "Grand Prize",
+          "description": "Signed Marc Márquez Official Jersey",
+          "quantity": "1"
+        },
+        {
+          "prizeType": "Runner-Up",
+          "description": "Signed Cap or Poster",
+          "quantity": "Multiple"
+        }
+      ],
+      "prizesNote": "All items are official and authenticated. Winners will receive physical items by mail and must ensure correct shipping info upon entry.",
+      "learnMoreText": "Learn more about",
+      "promotionsLinkText": "Promotions",
+      "howToJoinTitle": "How to Join — Step by Step",
+      "step1Title": "Step 1: Register or Log in",
+      "step1Text": "Create or access your account at",
+      "winboxLoginText": "Winbox Login Web",
+      "step2Title": "Step 2: Confirm Entry Eligibility",
+      "step2Text": "Ensure your profile is complete. Each verified user gets one free entry.",
+      "step3Title": "Step 3: Submit Entry Form",
+      "step3Text": "Go to the campaign page and submit your entry before the deadline.",
+      "step4Title": "Step 4: Watch for Winner Announcement",
+      "step4Text": "Winners are posted on the event page and notified via in-app or email.",
+      "step5Title": "Step 5: Receive and Verify Prize",
+      "step5Text": "Winners must confirm address within the claim period to receive their item.",
+      "joinTelegramTitle": "Join Telegram for Free Prizes!",
+      "joinTelegramPara1": "Get ready for the MM93 Giveaway, where you'll have the chance to win incredible prizes, including exclusive Marc Márquez memorabilia, high-end electronics, and more!",
+      "joinTelegramPara2": "Follow us and join our Telegram group for more details!",
+      "whyJoinTitle": "Why Join?",
+      "whyJoinList": [
+        "Chance to get FREE Prizes",
+        "Unlimited surprises waiting for you",
+        "Be the first to enjoy new offers",
+        "Chat and connect with others",
+        "Stay updated on the latest games and giveaways"
+      ],
+      "additionalRulesTitle": "Additional Giveaway Rules",
+      "rule1Text": "Fill out the form at",
+      "rule2Text": "The more members that join, the bigger the rewards. Invite your friends to increase your chances!",
+      "rule3Text": "Winners will be selected randomly through a lucky draw.",
+      "rule4Text": "Scan the QR code on the campaign banner to join instantly.",
+      "justOneScan": "Just one scan, prizes in hand!",
+      "termsTitle": "Terms & Conditions",
+      "term1": "Only one entry per verified user",
+      "term2Text": "Users must be registered on",
+      "term2Referrer": "(Referrer: WI888OX)",
+      "term3": "Giveaway open to residents of Malaysia aged 18+",
+      "term4": "No purchase required; participation is free",
+      "term5": "Entry deadline and announcement dates are final",
+      "term6": "Organiser may substitute prizes with items of equal value if necessary",
+      "term7": "Fraudulent entries will be disqualified",
+      "term8": "Winner agrees to allow use of their name for winner publicity purposes",
+      "faqTitle": "FAQs About Marc Márquez Giveaway",
+      "faqList": [
+        {
+          "q": "Who can join the Marc Marquez Giveaway?",
+          "a": "Anyone with a verified Winbox account who is a Malaysian resident over 18."
+        },
+        {
+          "q": "Do I need to pay to join?",
+          "a": "No, it's completely free to enter."
+        },
+        {
+          "q": "How are winners selected?",
+          "a": "Winners are selected at random from valid entries."
+        },
+        {
+          "q": "How will I receive my prize?",
+          "a": "Via mail — ensure your profile has the correct shipping address."
+        },
+        {
+          "q": "When will winners be announced?",
+          "a": "On the official giveaway page after the event ends."
+        }
+      ],
+      "buttons": {
+        "getPrizesNow": "GET PRIZES NOW!",
+        "joinTelegram": "JOIN TELEGRAM!",
+        "fillOutForm": "FILL OUT FORM!"
+      }
+    },
+    "lucky7th": {
+      "metaTitle": "Lucky 7th - Daily Login Rewards | Winbox",
+      "metaDescription": "Join Lucky 7th promotion and earn rewards for 7 consecutive days of login. Get daily bonuses and exclusive prizes!",
+      "heading": "Lucky 7th Daily Rewards",
+      "subtitle": "Login 7 Days, Win Big Rewards!",
+      "intro": "Join the Lucky 7th promotion and get rewarded for your loyalty! Login for 7 consecutive days and claim increasing bonuses each day.",
+      "whatIsTitle": "What Is Lucky 7th?",
+      "whatIsLinkText": "Lucky 7th",
+      "whatIsPara1": "is a daily login reward promotion where players earn bonuses for logging in consecutively for 7 days. Each day offers bigger and better rewards, culminating in a grand prize on the 7th day.",
+      "whatIsPara2": "This promotion is designed to reward loyal players and encourage daily engagement with exciting prizes and bonuses.",
+      "howItWorksTitle": "How It Works",
+      "step1Title": "Step 1: Register or Log In",
+      "step1Text": "Create your account or log in daily at Winbox.",
+      "step2Title": "Step 2: Check In Daily",
+      "step2Text": "Visit the Lucky 7th page and click 'Check In' each day.",
+      "step3Title": "Step 3: Claim Your Reward",
+      "step3Text": "Collect your daily bonus after checking in.",
+      "step4Title": "Step 4: Complete 7 Days",
+      "step4Text": "Login for 7 consecutive days to unlock all rewards and the grand prize!",
+      "prizesTitle": "Daily Rewards Breakdown",
+      "tableHeaders": {
+        "day": "Day",
+        "bonus": "Bonus",
+        "requirement": "Requirement"
+      },
+      "prizesTable": [
+        {
+          "day": "Day 1",
+          "bonus": "RM5 Free Credit",
+          "requirement": "Login only"
+        },
+        {
+          "day": "Day 2",
+          "bonus": "RM10 Free Credit",
+          "requirement": "Login only"
+        },
+        {
+          "day": "Day 3",
+          "bonus": "RM15 Free Credit",
+          "requirement": "Login + RM50 deposit"
+        },
+        {
+          "day": "Day 4",
+          "bonus": "RM20 Free Credit",
+          "requirement": "Login + RM50 deposit"
+        },
+        {
+          "day": "Day 5",
+          "bonus": "RM30 Free Credit",
+          "requirement": "Login + RM100 deposit"
+        },
+        {
+          "day": "Day 6",
+          "bonus": "RM50 Free Credit",
+          "requirement": "Login + RM100 deposit"
+        },
+        {
+          "day": "Day 7",
+          "bonus": "RM88 Grand Prize",
+          "requirement": "Login + RM200 deposit"
+        }
+      ],
+      "eligibilityTitle": "Who Can Join?",
+      "eligibilityList": [
+        "All verified Winbox users in Malaysia",
+        "New and existing players are eligible",
+        "Must login consecutively for 7 days",
+        "Referrer Code: WI888OX must be used during signup",
+        "Must meet daily deposit requirements to claim rewards"
+      ],
+      "whyJoinTitle": "Why Join Lucky 7th?",
+      "whyJoinList": [
+        "Daily rewards that increase each day",
+        "Easy to participate - just login daily",
+        "Grand prize of RM88 on Day 7",
+        "Reward your loyalty and consistency",
+        "Low deposit requirements for big rewards"
+      ],
+      "termsTitle": "Terms & Conditions",
+      "term1": "Must login consecutively for 7 days - missing a day resets progress",
+      "term2Text": "Users must be registered on",
+      "term2Referrer": "(Referrer: WI888OX)",
+      "term3": "Daily bonuses must be claimed within 24 hours",
+      "term4": "Deposit requirements must be met before claiming that day's reward",
+      "term5": "All bonuses subject to 1x wagering requirement",
+      "term6": "Promotion limited to one account per user",
+      "term7": "Winbox reserves the right to modify or terminate this promotion at any time",
+      "faqTitle": "FAQs About Lucky 7th",
+      "faqList": [
+        {
+          "q": "What happens if I miss a day?",
+          "a": "Your progress resets and you'll need to start from Day 1 again."
+        },
+        {
+          "q": "Do I need to deposit every day?",
+          "a": "No, Days 1-2 are free. Deposits are required from Day 3 onwards."
+        },
+        {
+          "q": "Can I claim all rewards at once?",
+          "a": "No, you must claim each day's reward individually after logging in."
+        },
+        {
+          "q": "Is there a wagering requirement?",
+          "a": "Yes, all bonuses have a 1x wagering requirement before withdrawal."
+        },
+        {
+          "q": "Can I participate multiple times?",
+          "a": "Yes! After completing 7 days, you can start a new cycle."
+        }
+      ],
+      "buttons": {
+        "claimNow": "CLAIM NOW!",
+        "joinTelegram": "JOIN TELEGRAM!",
+        "joinNow": "Join Now"
+      }
+    },
+
+    "lucky7th": {
+      "metaTitle": "Lucky 7th Bonus - Rewarding Your Weekly Consistency | Winbox",
+      "metaDescription": "Play 6 days in a row, get rewarded on the 7th! Lucky 7th Bonus with 1.5x turnover on Rescue Bonus. Stay active and Winbox gives back.",
+      "heading": "LUCKY 7th BONUS",
+      "subtitle": "Winbox Lucky 7th Bonus – Rewarding Your Weekly Consistency!",
+      "introText": "Winbox",
+      "lucky7thLink": "Lucky 7th Bonus",
+      "introText2": "is play 6 days in a row, and on the 7th day, you'll be rewarded with a surprise bonus. Stay active and Winbox gives back.",
+      "joinNowText": "Join Now",
+      "registerPageText": "(To register page:",
+      "howItWorksTitle": "How the Lucky 7th Bonus Works",
+      "step1Title": "Deposit daily",
+      "step1Text": "for six consecutive days with the required minimum amount",
+      "step2Title": "System tracks your consistency automatically",
+      "step2Text": "— no form needed",
+      "step3Title": "On the 7th day",
+      "step3Text": ", you'll receive a surprise bonus in your account",
+      "step4Title": "Use your bonus",
+      "step4Text": "on eligible games and enjoy your free play credit",
+      "bonusExampleTitle": "Bonus Example Breakdown",
+      "rulesTitle": "Lucky 7th Bonus Rules",
+      "rule1Text": "Winbox account must be registered through our",
+      "winboxMalaysiaText": "Winbox Malaysia",
+      "rule1Referrer": "using Referrer Code: WI888OX",
+      "rule2": "Turnover of Rescue Bonus will be counted at 1.5x on the 7th, 17th, and 27th of each month (from 12:00 PM to 11:59 AM the next day)",
+      "rule3": "Contact customer service and ensure your account is added as a friend on Winbox",
+      "rule4": "Bonus will be automatically credited by the system before 12:00 AM on the 7th day",
+      "rule5Text": "Only valid for",
+      "slotGamesText": "Slot games",
+      "rule5After": "within the Winbox platform",
+      "rule6": "One Lucky 7th Bonus per week per user ID",
+      "rule7": "Missed deposit days will reset your cycle",
+      "whoCanJoinTitle": "Who Can Join?",
+      "eligibility1": "All verified Winbox users with consistent daily deposits",
+      "eligibility2": "Users must be registered under the specified referrer code: WI888OX",
+      "promotionsAndBonusText": "Promotions and Bonus",
+      "eligibility3After": "applies once per week per user ID",
+      "termsTitle": "Terms & Conditions",
+      "term1": "Bonus eligibility resets weekly — non-transferable",
+      "term2": "Daily deposits must meet minimum requirement",
+      "term3": "Bonus may be used only on selected games",
+      "term4": "Abuse of promo may result in disqualification",
+      "term5": "Winbox reserves final decision rights",
+      "whyUseTitle": "Why Use the Lucky 7th Bonus?",
+      "reason1Title": "Rewards consistent gameplay",
+      "reason1Text": "with real bonus value",
+      "reason2Title": "Simple structure",
+      "reason2Text": "— just deposit and play daily",
+      "reason3Title": "Automated tracking",
+      "reason3Text": "— no manual claim required",
+      "reason4Title": "Encourages responsible and active participation",
+      "reason4Text": "",
+      "faqTitle": "FAQs About Lucky 7th Bonus",
+      "faq1Q": "What happens if I miss a day?",
+      "faq1A": "Your streak resets and you'll need to start a new 7-day cycle.",
+      "faq2Q": "Do I need to claim the bonus manually?",
+      "faq2A": "No, the system automatically credits it if you qualify.",
+      "faq3Q": "Can I join mid-week?",
+      "faq3A": "Yes, your 7-day cycle starts from your first qualifying deposit.",
+      "faq4Q": "Can I get multiple Lucky 7th bonuses in a month?",
+      "faq4A": "Yes, one per week as long as you meet the criteria.",
+      "consistencyTitle": "Consistency pays off",
+      "consistencyText": "Deposit every day and get rewarded on the 7th. Don't miss your weekly bonus — start your streak today!",
+      "depositNowText": "Deposit Now",
+      "toLoginText": "(to login:"
+    },
+    "mega88": {
+      "metaTitle": "Mega88 (Mega888) APK Game App - Download for Android, iOS & PC | Winbox",
+      "metaDescription": "Download Mega88 APK - The all-in-one mobile casino app for Android, iOS, and PC. Play slots, table games, fishing arcade, and live casino games.",
+
+      "title": "Mega88 (Mega888) APK Game App",
+      "subtitle": "The all-in-one mobile casino app",
+      
+      "intro": {
+        "linkText": "Mega88",
+        "description": "available via Winbox, is one of the most popular mobile gaming apps for casino-style entertainment. Whether you're a fan of slot machines, table games, or interactive arcade fishing—Mega888 delivers a seamless experience on Android, iOS, and PC."
+      },
+
+      "comparisonTable": {
+        "title": "Comparison Table: Mega888 Access Options",
+        "headers": {
+          "platform": "Platform",
+          "bestFor": "Best For",
+          "keyFeatures": "Key Features"
+        },
+        "rows": {
+          "android": {
+            "platform": "Android (APK)",
+            "bestFor": "Most users",
+            "features": "Fast updates, easy install, demo mode"
+          },
+          "ios": {
+            "platform": "iOS (64-bit)",
+            "bestFor": "iPhone/iPad users",
+            "features": "Clean UI, real-time sync, secure profile trust"
+          },
+          "pc": {
+            "platform": "PC (Emulator)",
+            "bestFor": "Desktop gamers",
+            "features": "Multi-game handling, large screen display"
+          }
+        },
+        "note": "Still not sure if Mega88 suits your device? This table breaks it down clearly so you choose the best version."
+      },
+
+      "features": {
+        "title": "Features of Mega888",
+        "multiPlatform": {
+          "title": "Multi-platform support with one-time download",
+          "downloadable": "Downloadable",
+          "winboxLink": "Winbox",
+          "apkText": "APK for Android and IPA for iOS 64-bit.",
+          "pcAccess": "PC access via emulator like BlueStacks.",
+          "optimised": "Optimised gameplay with smooth graphics and secure logins."
+        },
+        "gamesAvailable": {
+          "title": "Games Available",
+          "slots": "Slot Games: Classic reels and themed adventures.",
+          "tableGames": "Table Games: Baccarat, Sic Bo, Dragon Tiger.",
+          "fishing": "Fishing Arcade: Multiplayer fishing battles with rewards.",
+          "liveGames": "Live Games: Real-time table action with HD streaming."
+        },
+        "whyChoose": {
+          "title": "Why Choose Mega888?",
+          "easyInstall": "Easy to install on all devices.",
+          "updates": "Frequent updates and bug fixes.",
+          "testMode": "Free Test ID mode available.",
+          "payment": "Localised payment options and responsive support."
+        }
+      },
+
+      "howToDownload": {
+        "title": "How to Download and Install Mega88",
+        "android": {
+          "title": "For Android APK:",
+          "step1Before": "Tap the Download",
+          "step1Link": "Winbox APK",
+          "step1After": "\" button.",
+          "step2": "Go to Settings > Security > Enable \"Install from Unknown Sources\".",
+          "step3": "Install and launch the app."
+        },
+        "ios": {
+          "title": "For iOS (64-bit):",
+          "step1Before": "Open the download link in Safari:",
+          "step1Link": "https://www.winbox22.com/download",
+          "step2": "Allow installation, then go to Settings > General > Device Management > Trust the certificate."
+        },
+        "pc": {
+          "title": "For PC:",
+          "step1": "Install an emulator like BlueStacks.",
+          "step2": "Download the APK and install it via the emulator."
+        }
+      },
+
+      "tips": {
+        "title": "Tips for Smooth Gameplay",
+        "internet": "Use stable internet connection (Wi-Fi recommended).",
+        "demoMode": "Play demo mode before real deposits.",
+        "limits": "Set deposit limits and play responsibly."
+      },
+
+      "appDetails": {
+        "title": "App Details for SEO & Schema Compatibility",
+        "version": {
+          "label": "Version:",
+          "value": "Latest (Updated Monthly)"
+        },
+        "fileSize": {
+          "label": "File Size:",
+          "value": "~50MB APK"
+        },
+        "compatibility": {
+          "label": "Compatibility:",
+          "value": "Android 7+, iOS 13+, Windows 10 (via emulator)"
+        },
+        "security": {
+          "label": "Security:",
+          "value": "Encrypted login, agent-verification system"
+        }
+      },
+
+      "faqs": {
+        "title": "FAQs About Mega88",
+        "questions": {
+          "free": {
+            "question": "Q: Is Mega888 free to download?",
+            "answer": "A: Yes. The app is free for all platforms. You only deposit when you're ready to play real games."
+          },
+          "register": {
+            "question": "Q: Can I play without registering?",
+            "answer": "A: A Test ID mode is available for trial play without full registration."
+          },
+          "safe": {
+            "question": "Q: Is it safe to install Mega88 APK?",
+            "answerBefore": "A: Yes. Ensure you download from Official",
+            "link": "Winbox Malaysia",
+            "answerAfter": "or agent-approved sources."
+          },
+          "devices": {
+            "question": "Q: Which devices can run Mega88?",
+            "answer": "A: Android phones (via APK), iOS 64-bit devices, and PCs with an emulator."
+          },
+          "deposit": {
+            "question": "Q: How do I deposit and withdraw?",
+            "answer": "A: Use local payment gateways or contact your agent. Auto top-up/withdrawal options are supported."
+          },
+          "help": {
+            "question": "Q: Where do I get help if I have issues?",
+            "answerBefore": "A: Contact 24/7",
+            "link": "live chat support",
+            "answerAfter": "within the app or on the Winbox platform."
+          }
+        }
+      },
+
+      "startPlaying": {
+        "title": "Start Playing with Mega88 Now",
+        "description": "Ready to experience mobile casino games in one app? Download Mega888 through Winbox today and start spinning, betting, or fishing—all from your phone.",
+        "downloadText": "Download",
+        "downloadLink": "Winbox APK",
+        "platforms": "Now for Android, iOS, or PC"
+      }
     }
 }

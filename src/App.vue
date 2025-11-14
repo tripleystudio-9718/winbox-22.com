@@ -229,9 +229,9 @@
                       <router-link :to="routerLinks.lucky365Championship()" class="sub-link" @click="closeSidebar">
                         <span class="sub-name">{{ $t('navigation.lucky365Championship') }}</span>
                       </router-link>
-                      <!-- <router-link :to="routerLinks.marcMarquezGiveaway()" class="sub-link" @click="closeSidebar">
+                      <router-link :to="routerLinks.mmqGiveaways()" class="sub-link" @click="closeSidebar">
                         <span class="sub-name">{{ $t('navigation.marcMarquezGiveaway') }}</span>
-                      </router-link> -->
+                      </router-link>
                       <router-link :to="routerLinks.rescueBonus()" class="sub-link" @click="closeSidebar">
                         <span class="sub-name">{{ $t('navigation.rescueBonus') }}</span>
                       </router-link>
@@ -241,9 +241,9 @@
                       <router-link :to="routerLinks.welcomeBonus()" class="sub-link" @click="closeSidebar">
                         <span class="sub-name">{{ $t('navigation.welcomeBonus') }}</span>
                       </router-link>
-                      <!-- <router-link :to="routerLinks.lucky7thBonus()" class="sub-link" @click="closeSidebar">
+                      <router-link :to="routerLinks.lucky7()" class="sub-link" @click="closeSidebar">
                         <span class="sub-name">{{ $t('navigation.lucky7thBonus') }}</span>
-                      </router-link> -->
+                      </router-link>
                     </div>
                   </li>
                   <li>

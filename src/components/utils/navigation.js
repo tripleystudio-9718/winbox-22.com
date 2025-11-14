@@ -5,6 +5,7 @@ import PrettyGaming from '../live-casino-game/prettyGaming.vue'
 import Lucky365Championship from '../promo/lucky365Championship.vue'
 import WelcomeBonus from '../promo/welcomeBonus.vue'
 import RescueBonus from '../promo/rescueBonus.vue'
+import MmqGiveaways from '../promo/mmqGiveaways.vue'
 
 // Site URL constant
 const SITE_URL = 'https://winbox22.com'
@@ -59,6 +60,14 @@ export function useNavigation() {
 
   const goToScratchAndWin = () => {
     router.push(getLocalizedPath('/scratch-and-win'))
+  }
+
+  const goToMmqGiveaways = () => {
+    router.push(getLocalizedPath('/marc-marquez-giveaway '))
+  }
+
+  const goToLucky7 = () => {
+    router.push(getLocalizedPath('/lucky-7th-bonus'))
   }
 
   const goToDownload = () => {
@@ -120,6 +129,10 @@ export function useNavigation() {
 
   const goToLucky365 = () => {
     router.push(getLocalizedPath('/lucky365'))
+  }
+
+  const goToMega88 = () => {
+    router.push(getLocalizedPath('/mega88'))
   }
 
   const goToJili = () => {
@@ -250,6 +263,8 @@ export function useNavigation() {
     welcomeBonus: () => getLocalizedPath('/welcome-bonus'),
     rescueBonus: () => getLocalizedPath('/rescue-bonus'),
     scratchAndWin: () => getLocalizedPath('/scratch-and-win'),
+    mmqGiveaways: () => getLocalizedPath('/marc-marquez-giveaway'),
+    lucky7: () => getLocalizedPath('/lucky-7th-bonus'),
     download: () => getLocalizedPath('/download'),
     chat: () => getLocalizedPath('/chat'),
     about: () => getLocalizedPath('/about'),
@@ -266,6 +281,7 @@ export function useNavigation() {
     // Slot games
     acewin: () => getLocalizedPath('/acewin'),
     lucky365: () => getLocalizedPath('/lucky365'),
+    mega88: () => getLocalizedPath('/mega88'),
     jili: () => getLocalizedPath('/jili'),
     spadegaming: () => getLocalizedPath('/spadegaming'),
     playtech: () => getLocalizedPath('/playtech'),
@@ -305,6 +321,8 @@ export function useNavigation() {
     welcomeBonus: () => getFullUrl('/welcome-bonus'),
     rescueBonus: () => getFullUrl('/rescue-bonus'),
     scratchAndWin: () => getFullUrl('/scratch-and-win'),
+    mmqGiveaways: () => getFullUrl('/marc-marquez-giveaway'),
+    lucky7: () => getFullUrl('/lucky-7th-bonus'),
     download: () => getFullUrl('/download'),
     chat: () => getFullUrl('/chat'),
     about: () => getFullUrl('/about'),
@@ -321,6 +339,7 @@ export function useNavigation() {
     // Slot games
     acewin: () => getFullUrl('/acewin'),
     lucky365: () => getFullUrl('/lucky365'),
+    mega88: () => getFullUrl('/mega88'),
     jili: () => getFullUrl('/jili'),
     spadegaming: () => getFullUrl('/spadegaming'),
     playtech: () => getFullUrl('/playtech'),
@@ -359,6 +378,9 @@ export function useNavigation() {
     goToLucky365Championship,
     goToWelcomeBonus,
     goToRescueBonus,
+    goToScratchAndWin,
+    goToMmqGiveaways,
+    goToLucky7,
     goToDownload,
     goToChat,
     goToAbout,
@@ -376,6 +398,7 @@ export function useNavigation() {
     // Slot games
     goToAcewin,
     goToLucky365,
+    goToMega88,
     goToJili,
     goToSpadeGaming,
     goToPlaytech,
