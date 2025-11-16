@@ -45,6 +45,7 @@ const {
   goToMicroslot,
   goToMonkeyking,
   goToMega88,
+  goToYgr,
 } = useNavigation();
 
 // Define the top 10 games (removed spadegaming and kingmidas)
@@ -92,7 +93,7 @@ const top10Games = [
     alt: "Winbox JDB Fishing"
   },
   {
-    id: "login",
+    id: "ygr",
     name: "YGR",
     image: ygr,
     alt: "Winbox YGR"
@@ -161,6 +162,9 @@ const navigateToGame = (gameId) => {
       break;
     case "mega88":
       goToMega88();
+      break;
+    case "ygr":
+      goToYgr();
       break;
     default:
       // For any games not specifically handled, navigate to register

@@ -5298,6 +5298,407 @@
   "copied": "已复制！",
   "linkCopied": "链接已复制到剪贴板",
   "shareC": "分享并帮助他人发现优质内容"
-}
+},
 
+"lucky365Championship": {
+  "metaTitle": "Winbox Lucky 365 冠军赛：每月赢取RM88,888",
+  "metaDescription": "加入Winbox全年举办的Lucky 365冠军赛，每月竞争RM88,888现金大奖。追踪您的排名，玩Lucky365游戏，赢取大奖。",
+  "heading": "Winbox Lucky 365 冠军赛",
+  "subHeading": "每天赢大奖：Winbox Lucky 365冠军赛",
+  "intro": "加入全年排行榜竞赛，第一名奖金为RM88,888，第二名RM58,888，第三名RM38,888。",
+  "whatTitle": "什么是Lucky 365冠军赛？",
+  "whatContentBefore": "",
+  "lucky365Link": "Lucky 365冠军赛",
+  "whatContentAfter": "是由Winbox运营的排行榜式竞赛。每个月，参与指定'Lucky365'游戏类别的玩家通过旋转、投注或游戏资格积累积分，攀登排名榜。在该周期结束时，前三名将获得主要现金奖励：第一名RM88,888，第二名RM58,888，第三名RM38,888。根据官方网站列表，总奖金池在某些活动变体中高达<strong>RM288,888或RM312,888</strong>。该模式奖励持续参与而非一次性注册奖金，从而鼓励玩家持续参与。",
+  "whyTitle": "为什么要参加？",
+  "reasons": {
+    "highValueTitle": "高价值奖励",
+    "highValueDesc": "RM88,888的头奖在马来西亚背景下相当可观——远超典型的月度促销活动。凭借多个主要名次（前三名），这为赢取大奖开辟了真正的潜力。",
+    "monthlyCycleTitle": "月度周期——每月都有新机会",
+    "monthlyCycleDesc": "冠军赛按月运行（例如，每月1日00:00至月末23:59 GMT+8）。每个月都提供全新的竞争机会。",
+    "transparentTitle": "透明框架",
+    "transparentDesc": "规则清晰公布：排行榜持续时间、奖金分配（次月1-5日）、欺诈行为取消资格。",
+    "fitsLocalTitle": "适合移动端和本地玩家",
+    "fitsLocalDescBefore": "可通过",
+    "winboxApkLink": "Winbox Apk",
+    "fitsLocalDescAfter": "或移动网站访问竞赛，支持马来西亚银行和支付方式。本地语言支持和支付货币（MYR）增强了使用便利性。"
+  },
+  "howTitle": "运作方式 - 逐步说明",
+  "steps": [
+    {
+      "title": "步骤1：注册或登录Winbox",
+      "descBefore": "通过",
+      "winboxMalaysiaLink": "Winbox Malaysia",
+      "descAfter": "平台注册并完成任何验证步骤。"
+    },
+    {
+      "title": "步骤2：参与'Lucky365'游戏类别",
+      "desc": "只有标记为'Lucky365'的游戏才计入排行榜。"
+    },
+    {
+      "title": "步骤3：累积排行榜积分",
+      "desc": "您的旋转、投注和游戏内操作转换为积分。"
+    },
+    {
+      "title": "步骤4：追踪排行榜",
+      "desc": "在月内监控您的排名以保持竞争力。"
+    },
+    {
+      "title": "步骤5：月末和奖金分配",
+      "desc": "每个周期结束时，获奖者将被公布，奖金在次月1日至5日之间发放。"
+    },
+    {
+      "title": "步骤6：准备下一轮",
+      "desc": "积分在每个新月开始时重置。"
+    }
+  ],
+  "prizeTitle": "奖金明细和支付详情",
+  "prizeTable": {
+    "rank": "排名",
+    "prize": "奖金（MYR）",
+    "notes": "备注"
+  },
+  "prizeList": [
+    {
+      "rank": "第1名",
+      "amount": "RM88,888",
+      "note": "每月周期的最高名次"
+    },
+    {
+      "rank": "第2名",
+      "amount": "RM58,888",
+      "note": "排名第二的玩家"
+    },
+    {
+      "rank": "第3名",
+      "amount": "RM38,888",
+      "note": "第三名获奖者"
+    }
+  ],
+  "prizeNote": "根据活动情况，其他名次（第4名、第5名等）可能会获得较小的奖励。获奖者必须回应Winbox的联系以领取奖金。<strong>欺诈行为将导致取消资格。</strong>",
+  "termsTitle": "条款和条件 - 注意事项",
+  "termsList": [
+    "只有标记为<strong>'Lucky365'</strong>的游戏才计入本次冠军赛。",
+    "月度周期时间遵循<strong>GMT+8时区</strong>。",
+    "获奖者将被通知并必须遵守领奖流程。",
+    "欺诈、串通或自动化将导致<strong>立即取消资格</strong>。",
+    "查看最低投注/存款资格要求。",
+    "鼓励负责任游戏——设定限额并在您的能力范围内游戏。",
+    {
+      "textBefore": "您的Winbox账户必须通过",
+      "textAfter": "注册，使用推荐码：WI888OX。"
+    },
+    "月度竞赛从1日00:00:00开始，到月末23:59:59结束（GMT+8）。",
+    "获奖者在每月1日公布，奖金从1日至5日分配。",
+    "要领取奖金，您必须在登录Winbox后接受好友请求。",
+    "主办方保留完全权利取消涉及欺诈、篡改或违反规则的用户资格。所有决定均为最终决定。"
+  ],
+  "whoTitle": "谁应该参与？",
+  "whoIntro": "本次冠军赛非常适合：",
+  "whoList": [
+    "<strong>Winbox常规用户</strong>",
+    "熟悉<strong>Lucky365游戏</strong>的玩家",
+    "目标<strong>月度奖励</strong>的竞争者",
+    "寻求<strong>基于MYR奖金</strong>的马来西亚用户"
+  ],
+  "advantagesTitle": "优势与限制",
+  "advantages": [
+    "<strong>可观的奖金金额</strong>",
+    "每月都有<strong>新机会</strong>",
+    "<strong>清晰公布的规则</strong>和支付时间表",
+    "<strong>本地货币</strong>和银行支持"
+  ],
+  "limitations": [
+    "<strong>竞争激烈的环境</strong>",
+    "需要<strong>持续活动</strong>",
+    "<strong>没有保证回报</strong>",
+    "每月活动规则可能会有变化"
+  ],
+  "maximiseTitle": "如何最大化您的机会",
+  "maximiseSteps": [
+    "在月初<strong>早早开始</strong>以领先排行榜",
+    "<strong>只专注于Lucky365游戏</strong>",
+    "整个月<strong>监控您的进度</strong>",
+    "<strong>战略性地规划您的游戏</strong>预算",
+    "如有可能，查看过去的趋势",
+    "及时了解当月的规则"
+  ],
+  "faqTitle": "Lucky365常见问题",
+  "faqList": [
+    {
+      "q": "什么是Lucky 365冠军赛？",
+      "a": "Winbox上针对Lucky365游戏玩家的月度排行榜竞赛。"
+    },
+    {
+      "q": "我能赢多少？",
+      "a": "第一名最高RM88,888；第二名RM58,888；第三名RM38,888。"
+    },
+    {
+      "q": "我如何获得资格？",
+      "a": "在月度周期内玩Lucky365游戏并获得排行榜积分。"
+    },
+    {
+      "q": "何时公布获奖者？",
+      "a": "通常在次月1日至5日之间。"
+    },
+    {
+      "q": "我可以赢得多次吗？",
+      "a": "可以，每个月都是一个新的竞赛。"
+    },
+    {
+      "q": "我需要做什么才能领取奖金？",
+      "a": "回应Winbox的联系，通过验证，并遵循领奖说明。"
+    }
+  ],
+  "button": {
+    "joinNow": "立即加入",
+    "register": "注册"
+  }
+},
+
+"welcomeBonus": {
+  "heading": "Winbox马来西亚欢迎奖金 – 首次存款100%额外积分",
+  "subHeading": "通过Winbox欢迎奖金将您的首次存款翻倍！",
+  "introBefore": "立即注册，首次存款即可获得100%",
+  "welcomeBonusLink": "欢迎奖金",
+  "introAfter": "奖金。无论您喜欢老虎机、真人游戏还是体育博彩——以双倍积分强势开局。",
+  "registerNote": "[立即注册] (至 https://www.winbox22.com/winbox-register )",
+  "howToClaimTitle": "如何领取欢迎奖金",
+  "claimSteps": [
+    {
+      "title": "步骤1：注册",
+      "descBefore": "通过",
+      "descAfter": "注册新的Winbox账户，推荐人：<strong>WI888OX</strong>"
+    },
+    {
+      "title": "步骤2：进行首次存款",
+      "desc": "进行首次存款——需达到最低存款额（因促销活动而异）"
+    },
+    {
+      "title": "步骤3：联系WhatsApp客服",
+      "desc": "联系WhatsApp客服以激活您的奖金"
+    },
+    {
+      "title": "步骤4：开始游戏",
+      "desc": "在符合条件的游戏中以2倍存款额开始游戏"
+    }
+  ],
+  "bonusExampleTitle": "奖金示例明细",
+  "bonusExampleTable": {
+    "depositAmount": "存款金额",
+    "bonusAwarded": "奖金发放",
+    "totalPlayCredit": "总游戏积分"
+  },
+  "bonusExamples": [
+    {
+      "deposit": "RM100",
+      "bonus": "RM100",
+      "total": "RM200"
+    },
+    {
+      "deposit": "RM300",
+      "bonus": "RM300",
+      "total": "RM600"
+    }
+  ],
+  "whoEligibleTitle": "谁有资格？",
+  "eligibilityList": [
+    "仅限新用户——每个Winbox账户仅可获得一次欢迎奖金",
+    "账户必须通过官方网站注册，推荐码：<strong>WI888OX</strong>",
+    "奖金必须在注册后7天内领取"
+  ],
+  "termsTitle": "条款和条件",
+  "termsList": [
+    "需达到最低存款额才有资格获得奖金",
+    "提款前必须满足投注要求",
+    "奖金资金可能仅限于某些游戏类型",
+    "任何滥用或误用将导致账户暂停",
+    {
+      "textBefore": "Winbox保留修改或结束",
+      "link": "促销活动的全部权利"
+    }
+  ],
+  "whyChooseTitle": "为什么选择Winbox欢迎奖金？",
+  "reasons": [
+    "立即提升您的起始资金",
+    "易于领取和激活",
+    "适用于多种游戏",
+    "安全、经过验证的平台，提供本地支持"
+  ],
+  "faqTitle": "欢迎奖金常见问题",
+  "faqList": [
+    {
+      "q": "我可以多次领取欢迎奖金吗？",
+      "a": "不可以，新用户仅限一次。"
+    },
+    {
+      "q": "我可以在哪些游戏中使用奖金？",
+      "a": "符合条件的游戏包括精选老虎机、体育博彩和真人娱乐场。详细信息因活动而异。"
+    },
+    {
+      "q": "我如何知道奖金是否已激活？",
+      "a": "您将收到客服的确认，并在钱包中看到积分。"
+    },
+    {
+      "q": "投注/流水要求是什么？",
+      "a": "这些由平台设定。通常为奖金金额的8-15倍。"
+    },
+    {
+      "q": "我可以立即提取奖金吗？",
+      "a": "不可以。奖金资金必须满足投注条件后才能提款。"
+    }
+  ],
+  "readyTitle": "准备好开始了吗？",
+  "readyText": "今天注册，立即将RM100变成RM200。通过Winbox欢迎奖金更明智地游戏！",
+  "readyLinkText": "[注册并领取奖金] (链接至 https://www.winbox22.com/winbox-register )"
+},
+"button": {
+  "claimNow": "立即领取",
+  "register": "注册",
+  "registerNow": "立即注册",
+  "registerClaimBonus": "注册并领取奖金"
+},
+
+"rescueBonus": {
+  "metaTitle": "Winbox救援奖金 - 每周净损失现金回馈",
+  "metaDescription": "通过Winbox的救援奖金获得第二次机会。为经验证的玩家提供每周净损失现金回馈。",
+  "heading": "马来西亚救援奖金",
+  "totalClaimed": "RM 16,847,500",
+  "bonusStatus": "已领取奖金",
+  "mainTitle": "通过Winbox救援奖金东山再起",
+  "intro": "输了几局？通过Winbox的救援奖金获得第二次机会——为经验证的玩家提供每周净损失现金回馈。",
+  "whatTitle": "什么是救援奖金？",
+  "whatPara1": "救援奖金是一种现金回馈功能，在特定时期内向玩家退还其净损失的一部分，通常按周计算。由Winbox提供，它作为安全网，使您的游戏更可持续，在倒霉时期减少损失。",
+  "whatPara2": "无论您是常规用户还是回归用户，该奖金旨在帮助您继续游戏，而不会因完全损失而感到沮丧。",
+  "howTitle": "如何运作？",
+  "howSteps": [
+    {
+      "title": "玩符合条件的游戏",
+      "desc": "专注于救援奖金计划下列出的平台和游戏。"
+    },
+    {
+      "title": "累积净损失",
+      "desc": "只有总损失（投注减去奖金）才会被计入计算。"
+    },
+    {
+      "title": "每周评估",
+      "desc": "每周结束时，将审核您的账户资格。"
+    },
+    {
+      "title": "奖金入账",
+      "desc": "救援奖金金额会自动存入您的账户。"
+    }
+  ],
+  "bonusRateTitle": "奖金比例明细",
+  "bonusRateTable": [
+    {
+      "range": "RM100 – RM999",
+      "rate": "5%",
+      "limit": "RM50"
+    },
+    {
+      "range": "RM1,000 – RM4,999",
+      "rate": "8%",
+      "limit": "RM300"
+    },
+    {
+      "range": "RM5,000及以上",
+      "rate": "10%",
+      "limit": "RM888"
+    }
+  ],
+  "bonusRateNote": "注意：奖金比例和上限可能会根据正在进行的促销期而变化。请始终参考最新的官方条款。",
+  "eligibilityTitle": "谁有资格？",
+  "eligibilityList": [
+    "18岁以上的马来西亚居民",
+    {
+      "textBefore": "必须拥有经过验证的Winbox账户（通过",
+      "link": "https://www.winbox22.com/",
+      "textMiddle": "）并使用",
+      "referrerCode": "推荐码：WI888OX"
+    },
+    "必须在促销周期内玩符合条件的救援奖金游戏"
+  ],
+  "notEligibleTitle": "为什么您可能不符合救援奖金资格",
+  "notEligibleList": [
+    {
+      "title": "您未使用所需的推荐码（WI888OX）注册",
+      "desc": "确保您的Winbox账户是通过",
+      "linkText": "Winbox登录网页",
+      "link": "https://www.winbox22.com/",
+      "descAfter": "创建的，使用推荐人：WI888OX。"
+    },
+    {
+      "title": "您在游戏后未通过WhatsApp联系客服",
+      "desc": "确保在游戏结束后联系领取支持。"
+    }
+  ],
+  "rulesTitle": "官方规则和要求",
+  "rulesList": [
+    {
+      "textBefore": "Winbox账户必须通过",
+      "link": "www.winbox22.com",
+      "textAfter": "注册，推荐码：WI888OX"
+    },
+    "投注将在次日下午5:00（GMT+8）后计算",
+    "玩家在领取前必须在Winbox中接受好友请求",
+    "每天只允许领取一次救援奖金",
+    "奖金仅适用于当天流水最高的游戏。例如，如果BG有5K流水，918KISS有10K流水，则只有918KISS游戏符合条件。",
+    "领取奖金时必须提供流水截图证明"
+  ],
+  "termsTitle": "条款和条件",
+  "termsList": [
+    "救援奖金仅适用于净损失（总投注 – 总奖金）",
+    "用户必须遵守Winbox规则和公平游戏",
+    "奖金不能直接提取；必须先用作游戏积分",
+    "滥用奖金系统可能导致没收或账户处罚",
+    "奖金周期通常在周日23:59 GMT+8结束；48小时内入账",
+    "仅适用于奖金条款中指定的游戏"
+  ],
+  "whyUseTitle": "为什么使用救援奖金？",
+  "whyUseList": [
+    "减少输掉一周的痛苦",
+    "为持续游戏的玩家提供安全网福利",
+    "促进可持续和负责任的投注",
+    "将奖金再投资到您最喜欢的游戏中"
+  ],
+  "promotionsTitle": "马来西亚在线赌场促销活动",
+  "promotionsIntro": "通过Winbox的免费积分和促销活动享受更多，包括：",
+  "promotionsList": [
+    "欢迎奖励",
+    "老虎机游戏奖金",
+    "体育博彩激励",
+    "真人娱乐场促销",
+    "2025年新注册免费积分"
+  ],
+  "faqTitle": "常见问题",
+  "faqList": [
+    {
+      "q": "我多久可以领取一次救援奖金？",
+      "a": "它根据您的活动每周计算，并自动入账。"
+    },
+    {
+      "q": "我需要手动申请吗？",
+      "a": "在某些情况下，是的。您必须通过WhatsApp联系客服并提供截图。"
+    },
+    {
+      "q": "我可以提取救援奖金吗？",
+      "a": "不可以。根据Winbox的条款，它必须先投注一次或更多次才能提款。"
+    },
+    {
+      "q": "如果我在收到救援奖金后获胜会怎样？",
+      "a": "您的新奖金在满足任何流水要求后可以照常提取。"
+    },
+    {
+      "q": "我能获得的金额有上限吗？",
+      "a": "有——根据您的损失等级设置上限。请参阅奖金比例明细。"
+    }
+  ],
+  "button": {
+    "claimNow": "立即领取",
+    "claimBonus": "领取救援奖金",
+    "claimRescueBonus": "领取救援奖金",
+    "register": "注册"
+  }
+}
 }

@@ -129,6 +129,8 @@ const {
   goToAskmeslot,
   goToMicroslot,
   goToMonkeyking,
+  goToMega88,
+  goToYgr,
   goToHomepage,
   goToDownload,
   goToSlots
@@ -179,7 +181,7 @@ const slotGames = [
     alt: "Winbox JDB Fishing"
   },
   {
-    id: "login",
+    id: "ygr",
     name: "YGR",
     image: ygr,
     alt: "Winbox YGR"
@@ -221,7 +223,7 @@ const slotGames = [
     alt: "Winbox Poker Win"
   },
   {
-    id: "login",
+    id: "mega88",
     name: "Mega88",
     image: mega88,
     alt: "Winbox Mega88"
@@ -260,6 +262,12 @@ const navigateToGame = (gameId) => {
       break;
     case "playtech":
       goToPlaytech();
+      break;
+    case "mega88":
+      goToMega88();
+      break;
+    case "ygr":
+      goToYgr();
       break;
     default:
       // For any games not specifically handled, navigate to register

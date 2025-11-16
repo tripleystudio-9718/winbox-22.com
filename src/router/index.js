@@ -17,6 +17,9 @@ import acewin from '@/components/slot-game/acewin.vue'
 import jili from '@/components/slot-game/jili.vue'
 import lucky365 from '@/components/slot-game/lucky365.vue'
 import mega88 from '@/components/slot-game/mega88.vue'
+import ygr from '@/components/slot-game/ygr.vue'
+import jdb from '@/components/slot-game/jdbSlots.vue'
+import play8 from '@/components/slot-game/play8.vue'
 import maxbet from '@/components/sports-game/maxbet.vue'
 import asiaGaming from '@/components/live-casino-game/asiaGaming.vue'
 import sexy from '@/components/live-casino-game/sexy.vue'
@@ -426,6 +429,51 @@ const baseRoutes = [
     },
   },
   {
+    path: '/ygr',
+    name: 'ygr',
+    component: ygr,
+    meta: {
+      title: 'YGR Games – Asian Slots & Arcade Titles with High-Quality Graphics',
+      description:
+        'Discover YGR Games provider: Asian-focused slots, fishing games & arcade titles built with HTML5, multilingual support, mobile-first design. Browse now.',
+      titleZh: 'YGR 游戏 – 亚洲老虎机与高品质街机游戏',
+      descriptionZh:
+        '探索 YGR 游戏提供商：专注亚洲主题的老虎机、捕鱼与街机游戏，采用 HTML5 技术、多语言支持与移动优先设计。立即浏览。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/ygr/`,
+    },
+  },
+  {
+    path: '/jdb-slot',
+    name: 'jdb',
+    component: jdb,
+    meta: {
+      title: 'Winbox JDB Slot | Play JDB Slots, Arcade & Fish Games',
+      description:
+        'Explore JDB Gaming on Winbox, featuring top-rated slots, arcade, and fish games with high RTP and instant rewards. Play safely on mobile and win big today!',
+      titleZh: 'Winbox JDB 老虎机 | 玩转 JDB 老虎机、街机与捕鱼游戏',
+      descriptionZh:
+        '在 Winbox 上探索 JDB Gaming，畅玩高回报率的顶级老虎机、街机和捕鱼游戏。安全畅玩，随时赢取丰厚奖励！',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/jdb-slot/`,
+    },
+  },
+  {
+    path: '/play8',
+    name: 'play8',
+    component: play8,
+    meta: {
+      title: 'Winbox Play8 | Slots & Fishing Games on Winbox',
+      description:
+        'Discover Play8 on Winbox—your gateway to high-quality slots and fish-shooting games with great bonuses, fast payouts, and full mobile access.',
+      titleZh: 'Winbox Play8 | Winbox 上的老虎机与捕鱼游戏',
+      descriptionZh:
+        '在 Winbox 上探索 Play8，高品质老虎机与捕鱼游戏等你体验。丰厚奖金、极速提现、全面支持移动端畅玩。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/play8/`,
+    },
+  },
+  {
     path: '/jili',
     name: 'Jili',
     component: jili,
@@ -725,6 +773,21 @@ const baseRoutes = [
       image: DEFAULT_IMAGE,
       canonical: `${DOMAIN}/monkeyking`
     }
+  },
+  {
+    path: '/lucky365',
+    name: 'lucky365',
+    component: lucky365,
+    meta: {
+      title: 'Lucky365 Slot Malaysia: Official Login & RM10 Free Bonus',
+      description:
+        'Play Lucky365 slots safely Malaysia. Enjoy instant browser play, free test ID with RM50 credits, and 24/7 support. Fast withdrawals. Join risk-free trial.',
+      titleZh: 'Lucky365老虎机马来西亚：官方登录 & RM10免费奖金',
+      descriptionZh:
+        '在马来西亚安全畅玩Lucky365老虎机。享受即时浏览器游戏，领取RM50测试ID，全天候客服支持，快速提款。立即加入无风险体验。',
+      image: DEFAULT_IMAGE,
+      canonical: `${DOMAIN}/lucky365/`,
+    },
   },
   {
     path: '/privacy-policy',

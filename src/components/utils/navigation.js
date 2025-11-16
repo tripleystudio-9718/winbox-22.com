@@ -135,6 +135,18 @@ export function useNavigation() {
     router.push(getLocalizedPath('/mega88'))
   }
 
+  const goToYgr = () => {
+    router.push(getLocalizedPath('/ygr'))
+  }
+
+  const goToJdb = () => {
+    router.push(getLocalizedPath('/jdb-slot'))
+  }
+
+  const goToPlay8 = () => {
+    router.push(getLocalizedPath('/play8'))
+  }
+
   const goToJili = () => {
     router.push(getLocalizedPath('/jili'))
   }
@@ -282,7 +294,10 @@ export function useNavigation() {
     acewin: () => getLocalizedPath('/acewin'),
     lucky365: () => getLocalizedPath('/lucky365'),
     mega88: () => getLocalizedPath('/mega88'),
-    jili: () => getLocalizedPath('/jili'),
+    mega88: () => getLocalizedPath('/mega88'),
+    ygr: () => getLocalizedPath('/ygr'),
+    jdb: () => getLocalizedPath('/jdb-slot'),
+    play8: () => getLocalizedPath('/play8'),
     spadegaming: () => getLocalizedPath('/spadegaming'),
     playtech: () => getLocalizedPath('/playtech'),
     pragmaticPlay: () => getLocalizedPath('/pragmatic-play'),
@@ -340,6 +355,9 @@ export function useNavigation() {
     acewin: () => getFullUrl('/acewin'),
     lucky365: () => getFullUrl('/lucky365'),
     mega88: () => getFullUrl('/mega88'),
+    ygr: () => getFullUrl('/ygr'),
+    jdb: () => getFullUrl('/jdb-slot'),
+    play8: () => getFullUrl('/play8'),
     jili: () => getFullUrl('/jili'),
     spadegaming: () => getFullUrl('/spadegaming'),
     playtech: () => getFullUrl('/playtech'),
@@ -399,6 +417,9 @@ export function useNavigation() {
     goToAcewin,
     goToLucky365,
     goToMega88,
+    goToYgr,
+    goToJdb,
+    goToPlay8,
     goToJili,
     goToSpadeGaming,
     goToPlaytech,
