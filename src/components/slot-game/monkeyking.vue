@@ -13,71 +13,80 @@
 
     <!-- Content Section -->
     <div class="content-section">
-      <h1>Monkey King Slot Game</h1>
+      <h1>{{ $t('monkeyking.heading') }}</h1>
       
-      <h2>Step into a legendary reels adventure</h2>
-      
-      <p>
-        The <a href="#" class="homepage-link" @click.prevent="goToMonkeyKing">Monkey King</a> Slot Game invites you into a richly themed world inspired by the classic Chinese tale of Sun Wukong.
-      </p>
+      <h2>{{ $t('monkeyking.subHeading') }}</h2>
       
       <p>
-        With 5 reels (and in many versions 243 win-ways or similar), dynamic features and high-quality graphics, it offers both entertainment and win potential.
+        {{ $t('monkeyking.intro.part1') }} 
+        <a 
+          :href="seoLinks.monkeyking()" 
+          class="homepage-link" 
+          @click.prevent="goToMonkeyking">{{ $t('monkeyking.intro.linkText') }}</a> 
+        {{ $t('monkeyking.intro.part2') }}
       </p>
+      
+      <p>{{ $t('monkeyking.introPara2') }}</p>
 
       <div class="content-block">
-        <h2>Comparison Table: Version / Platform Options</h2>
+        <h2>{{ $t('monkeyking.comparisonTable.title') }}</h2>
         
         <div class="table-container">
           <table class="comparison-table">
             <thead>
               <tr>
-                <th>Version</th>
-                <th>Best For</th>
-                <th>Key Features</th>
+                <th>{{ $t('monkeyking.comparisonTable.headers.version') }}</th>
+                <th>{{ $t('monkeyking.comparisonTable.headers.bestFor') }}</th>
+                <th>{{ $t('monkeyking.comparisonTable.headers.keyFeatures') }}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><strong>Desktop Browser</strong></td>
-                <td>Casual PC players</td>
-                <td>Full screen visuals, easy controls</td>
+                <td><strong>{{ $t('monkeyking.comparisonTable.rows.desktop.version') }}</strong></td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.desktop.bestFor') }}</td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.desktop.features') }}</td>
               </tr>
               <tr>
                 <td>
-                  <strong>Mobile <a href="#" class="homepage-link" @click.prevent="goToDownload">Winbox APK</a></strong><br>
-                  (Android / iOS)
+                  <strong>
+                    {{ $t('monkeyking.comparisonTable.rows.mobile.versionBefore') }} 
+                    <a 
+                      :href="seoLinks.download()" 
+                      class="homepage-link" 
+                      @click.prevent="goToDownload">{{ $t('monkeyking.comparisonTable.rows.mobile.versionLink') }}</a>
+                  </strong><br>
+                  {{ $t('monkeyking.comparisonTable.rows.mobile.versionAfter') }}
                 </td>
-                <td>On-the-go play</td>
-                <td>Touch-friendly interface, mobile-optimised</td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.mobile.bestFor') }}</td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.mobile.features') }}</td>
               </tr>
               <tr>
-                <td><strong>Demo Mode</strong></td>
-                <td>New players</td>
-                <td>Risk-free spins, familiarise with features</td>
+                <td><strong>{{ $t('monkeyking.comparisonTable.rows.demo.version') }}</strong></td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.demo.bestFor') }}</td>
+                <td>{{ $t('monkeyking.comparisonTable.rows.demo.features') }}</td>
               </tr>
             </tbody>
           </table>
         </div>
         
-        <p>Still not sure which version suits you? The table above shows you the options clearly.</p>
+        <p>{{ $t('monkeyking.comparisonTable.note') }}</p>
       </div>
 
       <div class="content-block">
-        <h2>Game Features & Mechanics</h2>
+        <h2>{{ $t('monkeyking.gameFeatures.title') }}</h2>
         
-        <h3>Core Features</h3>
+        <h3>{{ $t('monkeyking.gameFeatures.coreFeatures.title') }}</h3>
         <ul class="dots">
-          <li>5-reel layout with either fixed paylines or "win-ways" model depending on variant.</li>
-          <li>High-quality Chinese-legend theme: symbols include the Monkey King, dragons, temple artifacts, and more.</li>
-          <li>Bonus features: scattered free spins, wild substitutes, mini-games or bonus pick-me features in some versions.</li>
+          <li>{{ $t('monkeyking.gameFeatures.coreFeatures.feature1') }}</li>
+          <li>{{ $t('monkeyking.gameFeatures.coreFeatures.feature2') }}</li>
+          <li>{{ $t('monkeyking.gameFeatures.coreFeatures.feature3') }}</li>
         </ul>
 
-        <h3>Why it stands out</h3>
+        <h3>{{ $t('monkeyking.gameFeatures.whyStandOut.title') }}</h3>
         <ul class="dots">
-          <li>Immersive graphics and animations elevate the slot experience.</li>
-          <li>Multiple payout methods (paylines, win-ways) give flexibility in game design.</li>
-          <li>Many variants allow mobile and desktop play seamlessly.</li>
+          <li>{{ $t('monkeyking.gameFeatures.whyStandOut.reason1') }}</li>
+          <li>{{ $t('monkeyking.gameFeatures.whyStandOut.reason2') }}</li>
+          <li>{{ $t('monkeyking.gameFeatures.whyStandOut.reason3') }}</li>
         </ul>
       </div>
 
@@ -86,58 +95,84 @@
           <img :src="monkeykingContentImage" alt="Monkey King Gameplay" class="content-image">
         </div>
 
-        <h2>How to Play & Get Started</h2>
+        <h2>{{ $t('monkeyking.howToPlay.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>Choose your platform: Browser <a href="#" class="homepage-link" @click.prevent="goToHomepage">Winbox H5</a> (desktop), Android, or iOS.</li>
-          <li>Set your bet size and spin the reels. Adjust any autoplay or max-bet if needed.</li>
-          <li>Aim for winning combinations via paylines or win-ways.</li>
-          <li>Trigger bonus features by landing the required scatters/wilds.</li>
-          <li>Use the demo mode first if you're new – no deposit required.</li>
+          <li>
+            {{ $t('monkeyking.howToPlay.step1Before') }} 
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link" 
+              @click.prevent="goToHomepage">{{ $t('monkeyking.howToPlay.step1Link') }}</a> 
+            {{ $t('monkeyking.howToPlay.step1After') }}
+          </li>
+          <li>{{ $t('monkeyking.howToPlay.step2') }}</li>
+          <li>{{ $t('monkeyking.howToPlay.step3') }}</li>
+          <li>{{ $t('monkeyking.howToPlay.step4') }}</li>
+          <li>{{ $t('monkeyking.howToPlay.step5') }}</li>
         </ol>
 
-        <h3>Tips for Better Gameplay</h3>
+        <h3>{{ $t('monkeyking.howToPlay.tipsTitle') }}</h3>
         <ul class="dots">
-          <li>Start with the <strong>demo mode</strong> to learn the symbol values and bonus triggers without risk.</li>
-          <li>Use a <strong>stable internet connection</strong> on mobile to prevent disruptions during bonus rounds.</li>
-          <li>Always check the <strong>paytable</strong> before playing real money to understand the top symbols and features.</li>
-          <li>Set <strong>bet limits</strong> and play responsibly. Treat the slot as entertainment, not income.</li>
+          <li v-html="$t('monkeyking.howToPlay.tip1')"></li>
+          <li v-html="$t('monkeyking.howToPlay.tip2')"></li>
+          <li v-html="$t('monkeyking.howToPlay.tip3')"></li>
+          <li v-html="$t('monkeyking.howToPlay.tip4')"></li>
         </ul>
       </div>
 
       <div class="content-block">
-        <h2>FAQs About Monkey King Slot</h2>
+        <h2>{{ $t('monkeyking.faqs.title') }}</h2>
         
-        <h3>Q: Can I play Monkey King Slot Game for free?</h3>
-        <p>A: Yes. Many platforms offer a demo or "play for fun" mode so you can try the game without deposit.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q1') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a1') }}</p>
+        </div>
 
-        <h3>Q: What devices are supported?</h3>
-        <p>A: Desktop browser, Android smartphones/tablets, and iOS devices. Some versions may require specific OS versions.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q2') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a2') }}</p>
+        </div>
 
-        <h3>Q: Does the game have bonus features?</h3>
-        <p>A: Yes. Look out for free spins, wild symbols, scatter-triggered mini-games and sometimes progressive or pick-me bonus rounds.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q3') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a3') }}</p>
+        </div>
 
-        <h3>Q: Is the theme based on a real legend?</h3>
-        <p>A: Yes. The slot theme draws from the Chinese myth of Sun Wukong, often called The Monkey King.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q4') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a4') }}</p>
+        </div>
 
-        <h3>Q: What is the RTP (Return to Player)?</h3>
-        <p>A: This varies by game variant and provider. One version lists an RTP of ~95%.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q5') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a5') }}</p>
+        </div>
 
-        <h3>Q: Where can I find help if I face issues?</h3>
-        <p>A: Most game platforms provide live-chat support or help section. Be sure to use authorised versions to avoid unregulated apps.</p>
+        <div class="faq-item">
+          <h3>{{ $t('monkeyking.faqs.q6') }}</h3>
+          <p>{{ $t('monkeyking.faqs.a6') }}</p>
+        </div>
       </div>
 
       <div class="content-block">
-        <h2>Start Your Spin Today</h2>
+        <h2>{{ $t('monkeyking.startSpin.title') }}</h2>
         
-        <p>The Monkey King Slot Game offers an engaging mix of myth-inspired visuals, modern slot mechanics and flexible platform support.</p>
+        <p>{{ $t('monkeyking.startSpin.para1') }}</p>
         
-        <p>Whether you're playing for fun or real stakes, this game gives you a meaningful entertainment choice.</p>
+        <p>{{ $t('monkeyking.startSpin.para2') }}</p>
         
-        <p>Start in demo mode, understand the mechanics, and if you're comfortable — spin the reels with confidence.</p>
+        <p>{{ $t('monkeyking.startSpin.para3') }}</p>
         
         <p>
-          <strong>Login <a href="#" class="homepage-link" @click.prevent="goToHomepage">Winbox H5</a> Play the Monkey King Slot Game now.</strong>
+          <strong>
+            {{ $t('monkeyking.startSpin.ctaBefore') }} 
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link" 
+              @click.prevent="goToHomepage">{{ $t('monkeyking.startSpin.ctaLink') }}</a> 
+            {{ $t('monkeyking.startSpin.ctaAfter') }}
+          </strong>
         </p>
       </div>
     </div>
@@ -151,13 +186,7 @@ import button_frame from '@/assets/main-button.png';
 import monkeykingContentImage from '@/assets/monkeyking-content.avif'; // Import the content image
 
 // Use your existing navigation utilities
-const { goToRegister, goToHomepage, goToDownload } = useNavigation();
-
-// Add goToMonkeyKing if it doesn't exist in your navigation
-const goToMonkeyKing = () => {
-  // Navigate to Monkey King page or current page
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+const { goToRegister, goToHomepage, goToDownload, goToMonkeyking, seoLinks } = useNavigation();
 
 // Function to handle image loading errors
 const handleImageError = (event) => {

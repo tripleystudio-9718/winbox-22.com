@@ -19,129 +19,158 @@
           alt="Spadegaming Banner" 
           class="banner-image"
         />
-        </div>
-      <h1>Spadegaming Slot Games</h1>
+      </div>
       
-      <h2>Asia-themed slots meet modern mechanics</h2>
+      <h1>{{ $t('spadegaming.heading') }}</h1>
       
-      <p>
-        Spadegaming has built a strong reputation for its Asian-inspired game themes—dragons, mythologies, traditional symbols—combined with modern slot mechanics and mobile optimisation.
-      </p>
+      <h2>{{ $t('spadegaming.subHeading') }}</h2>
       
-      <p>
-        With offices and operations across Asia and licences in place, the provider emphasises both quality and regional relevance.
-      </p>
+      <p>{{ $t('spadegaming.introPara1') }}</p>
+      
+      <p>{{ $t('spadegaming.introPara2') }}</p>
 
       <div class="content-block">
-        <h2>Comparison Table: Platform & Features</h2>
+        <h2>{{ $t('spadegaming.comparisonTable.title') }}</h2>
         
         <div class="table-container">
           <table class="comparison-table">
             <thead>
               <tr>
-                <th>Platform</th>
-                <th>Best For</th>
-                <th>Key Features</th>
+                <th>{{ $t('spadegaming.comparisonTable.headers.platform') }}</th>
+                <th>{{ $t('spadegaming.comparisonTable.headers.bestFor') }}</th>
+                <th>{{ $t('spadegaming.comparisonTable.headers.keyFeatures') }}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><strong>Desktop Browser</strong></td>
-                <td>PC players</td>
-                <td>Full-screen visuals, wide view, easy controls</td>
+                <td><strong>{{ $t('spadegaming.comparisonTable.rows.desktop.platform') }}</strong></td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.desktop.bestFor') }}</td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.desktop.features') }}</td>
               </tr>
               <tr>
                 <td>
-                  <strong>Mobile <a href="#" class="homepage-link" @click.prevent="goToDownload">Winbox APK</a></strong><br>
-                  (Android / iOS)
+                  <strong>
+                    {{ $t('spadegaming.comparisonTable.rows.mobile.platformBefore') }} 
+                    <a 
+                      :href="seoLinks.download()" 
+                      class="homepage-link" 
+                      @click.prevent="goToDownload">{{ $t('spadegaming.comparisonTable.rows.mobile.platformLink') }}</a>
+                  </strong><br>
+                  {{ $t('spadegaming.comparisonTable.rows.mobile.platformAfter') }}
                 </td>
-                <td>On-the-go players</td>
-                <td>Touch-friendly, HTML5 optimised, responsive design</td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.mobile.bestFor') }}</td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.mobile.features') }}</td>
               </tr>
               <tr>
-                <td><strong>Demo Mode</strong></td>
-                <td>New players</td>
-                <td>Risk-free play, familiarise with mechanics</td>
+                <td><strong>{{ $t('spadegaming.comparisonTable.rows.demo.platform') }}</strong></td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.demo.bestFor') }}</td>
+                <td>{{ $t('spadegaming.comparisonTable.rows.demo.features') }}</td>
               </tr>
             </tbody>
           </table>
         </div>
         
-        <p>If you're unsure which version to try first, this table gives you a straightforward guide.</p>
+        <p>{{ $t('spadegaming.comparisonTable.note') }}</p>
       </div>
 
       <div class="content-block">
-        <h2>Game Features & Mechanics</h2>
+        <h2>{{ $t('spadegaming.gameFeatures.title') }}</h2>
         
-        <h3>Core Highlights</h3>
+        <h3>{{ $t('spadegaming.gameFeatures.coreHighlights.title') }}</h3>
         <ul class="dots">
-          <li>Rich variety: slots, fishing arcade games and table-style games.</li>
-          <li>Visual excellence: high-quality graphics and animations tailored for Asian themes.</li>
-          <li>Bonus mechanics: free spins, shifting wilds, retriggers, win-both-ways and high-win potential features.</li>
+          <li>{{ $t('spadegaming.gameFeatures.coreHighlights.feature1') }}</li>
+          <li>{{ $t('spadegaming.gameFeatures.coreHighlights.feature2') }}</li>
+          <li>{{ $t('spadegaming.gameFeatures.coreHighlights.feature3') }}</li>
         </ul>
 
-        <h3>Why it stands out</h3>
+        <h3>{{ $t('spadegaming.gameFeatures.whyStandOut.title') }}</h3>
         <ul class="dots">
-          <li>Deep theme-integration: From Chinese myth to jungle adventures, the themes are rich and engaging.</li>
-          <li>Mobile-optimised since 2013: Strong focus on smartphone/tablet play ensures smooth gameplay.</li>
-          <li>Demo mode and frequent releases make it easy to stay updated and explore new titles.</li>
+          <li>{{ $t('spadegaming.gameFeatures.whyStandOut.reason1') }}</li>
+          <li>{{ $t('spadegaming.gameFeatures.whyStandOut.reason2') }}</li>
+          <li>{{ $t('spadegaming.gameFeatures.whyStandOut.reason3') }}</li>
         </ul>
       </div>
 
       <div class="content-block">
-        <h2>How to Get Started</h2>
+        <h2>{{ $t('spadegaming.howToStart.title') }}</h2>
         
         <ol class="numbered-list">
-          <li>Casino platform <a href="#" class="homepage-link" @click.prevent="goToHomepage">Winbox Malaysia</a> offering Spadegaming titles just log in or create your account.</li>
-          <li>Browse the game lobby and filter for "Spadegaming" to access their titles.</li>
-          <li>You may play in demo mode first to familiarise yourself with the game mechanics.</li>
-          <li>When ready, switch to real-money play — ensure you use supported payment methods and check any bonus conditions.</li>
-          <li>Play responsibly: set your betting limits and treat the games as entertainment.</li>
+          <li>
+            {{ $t('spadegaming.howToStart.step1Before') }} 
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link" 
+              @click.prevent="goToHomepage">{{ $t('spadegaming.howToStart.step1Link') }}</a> 
+            {{ $t('spadegaming.howToStart.step1After') }}
+          </li>
+          <li>{{ $t('spadegaming.howToStart.step2') }}</li>
+          <li>{{ $t('spadegaming.howToStart.step3') }}</li>
+          <li>{{ $t('spadegaming.howToStart.step4') }}</li>
+          <li>{{ $t('spadegaming.howToStart.step5') }}</li>
         </ol>
       </div>
 
       <div class="content-block">
-        <h2>Tips for Better Gameplay</h2>
+        <h2>{{ $t('spadegaming.tips.title') }}</h2>
         <ul class="dots">
-          <li>Use <strong>demo mode</strong> first to understand bonus triggers, symbol values and game volatility.</li>
-          <li>On mobile, ensure a <strong>stable internet connection</strong> to prevent disruptions during bonus rounds.</li>
-          <li>Always review the <strong>paytable</strong> of each game to understand how win-ways, wilds and bonuses operate.</li>
-          <li>Treat your playing time as entertainment — set budget limits to manage risk.</li>
-          <li>Look more on Responsible Gambling</li>
+          <li v-html="$t('spadegaming.tips.tip1')"></li>
+          <li v-html="$t('spadegaming.tips.tip2')"></li>
+          <li v-html="$t('spadegaming.tips.tip3')"></li>
+          <li v-html="$t('spadegaming.tips.tip4')"></li>
+          <li v-html="$t('spadegaming.tips.tip5')"></li>
         </ul>
       </div>
 
       <div class="content-block">
-        <h2>FAQs About Spadegaming</h2>
+        <h2>{{ $t('spadegaming.faqs.title') }}</h2>
         
-        <h3>Q: Can I play Spadegaming slots for free?</h3>
-        <p>A: Yes. Many titles are available in demo-mode so you can try the game without deposit.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q1') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a1') }}</p>
+        </div>
 
-        <h3>Q: Which platforms support Spadegaming games?</h3>
-        <p>A: Android, iOS and desktop browser — thanks to their HTML5-powered games.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q2') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a2') }}</p>
+        </div>
 
-        <h3>Q: Are these games suitable for Malaysian players?</h3>
-        <p>A: Yes. Many titles cater to Asian themes, languages and payment options, making them appropriate for Malaysian users.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q3') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a3') }}</p>
+        </div>
 
-        <h3>Q: What sort of bonus features do Spadegaming games offer?</h3>
-        <p>A: Expect free spins, shifting wilds, retriggers, win-both-ways, and other modern slot mechanics.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q4') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a4') }}</p>
+        </div>
 
-        <h3>Q: Are Spadegaming games safe and fair?</h3>
-        <p>A: Yes. The provider is licensed, and their games have been audited for fairness.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q5') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a5') }}</p>
+        </div>
 
-        <h3>Q: Where can I get help if I face issues playing?</h3>
-        <p>A: Use your casino's live-chat or support — ensure you're playing via an authorised and reputable platform.</p>
+        <div class="faq-item">
+          <h3>{{ $t('spadegaming.faqs.q6') }}</h3>
+          <p>{{ $t('spadegaming.faqs.a6') }}</p>
+        </div>
       </div>
 
       <div class="content-block">
-        <h2>Conclusion: Play Spadegaming Now</h2>
+        <h2>{{ $t('spadegaming.conclusion.title') }}</h2>
         
-        <p>Spadegaming offers a rich collection of modern, mobile-first slots and arcade games infused with Asian-themed visuals and advanced mechanics.</p>
+        <p>{{ $t('spadegaming.conclusion.para1') }}</p>
         
-        <p>Whether you're playing casually or for real stakes, you can start in demo mode, explore the titles, choose your platform and enjoy high-quality entertainment.</p>
+        <p>{{ $t('spadegaming.conclusion.para2') }}</p>
         
         <p>
-          <strong>Login <a href="#" class="homepage-link" @click.prevent="goToLogin">H5 Winbox</a> now and Start playing Spadegaming slot games today on Winbox.</strong>
+          <strong>
+            {{ $t('spadegaming.conclusion.ctaBefore') }} 
+            <a 
+              :href="seoLinks.login()" 
+              class="homepage-link" 
+              @click.prevent="goToLogin">{{ $t('spadegaming.conclusion.ctaLink') }}</a> 
+            {{ $t('spadegaming.conclusion.ctaAfter') }}
+          </strong>
         </p>
       </div>
     </div>
@@ -155,7 +184,7 @@ import spadegamingBanner from "@/assets/spadegaming-banner.avif";
 import { useNavigation } from '@/components/utils/navigation';
 
 // Use your existing navigation utilities
-const { goToRegister, goToHomepage, goToDownload, goToLogin } = useNavigation();
+const { goToRegister, goToHomepage, goToDownload, goToLogin, seoLinks } = useNavigation();
 
 // Function to handle image loading errors
 const handleImageError = (event) => {
@@ -169,8 +198,7 @@ const spadegamingGames = ref([]);
 // Image URL generator
 const getImageUrl = (name) => {
   try {
-    return new URL(`/src/assets/spadegaming-img/${name}.png`, import.meta.url)
-      .href;
+    return new URL(`/src/assets/spadegaming-img/${name}.png`, import.meta.url).href;
   } catch (error) {
     console.error(`Error loading image ${name}:`, error);
     return button_frame;

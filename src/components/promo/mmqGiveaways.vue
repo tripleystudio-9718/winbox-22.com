@@ -12,37 +12,37 @@
 
       <!-- Main Content -->
       <div class="content">
-        <h1>{{ $t('marcMarquez.heading') }}</h1>
+        <h1>{{ $t('marcMarquezG.heading') }}</h1>
         
-        <p class="subtitle">{{ $t('marcMarquez.subtitle') }}</p>
+        <p class="subtitle">{{ $t('marcMarquezG.subtitle') }}</p>
         
-        <p>{{ $t('marcMarquez.intro') }}</p>
+        <p>{{ $t('marcMarquezG.intro') }}</p>
 
         <!-- Action Buttons -->
         <div class="action-buttons">
           <div class="action-btn">
             <img :src="buttonFrame" alt="" class="btn-frame" />
-            <span class="btn-text">{{ $t('marcMarquez.buttons.getPrizesNow') }}</span>
+            <span class="btn-text">{{ $t('marcMarquezG.buttons.getPrizesNow') }}</span>
           </div>
           <div class="action-btn">
             <img :src="buttonFrame" alt="" class="btn-frame" />
-            <span class="btn-text">{{ $t('marcMarquez.buttons.joinTelegram') }}</span>
+            <span class="btn-text">{{ $t('marcMarquezG.buttons.joinTelegram') }}</span>
           </div>
         </div>
 
-        <h2>{{ $t('marcMarquez.whatIsTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.whatIsTitle') }}</h2>
         <p>
-          The <strong>{{ $t('marcMarquez.whatIsLinkText') }}</strong> {{ $t('marcMarquez.whatIsPara1') }}
+          The <strong>{{ $t('marcMarquezG.whatIsLinkText') }}</strong> {{ $t('marcMarquez.whatIsPara1') }}
         </p>
-        <p>{{ $t('marcMarquez.whatIsPara2') }}</p>
+        <p>{{ $t('marcMarquezG.whatIsPara2') }}</p>
 
-        <h2>{{ $t('marcMarquez.whatCanWinTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.whatCanWinTitle') }}</h2>
         <table class="prizes-table">
           <thead>
             <tr>
-              <th>Prize Type</th>
-              <th>Description</th>
-              <th>Quantity</th>
+              <th>{{ $t('marcMarquezG.prizeType') }}</th>
+              <th>{{ $t('marcMarquezG.description') }}</th>
+              <th>{{ $t('marcMarquezG.quantity') }}</th>
             </tr>
           </thead>
           <tbody>
@@ -53,91 +53,91 @@
             </tr>
           </tbody>
         </table>
-        <p>{{ $t('marcMarquez.prizesNote') }}</p>
+        <p>{{ $t('marcMarquezG.prizesNote') }}</p>
         <p>
-          {{ $t('marcMarquez.learnMoreText') }} 
-          <router-link :to="routerLinks.promo()" class="link">{{ $t('marcMarquez.promotionsLinkText') }}</router-link>?
+          {{ $t('marcMarquezG.learnMoreText') }} 
+          <router-link :to="routerLinks.promo()" class="link">{{ $t('marcMarquezG.promotionsLinkText') }}</router-link>?
         </p>
 
-        <h2>{{ $t('marcMarquez.howToJoinTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.howToJoinTitle') }}</h2>
         
         <p>
-          <strong>{{ $t('marcMarquez.step1Title') }}</strong><br>
-          {{ $t('marcMarquez.step1Text') }} 
-          <a href="https://www.winbox22.com/" target="_blank" rel="noopener noreferrer" class="link">{{ $t('marcMarquez.winboxLoginText') }}</a>.
+          <strong>{{ $t('marcMarquezG.step1Title') }}</strong><br>
+          {{ $t('marcMarquezG.step1Text') }} 
+          <a href="https://www.winbox22.com/" target="_blank" rel="noopener noreferrer" class="link">{{ $t('marcMarquezG.winboxLoginText') }}</a>.
         </p>
         
         <p>
-          <strong>{{ $t('marcMarquez.step2Title') }}</strong><br>
-          {{ $t('marcMarquez.step2Text') }}
+          <strong>{{ $t('marcMarquezG.step2Title') }}</strong><br>
+          {{ $t('marcMarquezG.step2Text') }}
         </p>
         
         <p>
-          <strong>{{ $t('marcMarquez.step3Title') }}</strong><br>
-          {{ $t('marcMarquez.step3Text') }}
+          <strong>{{ $t('marcMarquezG.step3Title') }}</strong><br>
+          {{ $t('marcMarquezG.step3Text') }}
         </p>
         
         <p>
-          <strong>{{ $t('marcMarquez.step4Title') }}</strong><br>
-          {{ $t('marcMarquez.step4Text') }}
+          <strong>{{ $t('marcMarquezG.step4Title') }}</strong><br>
+          {{ $t('marcMarquezG.step4Text') }}
         </p>
         
         <p>
-          <strong>{{ $t('marcMarquez.step5Title') }}</strong><br>
-          {{ $t('marcMarquez.step5Text') }}
+          <strong>{{ $t('marcMarquezG.step5Title') }}</strong><br>
+          {{ $t('marcMarquezG.step5Text') }}
         </p>
 
-        <h2>{{ $t('marcMarquez.joinTelegramTitle') }}</h2>
-        <p>{{ $t('marcMarquez.joinTelegramPara1') }}</p>
-        <p>{{ $t('marcMarquez.joinTelegramPara2') }}</p>
+        <h2>{{ $t('marcMarquezG.joinTelegramTitle') }}</h2>
+        <p>{{ $t('marcMarquezG.joinTelegramPara1') }}</p>
+        <p>{{ $t('marcMarquezG.joinTelegramPara2') }}</p>
 
-        <h2>{{ $t('marcMarquez.whyJoinTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.whyJoinTitle') }}</h2>
         <ul>
           <li v-for="(item, index) in whyJoinList" :key="index">{{ item }}</li>
         </ul>
 
-        <h2>{{ $t('marcMarquez.additionalRulesTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.additionalRulesTitle') }}</h2>
         <ol>
           <li>
-            {{ $t('marcMarquez.rule1Text') }} 
+            {{ $t('marcMarquezG.rule1Text') }} 
             <a href="https://forms.gle/Y22JqJ8x11KCyKsg7" target="_blank" rel="noopener noreferrer" class="link">https://forms.gle/Y22JqJ8x11KCyKsg7</a>
           </li>
-          <li>{{ $t('marcMarquez.rule2Text') }}</li>
-          <li>{{ $t('marcMarquez.rule3Text') }}</li>
-          <li>{{ $t('marcMarquez.rule4Text') }}</li>
+          <li>{{ $t('marcMarquezG.rule2Text') }}</li>
+          <li>{{ $t('marcMarquezG.rule3Text') }}</li>
+          <li>{{ $t('marcMarquezG.rule4Text') }}</li>
         </ol>
 
         <!-- Second set of buttons -->
         <div class="action-buttons">
           <div class="action-btn">
             <img :src="buttonFrame" alt="" class="btn-frame" />
-            <span class="btn-text">{{ $t('marcMarquez.buttons.fillOutForm') }}</span>
+            <span class="btn-text">{{ $t('marcMarquezG.buttons.fillOutForm') }}</span>
           </div>
           <div class="action-btn">
             <img :src="buttonFrame" alt="" class="btn-frame" />
-            <span class="btn-text">{{ $t('marcMarquez.buttons.joinTelegram') }}</span>
+            <span class="btn-text">{{ $t('marcMarquezG.buttons.joinTelegram') }}</span>
           </div>
         </div>
 
-        <p><em>{{ $t('marcMarquez.justOneScan') }}</em></p>
+        <p><em>{{ $t('marcMarquezG.justOneScan') }}</em></p>
 
-        <h2>{{ $t('marcMarquez.termsTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.termsTitle') }}</h2>
         <ul>
-          <li>{{ $t('marcMarquez.term1') }}</li>
+          <li>{{ $t('marcMarquezG.term1') }}</li>
           <li>
-            {{ $t('marcMarquez.term2Text') }} 
+            {{ $t('marcMarquezG.term2Text') }} 
             <a href="https://www.winbox22.com/" target="_blank" rel="noopener noreferrer" class="link">https://www.winbox22.com/</a> 
-            {{ $t('marcMarquez.term2Referrer') }}
+            {{ $t('marcMarquezG.term2Referrer') }}
           </li>
-          <li>{{ $t('marcMarquez.term3') }}</li>
-          <li>{{ $t('marcMarquez.term4') }}</li>
-          <li>{{ $t('marcMarquez.term5') }}</li>
-          <li>{{ $t('marcMarquez.term6') }}</li>
-          <li>{{ $t('marcMarquez.term7') }}</li>
-          <li>{{ $t('marcMarquez.term8') }}</li>
+          <li>{{ $t('marcMarquezG.term3') }}</li>
+          <li>{{ $t('marcMarquezG.term4') }}</li>
+          <li>{{ $t('marcMarquezG.term5') }}</li>
+          <li>{{ $t('marcMarquezG.term6') }}</li>
+          <li>{{ $t('marcMarquezG.term7') }}</li>
+          <li>{{ $t('marcMarquezG.term8') }}</li>
         </ul>
 
-        <h2>{{ $t('marcMarquez.faqTitle') }}</h2>
+        <h2>{{ $t('marcMarquezG.faqTitle') }}</h2>
         <div v-for="(faq, index) in faqList" :key="index" class="faq-item">
           <p><strong>Q: {{ faq.q }}</strong></p>
           <p>A: {{ faq.a }}</p>
@@ -158,9 +158,9 @@ const { tm } = useI18n();
 const { routerLinks } = useNavigation();
 
 // Fetch structured arrays/objects from translations
-const prizesTable = tm("marcMarquez.prizesTable") || [];
-const whyJoinList = tm("marcMarquez.whyJoinList") || [];
-const faqList = tm("marcMarquez.faqList") || [];
+const prizesTable = tm("marcMarquezG.prizesTable") || [];
+const whyJoinList = tm("marcMarquezG.whyJoinList") || [];
+const faqList = tm("marcMarquezG.faqList") || [];
 </script>
 
 <style scoped>
@@ -186,7 +186,6 @@ const faqList = tm("marcMarquez.faqList") || [];
 
 /* Main Content */
 .content {
-  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;

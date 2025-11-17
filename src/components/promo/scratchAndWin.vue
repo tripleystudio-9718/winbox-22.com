@@ -30,7 +30,7 @@
           <button class="whatsapp-btn">
             <span class="icon"></span> WHATSAPP
           </button>
-          <button class="start-btn">GET START</button>
+          <button class="start-btn">{{ $t('scratchWin.get_started') }}</button>
         </div>
 
         <h2>{{ $t('scratchWin.howToTitle') }}</h2>
@@ -208,7 +208,6 @@ onMounted(() => {
 
 /* Main Content */
 .content {
-  max-width: 900px;
   margin: 0 auto;
   padding: 20px;
   line-height: 1.6;

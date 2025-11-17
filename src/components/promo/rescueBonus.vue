@@ -23,7 +23,7 @@
         
         <p class="register-button-section">
           <router-link :to="routerLinks.register()" class="register-button">
-            {{ $t('button.claimRescueBonus') }}
+            {{ $t('rescueBonus.button.claimRescueBonus') }}
           </router-link>
         </p>
 
@@ -34,8 +34,8 @@
               <thead>
                 <tr>
                   <th>UID</th>
-                  <th>TURNOVER (MYR)</th>
-                  <th>BONUS (MYR)</th>
+                  <th>{{ $t('rescueBonus.turnover') }}</th>
+                  <th>{{ $t('rescueBonus.bonus') }}</th>
                 </tr>
               </thead>
               <tbody>
@@ -71,9 +71,9 @@
         <table class="bonus-rate-table">
           <thead>
             <tr>
-              <th>Weekly Net Loss Range (MYR)</th>
-              <th>Cashback Rate</th>
-              <th>Max Bonus Limit</th>
+              <th>{{ $t('rescueBonus.weekly') }}</th>
+              <th>{{ $t('rescueBonus.cashback') }}</th>
+              <th>{{ $t('rescueBonus.bonusLimit') }}</th>
             </tr>
           </thead>
           <tbody>
@@ -156,7 +156,7 @@
 
         <p class="register-button-section">
           <router-link :to="routerLinks.register()" class="register-button">
-            {{ $t('button.claimBonus') }}
+            {{ $t('rescueBonus.button.claimBonus') }}
           </router-link>
         </p>
       </div>

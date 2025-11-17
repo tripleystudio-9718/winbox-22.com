@@ -13,124 +13,164 @@
 
     <!-- Content Section -->
     <div class="content-section">
-      <h1>Acewin - Slot Games</h1>
+      <h1>{{ $t('acewin.heading') }}</h1>
       
-      <h2>Asian-style visuals meet modern game mechanics</h2>
-      
-      <p>
-        <a href="#" class="homepage-link" @click.prevent="goToAcewin">Acewin</a> is a game-software provider specialising in slots, fishing arcades, table games and more, focused primarily on Southeast Asian markets.
-      </p>
+      <h2>{{ $t('acewin.subHeading') }}</h2>
       
       <p>
-        While full technical details (such as RTP) may be limited, their catalogue includes over 50 titles and innovative features such as All Ways payout systems and extra-bet functionality.
+        <a 
+          :href="seoLinks.acewin()" 
+          class="homepage-link" 
+          @click.prevent="goToAcewin">{{ $t('acewin.intro.linkText') }}</a> 
+        {{ $t('acewin.intro.part1') }}
       </p>
+      
+      <p>{{ $t('acewin.introPara2') }}</p>
 
       <div class="content-block">
-        <h2>Comparison Table: Platform Options & Features</h2>
+        <h2>{{ $t('acewin.comparisonTable.title') }}</h2>
         
         <div class="table-container">
           <table class="comparison-table">
             <thead>
               <tr>
-                <th>Platform</th>
-                <th>Best For</th>
-                <th>Key Features</th>
+                <th>{{ $t('acewin.comparisonTable.headers.platform') }}</th>
+                <th>{{ $t('acewin.comparisonTable.headers.bestFor') }}</th>
+                <th>{{ $t('acewin.comparisonTable.headers.keyFeatures') }}</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td><strong>Desktop Browser</strong></td>
-                <td>Traditional PC players</td>
-                <td>Full-screen experience, wide view, easy bank/withdrawal UI</td>
+                <td><strong>{{ $t('acewin.comparisonTable.rows.desktop.platform') }}</strong></td>
+                <td>{{ $t('acewin.comparisonTable.rows.desktop.bestFor') }}</td>
+                <td>{{ $t('acewin.comparisonTable.rows.desktop.features') }}</td>
               </tr>
               <tr>
                 <td>
-                  <strong>Mobile <a href="#" class="homepage-link" @click.prevent="goToDownload">Winbox App</a></strong><br>
-                  (Android / iOS)
+                  <strong>
+                    {{ $t('acewin.comparisonTable.rows.mobile.platformBefore') }} 
+                    <a 
+                      :href="seoLinks.download()" 
+                      class="homepage-link" 
+                      @click.prevent="goToDownload">{{ $t('acewin.comparisonTable.rows.mobile.platformLink') }}</a>
+                  </strong><br>
+                  {{ $t('acewin.comparisonTable.rows.mobile.platformAfter') }}
                 </td>
-                <td>On-the-go players</td>
-                <td>Touch-optimized UI, HTML5 portability, seamless register/deposit</td>
+                <td>{{ $t('acewin.comparisonTable.rows.mobile.bestFor') }}</td>
+                <td>{{ $t('acewin.comparisonTable.rows.mobile.features') }}</td>
               </tr>
               <tr>
-                <td><strong>Demo Mode</strong></td>
-                <td>New users</td>
-                <td>Try games risk-free without initial deposit, familiarise mechanics</td>
+                <td><strong>{{ $t('acewin.comparisonTable.rows.demo.platform') }}</strong></td>
+                <td>{{ $t('acewin.comparisonTable.rows.demo.bestFor') }}</td>
+                <td>{{ $t('acewin.comparisonTable.rows.demo.features') }}</td>
               </tr>
             </tbody>
           </table>
         </div>
         
-        <p>Still unsure which format suits you? The above table helps simplify your choice.</p>
+        <p>{{ $t('acewin.comparisonTable.note') }}</p>
       </div>
 
       <div class="content-block">
-        <h2>Game Features & Mechanics</h2>
+        <h2>{{ $t('acewin.gameFeatures.title') }}</h2>
         
-        <h3>Core Highlights</h3>
+        <h3>{{ $t('acewin.gameFeatures.coreHighlights.title') }}</h3>
         <ul class="dots">
-          <li>Variety of game types: slots, fishing arcades, table games.</li>
-          <li>Mobile-first design via HTML5 ensures cross-device compatibility on Android, iOS and Windows.</li>
-          <li>Mechanics like All Ways (win if certain symbols land adjacent reels) and Extra Bet options for bonus multiplier features.</li>
+          <li>{{ $t('acewin.gameFeatures.coreHighlights.feature1') }}</li>
+          <li>{{ $t('acewin.gameFeatures.coreHighlights.feature2') }}</li>
+          <li>{{ $t('acewin.gameFeatures.coreHighlights.feature3') }}</li>
         </ul>
 
-        <h3>Why it stands out</h3>
+        <h3>{{ $t('acewin.gameFeatures.whyStandOut.title') }}</h3>
         <ul class="dots">
-          <li>Games designed specifically for Asian audiences (themes, symbols, language).</li>
-          <li>Fast-loading, modern graphics and intuitive UI across devices.</li>
-          <li>Access to demo versions gives risk-free trial before real funds.</li>
+          <li>{{ $t('acewin.gameFeatures.whyStandOut.reason1') }}</li>
+          <li>{{ $t('acewin.gameFeatures.whyStandOut.reason2') }}</li>
+          <li>{{ $t('acewin.gameFeatures.whyStandOut.reason3') }}</li>
         </ul>
 
-        <h3>How to Get Started</h3>
+        <h3>{{ $t('acewin.gameFeatures.howToStart.title') }}</h3>
         <ol class="numbered-list">
-          <li>Choose the platform: Browser <a href="#" class="homepage-link" @click.prevent="goToLogin">Winbox Login Web</a>, Android or iOS.</li>
-          <li>Register an account or log in via your preferred casino partner.</li>
-          <li>Explore the game catalogue and try demo play if you're new.</li>
-          <li>When ready, deposit using your local preferred payment methods.</li>
-          <li>Select a game, set your bet, and spin or play. Monitor your session and set limits responsibly.</li>
+          <li>
+            {{ $t('acewin.gameFeatures.howToStart.step1Before') }} 
+            <a 
+              :href="seoLinks.login()" 
+              class="homepage-link" 
+              @click.prevent="goToLogin">{{ $t('acewin.gameFeatures.howToStart.step1Link') }}</a>
+            {{ $t('acewin.gameFeatures.howToStart.step1After') }}
+          </li>
+          <li>{{ $t('acewin.gameFeatures.howToStart.step2') }}</li>
+          <li>{{ $t('acewin.gameFeatures.howToStart.step3') }}</li>
+          <li>{{ $t('acewin.gameFeatures.howToStart.step4') }}</li>
+          <li>{{ $t('acewin.gameFeatures.howToStart.step5') }}</li>
         </ol>
       </div>
 
       <div class="content-block">
-        <h2>Tips for Better Gameplay</h2>
+        <h2>{{ $t('acewin.tips.title') }}</h2>
         <ul class="dots">
-          <li>Use <strong>demo mode</strong> first to test how the game handles symbols, bonus triggers and features.</li>
-          <li>Play on a <strong>stable internet connection</strong> (especially mobile) to avoid lag during bonus rounds.</li>
-          <li>Review the <strong>paytable</strong> for each title to understand the symbol values, win-ways or paylines, and bonus triggers.</li>
-          <li>Budget your play: treat games as entertainment rather than guaranteed income.</li>
+          <li v-html="$t('acewin.tips.tip1')"></li>
+          <li v-html="$t('acewin.tips.tip2')"></li>
+          <li v-html="$t('acewin.tips.tip3')"></li>
+          <li v-html="$t('acewin.tips.tip4')"></li>
         </ul>
       </div>
 
       <div class="content-block">
-        <h2>FAQs About Acewin</h2>
+        <h2>{{ $t('acewin.faqs.title') }}</h2>
         
-        <h3>Q: Can I access Acewin games for free?</h3>
-        <p>A: Yes. Many titles have a demo mode allowing you to play without deposit.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q1') }}</h3>
+          <p>{{ $t('acewin.faqs.a1') }}</p>
+        </div>
 
-        <h3>Q: Which devices support Acewin games?</h3>
-        <p>A: ALL, Android, iOS and desktop via browser --- thanks to HTML5 optimisation.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q2') }}</h3>
+          <p>{{ $t('acewin.faqs.a2') }}</p>
+        </div>
 
-        <h3>Q: Are the games localised for Malaysia?</h3>
-        <p>A: Yes. Languages and currencies include Malay and regional payment methods.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q3') }}</h3>
+          <p>{{ $t('acewin.faqs.a3') }}</p>
+        </div>
 
-        <h3>Q: Does Acewin show clear RTPs (Return to Player)?</h3>
-        <p>A: Not always. Some titles lack published RTP, so demo play is recommended first.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q4') }}</h3>
+          <p>{{ $t('acewin.faqs.a4') }}</p>
+        </div>
 
-        <h3>Q: Where can I find help if I face issues?</h3>
-        <p>A: Check your casino partner's live-chat support or help desk. Use authorised platforms like <a href="#" class="homepage-link" @click.prevent="goToHomepage">Winbox22.com</a> only.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q5') }}</h3>
+          <p>
+            {{ $t('acewin.faqs.a5Before') }} 
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link" 
+              @click.prevent="goToHomepage">{{ $t('acewin.faqs.a5Link') }}</a> 
+            {{ $t('acewin.faqs.a5After') }}
+          </p>
+        </div>
 
-        <h3>Q: Are there special bonus or pick-me features in Acewin games?</h3>
-        <p>A: Yes. Some titles include Extra Bet, hold-&-win rounds, progressive jackpot features and All Ways payout styles.</p>
+        <div class="faq-item">
+          <h3>{{ $t('acewin.faqs.q6') }}</h3>
+          <p>{{ $t('acewin.faqs.a6') }}</p>
+        </div>
       </div>
 
       <div class="content-block">
-        <h2>Start Exploring Acewin Games</h2>
+        <h2>{{ $t('acewin.startExploring.title') }}</h2>
         
-        <p>Acewin offers a rich catalogue of modern, mobile-friendly Asian-themed gaming titles --- from slots to fishing arcades to table games.</p>
+        <p>{{ $t('acewin.startExploring.para1') }}</p>
         
-        <p>Whether you're exploring for fun or ready for real-stake play, start with demo mode, understand the features, pick your device platform and enjoy the experience responsibly.</p>
+        <p>{{ $t('acewin.startExploring.para2') }}</p>
         
         <p>
-          <strong><a href="#" class="homepage-link" @click.prevent="goToRegister">Register Winbox</a> and Start exploring Acewin now and choose a game that fits your style.</strong>
+          <strong>
+            <a 
+              :href="seoLinks.register()" 
+              class="homepage-link" 
+              @click.prevent="goToRegister">{{ $t('acewin.startExploring.ctaBefore') }}</a> 
+            {{ $t('acewin.startExploring.ctaAfter') }}
+          </strong>
         </p>
       </div>
     </div>
@@ -143,12 +183,7 @@ import { useNavigation } from '@/components/utils/navigation';
 import button_frame from '@/assets/main-button.png';
 
 // Use your existing navigation utilities
-const { goToRegister, goToHomepage, goToDownload, goToLogin } = useNavigation();
-
-// Add goToAcewin if it doesn't exist in your navigation
-const goToAcewin = () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
-};
+const { goToRegister, goToHomepage, goToDownload, goToLogin, goToAcewin, seoLinks } = useNavigation();
 
 // Function to handle image loading errors
 const handleImageError = (event) => {

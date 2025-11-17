@@ -5365,6 +5365,11 @@
       "whatPara1": "The Rescue Bonus is a cashback feature that refunds players a portion of their net losses over a specific period, typically calculated weekly. Offered by Winbox, it serves as a safety net to keep your gameplay sustainable and less punishing during unlucky runs.",
       "whatPara2": "Whether you're a regular or returning user, the bonus is designed to help you stay in the game without the frustration of total loss.",
       "howTitle": "How Does It Work?",
+      "turnover": "TURNOVER (MYR)",
+      "bonus": "BONUS (MYR)",
+      "weekly": "Weekly Net Loss Range (MYR)",
+      "cashback": "Cashback Rate",
+      "bonusLimit": "Max Bonus Limit",
       "howSteps": [
         {
           "title": "Play Eligible Games",
@@ -5509,6 +5514,7 @@
       "getCodeTitle": "Get Your Code Here :",
 
       "howToTitle": "How to Participate in Scratch and Win",
+      "get_started": "GET STARTED",
       "howToSteps": [
         {
           "title": "Log in daily",
@@ -5628,115 +5634,7 @@
     }
     },
 
-    "marcMarquez": {
-      "metaTitle": "Marc Marquez Giveaway - Win Exclusive MotoGP Prizes | Winbox",
-      "metaDescription": "Join the Marc Marquez Giveaway and stand a chance to win exclusive MotoGP merchandise, signed memorabilia, and amazing prizes.",
-      "heading": "Marc Marquez Giveaway",
-      "subtitle": "Win Exclusive MotoGP Prizes & Signed Memorabilia!",
-      "intro": "Celebrate the legendary <strong>Marc Marquez</strong> with Winbox! Join our exclusive giveaway and stand a chance to win <strong>signed merchandise, exclusive MotoGP gear,</strong> and amazing prizes.",
-      "whatIsTitle": "What is the Marc Marquez Giveaway?",
-      "whatIsContent": "The <strong>Marc Marquez Giveaway</strong> is a special promotional campaign by Winbox celebrating the <strong>MotoGP champion Marc Marquez</strong>. Participants can win <strong>exclusive signed memorabilia, MotoGP merchandise, race tickets,</strong> and other exciting prizes.",
-      "howToJoinTitle": "How to Join the Giveaway",
-      "howToJoinSteps": [
-        {
-          "title": "Register or Log In",
-          "desc": "to your Winbox account via",
-          "link": "https://www.winbox22.com/",
-          "linkText": "Winbox Login",
-          "descAfter": "."
-        },
-        {
-          "title": "Make a Qualifying Deposit",
-          "desc": "Check the minimum deposit amount required to participate."
-        },
-        {
-          "title": "Play Eligible Games",
-          "desc": "Accumulate turnover on selected games during the promo period."
-        },
-        {
-          "title": "Earn Entries",
-          "desc": "Every RM100 in turnover = 1 entry into the draw."
-        },
-        {
-          "title": "Wait for the Draw",
-          "desc": "Winners will be announced at the end of the campaign period."
-        },
-        {
-          "title": "Claim Your Prize",
-          "desc": "Winners will be contacted via WhatsApp or email to arrange prize delivery."
-        }
-      ],
-      "prizesTitle": "Prizes You Can Win",
-      "eligibilityTitle": "Who Can Join?",
-      "eligibilityList": [
-        "All verified Winbox users in Malaysia",
-        {
-          "textBefore": "Must have an active account via",
-          "link": "https://www.winbox22.com/",
-          "linkText": "winbox22.com",
-          "textAfter": ""
-        },
-        "Minimum deposit and turnover requirements apply",
-        "<strong>Referrer Code: WI888OX</strong> must be used during signup to be eligible",
-        "Must play eligible games during the promotional period"
-      ],
-      "pastWinnersTitle": "Past Winners",
-      "termsTitle": "Terms & Conditions",
-      "termsList": [
-        "Campaign period runs from [Start Date] to [End Date]",
-        "Minimum deposit of <strong>RM100</strong> required to participate",
-        "Every <strong>RM100 in turnover</strong> earns 1 entry ticket",
-        "Only bets on <strong>eligible games</strong> count toward turnover",
-        "Winners will be selected via <strong>random draw</strong>",
-        "Prizes are <strong>non-transferable</strong> and cannot be exchanged for cash",
-        "Winners must <strong>accept friend request</strong> in Winbox to claim prizes",
-        "Prize delivery may take <strong>2-4 weeks</strong> after winner announcement",
-        {
-          "textBefore": "Winbox reserves the right to modify or end the",
-          "link": "https://www.winbox88.me/marc-marquez-giveaway",
-          "linkText": "promotion",
-          "textAfter": "at any time"
-        },
-        "Fraudulent activity will result in <strong>immediate disqualification</strong>"
-      ],
-      "whyJoinTitle": "Why Join the Marc Marquez Giveaway?",
-      "whyJoinList": [
-        "<strong>Exclusive MotoGP Prizes:</strong> Win signed memorabilia from Marc Marquez",
-        "<strong>Multiple Winners:</strong> More chances to win with multiple prize categories",
-        "<strong>Easy to Join:</strong> Simple qualification through regular gameplay",
-        "<strong>Fair Draw System:</strong> Transparent random selection process",
-        "<strong>Premium Merchandise:</strong> Official MotoGP gear and collectibles"
-      ],
-      "faqTitle": "FAQs About Marc Marquez Giveaway",
-      "faqList": [
-        {
-          "q": "How do I earn entries?",
-          "a": "Every RM100 in qualifying turnover earns you 1 entry ticket."
-        },
-        {
-          "q": "When will winners be announced?",
-          "a": "Winners will be announced at the end of the campaign period via official channels."
-        },
-        {
-          "q": "Can I win multiple prizes?",
-          "a": "Typically, each participant can only win one major prize, but check the specific terms."
-        },
-        {
-          "q": "How will I know if I won?",
-          "a": "Winners will be contacted directly via WhatsApp or the phone number registered with Winbox."
-        },
-        {
-          "q": "Can I exchange my prize for cash?",
-          "a": "No, all prizes are non-transferable and cannot be exchanged for cash value."
-        }
-      ],
-      "button": {
-      "joinNow": "Join Now",
-      "register": "Register"
-    }
-    },
-
-    "marcMarquez": {
+    "marcMarquezG": {
       "metaTitle": "Marc Márquez Giveaway Malaysia - Win Signed Merchandise | Winbox",
       "metaDescription": "Join the Marc Márquez Giveaway and win exclusive signed MotoGP merchandise by eight-time world champion Marc Márquez. Limited time only!",
       "heading": "Marc Márquez Giveaway Malaysia",
@@ -5747,6 +5645,9 @@
       "whatIsPara1": "exclusive campaign offers fans and players a rare chance to win signed MotoGP merchandise by eight-time world champion Marc Márquez. The giveaway is organised by Winbox and is available only through the official participation portal.",
       "whatIsPara2": "This is a limited-time promotional event, with all logistics and distribution handled directly by the platform.",
       "whatCanWinTitle": "What Can You Win?",
+      "prizeType": "Prize Type",
+      "description": "Description",
+      "quantity": "Quantity",
       "prizesTable": [
         {
           "prizeType": "Grand Prize",
@@ -5828,122 +5729,6 @@
         "getPrizesNow": "GET PRIZES NOW!",
         "joinTelegram": "JOIN TELEGRAM!",
         "fillOutForm": "FILL OUT FORM!"
-      }
-    },
-    "lucky7th": {
-      "metaTitle": "Lucky 7th - Daily Login Rewards | Winbox",
-      "metaDescription": "Join Lucky 7th promotion and earn rewards for 7 consecutive days of login. Get daily bonuses and exclusive prizes!",
-      "heading": "Lucky 7th Daily Rewards",
-      "subtitle": "Login 7 Days, Win Big Rewards!",
-      "intro": "Join the Lucky 7th promotion and get rewarded for your loyalty! Login for 7 consecutive days and claim increasing bonuses each day.",
-      "whatIsTitle": "What Is Lucky 7th?",
-      "whatIsLinkText": "Lucky 7th",
-      "whatIsPara1": "is a daily login reward promotion where players earn bonuses for logging in consecutively for 7 days. Each day offers bigger and better rewards, culminating in a grand prize on the 7th day.",
-      "whatIsPara2": "This promotion is designed to reward loyal players and encourage daily engagement with exciting prizes and bonuses.",
-      "howItWorksTitle": "How It Works",
-      "step1Title": "Step 1: Register or Log In",
-      "step1Text": "Create your account or log in daily at Winbox.",
-      "step2Title": "Step 2: Check In Daily",
-      "step2Text": "Visit the Lucky 7th page and click 'Check In' each day.",
-      "step3Title": "Step 3: Claim Your Reward",
-      "step3Text": "Collect your daily bonus after checking in.",
-      "step4Title": "Step 4: Complete 7 Days",
-      "step4Text": "Login for 7 consecutive days to unlock all rewards and the grand prize!",
-      "prizesTitle": "Daily Rewards Breakdown",
-      "tableHeaders": {
-        "day": "Day",
-        "bonus": "Bonus",
-        "requirement": "Requirement"
-      },
-      "prizesTable": [
-        {
-          "day": "Day 1",
-          "bonus": "RM5 Free Credit",
-          "requirement": "Login only"
-        },
-        {
-          "day": "Day 2",
-          "bonus": "RM10 Free Credit",
-          "requirement": "Login only"
-        },
-        {
-          "day": "Day 3",
-          "bonus": "RM15 Free Credit",
-          "requirement": "Login + RM50 deposit"
-        },
-        {
-          "day": "Day 4",
-          "bonus": "RM20 Free Credit",
-          "requirement": "Login + RM50 deposit"
-        },
-        {
-          "day": "Day 5",
-          "bonus": "RM30 Free Credit",
-          "requirement": "Login + RM100 deposit"
-        },
-        {
-          "day": "Day 6",
-          "bonus": "RM50 Free Credit",
-          "requirement": "Login + RM100 deposit"
-        },
-        {
-          "day": "Day 7",
-          "bonus": "RM88 Grand Prize",
-          "requirement": "Login + RM200 deposit"
-        }
-      ],
-      "eligibilityTitle": "Who Can Join?",
-      "eligibilityList": [
-        "All verified Winbox users in Malaysia",
-        "New and existing players are eligible",
-        "Must login consecutively for 7 days",
-        "Referrer Code: WI888OX must be used during signup",
-        "Must meet daily deposit requirements to claim rewards"
-      ],
-      "whyJoinTitle": "Why Join Lucky 7th?",
-      "whyJoinList": [
-        "Daily rewards that increase each day",
-        "Easy to participate - just login daily",
-        "Grand prize of RM88 on Day 7",
-        "Reward your loyalty and consistency",
-        "Low deposit requirements for big rewards"
-      ],
-      "termsTitle": "Terms & Conditions",
-      "term1": "Must login consecutively for 7 days - missing a day resets progress",
-      "term2Text": "Users must be registered on",
-      "term2Referrer": "(Referrer: WI888OX)",
-      "term3": "Daily bonuses must be claimed within 24 hours",
-      "term4": "Deposit requirements must be met before claiming that day's reward",
-      "term5": "All bonuses subject to 1x wagering requirement",
-      "term6": "Promotion limited to one account per user",
-      "term7": "Winbox reserves the right to modify or terminate this promotion at any time",
-      "faqTitle": "FAQs About Lucky 7th",
-      "faqList": [
-        {
-          "q": "What happens if I miss a day?",
-          "a": "Your progress resets and you'll need to start from Day 1 again."
-        },
-        {
-          "q": "Do I need to deposit every day?",
-          "a": "No, Days 1-2 are free. Deposits are required from Day 3 onwards."
-        },
-        {
-          "q": "Can I claim all rewards at once?",
-          "a": "No, you must claim each day's reward individually after logging in."
-        },
-        {
-          "q": "Is there a wagering requirement?",
-          "a": "Yes, all bonuses have a 1x wagering requirement before withdrawal."
-        },
-        {
-          "q": "Can I participate multiple times?",
-          "a": "Yes! After completing 7 days, you can start a new cycle."
-        }
-      ],
-      "buttons": {
-        "claimNow": "CLAIM NOW!",
-        "joinTelegram": "JOIN TELEGRAM!",
-        "joinNow": "Join Now"
       }
     },
 
@@ -6168,6 +5953,305 @@
         "downloadText": "Download",
         "downloadLink": "Winbox APK",
         "platforms": "Now for Android, iOS, or PC"
+      }
+    },
+    "monkeyking": {
+      "metaTitle": "Monkey King Slot Game - Play on Winbox | Free Demo & Real Money",
+      "metaDescription": "Play Monkey King Slot Game on Winbox. Legendary Chinese-themed slot with 5 reels, free spins, and bonus features. Available on desktop and mobile.",
+      
+      "heading": "Monkey King Slot Game",
+      "subHeading": "Step into a legendary reels adventure",
+      
+      "intro": {
+        "part1": "The",
+        "linkText": "Monkey King",
+        "part2": "Slot Game invites you into a richly themed world inspired by the classic Chinese tale of Sun Wukong."
+      },
+      
+      "introPara2": "With 5 reels (and in many versions 243 win-ways or similar), dynamic features and high-quality graphics, it offers both entertainment and win potential.",
+      
+      "comparisonTable": {
+        "title": "Comparison Table: Version / Platform Options",
+        "headers": {
+          "version": "Version",
+          "bestFor": "Best For",
+          "keyFeatures": "Key Features"
+        },
+        "rows": {
+          "desktop": {
+            "version": "Desktop Browser",
+            "bestFor": "Casual PC players",
+            "features": "Full screen visuals, easy controls"
+          },
+          "mobile": {
+            "versionBefore": "Mobile",
+            "versionLink": "Winbox APK",
+            "versionAfter": "(Android / iOS)",
+            "bestFor": "On-the-go play",
+            "features": "Touch-friendly interface, mobile-optimised"
+          },
+          "demo": {
+            "version": "Demo Mode",
+            "bestFor": "New players",
+            "features": "Risk-free spins, familiarise with features"
+          }
+        },
+        "note": "Still not sure which version suits you? The table above shows you the options clearly."
+      },
+      
+      "gameFeatures": {
+        "title": "Game Features & Mechanics",
+        "coreFeatures": {
+          "title": "Core Features",
+          "feature1": "5-reel layout with either fixed paylines or \"win-ways\" model depending on variant.",
+          "feature2": "High-quality Chinese-legend theme: symbols include the Monkey King, dragons, temple artifacts, and more.",
+          "feature3": "Bonus features: scattered free spins, wild substitutes, mini-games or bonus pick-me features in some versions."
+        },
+        "whyStandOut": {
+          "title": "Why it stands out",
+          "reason1": "Immersive graphics and animations elevate the slot experience.",
+          "reason2": "Multiple payout methods (paylines, win-ways) give flexibility in game design.",
+          "reason3": "Many variants allow mobile and desktop play seamlessly."
+        }
+      },
+      
+      "howToPlay": {
+        "title": "How to Play & Get Started",
+        "step1Before": "Choose your platform: Browser",
+        "step1Link": "Winbox H5",
+        "step1After": "(desktop), Android, or iOS.",
+        "step2": "Set your bet size and spin the reels. Adjust any autoplay or max-bet if needed.",
+        "step3": "Aim for winning combinations via paylines or win-ways.",
+        "step4": "Trigger bonus features by landing the required scatters/wilds.",
+        "step5": "Use the demo mode first if you're new – no deposit required.",
+        "tipsTitle": "Tips for Better Gameplay",
+        "tip1": "Start with the <strong>demo mode</strong> to learn the symbol values and bonus triggers without risk.",
+        "tip2": "Use a <strong>stable internet connection</strong> on mobile to prevent disruptions during bonus rounds.",
+        "tip3": "Always check the <strong>paytable</strong> before playing real money to understand the top symbols and features.",
+        "tip4": "Set <strong>bet limits</strong> and play responsibly. Treat the slot as entertainment, not income."
+      },
+      
+      "faqs": {
+        "title": "FAQs About Monkey King Slot",
+        "q1": "Can I play Monkey King Slot Game for free?",
+        "a1": "Yes. Many platforms offer a demo or \"play for fun\" mode so you can try the game without deposit.",
+        "q2": "What devices are supported?",
+        "a2": "Desktop browser, Android smartphones/tablets, and iOS devices. Some versions may require specific OS versions.",
+        "q3": "Does the game have bonus features?",
+        "a3": "Yes. Look out for free spins, wild symbols, scatter-triggered mini-games and sometimes progressive or pick-me bonus rounds.",
+        "q4": "Is the theme based on a real legend?",
+        "a4": "Yes. The slot theme draws from the Chinese myth of Sun Wukong, often called The Monkey King.",
+        "q5": "What is the RTP (Return to Player)?",
+        "a5": "This varies by game variant and provider. One version lists an RTP of ~95%.",
+        "q6": "Where can I find help if I face issues?",
+        "a6": "Most game platforms provide live-chat support or help section. Be sure to use authorised versions to avoid unregulated apps."
+      },
+      
+      "startSpin": {
+        "title": "Start Your Spin Today",
+        "para1": "The Monkey King Slot Game offers an engaging mix of myth-inspired visuals, modern slot mechanics and flexible platform support.",
+        "para2": "Whether you're playing for fun or real stakes, this game gives you a meaningful entertainment choice.",
+        "para3": "Start in demo mode, understand the mechanics, and if you're comfortable — spin the reels with confidence.",
+        "ctaBefore": "Login",
+        "ctaLink": "Winbox H5",
+        "ctaAfter": "Play the Monkey King Slot Game now."
+      }
+    },
+    "acewin": {
+      "metaTitle": "Acewin Slot Games - Play on Winbox | Asian-themed Slots & Fishing Games",
+      "metaDescription": "Play Acewin games on Winbox. Asian-style slot games, fishing arcades, and table games. HTML5 mobile-optimized with demo mode available.",
+      "heading": "Acewin - Slot Games",
+      "subHeading": "Asian-style visuals meet modern game mechanics",
+      "intro": {
+        "linkText": "Acewin",
+        "part1": "is a game-software provider specialising in slots, fishing arcades, table games and more, focused primarily on Southeast Asian markets."
+      },
+      "introPara2": "While full technical details (such as RTP) may be limited, their catalogue includes over 50 titles and innovative features such as All Ways payout systems and extra-bet functionality.",
+      "comparisonTable": {
+        "title": "Comparison Table: Platform Options & Features",
+        "headers": {
+          "platform": "Platform",
+          "bestFor": "Best For",
+          "keyFeatures": "Key Features"
+        },
+        "rows": {
+          "desktop": {
+            "platform": "Desktop Browser",
+            "bestFor": "Traditional PC players",
+            "features": "Full-screen experience, wide view, easy bank/withdrawal UI"
+          },
+          "mobile": {
+            "platformBefore": "Mobile",
+            "platformLink": "Winbox App",
+            "platformAfter": "(Android / iOS)",
+            "bestFor": "On-the-go players",
+            "features": "Touch-optimized UI, HTML5 portability, seamless register/deposit"
+          },
+          "demo": {
+            "platform": "Demo Mode",
+            "bestFor": "New users",
+            "features": "Try games risk-free without initial deposit, familiarise mechanics"
+          }
+        },
+        "note": "Still unsure which format suits you? The above table helps simplify your choice."
+      },
+      "gameFeatures": {
+        "title": "Game Features & Mechanics",
+        "coreHighlights": {
+          "title": "Core Highlights",
+          "feature1": "Variety of game types: slots, fishing arcades, table games.",
+          "feature2": "Mobile-first design via HTML5 ensures cross-device compatibility on Android, iOS and Windows.",
+          "feature3": "Mechanics like All Ways (win if certain symbols land adjacent reels) and Extra Bet options for bonus multiplier features."
+        },
+        "whyStandOut": {
+          "title": "Why it stands out",
+          "reason1": "Games designed specifically for Asian audiences (themes, symbols, language).",
+          "reason2": "Fast-loading, modern graphics and intuitive UI across devices.",
+          "reason3": "Access to demo versions gives risk-free trial before real funds."
+        },
+        "howToStart": {
+          "title": "How to Get Started",
+          "step1Before": "Choose the platform: Browser",
+          "step1Link": "Winbox Login Web",
+          "step1After": ", Android or iOS.",
+          "step2": "Register an account or log in via your preferred casino partner.",
+          "step3": "Explore the game catalogue and try demo play if you're new.",
+          "step4": "When ready, deposit using your local preferred payment methods.",
+          "step5": "Select a game, set your bet, and spin or play. Monitor your session and set limits responsibly."
+        }
+      },
+      "tips": {
+        "title": "Tips for Better Gameplay",
+        "tip1": "Use <strong>demo mode</strong> first to test how the game handles symbols, bonus triggers and features.",
+        "tip2": "Play on a <strong>stable internet connection</strong> (especially mobile) to avoid lag during bonus rounds.",
+        "tip3": "Review the <strong>paytable</strong> for each title to understand the symbol values, win-ways or paylines, and bonus triggers.",
+        "tip4": "Budget your play: treat games as entertainment rather than guaranteed income."
+      },
+      "faqs": {
+        "title": "FAQs About Acewin",
+        "q1": "Can I access Acewin games for free?",
+        "a1": "Yes. Many titles have a demo mode allowing you to play without deposit.",
+        "q2": "Which devices support Acewin games?",
+        "a2": "ALL, Android, iOS and desktop via browser --- thanks to HTML5 optimisation.",
+        "q3": "Are the games localised for Malaysia?",
+        "a3": "Yes. Languages and currencies include Malay and regional payment methods.",
+        "q4": "Does Acewin show clear RTPs (Return to Player)?",
+        "a4": "Not always. Some titles lack published RTP, so demo play is recommended first.",
+        "q5": "Where can I find help if I face issues?",
+        "a5Before": "Check your casino partner's live-chat support or help desk. Use authorised platforms like",
+        "a5Link": "Winbox22.com",
+        "a5After": "only.",
+        "q6": "Are there special bonus or pick-me features in Acewin games?",
+        "a6": "Yes. Some titles include Extra Bet, hold-&-win rounds, progressive jackpot features and All Ways payout styles."
+      },
+      "startExploring": {
+        "title": "Start Exploring Acewin Games",
+        "para1": "Acewin offers a rich catalogue of modern, mobile-friendly Asian-themed gaming titles --- from slots to fishing arcades to table games.",
+        "para2": "Whether you're exploring for fun or ready for real-stake play, start with demo mode, understand the features, pick your device platform and enjoy the experience responsibly.",
+        "ctaBefore": "Register Winbox",
+        "ctaAfter": "and Start exploring Acewin now and choose a game that fits your style."
+      }
+    },
+
+    "spadegaming": {
+      "metaTitle": "Spadegaming Slot Games - Play on Winbox | Asian-themed Slots",
+      "metaDescription": "Play Spadegaming slots on Winbox. Asian-inspired themes with modern mechanics, mobile-optimized HTML5 games. Demo mode available.",
+      
+      "heading": "Spadegaming Slot Games",
+      "subHeading": "Asia-themed slots meet modern mechanics",
+      
+      "introPara1": "Spadegaming has built a strong reputation for its Asian-inspired game themes—dragons, mythologies, traditional symbols—combined with modern slot mechanics and mobile optimisation.",
+      
+      "introPara2": "With offices and operations across Asia and licences in place, the provider emphasises both quality and regional relevance.",
+      
+      "comparisonTable": {
+        "title": "Comparison Table: Platform & Features",
+        "headers": {
+          "platform": "Platform",
+          "bestFor": "Best For",
+          "keyFeatures": "Key Features"
+        },
+        "rows": {
+          "desktop": {
+            "platform": "Desktop Browser",
+            "bestFor": "PC players",
+            "features": "Full-screen visuals, wide view, easy controls"
+          },
+          "mobile": {
+            "platformBefore": "Mobile",
+            "platformLink": "Winbox APK",
+            "platformAfter": "(Android / iOS)",
+            "bestFor": "On-the-go players",
+            "features": "Touch-friendly, HTML5 optimised, responsive design"
+          },
+          "demo": {
+            "platform": "Demo Mode",
+            "bestFor": "New players",
+            "features": "Risk-free play, familiarise with mechanics"
+          }
+        },
+        "note": "If you're unsure which version to try first, this table gives you a straightforward guide."
+      },
+      
+      "gameFeatures": {
+        "title": "Game Features & Mechanics",
+        "coreHighlights": {
+          "title": "Core Highlights",
+          "feature1": "Rich variety: slots, fishing arcade games and table-style games.",
+          "feature2": "Visual excellence: high-quality graphics and animations tailored for Asian themes.",
+          "feature3": "Bonus mechanics: free spins, shifting wilds, retriggers, win-both-ways and high-win potential features."
+        },
+        "whyStandOut": {
+          "title": "Why it stands out",
+          "reason1": "Deep theme-integration: From Chinese myth to jungle adventures, the themes are rich and engaging.",
+          "reason2": "Mobile-optimised since 2013: Strong focus on smartphone/tablet play ensures smooth gameplay.",
+          "reason3": "Demo mode and frequent releases make it easy to stay updated and explore new titles."
+        }
+      },
+      
+      "howToStart": {
+        "title": "How to Get Started",
+        "step1Before": "Casino platform",
+        "step1Link": "Winbox Malaysia",
+        "step1After": "offering Spadegaming titles just log in or create your account.",
+        "step2": "Browse the game lobby and filter for \"Spadegaming\" to access their titles.",
+        "step3": "You may play in demo mode first to familiarise yourself with the game mechanics.",
+        "step4": "When ready, switch to real-money play — ensure you use supported payment methods and check any bonus conditions.",
+        "step5": "Play responsibly: set your betting limits and treat the games as entertainment."
+      },
+      
+      "tips": {
+        "title": "Tips for Better Gameplay",
+        "tip1": "Use <strong>demo mode</strong> first to understand bonus triggers, symbol values and game volatility.",
+        "tip2": "On mobile, ensure a <strong>stable internet connection</strong> to prevent disruptions during bonus rounds.",
+        "tip3": "Always review the <strong>paytable</strong> of each game to understand how win-ways, wilds and bonuses operate.",
+        "tip4": "Treat your playing time as entertainment — set budget limits to manage risk.",
+        "tip5": "Look more on Responsible Gambling"
+      },
+      
+      "faqs": {
+        "title": "FAQs About Spadegaming",
+        "q1": "Can I play Spadegaming slots for free?",
+        "a1": "Yes. Many titles are available in demo-mode so you can try the game without deposit.",
+        "q2": "Which platforms support Spadegaming games?",
+        "a2": "Android, iOS and desktop browser — thanks to their HTML5-powered games.",
+        "q3": "Are these games suitable for Malaysian players?",
+        "a3": "Yes. Many titles cater to Asian themes, languages and payment options, making them appropriate for Malaysian users.",
+        "q4": "What sort of bonus features do Spadegaming games offer?",
+        "a4": "Expect free spins, shifting wilds, retriggers, win-both-ways, and other modern slot mechanics.",
+        "q5": "Are Spadegaming games safe and fair?",
+        "a5": "Yes. The provider is licensed, and their games have been audited for fairness.",
+        "q6": "Where can I get help if I face issues playing?",
+        "a6": "Use your casino's live-chat or support — ensure you're playing via an authorised and reputable platform."
+      },
+      
+      "conclusion": {
+        "title": "Conclusion: Play Spadegaming Now",
+        "para1": "Spadegaming offers a rich collection of modern, mobile-first slots and arcade games infused with Asian-themed visuals and advanced mechanics.",
+        "para2": "Whether you're playing casually or for real stakes, you can start in demo mode, explore the titles, choose your platform and enjoy high-quality entertainment.",
+        "ctaBefore": "Login",
+        "ctaLink": "H5 Winbox",
+        "ctaAfter": "now and Start playing Spadegaming slot games today on Winbox."
       }
     }
 }

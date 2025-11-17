@@ -4,7 +4,7 @@
       <!-- Video Section -->
       <div class="video-section">
         <iframe
-          src="https://www.youtube.com/embed/FubkBYSjTw7si=FWoWxS6GX3qS90ks"
+          src="https://www.youtube.com/embed/FubkBYSj_Iw?si=FWoWxS6GX3gS90ks"
           title="Winbox88 Lucky 7th Bonus"
           loading="lazy"
           frameborder="0"
@@ -28,13 +28,13 @@
         
         <h2>{{ $t('lucky7th.subtitle') }}</h2>
         <p>
-          Winbox <strong>{{ $t('lucky7th.lucky7thLink') }}</strong> 
+          {{ $t('lucky7th.introText') }} <strong>{{ $t('lucky7th.lucky7thLink') }}</strong> 
           {{ $t('lucky7th.introText2') }}
         </p>
         
         <div class="cta-buttons">
-          <button class="cta-button" @click="openRegister">
-                <strong>{{ $t('lucky7th.joinNowText') }}</strong>
+          <button class="cta-button" @click="goToRegister">
+            <strong>{{ $t('lucky7th.joinNowText') }}</strong>
           </button>
         </div>
 
@@ -67,7 +67,10 @@
         <ol>
           <li>
             {{ $t('lucky7th.rule1Text') }} 
-            <a href="https://www.winbox22.com/" target="_blank" rel="noopener noreferrer" class="link">{{ $t('lucky7th.winboxMalaysiaText') }}</a> 
+            <a 
+              :href="seoLinks.home()" 
+              class="homepage-link"
+              @click.prevent="goToHomepage">{{ $t('lucky7th.winboxMalaysiaText') }}</a> 
             {{ $t('lucky7th.rule1Referrer') }}
           </li>
           <li>{{ $t('lucky7th.rule2') }}</li>
@@ -75,7 +78,10 @@
           <li>{{ $t('lucky7th.rule4') }}</li>
           <li>
             {{ $t('lucky7th.rule5Text') }} 
-            <a href="#" class="link">{{ $t('lucky7th.slotGamesText') }}</a> 
+            <a 
+              :href="seoLinks.slot()" 
+              class="homepage-link"
+              @click.prevent="goToSlots">{{ $t('lucky7th.slotGamesText') }}</a> 
             {{ $t('lucky7th.rule5After') }}
           </li>
           <li>{{ $t('lucky7th.rule6') }}</li>
@@ -87,7 +93,10 @@
           <li>{{ $t('lucky7th.eligibility1') }}</li>
           <li>{{ $t('lucky7th.eligibility2') }}</li>
           <li>
-            <a href="#" class="link">{{ $t('lucky7th.promotionsAndBonusText') }}</a> 
+            <a 
+              :href="seoLinks.promo()" 
+              class="homepage-link"
+              @click.prevent="goToPromo">{{ $t('lucky7th.promotionsAndBonusText') }}</a> 
             {{ $t('lucky7th.eligibility3After') }}
           </li>
         </ul>
@@ -106,7 +115,7 @@
           <li><strong>{{ $t('lucky7th.reason1Title') }}</strong> {{ $t('lucky7th.reason1Text') }}</li>
           <li><strong>{{ $t('lucky7th.reason2Title') }}</strong> {{ $t('lucky7th.reason2Text') }}</li>
           <li><strong>{{ $t('lucky7th.reason3Title') }}</strong> {{ $t('lucky7th.reason3Text') }}</li>
-          <li><strong>{{ $t('lucky7th.reason4Title') }}</strong> {{ $t('lucky7th.reason4Text') }}</li>
+          <li><strong>{{ $t('lucky7th.reason4Title') }}</strong></li>
         </ul>
 
         <h2>{{ $t('lucky7th.faqTitle') }}</h2>
@@ -135,7 +144,7 @@
         <p>{{ $t('lucky7th.consistencyText') }}</p>
         
         <div class="cta-buttons">
-          <button class="cta-button" @click="openLogin">
+          <button class="cta-button" @click="goToLogin">
             <strong>{{ $t('lucky7th.depositNowText') }}</strong>
           </button>
         </div>
@@ -145,43 +154,38 @@
 </template>
 
 <script setup>
-import { useI18n } from "vue-i18n";
 import { useNavigation } from "@/components/utils/navigation.js";
 import ThreeColumnContent from "@/components/ThreeColumnContent.vue";
 import lucky7thBanner from "@/assets/lucky-7th-banner.png";
 import bonusTable from "@/assets/lucky7th-bonus-table.avif";
 
-const { tm } = useI18n();
-const { routerLinks } = useNavigation();
-
-// Button click handlers
-const openRegister = () => {
-  window.open('https://www.winbox22.com/winbox-register', '_blank', 'noopener,noreferrer');
-};
-
-const openLogin = () => {
-  window.open('https://www.winbox22.com/winbox-login-web', '_blank', 'noopener,noreferrer');
-};
+const { 
+  goToRegister, 
+  goToLogin, 
+  goToHomepage, 
+  goToSlots, 
+  goToPromo,
+  seoLinks 
+} = useNavigation();
 </script>
 
 <style scoped>
 .lucky-7th {
-  margin: 0;
-  padding: 12px 20px;
-  font-family: Arial, sans-serif;
-  width: 100%;
+  color: white;
+  padding: 20px 10px;
 }
 
 /* Video Section */
 .video-section {
   width: 100%;
-  margin: 0;
+  margin: 0 0 20px 0;
   padding: 0;
+  background-color: #000;
 }
 
 .video-section iframe {
   width: 100%;
-  height: 500px;
+  min-height: 400px;
   border: none;
   display: block;
 }
@@ -199,52 +203,43 @@ const openLogin = () => {
   display: block;
 }
 
-/* Main Content */
+/* Content Section */
 .content {
-  max-width: 900px;
   margin: 0 auto;
   padding: 12px 20px;
-  line-height: 1.6;
+  color: black;
+  font-family: Arial, sans-serif;
 }
 
 .content h1 {
-  font-size: 28px;
-  font-weight: 700;
-  margin: 30px 0 20px;
-}
-
-.subtitle {
-  font-size: 18px;
+  font-size: 22px;
+  margin-bottom: 15px;
   font-weight: 600;
-  margin: 15px 0;
+  text-align: left;
 }
 
 .content h2 {
-  font-size: 20px;
-  font-weight: 700;
-  margin: 30px 0 15px;
+  font-size: 18px;
+  margin: 15px 0;
+  font-weight: bold;
 }
 
 .content p {
-  font-size: 15px;
-  line-height: 1.7;
+  font-size: 14px;
+  line-height: 1.6;
   margin-bottom: 15px;
 }
 
-.content strong {
-  font-weight: 700;
+.content ol,
+.content ul {
+  padding-left: 30px;
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
-/* Links */
-.link {
-  color: #02D1FD;
-  cursor: pointer;
-  font-weight: 500;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
+.content li {
+  margin-bottom: 8px;
+  line-height: 1.6;
 }
 
 /* CTA Buttons */
@@ -253,111 +248,72 @@ const openLogin = () => {
 }
 
 .cta-button {
-  min-width: 160px;
-  height: 40px;
-  padding: 8px 20px;
   background-color: #02D1FD;
   color: white;
-  text-decoration: none;
-  font-weight: normal;
   border: none;
-  border-radius: 8px;
-  margin-right: 8px;
-  font-size: 15px;
-  transition: background-color 0.2s ease;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
 }
 
 .cta-button:hover {
-  background-color: #0298c7;
-}
-
-.cta-button strong {
-  font-weight: 700;
-}
-
-.cta-button .link-text {
-  color: #02D1FD;
-  text-decoration: none;
+  background-color: #0099cc;
+  transform: scale(1.05);
 }
 
 /* Bonus Table Image */
 .bonus-table-image {
-  margin: 25px 0;
+  margin: 20px 0;
 }
 
 .table-image {
-  width: 100%;
-  max-width: 700px;
+  max-width: 100%;
   height: auto;
-  display: block;
 }
 
-/* Register Button */
-.register-button-section {
-  margin: 35px 0;
-  text-align: center;
-}
-
-.register-button {
-  display: inline-block;
-  min-width: 220px;
-  padding: 14px 35px;
-  background: linear-gradient(135deg, #02D1FD 0%, #0298c7 100%);
-  color: white;
-  text-decoration: none;
-  font-weight: 700;
-  border-radius: 12px;
-  font-size: 17px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.register-button:hover {
-  opacity: 0.9;
-}
-
-/* Lists */
-.content ul,
-.content ol {
-  margin: 15px 0 25px;
-  padding-left: 25px;
-}
-
-.content li {
-  margin-bottom: 10px;
-  line-height: 1.7;
-  font-size: 15px;
-}
-
-/* FAQ */
+/* FAQ Items */
 .faq-item {
   margin-bottom: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border-left: 4px solid #02D1FD;
 }
 
 .faq-item p {
-  margin: 5px 0;
+  margin-bottom: 5px;
 }
 
-/* Mobile */
-@media (max-width: 768px) {
-  .video-section iframe {
-    height: 300px;
-  }
+/* Links */
+.homepage-link {
+  color: #02D1FD;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
 
+.homepage-link:hover {
+  color: #0099cc;
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
   .content {
-    padding: 15px 10px;
+    padding: 12px 15px;
   }
 
-  .content h1 {
-    font-size: 24px;
+  .video-section iframe {
+    min-height: 250px;
   }
 
-  .content h2 {
-    font-size: 18px;
-  }
-
-  .table-image {
-    max-width: 100%;
+  .cta-button {
+    padding: 10px 25px;
+    font-size: 14px;
   }
 }
 </style>
